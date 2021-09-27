@@ -40,7 +40,7 @@ Debt Auction Delay should be increased if the Max Auction Duration of Collateral
 
 **Why decrease this parameter?**
 
-The Debt Auction Delay might be decreased if it is felt that it is taking too long for Debt Auctions to commence, leaving the system undercollateralized.
+The Debt Auction Delay might be decreased if it is taking too long for Debt Auctions to commence, leaving the system undercollateralized for longer than acceptable.
 
 ## Considerations
 
