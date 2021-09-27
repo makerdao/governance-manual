@@ -20,7 +20,7 @@
 - Surplus Auction
 - Vault Risk
 
-## Modules
+## Modules Index
 
 - All Modules
 
