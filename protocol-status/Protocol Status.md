@@ -64,19 +64,6 @@ Provides data and a basic graphs showing the DAI price from recent DAI/ETH trade
 <Box>
 
 
-### Peg
-
-[DAI Peg](https://daipeg.com/)
-
-Takes dai.stablecoin.science data and divides it by trading venue. Allows
-filtering by trade size and gives a Daily Weighted average of the DAI price based on these trades.
-
-</Box>
-
-
-<Box>
-
-
 ### Markets
 
 [Descipher.io: DAI](http://dai.descipher.io/)
@@ -104,18 +91,6 @@ Shows how much DAI can be bought or sold on coinbase or Radar Relay above or bel
 ## Collateral and Liquidations
 
 <List>
-
-
-<Box>
-
-
-### Vaults
-
-[Descipher.io: MakerVaults](http://makervaults.descipher.io/)
-
-Shows the current spread of vaults and their liquidation prices on each collateral type. Also shows the various spread of collateralization ratios across vaults. Incredibly useful for finding out what impact a market dip will have on the Maker Protocol, how much DAI will be liquidated, and identifying any 'danger zones' at which point large amounts of DAI would be liquidated.
-
-</Box>
 
 
 <Box>
