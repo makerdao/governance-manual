@@ -7,22 +7,22 @@
 
 A Core Unit is the basic building block for the DAO. Core Units define long-term work areas and cover a broad set of responsibilities or focus. They are the basic units of work that Maker Governance can oversee, manage and prioritize. Core Units can be proposed by anyone, and are then voted on by Maker Governance.
 
-Each active Core Unit is made up of at least three active proposals.
+Each active Core Unit is made up of at least three active proposals:
 - An Accepted *mandate* proposal (MIP39).
 - One or more Accepted *budget* proposals (MIP40).
 - One or more Accepted *facilitator* proposals (MIP41).
 
 Each Core Unit is responsible for fulfilling a mix of objectives and directions which are laid out in their *mandate* proposal. The *budget* proposal allows a Core Unit to request funding from Maker Governance with which to fulfill their mandate. Finally, the *facilitator* proposal defines an official point of contact and party responsible for the Core Unit achieving its mandate. 
 
-Core Units are defined by a MIP Set called *The Core Unit Operating Model* that defines the proposals above and structures Core Units. It contains MIP 38, MIP 39, MIP 40, and MIP 41.
+Core Units are defined by a MIP Set called *The Core Unit Operating Model* that defines the proposals above and structures Core Units. It contains MIP38, MIP39, MIP40, and MIP41:
 
 ## Mandate
 
-Core Unit Mandates set the objectives and direction of the work that the Core Unit must aim to deliver.
+Core Unit Mandates set the objectives and direction of the work that the Core Unit must strive for.
 
 Mandates aim to be broad, open-ended, and high-level documents that provide space for innovation and flexibility on behalf of the Core Unit Facilitators. They can be regarded as "questions" for Facilitators to "answer" within their Facilitator Commitment proposal.
 
-Mandates from different Core Units can overlap to create redundancy, which helps to parallelize and decentralize work within the DAO - allowing it to scale effectively and resiliently.
+Mandates from different Core Units can overlap to create redundancy. This helps to parallelize and decentralize work within the DAO - allowing it to scale effectively and resiliently.
 
 ## Budget
 
@@ -46,7 +46,7 @@ The [Facilitator Framework (MIP41)](https://mips.makerdao.com/mips/details/MIP41
 
 ## Tracking existing Core Units
 
-The [DAO Primitives State](https://mips.makerdao.com/mips/details/MIP38) MIP allows users to track the currently active Core Units.
+The [DAO Primitives State (MIP38)](https://mips.makerdao.com/mips/details/MIP38) allows users to track the currently active Core Units.
 
 ## Submission Process: How do we propose a Core Unit?
 
@@ -63,4 +63,3 @@ For general information about the Governance Cycle, please refer to [MIP51: Mont
 - [MIP41: Facilitator Framework](https://mips.makerdao.com/mips/details/MIP41)
 - [MIP40: Budget Framework](https://mips.makerdao.com/mips/details/MIP40)
 - [Official Forum - Core Unit Category](https://forum.makerdao.com/search?q=Core%20Unit)
-- [Core Unit Corner](https://www.notion.so/Core-Unit-Corner-f79281d7617b4a61b958c30d3ea768af)
