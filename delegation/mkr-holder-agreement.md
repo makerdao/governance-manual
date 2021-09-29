@@ -2,7 +2,7 @@
 
 ## Obligation
 
-MKR Token Holders are under no obligation to delegate, No delegate is obligated to continue voting on other MKR Holder’s behalf.
+MKR Token Holders are under no obligation to delegate. No delegate is obligated to continue voting on other MKR Holder’s behalf.
 
 ## Ability to Stop
 
