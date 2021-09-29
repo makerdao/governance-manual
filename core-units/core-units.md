@@ -14,7 +14,7 @@ Each active Core Unit is made up of at least three active proposals:
 
 Each Core Unit is responsible for fulfilling a mix of objectives and directions which are laid out in their *mandate* proposal. The *budget* proposal allows a Core Unit to request funding from Maker Governance with which to fulfill their mandate. Finally, the *facilitator* proposal defines an official point of contact and party responsible for the Core Unit achieving its mandate. 
 
-Core Units are defined by a MIP Set called *The Core Unit Operating Model* that defines the proposals above and structures Core Units. It contains MIP38, MIP39, MIP40, and MIP41:
+Core Units are defined by a MIP Set called *The Core Unit Operating Model* that defines the proposals above and structures Core Units. It contains MIP38, MIP39, MIP40, and MIP41.
 
 ## Mandate
 
