@@ -30,4 +30,4 @@ Delegates should - within reason - be accessible to the community to answer ques
 
 ## End of Delegation
 
-Delegates should communicate their intention to stop being a delegate at least a month in advance to allow any MKR holders delegating to them an opportunity to move their MKR to another delegate.
+Delegates should communicate their intention to stop being a delegate at least a month in advance. This will allow any MKR holders delegating to them an opportunity to move their MKR to another delegate.
