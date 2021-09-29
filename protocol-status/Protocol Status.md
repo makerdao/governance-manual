@@ -1,6 +1,6 @@
 # Participation Tools
 
-## System Status
+## Protocol Status
 
 <List>
 
