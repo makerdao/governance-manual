@@ -5,60 +5,61 @@
 
 ## What is a Core Unit?
 
-- A Core Unit is the basic building block for organizing work for the DAO. It denotes particular long-term objectives that Maker Governance has decided for the protocol to be secure and successful.
-- The Core Unit structure has a budget attached to it, managed by one or more Facilitators that coordinate and pay contributors working to achieve a long-term goal within MakerDAO. Core Units are proposed by community members and voted on by Maker Governance. Each Core Unit may have a budget (MIP40). The Facilitators (MIP41) of a Core Unit may have additional permissions over the Maker Protocol or Governance Processes depending on their Core Unit's nature. Under its stripped-down, homogeneous nature, this structure avoids the hassle of ad-hoc implementations that are hard to analyze and interface.
-- Objectives and Domains:
-	- Core Objectives and Domains are flexible concepts that emerge through the interaction of Core Units. Core Units are at the intersection of Domains (which denote skillsets and capabilities) and Objectives (which denote cross-domain long term workstreams.) A Core Unit can participate in multiple objectives and can fall under one or more domains
+A Core Unit is the basic building block for the DAO. Core Units define long-term work areas and cover a broad set of responsibilities or focus. They are the basic units of work that Maker Governance can oversee, manage and prioritize. Core Units can be proposed by anyone, and are then voted on by Maker Governance.
 
-- The Core Unit Operating Model is the MIP Set that describes a path to total DAO independence containing MIP 38, MIP 39, MIP 40, and MIP 41.
-	- If you wish to learn more about this MIP Set, take a look at [Know your MIP#03: Core Unit Operating Model](https://youtu.be/iOu_x8OelEQ)!
+Each active Core Unit is made up of at least three active proposals:
+- An Accepted *mandate* proposal (MIP39).
+- One or more Accepted *budget* proposals (MIP40).
+- One or more Accepted *facilitator* proposals (MIP41).
 
+Each Core Unit is responsible for fulfilling a mix of objectives and directions, which are laid out in their *mandate* proposal. The *budget* proposal allows a Core Unit to request funding from Maker Governance to fulfill their mandate. Finally, the *facilitator* proposal defines an official point of contact and party responsible for the Core Unit achieving its mandate. 
 
-## Purpose:
-
-- Core Units define long-term work areas and cover a broad set of responsibilities or focus. They are the basic units of work that Maker Governance can oversee, manage and prioritize.
-
+Core Units are defined by a MIP Set called *The Core Unit Operating Model* that defines the proposals above and structures Core Units. It contains MIP38, MIP39, MIP40, and MIP41.
 
 ## Mandate
 
-- Core Unit Mandates set the direction of the work that Facilitators must help carry out by using their budget and exercising their Governance Powers.
-- Mandates should be high-level and avoid trying to micromanage the Core Unit processes. Instead, they should be broad, open-ended, and give room for maneuver so as not to stifle the Facilitators' ability to develop innovative solutions and efficient processes. They can be regarded as "questions" for Facilitators to "answer" with their Facilitator Commitment (MIP41) when proposing to be onboarded to a given Core Unit.
-- Mandates from different Core Units can overlap to create redundancy, parallelizing and decentralizing work within the DAO and
+Core Unit Mandates set the objectives and direction of the work that the Core Unit must strive for.
+
+Mandates aim to be broad, open-ended, and high-level documents that provide space for innovation and flexibility on behalf of the Core Unit Facilitators. They can be regarded as "questions" for Facilitators to "answer" within their Facilitator Commitment proposal.
+
+Mandates from different Core Units can overlap to create redundancy. This helps to parallelize and decentralize work within the DAO - allowing it to scale effectively and resiliently.
 
 ## Budget
 
-- Budgets are used to fund the work defined by the Core Units chosen by Maker Governance. A budget is attached to a Core Unit and is meant to be used only for that Core Unit.
-- The Facilitators of each Core Unit administer Core Unit budgets. They must ensure that transparency and accountability exist as the budget is spent. If a Facilitator is offboarded from their Core Unit, quits, or goes missing, the budget will continue to be available to pay out according to its Budget Implementation. This will al
-- The [Budget Framework (MIP40)](https://mips.makerdao.com/mips/details/MIP40) contains a framework for managing budgets and modifying them in the DAO Primitives State MIP. It allows Governance to manage and prioritize Core Units in a standardized way, promoting transparency. It aims to reduce Governance overhead, minimize abuse, and increase fairness in the budget process. The budget system gives Facilitators the flexibility to modify their plans away from the initially submitted budget breakdown if conditions change. If they need to allocate the money differently, this would be possible but never exceeding the aggregate amount defined by their Budget Implementation code. The Framework can help Governance guide a given Core Unit. They could vote (or not) to attach multiple budgets to a Core Unit, each with a different, more specific objective.
-- The components of a Core Unit Budget proposal are:
-	- Budget Breakdown: The Budget Breakdown component consists of the Core Unit Facilitators' best guess breakdown of spending for their Core Unit during the budget period.
-	- Budget Implementation: The Budget Implementation defines when and how the Core Unit Facilitators will receive the funds that make up their budget.
-- MIP40c3: Explains the process for adding a budget to a new Core Unit or modifying the Core Unit's existing budget.
-- MIP40c4: Provides clarity on how the budget payouts are addressed practically once approved.
+Budgets are used to fund a core unit in their effort to fulfill their given mandate. A budget is attached to a Core Unit and is meant to be used only for that Core Unit. The Facilitators of each Core Unit administer Core Unit budgets and must ensure that transparency and accountability exist as the budget is spent.
+
+The [Budget Framework (MIP40)](https://mips.makerdao.com/mips/details/MIP40) contains a framework for Maker Governance to manage and evaluate Core Unit's budgets in a transparent and standardized way.
+
+Facilitators have the flexibility to modify their plans away from the initially submitted budget breakdown if they deem it appropriate - though they cannot exceed the total amount budgeted without a further Governance Vote. 
+
+The components of a Core Unit Budget proposal are:
+- **Budget Breakdown**: It consists of the Core Unit Facilitators' best guess breakdown of spending for their Core Unit during the budget period.
+- **Budget Implementation**: It defines when and how the Core Unit Facilitators will receive the funds that make up their budget.
 
 ## Facilitator(s)
 
-- A Facilitator is the most trusted actor in the MakerDAO community. They are given a high degree of autonomy and have resources and governance powers at their disposal.
-- The [Facilitator Framework (MIP41)](https://mips.makerdao.com/mips/details/MIP41) provides Governance with a simple way of managing and holding Facilitators accountable through the MIPs process.
+A Facilitator is the most trusted actor in the MakerDAO community. They are given a high degree of autonomy and resources with which to achieve their mandated goals. 
 
+Additionally, Facilitators of a Core Unit can expedite specific Governance Processes when the contents of a given proposal can be related to their Mandate. Further, they may be given additional permissions over the Maker Protocol at the discretion of Maker Governance.
 
-## Tracking existing CUs
+The [Facilitator Framework (MIP41)](https://mips.makerdao.com/mips/details/MIP41) provides Governance with a simple way of managing and holding Facilitators accountable through the MIPs process.
 
-- The [DAO Primitives States](https://mips.makerdao.com/mips/details/MIP38) allows users to track existing Core Units.
-- This dataset lays a basic structure based on the [Core Unit Framework (MIP39)](https://mips.makerdao.com/mips/details/MIP39) capable of supporting the increasing complexity of the DAO and its continuous expansion. It documents and keeps track of the elements that make up the Core Unit structure and their dependencies.
+## Tracking existing Core Units
 
+The [DAO Primitives State (MIP38)](https://mips.makerdao.com/mips/details/MIP38) allows users to track the currently active Core Units.
 
 ## Submission Process: How do we propose a Core Unit?
 
-- The process of proposing a new Core Unit or modifying an existing one is explained on MIP39c2:Adding/Modifying Core Units (Subproposal Process).
-- The process for removing Core Units is explained on MIP39c3: Removing Core Units (Subproposal Process).
-- For general information about the Governance Cycle, please refer to [MIP51:MonthlyGovernanceCycle](https://mips.makerdao.com/mips/details/MIP51).
+The process of proposing a new Core Unit or modifying an existing one is explained on MIP39c2:Adding/Modifying Core Units (Subproposal Process).
+
+The process for removing Core Units is explained on MIP39c3: Removing Core Units (Subproposal Process).
+
+For general information about the Governance Cycle, please refer to [MIP51: Monthly Governance Cycle](https://mips.makerdao.com/mips/details/MIP51).
 
 ## Resources
 
-- [MIP39:CoreUnitFramework](https://mips.makerdao.com/mips/details/MIP39)
-- [MIP38:DAOPrimitivesStates](https://mips.makerdao.com/mips/details/MIP38)
-- [MIP41:FacilitatorFramework](https://mips.makerdao.com/mips/details/MIP41)
-- [MIP40:BudgetFramework](https://mips.makerdao.com/mips/details/MIP40)
-- [Forum-CoreUnit](https://forum.makerdao.com/search?q=Core%20Unit)
-- [CoreUnitCorner](https://www.notion.so/Core-Unit-Corner-f79281d7617b4a61b958c30d3ea768af)
+- [MIP39: Core Unit Framework](https://mips.makerdao.com/mips/details/MIP39)
+- [MIP38: DAO Primitives State](https://mips.makerdao.com/mips/details/MIP38)
+- [MIP41: Facilitator Framework](https://mips.makerdao.com/mips/details/MIP41)
+- [MIP40: Budget Framework](https://mips.makerdao.com/mips/details/MIP40)
+- [Official Forum - Core Unit Category](https://forum.makerdao.com/search?q=Core%20Unit)
