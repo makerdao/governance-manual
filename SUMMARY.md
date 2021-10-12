@@ -10,7 +10,6 @@
 - MIPs
 - Verify Polls and Executive Hashes
 - Auditing Executive Spells
-- Other Resources
 
 ## Parameters Index
 
