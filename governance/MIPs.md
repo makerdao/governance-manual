@@ -1,4 +1,4 @@
-MIPs 
+# MIPs 
 
 ## What is a MIP?
 
