@@ -1,8 +1,6 @@
 # Core Unit Section
 ## Maker Operational Manual
 
-[toc]
-
 ## What is a Core Unit?
 
 A Core Unit is the basic building block for the DAO. Core Units define long-term work areas and cover a broad set of responsibilities or focus. They are the basic units of work that Maker Governance can oversee, manage and prioritize. Core Units can be proposed by anyone, and are then voted on by Maker Governance.
