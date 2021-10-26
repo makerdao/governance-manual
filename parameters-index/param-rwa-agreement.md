@@ -15,6 +15,8 @@ RWA Vaults are dependent on a contractual arrangement, the RWA Agreement. The RW
 ## Purpose
 By recording the contents of the RWA Agreement to the blockchain, a clear and transparent record of legal agreements made by the RWA Core Unit is available. This transparency benefits governance and will be useful in the event of any disputes with borrowers.
 
+This parameter is only used in Real World Asset vaults using the MIP21-defined vault structure.
+
 ## Changes
 Adjusting the RWA Agreement can be done through a manual process that requires an executive vote. Changes to the RWA Agreement are subject to the GSM Pause Delay.
 
