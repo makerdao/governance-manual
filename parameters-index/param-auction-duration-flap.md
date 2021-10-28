@@ -26,10 +26,10 @@ Surplus Auctions are used to auction off excess DAI in fixed lots for a variable
 5. Keeper A has 60 seconds in which to offer a more attractive bid or else Keeper B will win the auction.
 
 ## Purpose
-The `Auction Duration (Flap)` parameter allows Maker Governance to adjust the maximum duration for auctions in order to ensure robust keeper participation.
+The `Auction Duration (Flap)` parameter allows Maker Governance to adjust the maximum duration for surplus auctions in order to ensure robust keeper participation.
 
 ## Trade-offs
-The `Auction Duration (Flap)` makes a trade-off between ensuring enough time for keepers to deploy their capital while limiting market risk for keepers. A larger `Auction Duration (Flap)` gives keepers more time to participate in auctions. A smaller `Auction Duration (Flap)` means that keepers are less likely to be affected by negative price movements of the MKR Token during the auction process. Maximizing the number of participating bidders results in more efficient auctions and more MKR being burned. 
+The `Auction Duration (Flap)` makes a trade-off between ensuring enough time for keepers to deploy their capital while limiting their market risk. A larger `Auction Duration (Flap)` gives keepers more time to participate in auctions. A smaller `Auction Duration (Flap)` means that keepers are less likely to be affected by negative price movements of the MKR Token during the auction process. Maximizing the number of participating bidders results in more efficient auctions and more MKR being burned. 
 
 However, an `Auction Duration (Flap)` that is too large could result in a situation where there are many auctions happening simultaneously. If the `Auction Duration (Flap)` is too small, then keepers may not have sufficient time to organize their resources and place bids. Either of these situations could result in inefficient auctions that reduce the amount of MKR that can be burned.
 
