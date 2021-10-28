@@ -22,3 +22,10 @@ This is becasue the spell address is added to the copy of every Executive Propos
 
 As a result, the hash the appears in the code of an executive proposal is generated from the last GitHub commit before the Spell Address is added into the copy. 
 
+### Polling Process
+
+## How can the hashes be verrified?
+
+### Verifying Executive Hashes
+
+### Verifying Polling Hashes
