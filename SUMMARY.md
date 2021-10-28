@@ -7,9 +7,9 @@
 - How to Vote?
 - Governance Cycle
 - Governance Calendar
+- MIPs
 - Verify Polls and Executive Hashes
 - Auditing Executive Spells
-- Other Resources
 
 ## Parameters Index
 
@@ -20,7 +20,7 @@
 - Surplus Auction
 - Vault Risk
 
-## Modules
+## Modules Index
 
 - All Modules
 
