@@ -1,5 +1,13 @@
 # Global Liquidation Limit
 
+```
+Alias: Global Liquidation Limit
+Parameter Name: Hole
+Containing Contract: Dog
+Scope: System
+Technical Docs:
+```
+
 ## Description
 
 The Global Liquidation Limit sets the maximum amount of DAI debt for which collateral auctions can be active at any one time. When the total DAI value of auctions exceeds this maximum, no new auctions can begin until others are completed.

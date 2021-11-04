@@ -1,5 +1,13 @@
 # Breaker Price Tolerance
 
+```
+Alias: Breaker Price Tolerance
+Parameter Name: tolerance
+Containing Contract: ClipperMom
+Scope: Vault Type (Ilk)
+Technical Docs:
+```
+
 ## Description
 
 The Breaker Price Tolerance parameter is a tool for mitigating the risk of a major move in the next OSM price for a particular vault type. The Breaker Price Tolerance is expressed as a number between zero and one. Practically, this parameter allows anyone to trigger a circuit breaker that halts new liquidation auctions if the following equation is true:
