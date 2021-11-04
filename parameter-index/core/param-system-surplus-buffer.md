@@ -1,12 +1,10 @@
 # System Surplus
 
-```
-Alias: Surplus Auction Buffer
-Parameter Name: hump
-Containing Contract: Vow
-Scope: System
-Technical Docs: https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation
-```
+>**Alias:** Surplus Auction Buffer  
+>**Parameter Name:** `hump`  
+>**Containing Contract:** `Vow`  
+>**Scope:** System  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation)  
 
 ## Description
 
