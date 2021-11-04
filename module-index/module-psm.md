@@ -1,10 +1,8 @@
 # Module PSM
 
-```text
-Alias: PSM
-Contract Name: DssPsm
-Scope: Each PSM interacts with a single underlying vault type.
-```
+>**Alias:** PSM  
+>**Contract Name:** `DssPsm`  
+>**Scope:** Each PSM interacts with a single underlying vault type.  
 
 ## Description
 
