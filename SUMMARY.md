@@ -5,16 +5,16 @@
 ## Governance
 
 ### Voting
-* [How to vote](governance/mips.md)
+* [How to vote](governance/placeholder.md)
 * [Maker Improvement Proposals](governance/mips.md)
 
 ### Cycles and Dates
-* [Governance Cycle](governance/governance-cycle.md)
-- Governance Calendar
+* [Governance Cycle](governance/placeholder.md)
+* [Governance Calendar](governance/placeholder.md)
 
 ### Verification
 * [Executive Audit](governance/executive-audit.md)
-* [Poll Audit](governance/poll-audit.md)
+* [Poll Audit](governance/placeholder.md)
 
 ### Delegation
 * [What is Delegation?](delegation/what-is-delegation.md)
@@ -25,7 +25,7 @@
 
 ## MakerDAO
 * [Core Units](core-units/core-units.md)
-* [Status UIs](protocol-status/protocol-status-uis.md)
+* [Status UIs](protocol-status/placeholder.md)
 
 ## Parameter Index
 
