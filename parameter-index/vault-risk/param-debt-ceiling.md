@@ -3,7 +3,7 @@
 >**Alias:** N/A  
 >**Parameter Name:** `line`  
 >**Containing Contract:** `Vat`  
->**Scope:** Vault Type (Ilk) 
+>**Scope:** Vault Type (Ilk)  
 >**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/core-module/vat-detailed-documentation)  
 
 ## Description
