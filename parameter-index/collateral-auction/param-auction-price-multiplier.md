@@ -1,10 +1,10 @@
 # Auction Price Multiplier
 
->Alias:  
->Parameter Name: buf  
->Containing Contract: Clipper  
->Scope: Vault Type (Ilk)  
->Technical Docs:  
+>**Alias:**  
+>**Parameter Name:** buf  
+>**Containing Contract:** Clipper  
+>**Scope:** Vault Type (Ilk)  
+>**Technical Docs:**  
 
 ## Description
 
