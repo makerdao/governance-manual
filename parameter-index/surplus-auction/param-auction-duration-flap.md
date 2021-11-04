@@ -1,13 +1,11 @@
 
 # Auction Duration (Flap)
 
-```
-Alias: 
-Parameter Name: tau
-Containing Contract: Flap
-Scope: System
-Technical Docs: https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flap-detailed-documentation 
-```
+>**Alias:**  
+>**Parameter Name:** `tau`  
+>**Containing Contract:** `Flap`  
+>**Scope:** System  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flap-detailed-documentation)  
 
 ## Description
 During surplus auctions, excess DAI within the system is auctioned off in fixed lots for MKR. In this process, keepers bid on how much MKR they are willing to pay for a fixed Dai amount. MKR received this way is burned. 
