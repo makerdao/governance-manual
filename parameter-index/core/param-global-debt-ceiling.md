@@ -1,12 +1,10 @@
 # Global Debt Ceiling
 
-```
-Alias: Global Debt Ceiling
-Parameter Name: line
-Containing contract: Vat
-Scope: System
-Technical Docs: https://docs.makerdao.com/smart-contract-modules/core-module/vat-detailed-documentation
-```
+>**Alias:** Global Debt Ceiling  
+>**Parameter Name:** `line`  
+>**Containing contract:** `Vat`  
+>**Scope:** System  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/core-module/vat-detailed-documentation)  
 
 ## Description
 
