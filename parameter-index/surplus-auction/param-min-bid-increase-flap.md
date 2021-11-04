@@ -1,12 +1,10 @@
 # Surplus Lot Size
 
-```
-Alias: Surplus Lot Size
-Parameter Name: bump
-Containing contract: Vow
-Scope: System
-Technical Docs: https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation
-```
+>**Alias:** Surplus Lot Size  
+>**Parameter Name:** `bump`  
+>**Containing contract:** `Vow`  
+>**Scope:** System  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation)  
 
 ## Description
 The `Surplus Lot Size` or '`bump`' parameter controls the amount of DAI that is auctioned off in each surplus auction.
