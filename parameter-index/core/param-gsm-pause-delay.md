@@ -1,11 +1,16 @@
 # GSM Pause Delay
 
+>**Alias:** GSM, Pause, Governance Security Delay  
+>**Parameter Name:** `Pause_delay`  
+>**Containing Contract:** `Pause`  
+>**Scope:** System  
+>**Technical Docs:** [Link](https://docs.makerdao.com/smart-contract-modules/governance-module/pause-detailed-documentation)
+
 **Alias:** GSM, Pause, Governance Security Delay  
 **Parameter Name:** `Pause_delay`  
 **Containing Contract:** `Pause`  
 **Scope:** System  
 **Technical Docs:** [Link](https://docs.makerdao.com/smart-contract-modules/governance-module/pause-detailed-documentation)
-
 ## Description
 
 The GSM \(Governance Security Module\) Pause Delay parameter sets the minimum amount of time after an executive vote has passed that changes will come into effect in the Maker Protocol. Once an executive spell passes, the GSM Pause Delay must pass before the changes within that executive spell can affect the Maker Protocol. The Maker Protocol only has one GSM Pause Delay, and all parameter changes are subject to it.
