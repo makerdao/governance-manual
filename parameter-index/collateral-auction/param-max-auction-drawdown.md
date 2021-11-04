@@ -1,12 +1,10 @@
 # Max Auction Drawdown
 
-```
-Alias:
-Parameter Name: cusp
-Containing Contract: Clipper
-Scope: Vault Type (Ilk)
-Technical Docs:
-```
+>**Alias:**  
+>**Parameter Name:** `cusp`  
+>**Containing Contract:** `Clipper`  
+>**Scope:** Vault Type (Ilk)  
+>**Technical Docs:**  
 
 ## Description
 
