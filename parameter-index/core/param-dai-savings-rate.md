@@ -1,12 +1,10 @@
 # Dai Savings Rate
 
-```
-Alias: DSR
-Parameter Name: Pot_dsr
-Containing Contract: Pot
-Scope: System
-Technical Docs: https://docs.makerdao.com/mcd-developer-guides/developer-guides-and-tutorials#dai-savings-rate-dsr
-```
+**Alias:** DSR  
+**Parameter Name:** `Pot_dsr`  
+**Containing Contract:** `Pot`  
+**Scope:** System  
+**Technical Docs:** [link](https://docs.makerdao.com/mcd-developer-guides/developer-guides-and-tutorials#dai-savings-rate-dsr)  
 
 ## Description
 The Dai Savings Rate is a tool that Maker Governance can use to adjust the interest rate paid to DAI holders who have deposited DAI into the Dai Savings Rate contract (`Pot`). Maker Governance directly controls the Dai Savings Rate.
