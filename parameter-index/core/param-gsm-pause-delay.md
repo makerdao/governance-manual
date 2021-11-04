@@ -4,7 +4,7 @@
 **Parameter Name:** `Pause_delay`  
 **Containing Contract:** `Pause`  
 **Scope:** System  
-**Technical Docs:** [Link](https://docs.makerdao.com/smart-contract-modules/governance-module/pause-detailed-documentation)  
+**Technical Docs:** [Link](https://docs.makerdao.com/smart-contract-modules/governance-module/pause-detailed-documentation)
 
 ## Description
 
