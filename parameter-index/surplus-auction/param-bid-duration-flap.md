@@ -1,13 +1,11 @@
 
 # Bid Duration (Flap)
 
-```
-Alias: 
-Parameter Name: ttl
-Containing Contract: Flap
-Scope: System
-Technical Docs: https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flap-detailed-documentation 
-```
+>**Alias:**  
+>**Parameter Name:** `ttl`  
+>**Containing Contract:** `Flap`  
+>**Scope:** System  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flap-detailed-documentation)  
 
 ## Description
 The `Bid Duration (Flap)` parameter allows governance to control how soon after a successful bid a Surplus Auction will end. Further bids reset this timer, extending the auction. A Surplus Auction can extend up to a maximum time which is set by the `Auction Duration (Flap)` parameter at which point the auction will end regardless of the Bid Duration timer.

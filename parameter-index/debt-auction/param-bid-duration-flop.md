@@ -1,12 +1,10 @@
 # Bid Duration (Flop)
 
-```
-Alias: 
-Parameter Name: ttl
-Containing Contract: Flop
-Scope: System
-Technical Docs: https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flop-detailed-documentation 
-```
+>**Alias:**  
+>**Parameter Name:** `ttl`  
+>**Containing Contract:** `Flop`  
+>**Scope:** System  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flop-detailed-documentation)  
 
 ## Description
 The `Bid Duration (Flop)` parameter allows governance to control how soon after a successful bid a Debt Auction will end. Further bids reset this timer, extending the auction. A debt auction can extend up to a maximum time which is set by the `Auction Duration (Flop)` parameter at which point the auction will end regardless of the Bid Duration timer.

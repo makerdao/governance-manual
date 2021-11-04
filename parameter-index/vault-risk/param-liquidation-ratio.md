@@ -1,12 +1,10 @@
 # Liquidation Ratio
 
-```
-Alias: N/A
-Parameter Name: mat
-Containing Contract: Spot
-Scope: Vault Type (Ilk)
-Technical Docs: https://docs.makerdao.com/smart-contract-modules/core-module/spot-detailed-documentation
-```
+>**Alias:** N/A  
+>**Parameter Name:** `mat`  
+>**Containing Contract:** `Spot`  
+>**Scope:** Vault Type (Ilk)  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/core-module/spot-detailed-documentation)  
 
 ## Description
 

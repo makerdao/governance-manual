@@ -1,12 +1,10 @@
 # Global Liquidation Limit
 
-```
-Alias: Global Liquidation Limit
-Parameter Name: Hole
-Containing Contract: Dog
-Scope: System
-Technical Docs:
-```
+>**Alias:** Global Liquidation Limit  
+>**Parameter Name:** `Hole`  
+>**Containing Contract:** `Dog`  
+>**Scope:** System  
+>**Technical Docs:**  
 
 ## Description
 

@@ -1,13 +1,11 @@
 
 # Min Bid Decrease (Flop)
 
-```
-Alias: 
-Parameter Name: beg
-Containing Contract: Flop
-Scope: System
-Technical Docs: https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flop-detailed-documentation 
-```
+>**Alias:**  
+>**Parameter Name:** `beg`  
+>**Containing Contract:** `Flop`  
+>**Scope:** System  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flop-detailed-documentation)  
 
 ## Description
 Debt Auctions are used to recapitalize the system by minting and auctioning off MKR for a fixed amount of DAI. In this process, keepers bid a reducing amount of MKR they are willing to accept for the fixed DAI amount they have to pay at auction settlement. 

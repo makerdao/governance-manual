@@ -1,12 +1,10 @@
 # Debt Ceiling
 
-```
-Alias: N/A
-Parameter Name: line
-Containing Contract: Vat
-Scope: Vault Type (Ilk)
-Technical Docs: https://docs.makerdao.com/smart-contract-modules/core-module/vat-detailed-documentation
-```
+>**Alias:** N/A  
+>**Parameter Name:** `line`  
+>**Containing Contract:** `Vat`  
+>**Scope:** Vault Type (Ilk)  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/core-module/vat-detailed-documentation)  
 
 ## Description
 

@@ -1,10 +1,8 @@
 # Module DC-IAM
 
-```text
-Alias: DC-IAM
-Contract Name: DssAutoLine
-Scope: A single DssAutoLine contract can contain a set of parameters for each vault type.
-```
+>**Alias:** DC-IAM  
+>**Contract Name:** `DssAutoLine`  
+>**Scope:** A single DssAutoLine contract can contain a set of parameters for each vault type.  
 
 ## Description
 

@@ -1,12 +1,11 @@
 # Max Auction Duration
 
-```
-Alias: Max Auction Duration
-Parameter Name: tail
-Containing Contract: Clipper
-Scope: Vault Type (Ilk)
-Technical Docs:
-```
+>**Alias:** Max Auction Duration  
+>**Parameter Name:** `tail`  
+>**Containing Contract:** `Clipper`  
+>**Scope:** Vault Type (Ilk)  
+>**Technical Docs:**  
+
 ## Description
 
 The Maximum Auction Duration parameter sets the maximum time that can elapse before an auction needs to reset for a particular vault type. Expressed in seconds, this parameter determines when an auction can no longer settle and must be reset.

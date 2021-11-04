@@ -1,13 +1,11 @@
 
 # Auction Duration (Flop)
 
-```
-Alias: 
-Parameter Name: tau
-Containing Contract: Flop
-Scope: System
-Technical Docs: https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flop-detailed-documentation 
-```
+>**Alias:**  
+>**Parameter Name:** `tau`  
+>**Containing Contract:** `Flop`  
+>**Scope:** System  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flop-detailed-documentation)  
 
 ## Description
 Debt Auctions are used to recapitalize the system by minting and auctioning off MKR for a fixed amount of DAI. In this process, keepers bid on how little MKR they are willing to accept for the fixed Dai amount they have to pay at auction settlement. Each auction has a maximum lifetime from the moment it is kicked and that lifetime is determined by the `Auction Duration (Flop)` parameter or `tau`. The auction will end when the Auction Duration (`tau`) has been reached OR `Bid Duration (Flop)` after the latest bid, whichever is earlier. 

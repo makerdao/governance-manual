@@ -1,12 +1,10 @@
 # Local Liquidation Limit
 
-```
-Alias: Local Liquidation Limit
-Parameter Name: hole
-Containing Contract: Dog
-Scope: Vault Type (Ilk)
-Technical Docs:
-```
+>**Alias:** Local Liquidation Limit  
+>**Parameter Name:** `hole`  
+>**Containing Contract:** `Dog`  
+>**Scope:** Vault Type (Ilk)  
+>**Technical Docs:**  
 
 ## Description
 
