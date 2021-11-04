@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [MakerDAO Documentation](other-docs.md)
+* [MakerDAO Documentation](README.md)
 
 ## Governance
 
