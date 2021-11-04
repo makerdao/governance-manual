@@ -4,28 +4,28 @@
 
 ## Governance
 
-### Voting
-* [How to vote](governance/placeholder.md)
-* [Maker Improvement Proposals](governance/mips.md)
+* Voting
+  * [How to vote](governance/placeholder.md)
+  * [Maker Improvement Proposals](governance/mips.md)
 
-### Cycles and Dates
-* [Governance Cycle](governance/placeholder.md)
-* [Governance Calendar](governance/placeholder.md)
+* Cycles and Dates
+  * [Governance Cycle](governance/placeholder.md)
+  * [Governance Calendar](governance/placeholder.md)
 
-### Verification
-* [Executive Audit](governance/executive-audit.md)
-* [Poll Audit](governance/placeholder.md)
+* Verification
+  * [Executive Audit](governance/executive-audit.md)
+  * [Poll Audit](governance/placeholder.md)
 
-### Delegation
-* [What is Delegation?](delegation/what-is-delegation.md)
-* [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
-* [Recognised Delegate Requirements](delegation/recognised-delegate-requirements.md)
-* [Delegates Code of Conduct](delegation/delegates-code.md)
-* [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
+* Delegation
+  * [What is Delegation?](delegation/what-is-delegation.md)
+  * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
+  * [Recognised Delegate Requirements](delegation/recognised-delegate-requirements.md)
+  * [Delegates Code of Conduct](delegation/delegates-code.md)
+  * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
 
-## MakerDAO
-* [Core Units](core-units/core-units.md)
-* [Status UIs](protocol-status/placeholder.md)
+* MakerDAO
+  * [Core Units](core-units/core-units.md)
+  * [Status UIs](protocol-status/placeholder.md)
 
 ## Parameter Index
 
