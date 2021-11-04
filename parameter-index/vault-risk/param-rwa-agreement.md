@@ -1,12 +1,10 @@
 # RWA Agreement
 
-```
-Alias:
-Parameter Name: doc
-Containing Contract: RwaLiquidationOracle 
-Scope: MIP21 / Ilk (RWA)
-Technical Docs: https://mips.makerdao.com/mips/details/MIP21
-```
+>**Alias:**  
+>**Parameter Name:** `doc`  
+>**Containing Contract:** `RwaLiquidationOracle`  
+>**Scope:** MIP21 / Ilk (RWA)  
+>**Technical Docs:** [link](https://mips.makerdao.com/mips/details/MIP21)  
 
 ## Description
 
