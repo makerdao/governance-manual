@@ -1,9 +1,9 @@
 # Price Function
 
->**Alias:** Price Curve 
->Parameter Name: `calc` 
->Containing Contract: `Clipper` 
->Scope: Vault Type (Ilk) 
+>**Alias:** Price Curve  
+>Parameter Name: `calc`  
+>Containing Contract: `Clipper`  
+>Scope: Vault Type (Ilk)  
 >Technical Docs:  
 
 ## Description
