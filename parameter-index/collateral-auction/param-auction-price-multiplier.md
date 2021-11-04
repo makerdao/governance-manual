@@ -1,8 +1,8 @@
 # Auction Price Multiplier
 
 >**Alias:**  
->**Parameter Name:** buf  
->**Containing Contract:** Clipper  
+>**Parameter Name:** `buf`  
+>**Containing Contract:** `Clipper`  
 >**Scope:** Vault Type (Ilk)  
 >**Technical Docs:**  
 
