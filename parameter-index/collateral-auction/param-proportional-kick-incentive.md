@@ -1,5 +1,13 @@
 # Proportional Kick Incentive
 
+```
+Alias: Proportional Kick Incentive
+Parameter Name: chip
+Containing Contract: Clipper
+Scope: Vault Type (Ilk)
+Technical Docs:
+```
+
 ## Description
 
 The Proportional Kick Incentive parameter represents a reward in DAI paid to the keepers that trigger collateral liquidation auctions in the Maker Protocol.

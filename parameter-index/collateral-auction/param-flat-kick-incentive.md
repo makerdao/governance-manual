@@ -1,5 +1,13 @@
 # Flat Kick Incentive
 
+```
+Alias: Flat Kick Incentive
+Parameter Name: tip
+Containing Contract: Clipper
+Scope: Vault Type (Ilk)
+Technical Docs:
+```
+
 ## Description
 
 The Flat Kick Incentive parameter represents a reward in DAI paid to the keepers that trigger collateral liquidation auctions in the Maker Protocol.

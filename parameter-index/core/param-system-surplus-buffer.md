@@ -1,5 +1,13 @@
 # System Surplus
 
+```
+Alias: Surplus Auction Buffer
+Parameter Name: hump
+Containing Contract: Vow
+Scope: System
+Technical Docs: https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation
+```
+
 ## Description
 
 The System Surplus Buffer parameter controls the maximum amount of DAI that can accrue to the protocol from Stability Fee revenue prior to FLAP auctions being triggered. As Stability Fees come in, the total amount of DAI inside the System Surplus Buffer increases until it reaches `System Surplus Buffer (hump) + Surplus Lot Size (bump)` at that point a FLAP auction can be triggered and DAI is auctioned off for MKR. This purchased MKR is then burned.

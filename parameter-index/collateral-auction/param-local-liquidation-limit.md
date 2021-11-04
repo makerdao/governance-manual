@@ -1,5 +1,13 @@
 # Local Liquidation Limit
 
+```
+Alias: Local Liquidation Limit
+Parameter Name: hole
+Containing Contract: Dog
+Scope: Vault Type (Ilk)
+Technical Docs:
+```
+
 ## Description
 
 The Local Liquidation Limit sets the maximum amount of DAI debt for which collateral auctions can be active at any one time within a particular vault type \(`ilk`\). When the total DAI value of auctions exceeds this maximum for a particular vault type, no more collateral can be auctioned using that vault type until others are completed.

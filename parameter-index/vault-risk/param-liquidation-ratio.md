@@ -1,5 +1,13 @@
 # Liquidation Ratio
 
+```
+Alias: N/A
+Parameter Name: mat
+Containing Contract: Spot
+Scope: Vault Type (Ilk)
+Technical Docs: https://docs.makerdao.com/smart-contract-modules/core-module/spot-detailed-documentation
+```
+
 ## Description
 
 The Liquidation Ratio parameter limits the maximum amount of DAI debt that a vault user can draw from their vault given the value of their collateral locked in that vault. In practice, it expresses the minimum collateral in percentage terms that can support a given DAI debt. If the ratio of a Vault user's collateral to their debt drops below this value their vault can be liquidated.

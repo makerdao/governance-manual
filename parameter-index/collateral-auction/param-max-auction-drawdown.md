@@ -1,5 +1,13 @@
 # Max Auction Drawdown
 
+```
+Alias:
+Parameter Name: cusp
+Containing Contract: Clipper
+Scope: Vault Type (Ilk)
+Technical Docs:
+```
+
 ## Description
 
 The Maximum Auction Drawdown is the maximum percentage drop in collateral price during a collateral auction before the auction is reset. 'Collateral price' in this context refers to the collateral _auction price_ rather than the collateral _market price._ Collateral auctions use a falling price auction, where the price starts high and decreases according to the Auction Price Function until it has dropped by the Maximum Auction Drawdown percentage parameter.
