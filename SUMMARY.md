@@ -24,8 +24,8 @@
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
 
 * MakerDAO
+  * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
   * [Core Units](core-units/core-units.md)
-  * [Status UIs](protocol-status/placeholder.md)
 
 ## Parameter Index
 
