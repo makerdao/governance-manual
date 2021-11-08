@@ -10,7 +10,7 @@
 ## Description
 The `Bid Duration (Flap)` parameter allows governance to control how soon after a successful bid a Surplus Auction will end. Further bids reset this timer, extending the auction. A Surplus Auction can extend up to a maximum time which is set by the `Auction Duration (Flap)` parameter at which point the auction will end regardless of the Bid Duration timer.
 
-Surplus Auctions are used to auction off excess DAI for fixed lots of MKR, which is then burned. In this process, keepers bid on how much MKR they are willing to pay for a fixed DAI amount. 
+Surplus Auctions are used to auction off excess DAI in fixed lots for a variable bid of MKR, which is then burned. In this process, keepers bid on how much MKR they are willing to pay for a fixed DAI amount. 
 
 ### Example
 
@@ -50,6 +50,6 @@ Maker Governance may wish to decrease the `Bid Duration (Flap)` if keepers are s
 ## Considerations
 `Bid Duration (Flap)` is always upper bounded by the total auction duration. If it is set higher than the total auction duration, it will have no effect. 
 
-The `Bid Duration (Flop)` parameter fulfills  the same role as this parameter in Debt Auctions.
+The `Bid Duration (Flop)` parameter fulfills the same role as this parameter in Debt Auctions.
 
 A similar auction system was initially used for collateral auctions as well, it was replaced by a dutch auction system.
