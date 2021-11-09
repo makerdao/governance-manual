@@ -2,7 +2,7 @@
 
 ## Obligation
 
-MKR Token Holders are under no obligation to delegate. No delegate is obligated to continue voting on other MKR Holder’s behalf.
+MKR Token Holders are under no obligation to delegate. No delegate is obligated to continue voting on any MKR Holder’s behalf.
 
 ## Ability to Stop
 
@@ -10,7 +10,7 @@ MKR Token Holders can and should stop the delegation of their MKR to any delegat
 
 ## Time Requirement
 
-MKR Token Holders accept that delegates have other obligations in addition to the Maker Protocol and cannot be expected to be available 24/7/365.
+MKR Token Holders accept that delegates may have other obligations in addition to the Maker Protocol and cannot be expected to be available 24/7/365.
 
 ## Waiver of Liability
 
