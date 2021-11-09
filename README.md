@@ -6,7 +6,8 @@ description: >-
 # Maker Operational Manual
 
 ## More MakerDAO Documentation
-* [Introductory Documentation](https://makerdao.world/en/) @ MakerDAO.world
-* [Governance Documentation](https://manual.makerdao.com/) @ manual.makerdao.com **<-- You are here**
-* [Technical Documentation](https://docs.makerdao.com/) @ docs.makerdao.com
+* [Introductory](https://makerdao.world/en/) @ MakerDAO.world
+* [Governance](https://manual.makerdao.com/) @ manual.makerdao.com **<-- You are here**
+* [Technical](https://docs.makerdao.com/) @ docs.makerdao.com
+* [Collateral Onboarding](https://collateral.makerdao.com/) @ collateral.makerdao.com
 * [MIPs Portal](https://mips.makerdao.com/) @ mips.makerdao.com

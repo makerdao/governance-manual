@@ -1,10 +1,10 @@
-# Surplus Lot Size
+# Minimum Bid Increase (Flap)
 
->**Alias:** Surplus Lot Size  
->**Parameter Name:** `bump`  
->**Containing contract:** `Vow`  
+>**Alias:** 
+>**Parameter Name:** `beg`  
+>**Containing contract:** `Flap`  
 >**Scope:** System  
->**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation)  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flap-detailed-documentation)  
 
 ## Description
 The `Surplus Lot Size` or '`bump`' parameter controls the amount of DAI that is auctioned off in each surplus auction.
