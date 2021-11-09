@@ -2,19 +2,19 @@
 
 ## Five Key Points
 
-* **Trust:**
+* **Trust**  
 Delegation is an expression of trust of the MKR Holder in the delegate.
 
-* **Incentives:**
+* **Incentives**  
 Examine your delegate’s incentives. These are not solely monetary. These are not always permanent.
 
-* **Recognition:**
+* **Recognition**  
 Recognized Delegates are safer than Shadow Delegates (but not by much).
 
-* **Balance:**
+* **Balance**  
 Be aware of the checks on power among delegates and Core Units. Having only a few large delegates is a risk. Delegation to Core Unit personnel is not advised by GovAlpha.
 
-* **Cost-Benefit:**
+* **Cost-Benefit**  
 Responsible Voting > Responsible Delegation > Apathy > Irresponsible Voting > Irresponsible Delegation. Responsible delegation is much, much cheaper than responsible voting and almost as good.
 
 ## Trust
