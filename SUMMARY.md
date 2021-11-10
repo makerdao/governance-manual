@@ -16,10 +16,9 @@
   * [Executive Audit](governance/executive-audit.md)
   * [Poll Audit](governance/placeholder.md)
 
-* Delegation
-  * [What is Delegation?](delegation/what-is-delegation.md)
+* [Delegation](delegation/what-is-delegation.md)
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
-  * [Recognised Delegate Requirements](delegation/recognised-delegate-requirements.md)
+  * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
   * [Delegates Code of Conduct](delegation/delegates-code.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
 
