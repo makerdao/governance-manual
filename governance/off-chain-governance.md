@@ -5,11 +5,9 @@ Off-chain governance supports on-chain governance by providing a process for gat
 Forum Signal Thread occur in the [Maker Forum](https://forum.makerdao.com/) to measure the sentiment of the public governance community. Anyone can create a signal thread to get feedback on their ideas to take action on an issue or improve the MakerDAO community.
 
 Forum Signal Threads are used to:
-
 - Measure community sentiment about issues affecting the MakerDAO ecosystem.
 - Determine consensus that something needs to be done in response to a perceived issue.
 - Determine consensus for a concrete action to be taken in response to a perceived issue.
-
 
 Signal threads may contain one or more polls as determined by the original poster of the thread and issues may have one or more signal threads relating to them. Consider creating a summary thread if you happen to see this arise.
 

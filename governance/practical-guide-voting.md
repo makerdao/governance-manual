@@ -1,6 +1,4 @@
 # Practical guide to on-chain voting
-This section explains how users can vote using their MKR. 
-
 ### Single wallet voting
 Single wallet voting is the simplest method of voting. The initial setup is more convenient and users who store MKR on MetaMask or other web wallets may find it to be the easiest way to start voting. Users deposit tokens directly into the voting contract by connecting their wallet to the Governance Portal. 
 

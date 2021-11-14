@@ -1,5 +1,4 @@
 # Introduction to voting in MakerDAO
-
 MakerDAO is a decentralized autonomous organization whose governance process controls various aspects of the protocol. This guide is for anyone who wishes to participate in the governance process through voting.
 
 Voting requires MKR tokens. MKR holders have the sole authority to enact changes to the system through voting. Off-chain voting takes place on the [Maker Forum](https://forum.makerdao.com) and on-chain voting takes place on the [Governance Portal](https://vote.makerdao.com/). 
