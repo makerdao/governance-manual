@@ -1,4 +1,4 @@
-# Token Streaming Modules
+# Token Streaming
 
 >**Alias:** Vesting Module, Vest  
 >**Contract Names:** DSSVestMintable, DssVestSuckable, DssVestTransferrable  
