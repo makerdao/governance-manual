@@ -61,3 +61,7 @@ For general information about the Governance Cycle, please refer to [MIP51: Mont
 - [MIP41: Facilitator Framework](https://mips.makerdao.com/mips/details/MIP41)
 - [MIP40: Budget Framework](https://mips.makerdao.com/mips/details/MIP40)
 - [Official Forum - Core Unit Category](https://forum.makerdao.com/search?q=Core%20Unit)
+
+## Test Embed
+
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/o9J_lk2XbYo=/?moveToViewport=-13344,-28309,42893,22554" frameBorder="0" scrolling="no" allowFullScreen></iframe>
