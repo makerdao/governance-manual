@@ -2,6 +2,14 @@
 
 * [Maker Operational Manual](README.md)
 
+## MakerDAO
+* Structure
+  * [Core Units](core-units/core-units.md)
+
+* Overview
+  * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
+  * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
+
 ## Governance
 
 * Voting
@@ -21,10 +29,6 @@
   * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
   * [Delegates Code of Conduct](delegation/delegates-code.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
-
-* MakerDAO
-  * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
-  * [Core Units](core-units/core-units.md)
 
 ## Parameter Index
 
