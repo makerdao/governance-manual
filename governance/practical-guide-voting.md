@@ -1,4 +1,6 @@
 # Practical guide to on-chain voting
+This section explains how users can vote using their MKR. 
+
 ### Single wallet voting
 Single wallet voting is the simplest method of voting. The initial setup is more convenient and users who store MKR on MetaMask or other web wallets may find it to be the easiest way to start voting. Users deposit tokens directly into the voting contract by connecting their wallet to the Governance Portal. 
 
@@ -14,12 +16,5 @@ Voting requires a single transaction and typically costs a few cents per vote. T
 
 Setting up a linked-wallet Voting Contract takes four transactions for a total of approximately 1M gas. The cost of setting up a linked-wallet Voting Contract is split between the hot and cold wallets so please ensure both wallets contain Ether (ETH).
 
-
 ### Delegation
-MKR holders may also delegate their MKR and allow the delegate to vote on their behalf. More information on delegation can be found [here](https://forum.makerdao.com/t/delegation-and-makerdao/9429) and a MKR holder's guide to delegation can be found [here](https://forum.makerdao.com/t/mkr-holder-s-guide-to-delegation/9602).
-
-Anyone may choose to become a delegate. There are two types of delegates:
-- Recognized delegates who are whitelisted, and must meet certain requirements in exchange for more visibility and prestige.
-- Shadow delegates who are permissionless, with no requirements or responsibilities beyond that which they have agreed directly with those who delegate to them.
-
-The requirements to become a recognized delegate are [here](https://forum.makerdao.com/t/recognised-delegate-requirements/9421). Note that setting up the contract and not fulfilling the remaining requirements automatically makes one a shadow delegate.
+MKR holders may also delegate their MKR and allow the delegate to vote on their behalf. More information on delegation can be found [here](https://pablos-buch.gitbook.io/v4nb2th2/governance/what-is-delegation).
