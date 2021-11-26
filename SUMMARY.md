@@ -73,3 +73,4 @@
 ## Module Index
 * [Peg Stability](module-index/module-psm.md)
 * [Debt Ceiling Instant Access](module-index/module-dciam.md)
+* [Token Streaming](module-index/module-token-streaming.md)
