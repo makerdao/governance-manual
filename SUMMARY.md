@@ -4,6 +4,7 @@
 
 ## MakerDAO
 * Structure
+  * [Maker Improvement Proposals](governance/mips.md)
   * [Core Units](core-units/core-units.md)
 
 * Overview
@@ -16,7 +17,6 @@
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
   * [On-Chain Governance](governance/on-chain-governance.md)
   * [Off-Chain Governance](governance/off-chain-governance.md)
-  * [Maker Improvement Proposals](governance/mips.md)
 
 * Cycles and Dates
   * [Governance Cycle](governance/placeholder.md)
