@@ -4,17 +4,17 @@ This section explains how users can vote using their MKR.
 ### Single wallet voting
 Single wallet voting is the simplest method of voting. The initial setup is more convenient and users who store MKR on MetaMask or other web wallets may find it to be the easiest way to start voting. Users deposit tokens directly into the voting contract by connecting their wallet to the Governance Portal. 
 
-Single wallet voting can lead to security issues since every vote requires the wallet to be online. The single wallet setup also has another disadvantage - there are two different contracts that manage the two types of votes (Governance Polls and Executive Votes). MKR tokens cannot be used to vote on both simultaneously. 
+Single wallet voting can lead to security issues if a non-hardware wallet is used because every vote requires an interaction with the wallet.
 
 ### Linked wallet voting
-The disadvantages of single wallet voting can be circumvented by the Voting Proxy contract. It assures that MKR owners can vote with the full weight of the MKR they own, both for Governance voting, and for Executive voting. Moreover, it improves security in the voting process by enabling MKR owners to participate in Maker Governance without having their most secure wallet (called the “cold wallet”) online for every vote. The MKR owner designates a so-called “hot wallet” that can be used only for voting, and transfers their MKR to the voting proxy contract. The designated “hot wallet” can then be used to lock up MKR in the voting system and draw MKR back to the cold wallet at a later time. These are the only actions the “hot wallet” can perform. It cannot send the MKR anywhere else, nor can it withdraw the MKR to its own wallet.
+The disadvantages of single wallet voting can be circumvented by the Voting Proxy contract. It improves security in the voting process by enabling MKR owners to participate in Maker Governance without using their most secure wallet (called the “cold wallet”) for voting. The MKR owner designates a so-called “hot wallet” that can be used only for voting, and transfers their MKR to the voting proxy contract. The designated “hot wallet” can then be used to lock up MKR in the voting system and draw MKR back to the cold wallet at a later time. These are the only actions the “hot wallet” can perform. It cannot send the MKR anywhere else, nor can it withdraw the MKR to its own wallet. Therefore, if the hot-wallet is compromised, the voter's MKR is not at risk.
 
 A guide to setting up the linked wallet can be found [here](https://makerdao.world/en/learn/governance/voting-setup/).
 
 ### Costs of voting
-Voting requires a single transaction and typically costs a few cents per vote. The total amount varies depending on network congestion.
+Voting requires a single transaction and fees will vary based on the congestion of the Ethereum blockchain. 
 
-Setting up a linked-wallet Voting Contract takes four transactions for a total of approximately 1M gas. The cost of setting up a linked-wallet Voting Contract is split between the hot and cold wallets so please ensure both wallets contain Ether (ETH).
+Setting up a linked-wallet Voting Contract takes four transactions for a total of approximately 1 million gas. The cost of setting up a linked-wallet Voting Contract is split between the hot and cold wallets so users should ensure both wallets contain sufficient Ether (ETH) to pay for gas costs.
 
 ### Delegation
-MKR holders may also delegate their MKR and allow the delegate to vote on their behalf. More information on delegation can be found [here](https://pablos-buch.gitbook.io/v4nb2th2/governance/what-is-delegation).
+MKR holders may also delegate their MKR and allow the delegate to vote on their behalf. More information on delegation can be found [here](delegation/what-is-delegation.md).

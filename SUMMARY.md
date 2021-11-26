@@ -12,8 +12,10 @@
 
 ## Governance
 
-* Voting
-  * [How to vote](governance/placeholder.md)
+* [Voting](governance/voting-in-makerdao.md)
+  * [Practical Guide to Voting](governance/practical-guide-voting.md)
+  * [On-Chain Governance](governance/on-chain-governance.md)
+  * [Off-Chain Governance](governance/off-chain-governance.md)
   * [Maker Improvement Proposals](governance/mips.md)
 
 * Cycles and Dates
