@@ -1,4 +1,4 @@
-# Module PSM
+# Peg Stability
 
 >**Alias:** PSM  
 >**Contract Name:** `DssPsm`  

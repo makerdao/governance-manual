@@ -1,4 +1,4 @@
-# Module DC-IAM
+# Debt Ceiling Instant Access
 
 >**Alias:** DC-IAM  
 >**Contract Name:** `DssAutoLine`  

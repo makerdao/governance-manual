@@ -4,6 +4,7 @@
 
 ## MakerDAO
 * Structure
+  * [Maker Improvement Proposals](governance/mips.md)
   * [Core Units](core-units/core-units.md)
 
 * Overview
@@ -12,17 +13,13 @@
 
 ## Governance
 
-* Voting
-  * [How to vote](governance/placeholder.md)
-  * [Maker Improvement Proposals](governance/mips.md)
-
-* Cycles and Dates
-  * [Governance Cycle](governance/placeholder.md)
-  * [Governance Calendar](governance/placeholder.md)
+* [Voting](governance/voting-in-makerdao.md)
+  * [Practical Guide to Voting](governance/practical-guide-voting.md)
+  * [On-Chain Governance](governance/on-chain-governance.md)
+  * [Off-Chain Governance](governance/off-chain-governance.md)
 
 * Verification
   * [Executive Audit](governance/executive-audit.md)
-  * [Poll Audit](governance/placeholder.md)
 
 * [Delegation](delegation/what-is-delegation.md)
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
@@ -71,3 +68,4 @@
 ## Module Index
 * [Peg Stability](module-index/module-psm.md)
 * [Debt Ceiling Instant Access](module-index/module-dciam.md)
+* [Token Streaming](module-index/module-token-streaming.md)
