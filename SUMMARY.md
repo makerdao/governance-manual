@@ -2,29 +2,30 @@
 
 * [Maker Operational Manual](README.md)
 
+## MakerDAO
+* Structure
+  * [Maker Improvement Proposals](governance/mips.md)
+  * [Core Units](core-units/core-units.md)
+
+* Overview
+  * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
+  * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
+
 ## Governance
 
-* Voting
-  * [How to vote](governance/placeholder.md)
-  * [Maker Improvement Proposals](governance/mips.md)
-
-* Cycles and Dates
-  * [Governance Cycle](governance/placeholder.md)
-  * [Governance Calendar](governance/placeholder.md)
+* [Voting](governance/voting-in-makerdao.md)
+  * [Practical Guide to Voting](governance/practical-guide-voting.md)
+  * [On-Chain Governance](governance/on-chain-governance.md)
+  * [Off-Chain Governance](governance/off-chain-governance.md)
 
 * Verification
   * [Executive Audit](governance/executive-audit.md)
-  * [Poll Audit](governance/placeholder.md)
 
 * [Delegation](delegation/what-is-delegation.md)
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
   * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
   * [Delegates Code of Conduct](delegation/delegates-code.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
-
-* MakerDAO
-  * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
-  * [Core Units](core-units/core-units.md)
 
 ## Parameter Index
 
@@ -67,3 +68,4 @@
 ## Module Index
 * [Peg Stability](module-index/module-psm.md)
 * [Debt Ceiling Instant Access](module-index/module-dciam.md)
+* [Token Streaming](module-index/module-token-streaming.md)
