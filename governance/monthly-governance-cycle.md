@@ -22,11 +22,11 @@ The first Monday of each calendar month marks the beginning of the Monthly Gover
 **Week 1, Monday through Wednesday**
 -   MIP Authors move their proposals to **Formal Submission**. This phase lasts for 3 days.
 -   Proposals must be moved into the [formal submission](https://forum.makerdao.com/c/mips/fs/16) subcategory on the MakerDAO forums under the [Maker Improvement Proposal](https://forum.makerdao.com/c/mips/14) category.
--   MIP Editors must be informed by MIP Authors of the status change via commonly used communications channels.
+-   MIP Authors should inform MIP Editors of the status change via commonly used communications channels.
 
 **Week 1, Thursday**
 -  Governance Facilitators perform the **Submission Review** as part of the weekly Governance and Risk meeting and communicate which of the proposed MIPs are in accordance with guidelines (defined in the MIP0 Framework). MIPs that meet the guidelines will continue to the Ratification Poll stage.
-- The Governance Facilitators must come to consensus on whether each submission warrants moving forward to a Ratification Poll.
+- The Governance Facilitators must come to consensus on whether each submission should move forward to a Ratification Poll.
     - Governance Facilitators may consider blocking a proposal if they believe that moving forward to a Ratification Poll would negatively affect community cohesion.
         - If the Governance Facilitators prevent a proposal from moving to a Ratification Poll, they must clearly communicate their reasons for doing so via the official [forum](https://forum.makerdao.com).
         - In the event the Governance Facilitators abuse this power **they should be removed from their positions via any method Maker Governance determines is appropriate**.
