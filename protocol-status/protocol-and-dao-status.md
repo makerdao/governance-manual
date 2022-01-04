@@ -38,4 +38,4 @@ Shows current auction parameters and the status of auctions that have triggered 
 
 ### [DeFI Explore: Liquidations](https://defiexplore.com/liquidations)
 
-Shows all active and finished liquidations across all collateral types and the current and final status of each liquidation and detailed information about individual lidquidations can be veiwed. Useful if you are searching for an individual liquidation, or if you want to see the general outcome of a certain set of liquidations.
+Shows all active and finished liquidations across all collateral types and the current and final status of each liquidation. Detailed information about individual liquidations is also displayed.
