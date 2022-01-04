@@ -27,6 +27,10 @@
   * [Delegates Code of Conduct](delegation/delegates-code.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
 
+* Governance Cycle
+  * [Monthly Governance Cycle](governance/monthly-governance-cycle.md)
+  * [Weekly Governance Cycle](governance/weekly-governance-cycle.md)
+
 ## Parameter Index
 
 * Core
