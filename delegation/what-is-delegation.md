@@ -1,6 +1,6 @@
 # What is Delegation?
 
-Delegation is a mechanism through which MKR holders can entrust their voting power to more or more chosen delegates. These delegates can then vote using the MKR delegated to them. Delegates have no ability to access the MKR delegated to them directly.
+Delegation is a mechanism through which MKR holders can entrust their voting power to one or more chosen delegates. These delegates can then vote using the MKR delegated to them. Delegates have no ability to access the MKR delegated to them directly.
 
 MKR holders are always able to vote on proposals directly if they do not wish to delegate their MKR tokens.
 
