@@ -11,7 +11,7 @@ Techincal Docs: https://docs.makerdao.com/smart-contract-modules/flash-mint-modu
 
 The Flash Mint Module allows anyone to permisionlessly mint Dai as long as it is paid back in the same transaction. This is commonly known as a Flash Loan.
 
-Users can combine Flash Loans with other smart contract functions to perform powerful multi-step transactions across multiple decentralized exchanges (DEX). This process can be used to exploit arbitrage opportunities when Dai deviates from the Peg.
+Users can combine Flash Loans with other smart contract functions to perform powerful multi-step transactions across multiple decentralized exchanges (DEX). This process can be used to exploit arbitrage opportunities when Dai deviates from the Peg, among other uses.
 
 ### Example
 
@@ -22,25 +22,22 @@ To demonstrate how this works in practice, we will imagine Dai trades at 1.02 DA
 * Exchange 1020 USDC for 1040 DAI at DEX-2
 * Pay 1000 DAI back to the Flash Mint Module and has made a profit of 40 DAI
 
+The above example ignores gas fees for simplicity. In reality, flash loan arbitrage must account for gas fees in order to be profitable.
+
 ## Purpose
 
 The Flash Mint Module adds Dai Flash Loans to the Maker Protocol, under the control of Maker Governance. There are several advantages to this which are listed below.
 
 ## Benefits
 
-There are several benefits offered to the Maker Protocol and broader Dai ecosystem by the Flash Mint Module.
+There are several benefits offered to the Maker Protocol and broader Dai ecosystem by the Flash Mint Module:
 
-The major benefit to users of Flash Loans through the Maker Protocol is of liquidity. Other providers of Flash Loans are reliant on market supply of Dai in order to provide Flash Loan capability. Because the Maker Protocol is able to mint Dai, Flash Loans can theoretically be of infinite size. Because Dai is burned at the end of the transaction this will not effect collatearlization of Dai.
-
-Through the use of Flash Loans for arbitrage by traders, the market efficiency of Dai markets improves. A secondary effect of this could be increased liquidity in Dai markets and Peg stability as deviations from the Peg will be more susceptible to arbitrage.
-
-Allowing large sums to be borrowed increases the utility of Flash Loans to identify exploits in DeFi protocols. Additionally, by exposing exploits and attack vectors, the DeFi ecosystem can be made more robust.
-
-The Flash Mint Module also encourages further integration between the Maker Protocol and other Decentralized Apps. For example, DEX aggregators can use it to ensure their users get the best prices available, or vault automation systems can utilize Flash Loans to leverage and deleverage Vaults.
-
-The Flash Mint Module is permissionless, meaning anyone can use it. Similarly, it makes access to arbitrage opportunities to be easier as it is no longer capital dependant.
-
-The Maker Protocol can charge Minting Fees on Flash Loans that use the Flash Mint Module. Minting Fees have the potential to be an alternative source of revenue for the Maker Protocol. Typically, fees charged on Flash Loans are in the order of 0-0.1%.
+* Improved Flash Loan liquidity - other providers of Flash Loans are reliant on market supply of DAI in order to provide Flash Loan capability. Because the Maker Protocol is able to mint DAI, Flash Loans can theoretically be of infinite size. Because DAI is burned at the end of the transaction this will not effect collatearlization of DAI.
+* Market efficiency of DAI is improved by Flash Loan arbitrage - a secondary effect of this could be increased liquidity in DAI markets and Peg stability as deviations from the Peg will be more susceptible to arbitrage.
+* The ability to borrow large sums increases the utility of Flash Loans to identify exploits in DeFi protocols - by exposing exploits and attack vectors, the DeFi ecosystem can be made more robust.
+* The Flash Mint Module encourages further integration between the Maker Protocol and other Decentralized Apps - DEX aggregators can use it to ensure their users get the best prices available, or Vault automation systems can utilize Flash Loans to leverage and deleverage Vaults.
+* Income for The Maker Protocol - The Maker Protocol can charge Minting Fees on Flash Loans that use the Flash Mint Module. Minting Fees have the potential to be an alternative source of revenue for the Maker Protocol. Typically, fees charged on Flash Loans are in the order of 0-0.1%.
+* The Flash Mint Module is permissionless, meaning anyone can use it. Similarly, it makes access to arbitrage opportunities to be easier as it is no longer capital dependant.
 
 ## Drawbacks
 
