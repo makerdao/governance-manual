@@ -6,7 +6,7 @@
 
 ## Description
 
-The Dai Direct Deposit Module (D3M) allows new DAI to be minted and deposited in other crypto lending protocols on the Ethereum blockchain in exchange for some sort of deposit/collateral token from that lending protocol.
+The Dai Direct Deposit Module (D3M) allows DAI to be minted and deposited in other crypto lending protocols on the Ethereum blockchain in exchange for some sort of deposit/collateral token from that lending protocol.
 
 In essence, this allows Maker to distribute newly minted DAI indirectly via other lending protocols while ensuring that DAI remains fully backed. 
 
@@ -14,13 +14,13 @@ For example, the Aave D3M deposits DAI into the Aave protocol in exchange for aD
 
 ## Purpose
 
-The primary purpose of the D3M is to expand the reach of the DAI stablecoin by providing DAI directly to other lending protocols. In addition to this, it allows the Maker Protocol to earn yield on the deposited DAI in this protocols, providing a source of income. 
+The primary purpose of the D3M is to expand the reach of the DAI stablecoin by providing DAI directly to other lending protocols. In addition to this, it allows the Maker Protocol to earn yield on the deposited DAI in these protocols, providing a source of income. 
 
-Further, it allows Maker to undercut competing centralized stablecoins on these lending protocols. By providing DAI directly on other lending protocols, Maker can ensure that the borrow rate for DAI on those lending protocols is almost always below the borrow rate for centralized stablecoins on those platforms.
+Further, it allows Maker to undercut centralized stablecoins on these lending protocols. By providing DAI directly on other lending protocols, Maker can ensure that the borrow rate for DAI on those protocols is almost always below the borrow rate for centralized stablecoins.
 
 ## Key Parameters
 
-### Debt Ceiling  
+### Debt Ceiling (line)  
 The Debt Ceiling parameter for the Dai Direct Deposit Module is substanstially identical to the Debt Ceiling parameter for vault types. It controls the maximum amount of DAI that can be minted via the D3M. Note that the D3M Debt Ceiling may also be controlled by the Debt Ceiling Instant Access Module.
 
 ### Target Borrow Rate (bar)  
@@ -34,11 +34,11 @@ if(DAI_BORROW_RATE is less than TARGET_BORROW_RATE and the module holds a non-ze
 ... Return deposit tokens to the target lending protocol in exchange for DAI which is then burned.
 ```
 
-The function to trigger this mechanism is called by bots at regular intervals.
+The function to trigger this mechanism is permissionless, and is called by bots at regular intervals.
 
 ### Meta Parameters
 
-Meta parameters are parameters that don't exist directly on the DssDirectDeposit smart contract, but are parameters that governance uses to determine general rules about how to set actual parameters.
+Meta parameters are parameters that don't exist directly on the DssDirectDeposit smart contract, but are parameters that Maker Governance uses to determine general rules about how to set actual parameters.
 
 #### Maximum Share
 
@@ -54,7 +54,7 @@ The spread meta-parameter refers to the difference between the _effective_ borro
 
 The ETH-A stability fee is used as a proxy for cost to borrow DAI using the Maker Protocol, given it has traditionally been the largest non-PSM vault type on the Maker Protocol.
 
-The spread is decsribed as a percentage rate. A spread of 0% would indicate the cost to borrow DAI on the target lending protocol should equal the cost to borrow DAI in the ETH-A vault type.
+The spread is described as a percentage rate. A spread of 0% would indicate the cost to borrow DAI on the target lending protocol should equal the cost to borrow DAI in the ETH-A vault type.
 
 A spread of -0.5% indicates that the cost to borrow DAI on the target lending protocol should be 0.5% cheaper than on the Maker Protocol.
 
@@ -63,6 +63,9 @@ A spread of 0.5% indicates that the cost to borrow DAI on the target lending pro
 The _effective_ borrow rate for DAI on the target lending protocol is often affected by rewards offered by the lending protocol in question.
 
 ### Formulas
+
+Bar = ETH-A Rate (Maker) + Borrow Rewards (Aave on DAI) + 2x Supply Rewards (Aave On ETH) + Spread
+
 
 
 
