@@ -48,9 +48,8 @@ Another reason to decrease the buffer might be if the risk from the collateral p
 
 ## Considerations
 
-Care should be taken when decreasing the System Surplus Buffer parameter while the buffer is full. Decreasing the size of the buffer will trigger FLAP auctions for the amount of outstanding DAI that no longer fits within the new buffer. Large numbers of FLAP auctions at once have the potential to overwhelm auction keepers and result in buying MKR at a higher price in the auction.
+Care should be taken when decreasing the System Surplus Buffer parameter while the buffer is full. Decreasing the size of the buffer will trigger FLAP auctions for the amount of outstanding DAI that no longer fits within the new buffer. Large numbers of FLAP auctions at once have the potential to overwhelm auction keepers and result in the protocol buying MKR at a higher than market price.
 
-If Emergency Shutdown is triggered, the DAI inside the System Surplus Buffer is destroyed and the collateral backing it is proportionally redeemable by other DAI Holders. This means that the DAI in the System Surplus Buffer can be discounted in terms of the total amount of DAI that needs to be backed by collateral.
+The System Surplus Buffer does not hold real ERC-20 DAI, but is an accounting fiction. This distinction comes into play during Emergency Shutdown. Value backing outstanding DAI will include System Surplus Buffer worth of excess collateral. Therefore, 1 DAI will be worth slightly more than 1 USD. Although Maker Governance can withdraw value from the System Surplus Buffer at any time, the System Surplus Buffer is not owned by Maker Governance, but by DAI holders.
 
 DAI can be pulled out of the Maker Protocol by Maker Governance by using the `suck` method as part of an executive vote. DAI `suck`ed from the protocol in this way will be deducted from the System Surplus Buffer and will trigger MKR mints if more DAI is `suck`ed than exists in the System Surplus Buffer.
-
