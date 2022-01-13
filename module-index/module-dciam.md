@@ -29,11 +29,11 @@ The one minor downside is that the DC-IAM enables a griefing attack on the Debt 
 
 Three key parameters for the DC-IAM are discussed below. Each of these parameters can be set for each vault type.
 
-**Maximum Debt Ceiling \(`line`\)**
+### Maximum Debt Ceiling \(`line`\)
 
 The Maximum Debt Ceiling refers to the maximum value for Debt Ceiling that the DC-IAM will allow in the given vault type. This parameter is also named `line` within the smart contract. When using the DC-IAM to manage the Debt Ceiling of a vault type, this parameter essentially replaces the Debt Ceiling parameter for that vault type. Rather than Governance setting the Debt Ceiling directly, they will need to set the Maximum Debt Ceiling in the DC-IAM.
 
-**Target Available Debt \(`gap`\)**
+### Target Available Debt \(`gap`\)
 
 The Target Available Debt parameter controls how much of a gap the DC-IAM aims to maintain between the current debt usage and the Debt Ceiling of the vault type.
 
@@ -41,7 +41,7 @@ The higher this value, the more risk there is from large collateral drops in ver
 
 The smaller this value, the more vault usage is negatively affected. For example, a relatively low Target Available Debt of 100,000 DAI would be bad for anyone that wished to mint more than 100,000 DAI at one time \(and other users besides.\) The reason for this ties into the Ceiling Increase Cooldown parameter.
 
-**Ceiling Increase Cooldown \(`ttl`\)**
+### Ceiling Increase Cooldown \(`ttl`\)
 
 The Ceiling Increase Cooldown parameter controls how frequently the Debt Ceiling can be _increased_ by the DC-IAM. If a user attempts to use the DC-IAM to increase the Debt Ceiling of a vault type before this time expires, the transaction will fail to execute and the Debt Ceiling will remain unchanged.
 
