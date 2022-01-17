@@ -21,13 +21,8 @@
   * [On-Chain Governance](governance/on-chain-governance.md)
   * [Off-Chain Governance](governance/off-chain-governance.md)
 
-* Cycles and Dates
-  * [Governance Cycle](governance/placeholder.md)
-  * [Governance Calendar](governance/placeholder.md)
-
 * Verification
   * [Executive Audit](governance/executive-audit.md)
-  * [Poll Audit](governance/placeholder.md)
 
 * [Delegation](delegation/what-is-delegation.md)
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
