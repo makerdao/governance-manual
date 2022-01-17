@@ -5,6 +5,6 @@ Voting is calculated by a weighted voting system, where voting power is proporti
 
 Off-chain voting takes place on the [Maker Forum](https://forum.makerdao.com) and on-chain voting takes place on the [Governance Portal](https://vote.makerdao.com/). 
 
-## How To Vote
+---
 
 {% embed url="https://vimeo.com/649207489" %}
