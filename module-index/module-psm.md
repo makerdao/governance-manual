@@ -36,17 +36,17 @@ On the other hand, a PSM offers several advantages:
 
 Under the hood, a PSM is just a wrapper contract around a privileged vault type in the Maker Protocol. All the parameters that apply to vault types also apply to a PSM. However, a stablecoin PSM should always have a Stability Fee of 0% and a Liquidation Ratio of 100%.
 
-**Debt Ceiling \(line\)**
+### Debt Ceiling \(line\)
 
 The Debt Ceiling refers to the maximum amount of debt the PSM can accrue.
 
 Note that although users do not have a debt when using the PSM to trade between DAI and the collateral asset, the Maker Protocol _does_ accrue a DAI debt which is backed by the asset users trade into the PSM in exchange for DAI.
 
-**Fee In \(tin\)**
+### Fee In \(tin\)
 
 The percentage fee applied when trading the collateral asset into the PSM in exchange for DAI.
 
-**Fee Out \(tout\)**
+### Fee Out \(tout\)
 
 The percentage fee applied when trading DAI into the PSM in exchange for the collateral asset.
 

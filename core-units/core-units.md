@@ -3,18 +3,13 @@
 
 ## What is a Core Unit?
 
-A Core Unit is the basic building block for the DAO. Core Units define long-term work areas and cover a broad set of responsibilities or focus. They are the basic units of work that Maker Governance can oversee, manage and prioritize. Core Units can be proposed by anyone, and are then voted on by Maker Governance.
+Core Units are the basic workforce divisions that Maker Governance can oversee, manage and prioritize. Each Core Unit has a long-term work area assigned to it that covers a broad set of responsibilities or focus. Core Units can be proposed by anyone; their inclusion in MakerDAO is voted on by Maker Governance.
 
-Each active Core Unit is made up of at least three active proposals:
-- An Accepted *mandate* proposal (MIP39).
-- One or more Accepted *budget* proposals (MIP40).
-- One or more Accepted *facilitator* proposals (MIP41).
+Each active Core Unit consists of at least three active subproposals (i.e., subproposals that have not been superseded by other subproposals): a *mandate* subproposal (see [MIP39](https://mips.makerdao.com/mips/details/MIP39)) that lays out the objectives and directions that a given Core Unit is responsible for fulfilling. Executing these objectives usually requires funding, which is requested via *budget* subproposals (see [MIP40](https://mips.makerdao.com/mips/details/MIP40)). *Facilitator* subproposals (see [MIP41](https://mips.makerdao.com/mips/details/MIP41)) establish individuals as official points of contact and parties responsible for the Core Unit fulfilling its mandate.
 
-Each Core Unit is responsible for fulfilling a mix of objectives and directions, which are laid out in their *mandate* proposal. The *budget* proposal allows a Core Unit to request funding from Maker Governance to fulfill their mandate. Finally, the *facilitator* proposal defines an official point of contact and party responsible for the Core Unit achieving its mandate. 
+> The concept of Core Unit is defined in a MIP Set called *The Core Unit Operating Model*, also known as the *The Core Unit Framework*. This MIP Set comprises [MIP38](https://mips.makerdao.com/mips/details/MIP38), [MIP39](https://mips.makerdao.com/mips/details/MIP39), [MIP40](https://mips.makerdao.com/mips/details/MIP40), and [MIP41](https://mips.makerdao.com/mips/details/MIP41); jointly, these MIPs define the abstract Core Unit structure.
 
-Core Units are defined by a MIP Set called *The Core Unit Operating Model* that defines the proposals above and structures Core Units. It contains MIP38, MIP39, MIP40, and MIP41.
-
-## Mandate
+### Mandate
 
 Core Unit Mandates set the objectives and direction of the work that the Core Unit must strive for.
 
@@ -22,7 +17,7 @@ Mandates aim to be broad, open-ended, and high-level documents that provide spac
 
 Mandates from different Core Units can overlap to create redundancy. This helps to parallelize and decentralize work within the DAO - allowing it to scale effectively and resiliently.
 
-## Budget
+### Budget
 
 Budgets are used to fund a core unit in their effort to fulfill their given mandate. A budget is attached to a Core Unit and is meant to be used only for that Core Unit. The Facilitators of each Core Unit administer Core Unit budgets and must ensure that transparency and accountability exist as the budget is spent.
 
@@ -34,7 +29,7 @@ The components of a Core Unit Budget proposal are:
 - **Budget Breakdown**: It consists of the Core Unit Facilitators' best guess breakdown of spending for their Core Unit during the budget period.
 - **Budget Implementation**: It defines when and how the Core Unit Facilitators will receive the funds that make up their budget.
 
-## Facilitator(s)
+### Facilitator(s)
 
 A Facilitator is the most trusted actor in the MakerDAO community. They are given a high degree of autonomy and resources with which to achieve their mandated goals. 
 
@@ -48,9 +43,9 @@ The [DAO Primitives State (MIP38)](https://mips.makerdao.com/mips/details/MIP38)
 
 ## Submission Process: How do we propose a Core Unit?
 
-The process of proposing a new Core Unit or modifying an existing one is explained on MIP39c2:Adding/Modifying Core Units (Subproposal Process).
+The process of proposing a new Core Unit or modifying an existing one is explained on [MIP39c2:Adding/Modifying Core Units (Subproposal Process)](https://mips.makerdao.com/mips/details/MIP39#MIP39c2).
 
-The process for removing Core Units is explained on MIP39c3: Removing Core Units (Subproposal Process).
+The process for removing Core Units is explained on [MIP39c3: Removing Core Units (Subproposal Process)](https://mips.makerdao.com/mips/details/MIP39#MIP39c3).
 
 For general information about the Governance Cycle, please refer to [MIP51: Monthly Governance Cycle](https://mips.makerdao.com/mips/details/MIP51).
 

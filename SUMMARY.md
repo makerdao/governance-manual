@@ -12,6 +12,9 @@
   * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
 
 ## Governance
+* Governance Cycle
+  * [Monthly Governance Cycle](governance/monthly-governance-cycle.md)
+  * [Weekly Governance Cycle](governance/weekly-governance-cycle.md)
 
 * [Voting](governance/voting-in-makerdao.md)
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
@@ -31,6 +34,7 @@
   * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
   * [Delegates Code of Conduct](delegation/delegates-code.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
+
 
 ## Parameter Index
 
