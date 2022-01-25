@@ -16,7 +16,7 @@ Surplus auctions can be triggered when `Surplus DAI > System Surplus Buffer (hum
 `System Surplus Buffer` = 50 million DAI  
 `Surplus Lot Size` = 10,000 DAI
 
-The system surplus must exceed 50,010,000 DAI before a surplus auction can be triggered.
+The system surplus must exceed 50,010,000 DAI before a surplus auction can be triggered. When the surplus auction occurs, 10,000 DAI will be auctioned to keepers in exchange for MKR.
 
 ## Purpose
 
