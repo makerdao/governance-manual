@@ -49,6 +49,6 @@ Auction Duration (Flop) is always lower bounded by the Bid Duration (Flop) i.e. 
 `Bid Duration (Flop)` = 1 hour  
 `Auction Duration (Flop)` = 30 minutes
 
-The the auction will only last 30 minutes, making the Bid Duration (Flop) irrelevant.
+The auction will only last 30 minutes, making the Bid Duration (Flop) irrelevant.
 
 The Auction Duration (Flap) parameter fulfills the same role as this parameter in Surplus Auctions.
