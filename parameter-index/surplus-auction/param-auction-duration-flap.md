@@ -1,7 +1,7 @@
 
 # Auction Duration (Flap)
 
->**Alias:**  
+>**Alias:** N/A  
 >**Parameter Name:** `tau`  
 >**Containing Contract:** `Flap`  
 >**Scope:** System  
