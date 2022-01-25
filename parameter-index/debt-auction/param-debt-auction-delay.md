@@ -1,6 +1,6 @@
 # Debt Auction Delay
 
->**Alias:** Debt Auction Delay  
+>**Alias:** Flop Delay  
 >**Parameter Name:** wait  
 >**Containing Contract:** Vow  
 >**Scope:** System  
