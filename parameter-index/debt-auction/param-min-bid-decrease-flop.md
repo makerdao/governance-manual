@@ -12,7 +12,7 @@ Debt Auctions are used to recapitalize the system by minting and auctioning off 
 
 During debt auctions, new MKR bids must be lower than the current MKR bid by at least an amount determined by the Min Bid Decrease (Flop) or `beg`. The Min Bid Decrease (Flop) is given in terms of a minimum percentage decrease on the current bid.
 
-In practice the `Min Bid Decrease (Flop)` represents both:
+In practice the Min Bid Decrease (Flop) represents both:
 * The maximum profit that keepers can make when bidding in Debt Auctions. 
 * The maximum slippage MakerDAO is willing to accept during auctions to ensure sufficient keeper participation. 
 * 
