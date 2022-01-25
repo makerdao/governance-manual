@@ -45,6 +45,10 @@ Maker Governance may wish to decrease the Auction Duration (Flop) if the auction
 ## Considerations
 Auction Duration (Flop) is always lower bounded by the Bid Duration (Flop) i.e. the time period before which a bid expires. If it is set lower than the Bid Duration (Flop), it will render that parameter unnecessary since the auction will end before a bid expires. 
 
-For example, if Bid Duration (Flop) is 1 hour and Auction Duration (Flop) is 30 minutes, then the auction will only last 30 minutes, making the Bid Duration (Flop) irrelevant.
+### Example
+`Bid Duration (Flop)` = 1 hour  
+`Auction Duration (Flop)` = 30 minutes
+
+The the auction will only last 30 minutes, making the Bid Duration (Flop) irrelevant.
 
 The Auction Duration (Flap) parameter fulfills the same role as this parameter in Surplus Auctions.
