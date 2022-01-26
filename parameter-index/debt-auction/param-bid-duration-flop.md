@@ -32,7 +32,7 @@ A Bid Duration (Flop) that is small means that Keepers take less risk that the m
 
 A small Bid Duration (Flop) also increases the risk of a more severe loss of value in the case of blockchain congestion. Rising gas prices may lock out keepers either due to technical issues or due to the additional fixed cost of gas. 
 
-A larger Bid Duration (Flop) gives keepers more time to participate in auctions, hopefully encouraging a higher number of bidders. If the Bid Duration (Flop) is too large, there may be bids for very high amounts of MKR to safeguard against price volatility during the `Bid Duration (Flop)` period. Realistically priced bids would only appear when the auction end (determined by Auction Duration) is closer than the Bid Duration (Flop) period. In situations where the price of MKR is dropping, this would lead to more MKR being minted than with a smaller Bid Duration (Flop).
+A larger Bid Duration (Flop) gives keepers more time to participate in auctions, hopefully encouraging a higher number of bidders. If the Bid Duration (Flop) is too large, there may be bids for very high amounts of MKR to safeguard against price volatility during the Bid Duration (Flop) period. Realistically priced bids would only appear when the auction end (determined by Auction Duration) is closer than the Bid Duration (Flop) period. In situations where the price of MKR is dropping, this would lead to more MKR being minted than with a smaller Bid Duration (Flop).
 
 ## Changes
 Adjusting the Bid Duration (Flop) parameter is a manual process that requires an executive vote. Changes to the Bid Duration (Flop) are subject to the GSM Pause Delay.
