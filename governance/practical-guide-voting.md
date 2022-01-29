@@ -17,4 +17,4 @@ Voting requires a single transaction and fees will vary based on the congestion 
 Setting up a linked-wallet Voting Contract takes four transactions for a total of approximately 1 million gas. The cost of setting up a linked-wallet Voting Contract is split between the hot and cold wallets so users should ensure both wallets contain sufficient Ether (ETH) to pay for gas costs.
 
 ### Delegation
-MKR holders may also delegate their MKR and allow the delegate to vote on their behalf. More information on delegation can be found [here](delegation/what-is-delegation.md).
+MKR holders may also delegate their MKR and allow the delegate to vote on their behalf. More information on delegation can be found [here](https://github.com/Gala-G/governance-manual/blob/main/delegation/what-is-delegation.md).
