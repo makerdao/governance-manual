@@ -28,11 +28,11 @@ Finally, it is likely that the D3M module is triggered during volatile markets a
 The Debt Ceiling parameter for the Dai Direct Deposit Module is substantially identical to the Debt Ceiling parameter for vault types. It controls the maximum amount of DAI that can be minted via the D3M. Note that the D3M Debt Ceiling may also be controlled by the Debt Ceiling Instant Access Module.
 
 ### Target Borrow Rate (bar) 
-The Target Borrow Rate allows Maker Governance to set the 'ideal' rate for borrowing DAI on the target lending protocol for the D3M. This is done by adding or removing an amount of DAI from the lending protocol's total supply such that the target borrow rate becomes the rate on the lending protocol. 
+The Target Borrow Rate allows Maker Governance to set the 'ideal' rate for borrowing DAI on the target lending protocol for the D3M. This is done by adding or removing an amount of DAI from the lending protocol's total supply such that the target borrow rate becomes the rate on the lending protocol provided the debt ceiling allows it. 
 
 If the borrowing interest rate on the target lending platform is higher than the target borrow rate and the debt ceiling has not been hit, then the module mints and deposits additional DAI into the lending protocol in exchange for deposit tokens.
 
-Conversely, if the borrowing interest rate on the target lending platform is lower than the target borrow rate and the module holds a nonzero amount of deposit tokens, then the contract returns deposit tokens to the lending protocol in exchange for DAI which is then burned.
+Conversely, if the borrowing interest rate on the target lending platform is lower than the target borrow rate and the module holds a nonzero amount of deposit tokens, then the contract returns deposit tokens to the lending protocol in exchange for DAI which is then burned. For a large decreases in DAI supply, this may require time due to liquidity issues in swapping the lending token for DAI.
 
 The function to trigger this mechanism is permissionless and is called by bots at regular intervals. 
 
@@ -47,6 +47,8 @@ The maximum share meta-parameter refers to the maximum proportional share of dep
 A maximum share of 100% would indicate that MakerDAO is willing to be the sole provider of DAI to the target lending protocol.
 
 A maximum share of 30% would indicate that MakerDAO is willing to provide 30% of the total DAI to the target lending protocol, with the other 70% being provided by other users or protocols. 
+
+Note that the DAI supplied by the module may temporarily exceed the maximum share if the supply of DAI by other users on the lending protocol decreases rapidly.
 
 #### Spread
 
@@ -76,9 +78,9 @@ The debt ceiling is set as follows:
 
 ## Trade-offs
 
-A more positive spread value and consequently, a higher bar would result in less borrowing on the lending protocol via the D3M and hence reduced revenue for Maker from the D3M. However, this would result in potentially increased use of Maker's own vaults and hence higher revenues from those vaults. A more negative spread value results in lower revenues from vaults and higher revenues from the D3M module. 
+A more positive spread value and consequently a higher bar would result in less borrowing on the lending protocol via the D3M and hence reduced revenue for Maker from the D3M. However, this would result in potentially increased use of Maker's own vaults and hence higher revenues from those vaults. A more negative spread value results in lower revenues from vaults and higher revenues from the D3M module. 
 
-A higher D3M debt ceiling results in higher potential revenues from the D3M module but also results in higher credit risk for Maker, should the lending protocol suffer any losses. Conversely, a lower D3M debt ceiling decreases credit risk for Maker but also lowers potential revenues from the D3M module.
+A higher D3M debt ceiling results in higher potential revenues from the D3M module and the ability to cater to spikes in demand for DAI but also results in higher credit risk for Maker, should the lending protocol suffer any losses. Conversely, a lower D3M debt ceiling decreases credit risk for Maker but also lowers potential revenues from the D3M module and reduces the ability to cater to spikes in demand for DAI.
 
 ## Considerations
 
