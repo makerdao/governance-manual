@@ -1,33 +1,32 @@
-# The Weekly Governance Cycle
+# El Ciclo Semanal de la Gobernanza
 
-The Weekly Governance Cycle is formalized by [MIP16](https://mips.makerdao.com/mips/details/MIP16) and provides a predictable weekly framework for Maker Governance decisions.
+El Ciclo Semanal de la Gobernanza se encuentra formalizado en la [MIP16](https://mips.makerdao.com/mips/details/MIP16) y provee un _framework_ (marco de trabajo) semanal predecible para las decisiones de la Gobernanza de Maker.
 
-The Weekly Governance Cycle works in conjunction with the Monthly Governance Cycle ([MIP51](https://mips.makerdao.com/mips/details/MIP51)). It permits recurring decisions to be made that require quicker action than is allowed by the Monthly Governance Cycle.
+Este Ciclo Semanal de la Gobernanza trabaja en conjunto con el Ciclo Mensual de la Gobernanza ([MIP51](https://mips.makerdao.com/mips/details/MIP51)). Este permite que se tomen decisiones recurrentes que requieran una acción más rápida que la permitida por el Ciclo Mensual de la Gobernanza.
 
-### Weekly Governance Cycle Overview
+### Vista General del Ciclo Semanal de la Gobernanza
 
-![weekly_monthly-gov](https://github.com/makerdao/mips/blob/master/MIP16/weekly_governance_cycle.png?raw=true)
+![weekly_monthly-gov](https://i.ibb.co/n7CLtKv/weekly-cicle.jpg)
 
-### Weekly Governance Cycle Definitions ([MIP16c1](https://mips.makerdao.com/mips/details/MIP16#MIP16c1)) 
+### Definiciones del Ciclo Semanal de la Gobernanza ([MIP16c1](https://mips.makerdao.com/mips/details/MIP16#MIP16c1))
 
-- A **Weekly Poll** is a non-binding Governance Poll that determines the weekly Executive Vote contents. Weekly Polls cannot change system parameters independently; they merely dictate what will be included in the next Executive Vote.
-- A **Non-Standard Weekly Poll** is a non-binding Weekly Poll that contains arbitrary time-sensitive decisions. These polls need to be expedited through the Maker governance process via a separate vote. The use of Non-Standard Weekly Polls is exclusive to Facilitators, given that they have already established a high level of trust with the community. The use of Non-Standard Weekly Polls is limited to situations where the Weekly Governance Cycle is determined to operate too slowly to be usable. An example of such a poll might be the Risk Core Unit ([RISK-001](https://mips.makerdao.com/mips/details/MIP39c2SP2)) Facilitator proposing urgent parameter changes for a collateral type due to an abrupt change in market conditions, or a vulnerability that has been detected.
-- Ratified Facilitators (a list can be found [here](https://mips.makerdao.com/mips/details/MIP38#MIP38c2)) are authorized by Maker Governance to interact with the Weekly Cycle. Facilitators may submit Non-Standard Weekly Polls that are related to their Core Unit Mandate. If necessary, and if it is related to their Core Unit Mandate, Facilitators can skip the Non-Standard Weekly Polls and include logic directly into the weekly Executive Vote.
-
+- Una **Encuesta Semanal** es una encuesta no vinculante al MKR que determina el contenido de la Votación Ejecutiva semanal. En este contexto, una encuesta semanal no vinculante se refiere al hecho de que una encuesta semanal no puede cambiar los parámetros del sistema de forma independiente; simplemente dicta lo que se incluirá al final de la semana en el Voto Ejecutivo.
+- Una **Encuesta Semanal No Estándar** es una encuesta semanal no vinculante que tiene decisiones arbitrarias urgentes que los poseedores de MKR deben tomar en un período de tiempo relativamente corto. Estas encuestas deben acelerarse a través del proceso de Gobernanza de Maker por medio de una votación por separado. El uso de las encuestas semanales no estándar es exclusivamente para los Facilitadores, dado que ya han establecido un alto nivel de confianza con la comunidad. Además, el uso de encuestas de gobernanza semanales no estándar se limitará a situaciones en las que se determina que el Ciclo de Gobernanza Semanal funciona con demasiada lentitud como para ser utilizada. Un ejemplo de este tipo de encuentas podría ser que el Facilitador de la Core Unit de Riesgo ([RISK-001](https://mips.makerdao.com/mips/details/MIP39c2SP2)) proponga cambios de parámetros urgentes para un tipo de colateral debido a un cambio abrupto en las condiciones del mercado, o una vulnerabilidad que ha sido detectada.
+- Los Facilitadores que han sido ratificados (el listado puede encontrarse [aquí](https://mips.makerdao.com/mips/details/MIP38#MIP38c2) están autorizados por la Gobernanza de Maker para interactuar de manera eficiente con el Ciclo Semanal. Los Facilitadores están autorizados a realizar encuestas semanales no estándar que estén relacionadas con el mandato de su Core Unit e incluyen la lógica en el Voto Ejecutivo semanal que esté relacionada con dicho mandato. Si es necesario, y si está relacionado con el Mandato de su Core Unit, los Facilitadores pueden omitir la encuesta semanal no estándar e incluir la lógica directamente en la Votación Ejecutiva semanal.
 ---
 
-### Weekly Governance Cycle Breakdown ([MIP16c2](https://mips.makerdao.com/mips/details/MIP16#MIP16c2)) 
+### Desglose del Ciclo Semanal de la Gobernanza ([MIP16c2](https://mips.makerdao.com/mips/details/MIP16#MIP16c2))
 
 
-**Monday**
+**Lunes**
 
-- Every Monday, the Weekly Cycle begins and includes standard recurring decisions proposed in the form of a Weekly Poll. The poll will run for three days ending on Thursday before the Governance and Risk Call.
+- Todos los lunes comienza el ciclo semanal e incluye las decisiones recurrentes estándar propuestas en forma de encuesta semanal. La encuesta se llevará a cabo durante tres días y finalizará el jueves antes de la Llamada de Gobernanza y Riesgo.
 
-**Thursday**
+**Jueves**
 
-- The Weekly Poll results will be reviewed on the Governance and Risk Call.
+- Los resultados de la encuesta semanal serán revisados en la Llamada de Gobernanza y Riesgo.
 
-**Friday**
+**Viernes**
 
-- Every Friday, successful Weekly Polls are included in the Executive Vote. The Weekly Executive Vote has an expiration of one week.
-    - Governance Facilitators may choose to skip the weekly Executive Vote if it doesn't introduce substantive or pressing changes to the Maker Protocol.
+- Todos los viernes, caso de ser aprobada la Encuesta Semanal de Gobernanza de los lunes, las encuestas semanales se someten a Votación Ejecutiva. El Voto Ejecutivo semanal expira transcurrida la semana.
+    - Los Facilitadores de la Gobernanza pueden optar por omitir la votación ejecutiva semanal si esta no introduce al Protocolo de Maker cambios sustanciales o apremiantes.

@@ -1,54 +1,54 @@
-# Monthly Governance Cycle
+# El Ciclo Mensual de la Gobernanza
 
-The Monthly Governance Cycle is defined in [MIP51](https://mips.makerdao.com/mips/details/MIP51) and provides a predictable monthly cadence by which governance decisions are made.
+El Ciclo Mensual de la Gobernanza se encuentra definido en la [MIP51](https://mips.makerdao.com/mips/details/MIP51) y provee un _framework_ (marco de trabajo) predecible para las decisiones de la gobernanza de Maker.
 
-The Monthly Governance Cycle is predominantly used for the introduction of new MIPs or MIP subproposals into the Maker Protocol. Examples of such changes could include:
-* The addition of a new Core Unit to the Maker Protocol
-* The adjustment of an existing Core Unit's operating budget
+El Ciclo Mensual de la Gobernanza es utilizado predominantemente para la incorporación de nuevas MIPs o subpropuestas de MIPs al Protocolo de Maker. Un ejemplo de tales cambios pueden incluir:
+* La incorporación de una nueva Core Unit al Protocolo de Maker.
+* El ajuste del presupuesto de una Core Unit operativa ya existente.
 
-Proposals submitted into the Monthly Governance Cycle must follow the guidelines defined in [MIP0](https://mips.makerdao.com/mips/details/MIP0).
+Las propuestas enviadas al Ciclo Mensual de Gobernanza deben seguir los lineamientos definidos en la [MIP0](https://github.com/makerdao/mips/blob/master/MIP0/mip0.md).
 
-## Governance Cycle Overview
-![Gov Cycle](https://user-images.githubusercontent.com/53664591/114054203-8c7de580-9887-11eb-90da-0431b051fff3.png)
+## Vista General del Ciclo de Gobernanza
+![Gov Cycle](https://i.ibb.co/NT2Z0YN/Ciclo-Mensual-de-Gobernanza.jpg)
 
-*Note: Time is inclusive and based on UTC (Coordinated Universal Time) and the Gregorian calendar.*
+*El tiempo es inclusivo y se basa en UTC (Tiempo Universal Coordinado) y el calendario gregoriano*
 
-## Governance Cycle Breakdown ([MIP51c1](https://mips.makerdao.com/mips/details/MIP51#MIP51c1))
+## Desgloce del Ciclo de la Gobernanza ([MIP51c1](https://mips.makerdao.com/mips/details/MIP51#MIP51c1))
 
-The first Monday of each calendar month marks the beginning of the Monthly Governance Cycle.
+El primer lunes de cada mes calendario marca el comienzo del Ciclo Mensual de Gobernanza.
 
-### Week 1
+### Semana 1
 
-**Week 1, Monday through Wednesday**
--   MIP Authors move their proposals to **Formal Submission**. This phase lasts for 3 days.
--   Proposals must be moved into the [formal submission](https://forum.makerdao.com/c/mips/fs/16) subcategory on the MakerDAO forums under the [Maker Improvement Proposal](https://forum.makerdao.com/c/mips/14) category.
--   MIP Authors should inform MIP Editors of the status change via commonly used communications channels.
+**Semana 1, del lunes al miércoles**
+-   Los Autores de MIP mueven sus propuestas a **Formal Submission**. Esta fase dura 3 días.
+-   Las propuestas deben ser movidas a la subcategoría del Foro de MakerDAO [_Formal Submission_](https://forum.makerdao.com/c/mips/fs/16), dentro de la categoría [_Maker Improvement Proposal_](https://forum.makerdao.com/c/mips/14).
+-   Los Editores de MIP deben ser informados por los Autores de MIP de los cambios de estado a través de los canales de comunicación utilizados comúnmente.
 
-**Week 1, Thursday**
--  Governance Facilitators perform the **Submission Review** as part of the weekly Governance and Risk meeting and communicate which of the proposed MIPs are in accordance with guidelines (defined in the MIP0 Framework). MIPs that meet the guidelines will continue to the Ratification Poll stage.
-- The Governance Facilitators must come to consensus on whether each submission should move forward to a Ratification Poll.
-    - Governance Facilitators may consider blocking a proposal if they believe that moving forward to a Ratification Poll would negatively affect community cohesion.
-        - If the Governance Facilitators prevent a proposal from moving to a Ratification Poll, they must clearly communicate their reasons for doing so via the official [forum](https://forum.makerdao.com).
-        - In the event the Governance Facilitators abuse this power **they should be removed from their positions via any method Maker Governance determines is appropriate**.
+**Semana 1, Jueves**
+-  Los Facilitadores de Gobernanza realizan la _Submission Review_ (Revisión de la Presentación) como parte de la reunión semanal de Gobernanza y Riesgo y comunican cuáles de las MIPs propuestas se ajustan a los lineamientos (definidos en el _framework_ de la MIP0) y continuarán a la Encuesta de Ratificación.
+- Los Facilitadores de Gobernanza deben llegar a un consenso sobre si cada _Submission_ justifica avanzar hacia una Encuesta de Ratificación.
+    - Los Facilitadores de Gobernanza pueden considerar bloquear una propuesta si creen que avanzarla a una Encuesta de Ratificación afectaría de forma negativa a la cohesión de la comunidad.
+        - Si los Facilitadores de Gobernanza previenen que una propuesta avance a una Encuesta de Ratificación, deben comunicar claramente sus razones para esto a través del [foro oficial](https://forum.makerdao.com).
+        - En caso de que los Facilitadores de Gobernanza hagan un abuso de su poder, **deben ser removidos de su posición a través del método que la Gobernanza de Maker determine apropiado**.
 
-### Week 2
+### Semana 2
 
-**Week 2, Monday**
--   The Governance Facilitators publish the set of **Ratification Polls**. The format of these is defined in [MIP51c2](https://mips.makerdao.com/mips/details/MIP51#MIP51c2).
--   Ratification Polls are published to the [community GitHub](https://github.com/makerdao/community/tree/master/governance/polls), submitted on-chain and appear on the official [voting portal](https://vote.makerdao.com/).
--   Ratification Polls will run for two weeks.
+**Semana 2, Lunes**
+-   Los Facilitadores de Gobernanza publicarán un conjunto de **Encuestas de Ratificación**. El formato de las mismas es definido en la [MIP51c2](https://mips.makerdao.com/mips/details/MIP51#MIP51c2).
+-   Las Encuestas de Ratificación son publicadas en el [GitHub de la Comunidad](https://github.com/makerdao/community/tree/master/governance/polls), enviadas _on-chain_ y aparecen en el [Portal de Votaciones](https://vote.makerdao.com/) oficial.
+-   Las Encuestas de Ratificaciones se encuentraran vigentes para votación durante dos semanas.
 
-### Week 4
+### Semana 4
 
-**Week 4, Monday**
--   The Ratification polls conclude, and each proposal or set of proposals is marked as either Accepted or Rejected by the MIP Editors.
+**Semana 4, Lunes**
+-   Las Encuestas de Ratificación concluyen, y cada propuesta o conjunto de propuestas son marcadas o como Aceptadas o Rechazadas por los Editores de MIP.
 
-**Week 4, Thursday**
-- The Governance Facilitators do a **Governance Cycle Review** as part of the weekly Governance and Risk meeting in which they summarize and discuss the Governance Cycle with the community.
-- The Governance Facilitators also discuss the upcoming Governance Cycle and potential submissions with the community.
+**Semana 4, Jueves**
+- Los Facilitadores de Gobernanza hacen una **Revisión del Ciclo de Gobernanza** como parte de la reunión semanal de Gobernanza y Riesgo en la que el Ciclo de Gobernanza es resumido y discutido por la comunidad.
+- Los Facilitadores de Gobernanza también discuten con la comunidad el próximo Ciclo de Gobernanza y las posibles presentaciones.
 
 ---
 
-### Calendar Exceptions ([MIP51c4](https://mips.makerdao.com/mips/details/MIP51#MIP51c4))
+### Excepciones de Calendario ([MIP51c4](https://mips.makerdao.com/mips/details/MIP51#MIP51c4))
 
-Due to the multitude of cultural and religious holidays occurring in and around the month of December, there will be no Monthly Governance Cycle in December.
+Debido a la cantidad de feriados culturales y religiosos que suceden durante el mes de Diciembre, cada año, no habrá un Ciclo Mensual de la Gobernanza en dicho mes.

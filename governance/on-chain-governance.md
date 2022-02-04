@@ -1,67 +1,68 @@
-# On-chain Governance 
-There are two main types of on-chain governance activities: Governance polls and Executive votes. 
+# Gobernanza _On-chain_ 
+Hay dos tipos de actividades principales de Gobernanza _on-chain_: Encuestas de Gobernanza y Votaciones Ejecutivas.
 
-### Governance Polls
-Governance Polls occur on-chain and are used to measure the sentiment of MKR voters. Polls often run concurrently, allowing voters to participate in any number of them at the same time and some use [instant run-off](https://en.wikipedia.org/wiki/Ranked_voting). The current schedule calls for polls to go live on a weekly basis every Monday at 16:00 UTC.
+### Encuestas de Gobernanza
+Las Encuestas de Gobernanza ocurren _on-chain_ (_en la cadena_) y se utilizan para medir el sentimiento de los poseedores de MKR. A menudo, las encuestas corren simultáneamente, habilitando a los votantes a participar, al mismo tiempo, en la cantidad de encuestas que deseen y algunos utilizan la [segunda vuelta instantánea](https://es.wikipedia.org/wiki/Segunda_vuelta_instant%C3%A1nea). El cronograma actual exige que las encuestas se activen semanalmente todos los lunes a las 16:00 UTC.
 
-MKR holders may be asked to:
+Se les pedirá a los poseedores de MKR que:
 
-- Determine governance and DAO processes outside the technical layer of the Maker Protocol.
-- Form consensus on important community goals and targets.
-- Measure sentiment on potential Executive Vote proposals.
-- Ratify governance proposals originating from the MakerDAO forum signal threads.
-- Determine which values certain system parameters should be set to before those values are then confirmed in an executive vote.
-- Ratify risk parameters for new collateral types as presented by Risk Teams.
+- Determinen los procesos de la gobernanza y la DAO fuera de la capa técnica del Protocolo de Maker.
+- Formen un consenso sobre metas y objetivos comunitarios importantes.
+- Midan el sentimiento sobre posibles propuestas de Voto Ejecutivo.
+- Ratifiquen las propuestas de la gobernanza que se originen en los hilos de señales del foro de MakerDAO.
+- Determinen en qué valores se deben establecer ciertos parámetros del sistema antes de que esos valores se confirmen en una votación ejecutiva.
+- Ratifiquen los parámetros de riesgo para los nuevos tipos de colaterales presentados por los equipos de Riesgo.
 
-Here is [an example](https://vote.makerdao.com/polling/Qmeac95W?network=mainnet#poll-detail) of a governance poll on the Governance Portal.
+[Aquí](https://vote.makerdao.com/polling/Qmeac95W?network=mainnet#poll-detail) se encuentra un ejemplo de una encuesta de gobernanza en el Portal de Gobernanza.
 
-#### How long is the voting period of a Governance Poll?
-The voting period of a given Governance Poll varies. Recurring polls of the same type are usually standardized and have the same duration. The most common are three and seven day periods. Concurrently running polls do not necessarily have the same voting periods.
+#### ¿Qué tan largo es el Período de Votación para una Encuesta de Gobernanza?
+El período de votación de una Encuesta de Gobernanza determinada varía. Las encuestas recurrentes del mismo tipo suelen estar estandarizadas y tienen la misma duración. Los más comunes son los períodos de tres y siete días. Las encuestas que se ejecutan simultáneamente no necesariamente tienen los mismos períodos de votación.
 
-#### Where can I find on-chain Governance Polls?
-Live and historic polls can be found on the [polling page](https://vote.makerdao.com/polling) of the Governance Portal.
+#### ¿Dónde puedo encontrar las Encuestas de Gobernanza _On-Chain_?
+La encuestas que se encuentran vigentes y el historial de las ya cerradas, se pueden encontrar en la [página de encuestas](https://vote.makerdao.com/polling) del Portal de Gobernanza.
 
-#### How to create an on-chain Governance Poll?
-Anyone can create an on-chain Governance Poll using the polling smart contract, however, there is no UI provided.
+#### ¿Cómo se crea una Encuesta de Gobernanza _On-Chain_?
+Cualquiera puede crear una encuesta de gobernanza _on-chain_ utilizando el _smart contract_ de encuestas; sin embargo, no hay una interfaz de usuario.
 
-Currently, only the elected Governance Facilitators are able to put up polls that display on the [Governance Portal](https://vote.makerdao.com). Polls created by arbitrary Ethereum addresses **are not** displayed. In the future, MKR token holders or third parties may develop new UIs or other voting frontends that do allow is.
+Actualmente, solo los Facilitadores de Gobernanza electos pueden colocar encuestas que se muestran en el [Portal de Gobernanza](https://vote.makerdao.com). Las encuestas creadas por addresses arbitrarias de Ethereum **no** son mostradas. En el futuro, los poseedores de tokens MKR o terceros podrán desarrollar nuevas interfaces de usuario u otras interfaces de votación que permitan esto.
 
-### Executive Votes
-Executive Votes occur on-chain and can be accessed through the [executive page](https://vote.makerdao.com/executive) in the Governance Portal.
+### Votaciones Ejecutivas
+Las Votaciones Ejecutivas ocurren _on-chain_ y se puede acceder a ellas por medio de la [página ejecutiva](https://vote.makerdao.com/executive) en el Portal de Gobernanza.
 
-Executive Votes execute technical changes to the Maker Protocol. When active, each Executive Vote has a proposed set of changes being made on the Maker Protocol's smart-contracts. Executive Votes use a Continuous Approval Voting model.
+Las Votaciones Ejecutivas ejecutan cambios técnicos en el Protocolo de Maker. Cuando está activa, cada votación ejecutiva tiene un conjunto de cambios propuesto que se realizarán en los _smart contracts_ del Protocolo de Maker. Las Votaciones Ejecutivas utilizan un modelo de Votación de Aprobación Continua.
 
-Executive Vote can occur at any time, however the current schedule calls for Executive Votes to go live on Fridays. The exact time varies, but is almost always after 12pm EST, 9am PST, 14:00 UTC.
+Las Votaciones Ejecutivas pueden ocurrir en cualquier momento, sin embargo, el cronograma actual exige que las Votaciones Ejecutivas corran los viernes. La hora exacta varía, pero casi siempre es después de las 12pm EST, 9am PST, 14:00 UTC.
 
-Executive Votes can be used to:
+La Votaciones Ejecutivas pueden ser utilizadas para:
 
-- Add or remove collateral types.
-- Add or remove Vault types.
-- Adjust global system parameters.
-- Adjust Vault-specific parameters.
-- Replace modular smart contracts.
+- Agregar o remover tipos de colaterales.
+- Agregar o remover tipos de vaults.
+- Ajustar los parámetros del sistema global.
+- Ajustar los parámetros específicos de vaults.
+- Reemplazar los _smart contracts_ modulares.
 
-Anyone can create an on-chain Executive Vote using the MakerDAO governance contracts, however, there is no non-technical UI available to do this. Users can create proposals, also known as [slates](https://docs.makerdao.com/smart-contract-modules/governance-module/chief-detailed-documentation), through this [experimental portal](https://chief.makerdao.com/), or by interacting directly with the smart contracts.
+Cualquiera puede crear una Votación Ejecutiva _on-chain_ usando los contratos de Gobernanza de MakerDAO, sin embargo, no se encuentra disponible ninguna interfaz de usuario para hacer esto. Los usuarios pueden crear propuestas, también conocidas como [_slates_](https://docs.makerdao.com/smart-contract-modules/governance-module/chief-detailed-documentation) (_pizarras_), a través de este [portal experimental](https://chief.makerdao.com/) o interactuando directamente con los _smart contracts_.
 
-Here is [an example](https://vote.makerdao.com/executive/template-executive-vote-parameter-changes-wsteth-a-onboarding-october-22-2021?network=mainnet#proposal-detail) of an executive vote on the Governance Portal.
+[Aquí](https://vote.makerdao.com/executive/template-executive-vote-parameter-changes-wsteth-a-onboarding-october-22-2021?network=mainnet#proposal-detail) se encuentra un ejemplo de una votación ejecutiva en el Portal de Gobernanza.
 
-#### How is the voting calculated?
-Executive votes are calculated through Continuous Approval voting. In such a system, competing proposals may be introduced any time. Proposals remain active for a period of 30 days or until they get executed, whichever is earlier. After this, they become inactive proposals but remain eligible for votes. 
+#### ¿Cómo se calculan los votos?
 
-An active proposal is executed if it has more votes in its favor than every other proposal. If MKR token holders do not agree with a new proposal, then they may cast their votes for any inactive proposal, implying that they support the current state of the system. To revert a change in the system an entirely new proposal must be put forth. It is impossible to reactivate a proposal, once it is inactive. 
+Los votos ejecutivos se calculan a través de la Votación de Aprobación Continua. En tal sistema, se pueden presentar propuestas de competencia en cualquier momento. Las propuestas permanecen activas durante un período de 30 días o hasta que se ejecutan, lo que ocurra primero. Después de esto, se vuelven propuestas inactivas pero siguen siendo elegibles para votos.
 
-There are three aspects to consider with regard to Continuous Approval Voting:
+Una propuesta activa es ejecutada si tiene más votos a favor que cualquier otra propuesta. Si los poseedores de tokens MKR no están de acuerdo con una propuesta nueva pueden enviar sus votos a una propuesta inactiva, dando a entender que apoyan el estado actual del sistema. Para revertir un cambio en el sistema se debe presentar una propuesta enteramente nueva. Es imposible reactivar una propuesta una vez se torna inactiva.
 
-- A vote for any inactive proposal creates a barrier for new proposals, since new proposals need to surpass the voting weight of the inactive proposal with the largest amount of MKR voting for it.
-- Votes are meant to remain in the system continuously in order to prevent bad proposals from passing easily.
-- The more votes there are on the current state of the system, the more secure the system generally is from any "rogue" proposals.
+Hay tres aspectos a considerar con respecto a la Votación de Aprobación Continua:
 
-With Continuous Approval Voting, the continuity of staked votes challenges and reinforces the status quo of the system through movements of the majority of votes between the current state (most recent successful proposal) and new proposals.
+- Un voto por cualquier propuesta inactiva crea una barrera para las nuevas propuestas, ya que las nuevas propuestas deben superar el peso de votación de la propuesta inactiva con la mayor cantidad de MKR votando a su favor.
+- Los votos deben permanecer en el sistema continuamente para evitar que las malas propuestas se aprueben fácilmente.
+- Cuantos más votos haya en el estado actual del sistema, más seguro estará el sistema en general frente a cualquier propuesta "falsa".
 
-### Auditability
+Con la Votación de Aprobación Continua, la continuidad de los votos en juego desafía y refuerza el status quo del sistema a través de los movimientos de la mayoría de votos entre el estado actual (la propuesta exitosa más reciente) y las nuevas propuestas.
 
-#### With regard to new votes
-The public is encouraged to self-audit the code for each vote. There is an accessible guide on how to do so [here](governance/executive-audit.md). 
+### Auditabilidad
 
-#### With regard to a user's voting record
-The voter's current vote is displayed on a given proposal page in the [Governance Portal](https://vote.makerdao.com/). Historical voting records are also available on the governance portal.
+#### Con respecto a los nuevas votaciones
+Se alienta al público a autoauditar el código de cada voto. Hay una guía accesible sobre cómo hacerlo [aquí](governance/executive-audit.md).
+
+#### Con respecto al registro de las votaciones de los usuarios
+El voto actual del usuario se muestra en una página de propuesta dada en el [Portal de Gobernanza](https://vote.makerdao.com/). Los registros históricos de votación también están disponibles en el portal de gobernanza.
