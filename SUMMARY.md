@@ -3,23 +3,23 @@
 * [Maker Operational Manual](README.md)
 
 ## MakerDAO
-* Structure
+* Estructura
   * [Maker Improvement Proposals](governance/mips.md)
   * [Core Units](core-units/core-units.md)
 
-* Overview
-  * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
-  * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
+* Panorama
+  * [Estado y Dashboards](protocol-status/protocol-and-dao-status.md)
+  * [Flujo de Presupuesto de las Core Units](core-units/core-unit-budget-flow.md)
 
-## Governance
-* Governance Cycle
-  * [Monthly Governance Cycle](governance/monthly-governance-cycle.md)
-  * [Weekly Governance Cycle](governance/weekly-governance-cycle.md)
+## Gobernanza
+* Ciclo de Gobernanza
+  * [Ciclo de Gobernanza Mensual](governance/monthly-governance-cycle.md)
+  * [Ciclo de Gobernanza Semanal](governance/weekly-governance-cycle.md)
 
-* [Voting](governance/voting-in-makerdao.md)
-  * [Practical Guide to Voting](governance/practical-guide-voting.md)
-  * [On-Chain Governance](governance/on-chain-governance.md)
-  * [Off-Chain Governance](governance/off-chain-governance.md)
+* [Votar](governance/voting-in-makerdao.md)
+  * [Guía práctica para votar](governance/practical-guide-voting.md)
+  * [Gobernanza On-Chain](governance/on-chain-governance.md)
+  * [Gobernanza Off-Chain](governance/off-chain-governance.md)
 
 * Verification
   * [Executive Audit](governance/executive-audit.md)
