@@ -32,7 +32,7 @@ The Target Borrow Rate allows Maker Governance to set the 'ideal' rate for borro
 
 If the borrowing interest rate on the target lending platform is higher than the target borrow rate and the debt ceiling has not been hit, then the module mints and deposits additional DAI into the lending protocol in exchange for deposit tokens.
 
-Conversely, if the borrowing interest rate on the target lending platform is lower than the target borrow rate and the module holds a nonzero amount of deposit tokens, then the contract returns deposit tokens to the lending protocol in exchange for DAI which is then burned. For a large decreases in DAI supply, this may require time due to liquidity issues in swapping the lending token for DAI.
+Conversely, if the borrowing interest rate on the target lending platform is lower than the target borrow rate and the module holds a nonzero amount of deposit tokens, then the contract returns deposit tokens to the lending protocol in exchange for DAI which is then burned. 
 
 The function to trigger this mechanism is permissionless and is called by bots at regular intervals. 
 
@@ -48,7 +48,6 @@ A maximum share of 100% would indicate that MakerDAO is willing to be the sole p
 
 A maximum share of 30% would indicate that MakerDAO is willing to provide 30% of the total DAI to the target lending protocol, with the other 70% being provided by other users or protocols. 
 
-Note that the DAI supplied by the module may temporarily exceed the maximum share if the supply of DAI by other users on the lending protocol decreases rapidly.
 
 #### Spread
 
@@ -85,6 +84,8 @@ A higher D3M debt ceiling results in higher potential revenues from the D3M modu
 ## Considerations
 
 Due to lending protocols offering farming rewards in terms of a native token (e.g. stkAAVE on Aave), the D3M module results in additional earnings denominated in that native token. It is up to governance to decide whether to hold the farming rewards income in the native token or to convert it into DAI and add it to the surplus buffer.
+
+DAI supply on the lending protocol may not always reflect the parameters set. For example, a large decrease in the line parameter may require time to take effect due to liquidity issues in swapping the lending token for DAI. Similarly, the DAI supplied by the module may temporarily exceed the maximum share if the supply of DAI by other users on the lending protocol decreases rapidly.
 
 While the D3M module can be called by anyone, Maker's Tech-Ops Core Unit runs a bot that calls the module if the target borrow rate and actual rate on the lending protocol diverge by some threshold. Such a threshold should be chosen such that the rates remain close to the target rate but the number of calls to the module is not too high, since each call incurs gas costs.
 
