@@ -1,13 +1,13 @@
 ---
-description: >-
-  This set of documents intends to acquaint MKR Holders with the voting process and to serve as reference material for them to consult during the day-to-day operation of the protocol.
+Descripción: >-
+  Este conjunto de documentos tiene la intención de familiarizar a los poseedores de MKR con el proceso de votación y de servir como material de referencia para las consultas diarias en las operaciones del Protocolo.
 ---
 
-# Maker Operational Manual
+# Manual Operacional de Maker
 
-## More MakerDAO Documentation
-* [Introductory](https://makerdao.world/en/) @ MakerDAO.world
-* [Governance](https://manual.makerdao.com/) @ manual.makerdao.com **<-- You are here**
-* [Technical](https://docs.makerdao.com/) @ docs.makerdao.com
-* [Collateral Onboarding](https://collateral.makerdao.com/) @ collateral.makerdao.com
-* [MIPs Portal](https://mips.makerdao.com/) @ mips.makerdao.com
+## Mas Documentación de MakerDAO
+* [Introductoria](https://makerdao.world/en/) @MakerDAO.world
+* [Gobernanza](https://manual.makerdao.com/) @manual.makerdao.com **<-- Estás aquí**
+* [Técnica](https://docs.makerdao.com/) @docs.makerdao.com
+* [Incorporación de Colaterales](https://collateral.makerdao.com/) @collateral.makerdao.com
+* [Portal de MIPs](https://mips.makerdao.com/) @mips.makerdao.com

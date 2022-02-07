@@ -1,17 +1,17 @@
-# What is Delegation?
+# ¿Qué es la Delegación?
 
-Delegation is a mechanism through which MKR holders can entrust their voting power to one or more chosen delegates. These delegates can then vote using the MKR delegated to them. Delegates have no ability to access the MKR delegated to them directly.
+La delegación es un mecanismo mediante el cual los poseedores de MKR pueden confiar su 'poder de voto' a uno o más delegados elegidos. Estos delegados pueden entonces  votar utilizando los MKR que les fueron delegados. Los delegados no tienen una forma de acceso directo a los MKR que les fueron delegados.
 
-MKR holders are always able to vote on proposals directly if they do not wish to delegate their MKR tokens.
+Los poseedores de MKR pueden votar en las propuestas directamente siempre y cuando no quieran delegar sus tokens MKR.
 
-MakerDAO has two varieties of delegates.
+MakerDAO tiene dos tipos de delegados.
 
-## Recognized Delegates
-Recognized Delegates are whitelisted by the Governance Facilitators of MakerDAO. They must meet requirements for consistent participation in votes, and communication with the community.
+## Delegados Reconocidos
+Los Delegados Reconocidos están en la Lista Blanca de los Facilitadores de Gobernanza de MakerDAO. Deben cumplir con los requisitos para la participación constante en las votaciones y la comunicación con la comunidad.
 
-In exchange for meeting these requirements, Recognized Delegates are featured more prominently on voting frontends.
+A cambio de cumplir con estos requisitos, los Delegados Reconocidos son destacados de una forma más prominente en los _frontends_ de votación.
 
-Recognized Delegates act as a bridge between vote outcomes and other actors by actively and transparently communicating with the MakerDAO community.
+Los Delegados Reconocidos operan como un puente entre los resultados de las votaciones y otros actores al comunicarse activa y transparentemente con la comunidad de MakerDAO.
 
-## Shadow Delegates
-Shadow Delegates are permissionless, with no requirements or responsibilities beyond those they have agreed on directly with holders who delegate to them.
+## Delegados Anónimos
+Los Delegados anónimos no tienen permisos, tampoco requisitos ni responsabilidades más allá de los que han acordado directamente con los poseedores de MKR a los que delegan.

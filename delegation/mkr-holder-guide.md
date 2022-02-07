@@ -1,148 +1,151 @@
-# MKR Holders Guide To Delegation
+# Guía de Delegación para los Poseedores de MKR
 
-## Five Key Points
+## Cinco Puntos Clave
 
-* **Trust**  
-Delegation is an expression of trust of the MKR Holder in the delegate.
+* **Confianza**  
+El proceso de delegación es una expresión de confianza del poseedor de MKR hacia el delegado.
 
-* **Incentives**  
-Examine your delegate’s incentives. These are not solely monetary. These are not always permanent.
+* **Incentivos**  
+Examina los incentivos de tu delegado. Estos no son incentivos monetarios solamente y no son siempre permanentes.
 
-* **Recognition**  
-Recognized Delegates are safer than Shadow Delegates (but not by much).
+* **Reconocimiento**  
+Los Delegados Reconocidos son más confiables que los Delegados Anónimos (pero no por mucho).
 
-* **Balance**  
-Be aware of the checks on power among delegates and Core Units. Having only a few large delegates is a risk. Delegation to Core Unit personnel is not advised by GovAlpha.
+* **Equilibrio**  
+Ten en cuenta examinar el poder concedido entre delegados y Core Units. Tener solo unos pocos delegados es un riesgo. GovAlpha no recomienda delegar en personal que sea miembro de Core Units.
 
-* **Cost-Benefit**  
-Responsible Voting > Responsible Delegation > Apathy > Irresponsible Voting > Irresponsible Delegation. Responsible delegation is much, much cheaper than responsible voting and almost as good.
+* **Costo-Beneficio**  
+Voto Responsable > Delegación Responsable > Apatía > Voto Irresponsable > Delegación Irresponsable. La delegación responsable es mucho más económica que votación responsable y casi tan buena.
 
-## Trust
+## Confianza
 
-Trust has taken on a bad name in the crypto-space. Frequently this is for a good reason. Nevertheless, trust plays a key role in life and human interaction. Trust comes into play heavily in delegation.
+La palabra confianza ha adquirido mala reputación en el crypto-espacio. Frecuentemente esto es por una buena razón. Sin embargo, la confianza juega un rol clave en la vida y en la interacción humana. En la delegación, la confianza viene a jugar un papel importante.
 
-**Delegation is an expression of trust from the MKR Holder to the delegate**
+**La Delegación es la expresión de confianza de los poseedores de MKR hacia los delegados**
 
-The fundamental trade-off made by MKR Holders when delegating is to benefit from the increased efficiency of governance, at the cost of trust and centralization. These costs are unavoidable, though they can be minimized by delegating responsibly.
+El principal intercambio que hacen los poseedores de MKR al momento de delegar es que se benefician de la creciente eficiencia de la Gobernanza a costa de la confianza y la centralización. Estos costos son inevitables, pero se pueden minimizar delegando de forma responsable.
 
-Ultimately the Maker Protocol (and the DAO) needs to have efficient enough governance to operate. If Maker cannot operate, then the MKR token will lose value. Likewise, if delegates collude and attack the Maker Protocol, then the MKR token will lose value.
+En última instancia el Protocolo Maker (y la DAO) necesita tener una gobernanza lo suficientemente eficiente para operar. Si Maker no puede operar, el token MKR perderá valor. Asímismo, si los delegados conspiran y atacan al Protocolo, el token también perderá valor.
 
-MKR Holders must create a balance between these two extremes that results in an operable protocol while minimizing risk of governance attack.
+Los Poseedores de MKR deben mantener un equilibrio entre estos dos polos extremos, que resulte en un protocolo operable mientras se minimicen los riesgos de ataque a la gobernanza.
 
-## Incentives
+## Incentivos
 
-The word ‘incentive’ has taken on a narrow meaning within the crypto-space. This meaning - primarily financial - has led to the exclusion of a myriad of other motivations that humans hold. Humans are both dynamic and varied in their motivations, and we should expect the same from delegates.
+La palabra ‘incentivo’ ha adquirido un significado limitado en el crypto-espacio. Este significado - principalmente financiero - ha excluido la mirada de otras motivaciones que mueven a los humanos. Los seres humanos son dinámicos y variados en sus motivaciones, deberíamos esperar los mismo de los delegados.
 
-**Examine your delegate’s incentives, these are not solely monetary, these are not always permanent.**
+**Examina los incentivos de tu delegado, estos no son solamente económicos y no son siempre permanentes.**
 
-The table below shows a selection of incentives that delegates can have. It is not meant to be exhaustive (people are complicated) but it covers the factors that GovAlpha could come up with.
+La tabla de abajo muestra una selección de los incentivos que los delegados podrían tener. No pretende ser exhaustiva (la gente es más compleja) pero cubre los factores que GovAlpha podría plantear.
 
-|Source|Incentive Type|Stability|Governance Controllable|
+| Fuente | Tipo de Incentivo | Estabilidad | Control de Gobernanza |
 | --- | --- | --- | --- |
-|Holds MKR|Extrinsic - Financial|Unstable|No|
-|Holds vested MKR|Extrinsic - Financial|Stable|No|
-|Paid percentage of Maker Protocol revenue|Extrinsic - Financial|Variable|Yes|
-|Maker Protocol is primary employment|Extrinsic - Financial|Variable|Yes|
-|Being a delegate delivers status + prestige|Extrinsic - Reputational|Unstable|No|
-|Values delegate work|Intrinsic - Character|Variable|No|
-|Maker Protocol benefits society|Intrinsic - Character|Variable|Variable|
-|Morality|Intrinsic - Character|Variable|No|
+| Poseedores de MKR | Extrínseco – Financiero | Inestable | No |
+| Poseedores de MKR adquirido | Extrínseco – Financiero | Estable | No |
+| Porcentaje pagado de los ingresos del Protocolo Maker | Extrínseco – Financiero | Variable | Si |
+| Protocolo Maker como empleo principal | Extrínseco – Financiero | Variable | Si |
+|Ser delegado ofrece estatus y prestigio | Extrínseco – Reputacional | Inestable | No |
+|Valorizar el trabajo de los delegados | Intrínseco – Carácter | Variable | No |
+|El Protocolo Maker beneficia a la sociedad | Intrínseco – Carácter | Variable | Variable |
+| Moralidad | Intrínseco – Carácter | Variable | No |
 
-There are several items of note that can be taken from this table:
+De esta tabla podemos tomar varios puntos de interés:
 
-1. Very few incentives are verifiably stable.
-2. Governance has control over some incentives.
-3. The character of the delegate is important.
+1. Muy pocos incentivos son estables de manera verificada.
+2. La Gobernanza tiene control sobre varios incentivos.
+3. El carácter del delegado es importante.
 
-To simplify this somewhat, if you are considering delegating your MKR. Ask yourself the following questions:
+Para simplificar esto un poco, si estas considerando delegar tus MKR, hazte estas preguntas:
 
-* Does this delegate hold MKR? Is it locked for the duration of the delegate contract lifespan?
-* Is this delegate paid by the protocol or an external actor? If the latter, who and what is their objective?
-* Is this delegate reliant on the Maker Protocol for their own financial stability?
-* Does this delegate have a reputation on the line? Do they care about their reputation?
-* Does this delegate enjoy being a delegate? Have they reliably enjoyed it in the past?
-* Does this delegate believe the Maker Protocol is a public good?
-* Does this delegate display strong morals? Are they a trustworthy person?
+* ¿Este delegado posee MKR? Y si es así, ¿estos MKR se mantienen bloqueados mientras el contrato del delegado esté vigente?
+* ¿A este delegado le paga el Protocolo o un actor externo? En caso de ser la segunda opción, ¿quién es y cuáles son sus objetivos?
+* ¿La estabilidad económica de este delegado depende del Protocolo Maker?
+* ¿Este delegado tiene una reputación online? ¿Se preocupa por su reputación?
+* ¿Este delegado disfruta ser delegado? ¿Lo ha disfrutado de manera segura en el pasado?
+* ¿Este delegado cree que el Protocolo Maker es un bien público?
+* ¿Este delegado demuestra un fuerte sentido moral? ¿Es una persona de confianza?
 
-Many of these questions are hard to answer, hence the requirements for trust:
+Muchas de estas preguntas son difíciles de responder. Para generar confianza hay que tener en cuenta lo siguiente:
 
-* ...that the delegate is accurately representing their incentives.
-* ...that you have accurately judged the delegate’s represented incentives.
-* ...that the delegate’s incentives are stable over time or that you will be engaged enough to manage changes.
+* ... que el delegado represente sus incentivos con exactitud.
+* ... que hayas juzgado con precisión qué incentivos representa el delegado.
+* ... que los incentivos del delegado permanezcan estables a través del tiempo o que tu estés lo suficientemente comprometido como para manejar posibles cambios.
 
-## Recognition
+## Reconocimiento
 
-The split into Recognized and Shadow Delegates has a few advantages. One of which is the integration of reputational collateral for the Recognized Delegates. By requirement, they are publicly known. This gives them an incentive to do a good job with any MKR delegated to them on pain of damaging their reputation.
+La división entre Delegados Reconocidos y Delegados Anónimoso0 presenta algunas ventajas. Una de las cuales es el peso reputacional que tienen los delegados reconocidos. Por requisito, tienen que ser conocidos públicamente. Esto los incentiva a desempeñar un buen trabajo con cualquier MKR que se les delegue, ya que de lo contrario se vería afectada su propia reputación.
 
-**Recognized Delegates are safer than Shadow Delegates (but not by much).**
+**Los delegados reconocidos son más confiables que los delegados desconocidos (pero no por mucho).**
 
-However, reputation is only one source of incentive alignment, it helps, but it is not a guarantee that a delegate is trustworthy.
+Sin embargo, la reputación es solo un incentivo, si ayuda, pero no es una completa garantía de confianza.
 
-By default, Shadow Delegates lack even this incentive alignment. GovAlpha recommends that MKR Holders consider delegating to a Shadow Delegate only under the following circumstances:
+Por defecto, los delegados desconocidos carecen de este incentivo. GovAlpha recomienda al usuario que solo considere delegar sus MKR a delegados desconocidos bajo las siguientes condiciones:
 
-* The Shadow Delegate has verifiably locked more MKR than you plan to delegate to them for the duration of the delegate contract lifespan.
-* You have a personal or professional relationship with the Shadow Delegate that the Shadow Delegate values.
-* There are no Recognized Delegates.
-* MKR is concentrated in the hands of too few Recognized Delegates.
+* Que el delegado desconocido haya bloqueado de forma verificable más MKR del que tu planeas delegarle durante la vigencia del contrato.
+* Que tengas una relación personal o profesional con el delegado desconocido, que este valore.
+* Que no hayan delegados reconocidos.
+* Que el MKR este concentrado en las manos de muy pocos delegados reconocidos.
 
-## Balance
 
-The distribution of power within the Maker Protocol is governed by a moderately complex web of checks and balances. By and large, the disengaged MKR Holder does not need to worry too deeply about this. That said, there are a couple of places where this impacts delegation.
+## Equilibrio
 
-**Be aware of the balance of power among Delegates and Core Units.**
+La distribución del poder dentro del Protocolo Maker se rige por una red moderadamente compleja de controles y equilibrios. En general, el Titular de MKR desvinculado de la gobernanza no necesita preocuparse demasiado por esto. Sin embargo, hay un par de situaciones en las que esto afecta a la delegación.
 
-There are two main points to consider here.
+**Ten en cuenta el balance de poder entre los Delegados y las Core Units.**
 
-**#1 Delegate-Delegate Balance**
+Hay dos puntos principales a considerar aquí.
 
-The more delegates that have a say in the passing or not-passing of proposals, the better. If your favorite delegate already has a large amount of MKR delegated to them, consider delegating to a different delegate.
+**#1 Equilibrio Delegado-Delegado**
 
-The delegation contracts support MKR Holders splitting their MKR between multiple delegates. This may be advisable to mitigate the risk posed by any individual delegate.
+Cuantos más delegados tengan voz en la aprobación o no de las propuestas, mejor. Si tu delegado favorito ya tiene una gran cantidad de MKR delegados, considere la posibilidad de delegar en otro delegado distinto.
 
-In the longer term, GovAlpha would like to see a community of tens of delegates to effectively mitigate centralization risk.
+Los contratos de delegación permiten a los poseedores de MKR dividir sus MKR entre varios delegados. Esto puede ser recomendable para disminuir el riesgo que supone delegar todo en una sola persona.
 
-**#2 Delegate-Core Unit Balance**
+En un largo plazo, a GovAlpha le gustaría ver una comunidad de decenas de delegados para mitigar de forma efectiva el riesgo de la centralización.
 
-Delegates and Core Units are a check on each other's power. Delegates can propose (and potentially vote through) whatever they want. However, they require experienced personnel to construct proposals. Further, any decision that impacts the Core Units requires their implicit consent to accept that impact.
+**#2 Equilibrio Delegado-Core Unit**
 
-On the other hand, delegates can refuse to vote through proposals created by the Core Units, if they do not believe they are in the interests of MKR Token Holders.
+Los Delegados y las Core Units ejercen control sobre el poder de ambos mutuamente. Los delegados pueden proponer (y potencialmente votar) lo que quieran. Sin embargo, necesitan personal experimentado para elaborar las propuestas. Además, cualquier decisión que afecte a las Core Units requiere su consentimiento implícito para aceptar dicho impacto.
 
-In the worst case, a complete combination of the two groups means that a single collection of entities is responsible for implementating and ratifying changes.
+Por otro lado, los delegados pueden negarse a votar las propuestas creadas por las Core Units, si no creen que estas vayan en pro de los intereses de los poseedores del token MKR.
 
-Here are some examples of potential negative outcomes that could result from the combination of Core Units and Delegates:
+En el peor de los casos, una combinación completa de los dos grupos implicaría que un solo conjunto de entidades sean los responsables de implementar y ratificar los cambios.
 
-* Core Units proposing and approving their own budgets.
-* Delegates constructing and approving their own remuneration.
-* Reduction of transparency to the community and MKR Holders.
-* Core Units with attached delegates receiving a disproportionate amount of budget relative to those without representation.
-* Centralization of control within the DAO.
+He aquí algunos ejemplos de posibles resultados negativos que podrían derivarse de la combinación de Core Units y Delegados:
 
-All this being said, GovAlpha is aware that exceptional individuals and circumstances may exist. We are aware that no rule can be enforced here due to the permissionless nature of the delegate contracts.
+* Core Units que propongan y aprueben sus propios presupuestos.
+* Delegados que construyan y aprueben sus propias remuneraciones.
+* Reducción de la transparencia hacia la comunidad y los poseedores de MKR.
+* Core Units con delegados adjuntos que reciban una cantidad desproporcionada de presupuesto en relación con las que no tienen representación.
+* Centralización del control dentro de la DAO.
 
-We leave it to MKR token holders to judge when and if it is appropriate to delegate to Core Unit personnel.
+Dicho esto, GovAlpha es consciente de que pueden existir individuos y circunstancias excepcionales. Somos conscientes de que aquí no se puede aplicar ninguna regla debido a la naturaleza de los contratos de delegado.
 
-## Cost-Benefit
+Dejamos a los poseedores de tokens MKR que juzguen cuándo y si es apropiado delegar en personal que sea miembro de una Core Unit.
 
-The cost-benefit calculation to governance of the Maker Protocol has never been particularly favorable to MKR holders. There is much to govern and much to keep up with. Delegation represents a long-awaited improvement to this calculus.
 
-**Responsible Voting > Responsible Delegation > Apathy > Irresponsible Voting > Irresponsible Delegation.**
 
-Delegation increases the variability of outcomes relative to individuals voting. The chance for greater governance effectiveness exists, but it is balanced by a greater amount of centralization and collusion risk.
+## Costo-Beneficio
 
-With individuals voting, there is less chance for effective governance, but also less chance for malicious governance. With delegation, there is a greater chance for both outcomes. For this reason, we view apathy as preferable to irresponsible delegation.
+Los cálculos de costo-beneficio para la gobernanza del Protocolo Maker nunca han sido especialmente favorables para los poseedores de MKR. Hay mucho que gobernar y muchas cosas pasando al mismo tiempo. La delegación viene a mejorar para esta situación.
 
-**Responsible delegation is much, much cheaper than responsible voting and almost as good.**
+**Voto responsable > Delegación responsable > Apatía > Voto irresponsable > Delegación irresponsable.**
 
-That said, responsible delegation is much, much cheaper than responsible voting, and almost as effective.
+La delegación aumenta la variabilidad de los resultados relativos a votantes individuales. Existe la posibilidad de una mayor eficacia en la gobernanza, pero es balanceada con un mayor riesgo de centralización.
 
-To aid in cost-benefit judgments, here is our estimate of the cost-to-the-individual in terms of responsible delegation to one or more Recognized Delegates. Note that delegate contracts currently expire every year. So these should be considered annual costs:
+Con el voto individual, hay menos posibilidades de una gobernanza eficaz, pero también menos posibilidades de una gobernanza maliciosa. A través de la delegación, se pueden llegar a ambos resultados. Por esta razón, consideramos que la apatía es preferible a la delegación irresponsable.
 
-* Spend a few hours reading over the Recognized Delegate platforms, figure out which delegates care about what you care about. Watch ‘Meet Your Delegate’ recordings if you prefer video.
-* Spend 30 minutes thinking about incentives and trust in relation to your chosen delegate(s).
-* Take note of the metrics surfaced by GovAlpha on the ‘semi-official’ voting platform.
-* Spend gas to delegate your MKR to your chosen delegates.
-* Spend 30 minutes a month to check in. Check your delegate is still active, check their metrics are still good.
+**La delegación responsable es mucho más barata que el voto responsable y casi tan buena.**
 
-Ineffective or participation-starved governance will kill the Maker Protocol over the long-term just as surely as governance attacks will in the short term.
+Dicho esto, la delegación responsable es mucho más barata que el voto responsable y casi tan eficaz.
 
-If you are holding non-trivial amounts of capital in the MKR token, GovAlpha believes you should seriously consider delegating responsibly.
+Para entender mejor la relación costo-beneficio, aquí está nuestra estimación de costo para el individuo en términos de delegación responsable de uno o más Delegados Reconocidos. Hay que tener en cuenta que en la actualidad los contratos de los delegados expiran cada año. Por lo tanto, deben considerarse costos anuales:
+
+* Dedicar unas horas a leer las plataformas de los delegados reconocidos y averigüe qué delegados se preocupan por los temas que a usted le interesa. De igual forma vea los videos de "Conozca a su delegado".
+* Dedicar 30 minutos a pensar en los incentivos y la confianza en relación con el delegado o delegados que hayas elegido.
+* Tener en cuenta las métricas expuestas por GovAlpha en la plataforma de votación "semi oficial".
+* Gastar gasolina para delegar tu MKR.
+* Dedicar 30 minutos al mes para revisar todo. Comprobar que tu delegado sigue activo, y asegurarte que sus métricas siguen siendo buenas.
+
+Un gobierno ineficaz o falto de participación acabará con el Protocolo Maker a largo plazo, de igual forma los ataques a la gobernanza pueden acabarlo en un corto plazo.
+
+Si tienes cantidades considerables de capital en el token MKR, GovAlpha cree que deberías considerar la posibilidad de delegar forma responsable.

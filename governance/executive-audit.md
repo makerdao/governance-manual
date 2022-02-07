@@ -1,116 +1,123 @@
-# Auditing Executive Spells
+###### tags: `Translations`
 
-This is a guide to help MKR Holders verify executive spells in the Maker Protocol before voting for them.
+# Auditoría de los _Spells_ Ejecutivos
 
-This document contains four main sections:
+Esta es una guía para ayudar a los poseedores de MKR a verificar los _spells_ ejecutivos en el Protocolo de Maker antes de votar por ellos.
 
-1. **Finding the Contract Code** - deals with locating the code for the executive in question.
+Este documento contiene 4 secciones principales:
 
-2. **Validating Executive Code and Copy** - deals with ensuring that the spell and associated copy is as expected.
+1. **Encontrar el Código del Contrato** - se ocupa de localizar el código del ejecutivo en cuestión.
 
-3. **Anatomy of a Spell Contract** - shows examples of the main sections you should expect to see in an executive spell.
+2. **Validar el Código y Copia del Ejecutivo** - se ocupa de asegurar que el _spell_ y su copia asociada se encuentren según lo esperado.
 
-4. **A Non-Exhaustive Checklist** - includes a list of the major things to double check and how to do so.
+3. **Anatomía del Contrato de un _Spell_** - muestra ejemplos de las secciones principales que se esperan encontrar en un _spell_ ejecutivo.
 
-The key approach when reviewing an executive spell is that if any part of an executive spell seems suspicious or confusing in any way it is always better to double check before voting. Even if you are mistaken in your concerns, this informs us to add more detail to this document to prevent someone becoming confused in the same way in the future.
+4. **Lista de Verificación No Exhaustiva**: incluye una lista de las cosas más importantes para chequear dos veces y cómo hacerlo.
 
-## Finding the Contract Code
+El enfoque clave al revisar un _spell_ ejecutivo es que si alguna parte de un _spell_ ejecutivo parece sospechosa o confusa de alguna manera, siempre es mejor verificar dos veces antes de votar. Aunque te encuentres equivocado con respecto a tus inquietudes, esto nos informa que debemos agregar más detalles a este documento para evitar que alguien se confunda de la misma forma en el futuro.
 
-The link to the spell on etherscan can be found on the voting portal in the 'Proposal details' pane. Look for the `Spell Address` property:
+## Encontrar el Código del Contrato
+
+El link al _spell_ en Etherscan se puede encontrar en el Portal de Votación en el panel de "Detalles de Propuestas". Busca por la propiedad `Spell Address`:
 
 ![](https://i.imgur.com/qdAfqZM.png)
 
-Clicking on the `Spell Address` will open the spell in Etherscan, where the viewer can click on the Contract tab to view the code:
+Dándole clic a `Spell Address` abrirá el _spell_ en Etherscan, donde el espectador puede hacer clic en la pestaña del Contrato para ver el código:
 
 ![](https://i.imgur.com/vrIClir.png)
 
-The contract code should be visible. If it is only possible to see bytecode (meaning that the contract is unverified) then the executive should be viewed as potentially malicious. In this case, cry foul in chat and encourage people NOT to vote for it until the verified contract code is made available.
+El código del contrato debería ser visible. Si solo es posible ver el código de bytes (lo que significa que el contrato no está verificado), entonces el ejecutivo debe verse como potencialmente malicioso. En este caso, pega un grito en el chat y anima a las personas a NO votar por él hasta que el código del contrato verificado esté disponible.
 
-Beyond looking in the [Governance Portal](www.vote.makerdao.com), current and past executive spell copy can also be found on [Github](https://github.com/makerdao/community/tree/master/governance/votes).
+Más allá de buscar en el [Portal de Gobernanza](www.vote.makerdao.com), también puedes encontrar en [Github](https://github.com/makerdao/community/tree/master/governance/votes) la copia de los _spell_ ejecutivo actuales y pasados.
 
-## Validating Spell Code
+## Validar el Código del _Spell_
 
-Validate that the on-chain Etherscan code matches the corresponding [archive code](https://github.com/makerdao/spells-mainnet/tree/master/archive) or the most [recent executive](https://github.com/makerdao/spells-mainnet/tree/master/src) in Github.  If it is not possible to locate the most recent spell, it may be because this has not been merged to the master branch before it goes live, in which case changes can be found in the pending [pull requests](https://github.com/makerdao/spells-mainnet/pulls). 
+Valida que el código Etherscan _on-chain_ coincida con el [código archivado](https://github.com/makerdao/spells-mainnet/tree/master/archive) correspondiente o con el [ejecutivo más reciente](https://github.com/makerdao/spells-mainnet/tree/master/src) en Github. Si no es posible ubicar el _spell_ más reciente, puede deberse a que aún no se ha fusionado con la rama maestra antes de que se active, si ese es el caso, los cambios se pueden encontrar en las [solicitudes de _pulls_](https://github.com/makerdao/spells-mainnet/pulls) pendientes.
 
-To do this code comparison, use a program called [Diff Checker](https://www.diffchecker.com/) to compare the Etherscan spell code against the relevant Github code. Clicking `find difference` will illustrate any differences between the two.
+Para hacer esta comparación de códigos, usa el programa llamado [Diff Checker](https://www.diffchecker.com/) para comparar el _spell_ en Etherscan contra el código correspondiente en Github. Cliqueando en `find difference` (_encontrar diferencias_) podrás ver cualquier diferencia encontrada entre ambos códigos.
 
-Note, the Etherscan code will also illustrate interfaces to the DssExecLib, represented by the additional green section at the top of the file, which includes the following for awareness:
+Ten en cuenta que el código de Etherscan también mostrará las interfaces de DssExecLib, representadas por la sección verde adicional en la parte superior del archivo, que incluye lo siguiente para tu conocimiento:
 
 ```
 The following library code acts as an interface to the actual DssExecLib
 library, which can be found in its own deployed contract. Only trust the actual
 library's implementation.
 ```
-This means that it is the DssExecLib [library](https://github.com/makerdao/spells-mainnet/tree/master/lib) itself that should be reviewed, and is something that will be covered in the following spell anatomy section. Otherwise, everything below this green text should be identical to the spell contents as presented in Github.
+###### _'El siguiente código de biblioteca actúa como una interfaz para la biblioteca real de DssExecLib, que se puede encontrar en su propio contrato implementado. Solo confía en la implementación de la biblioteca actual.'_
+
+Esto significa, que esta es la [biblioteca](https://github.com/makerdao/spells-mainnet/tree/master/lib) de DssExecLib que debería revisarse y que será cubierto en la próxima sección de anatomía de un _spell_. De lo contrario, todo lo que se encuentra debajo de este texto verde debe ser idéntico al contenido del _spell_ tal como se presenta en Github.
 
 ![](https://i.imgur.com/AaG6YDc.png)
 
-In the above example, the comparison is between this [Github file](https://github.com/makerdao/spells-mainnet/blob/master/archive/2021-09-24-DssSpell.sol) against the corresponding [Etherscan contract code](https://etherscan.io/address/0x0ed5a04DdE29f90bB00529608D3f17C1ffF778A0#code). 
+En el ejemplo anterior, la comparación se realiza entre el [archivo en Github](https://github.com/makerdao/spells-mainnet/blob/master/archive/2021-09-24-DssSpell.sol) contra el [código de contrato de Etherscan](https://etherscan.io/address/0x0ed5a04DdE29f90bB00529608D3f17C1ffF778A0#code) correspondiente.
 
-### Validating Governance Copy
+### Validar la Copia de la Gobernanza
 
-To ensure that the various actors (including governance facilitators, and smart contract developers) are aligned, the body of the spell includes a hash of the github copy that appears on the governance portal. This hash is included in the spell to confirm that the smart contract developers building the spell have referenced the correct copy being voted on. The hash appears in the spell in this manner:
+Para garantizar que los diversos actores (incluidos los Facilitadores de la Gobernanza y los desarrolladores de _smart contracts_) estén alineados, el cuerpo del _spell_ incluye un hash de la copia de github que aparece en el portal de la Gobernanza. Este hash se incluye en el _spell_ para confirmar que los desarrolladores de _smart contracts_ que crean el _spell_ han hecho referencia a la copia correcta que se está votando. El hash aparece en el hechizo de esta manera:
 
 ```
 "2021-09-24 MakerDAO Executive Spell | Hash: 0x655e71cb00b63a11c14db615d43d3e59202ff9d2b2bc6a6a03de42e258bd1be8";
 ````
 
-To validate that the governance portal copy on vote.makerdao.com which is reflected on [Github](https://github.com/makerdao/community/tree/master/governance/votes) has the same hash as is stored in the executive spell, the user can copy and paste the body of the gituhub text into this online [Github tool](https://emn178.github.io/online-tools/keccak_256.html) to generate and match the hash.
+Para validar que la copia en el [Portal de la Gobernanza](vote.makerdao.com), que se encuentra reflejada en [Github](https://github.com/makerdao/community/tree/master/governance/votes), tenga el mismo hash que la que se encuentra en el _spell_ ejecutivo, el usuario puede copiar y pegar el cuerpo del texto en Github en esta [herramienta online](https://emn178.github.io/online-tools/keccak_256.html) de Github para generar el hash y ver si coinciden.
 
-Alternatively, the user can generate this hash run the following seth command:
+Alternativamente, el usuario puede generar este hash ejecutando el siguiente comando seth:
 
 ```
 seth keccak -- "$(wget https://raw.githubusercontent.com/makerdao/community/f33870a7938c1842e8467226f8007a2d47f9ddeb/governance/votes/Executive%20vote%20-%20October%208%2C%202021.md -q -O - 2>/dev/null)"
 ```
-If the hash does not match, it would be prudent to question the spell contents and the copy that was referenced or changed.
+Si el hash no coincide, sería prudente cuestionar los contenidos del _spell_ y la copia a la que hace referencia o fue modificada.
 
-## Anatomy of an Executive
-An executive spell is broken into a number of different parts, including; spell libraries, spell actions, and constructors, which will be reviewed below.
+## Anatomía de un Ejecutivo
+Un _spell_ ejecutivo se divide en varias partes, incluyendo: biblioteca de _spells_, acciones de _spells_ y constructores, las cuales se revisarán a continuación.
 
-### Spell Library
-MakerDAO's executive spells have evolved over time towards using libraries in an effort to automate the process of making repetetive updates and changes to protocol parameters. Libraries reduce the chance of errors by reusing or building upon prior tested and verified code.
+### Biblioteca de _Spells_
 
-In auditing the executive it is first necessary to check that the spell uses the dss-exec-lib library and secondly, that the library is the official and legitimate library. This can be confirmed by looking at the spell copy in Etherscan.
+Los _spells_ ejecutivos de MakerDAO han evolucionado con el tiempo hacia el uso de bibliotecas en un esfuerzo por automatizar el proceso de realizar actualizaciones y cambios repetitivos en los parámetros del Protocolo. Las bibliotecas reducen la posibilidad de errores mediante la reutilización o la creación de código previamente probado y verificado.
 
-The user can confirm that the executive is using the `dss-exec-lib` ,  by identifying the entry point for DssSpell is DssExec at the bottom of the contract code:
+Al auditar el ejecutivo, es necesario verificar primero que el hechizo use la biblioteca `dss-exec-lib` y, en segundo lugar, que la biblioteca sea la biblioteca legítima y oficial. Esto se puede verificar mirando la copia del _spell_ en Etherscan.
+
+El usuario puede confirmar que el ejecutivo esté usando la biblioteca `dss-exec-lib` identificando que el punto de entrada para DssSpell es DssExec en la parte inferior del código del contrato:
 
 ```
 contract DssSpell is DssExec
 ```
+###### '_El Contracto DssSpell es DssExec._'
 
-It is then necessary to validate that the correct library is linked to and therefore importing the right code. By remaining on the etherscan contract tab, one can scroll to the bottom of the page and view the address of the DssExecLib:
+Entonces es necesario validar que la biblioteca correcta esté vinculada y, por lo tanto, importar el código correcto. Al permanecer en la pestaña de contrato de etherscan, uno puede desplazarse hasta la parte inferior de la página y ver la _address_ de DssExecLib:
 
 ![](https://i.imgur.com/OJfhqkr.png)
 
-To verify that DssExecLib is not malicious, the user can take the code block and compare it against a known repo, such as [makerdao/dss-exec-lib](https://github.com/makerdao/dss-exec-lib/tree/47bf15efe4cc9c737608c6acefb9de37fb3b3c7f) to validate any changes that may be present. Using Diff Checker is again useful for this purpose.
+Para verificar que DssExecLib no es maliciosa, el usuario puede tomar el bloque del código y compararlo contra un repositorio conocido, como [makerdao/dss-exec-lib](https://github.com/makerdao/dss-exec-lib/tree/47bf15efe4cc9c737608c6acefb9de37fb3b3c7f), para validar cualquier cambio que pueda estar presente. El uso de Diff Checker puede ser útil para este propósito.
 
-It is also important to compare the address of the ExecLib from Etherscan against the Makerdao [Makefile](https://github.com/makerdao/spells-mainnet/blob/master/Makefile) and ensure that it matches the DssExecLib address:
+También es importante comparar la _address_ de la ExecLib de Etherscan contra el [Makefile](https://github.com/makerdao/spells-mainnet/blob/master/Makefile) de MakerDAO y asegurarse que este coincide con la _address_ de DssExecLib:
 
 ![](https://i.imgur.com/NpVIocV.png)
-With the above matching, the user should be confident that the referenced library is indeed valid.
 
-### Spell Constructor
+Si lo dicho anteriormente coincide, el usuario puede estar seguro de que la biblioteca a la que se hace referencia es realmente válida.
 
-Now that the user is satisfied that the library is valid, it is possible to return to the spell and review the last line which reveals the DssExec constructor which determines the schedule and cast constraints:
+### Constructos de _spells_
+
+Ahora que el usuario se encuentra seguro de que la biblioteca es válida, es posible volver al _spell_ y revisar la última línea que revela el constructor de DssExec que determina la programación y las restricciones de la emisión:
+
 ```
 {
     constructor() DssExec(block.timestamp + 30 days, address(new DssSpellAction())) public {}
 }
 ```
+Esta línea llama al código del constructor dentro de la biblioteca DssExec y le pasa una fecha de caducidad, por lo que cada vez que se crea este _spell_, toma la fecha del bloque actual y agrega una cantidad de días, en este caso 30 días. Esto debe alinearse con el proceso de la Gobernanza. También es necesario asegurarse de que esto pase por el bloque de código del DssSpellAction anterior, que es la instancia del _spell_.
 
-This line calls the constructor code inside the DssExec Library and passes it an expiration timestamp, so whenever this spell is created, it takes the current block timestamp and adds a number of days, in this case 30 days. This should align with Governance process. It is also necessary to ensure that this passes the above DssSpellAction code block which instantiates the spell.
+Vale la pena señalar que, aunque el constructor determina la programación y las restricciones de la emisión, estas variables se abstrajeron en [ExecLib](https://github.com/makerdao/dss-exec-lib/blob/master/src/DssExec. sol), y ya no aparecen en el _spell_.
 
-It is worth noting that although the constructor determines schedule and cast constraints, these variables have been abstracted away into the [ExecLib](https://github.com/makerdao/dss-exec-lib/blob/master/src/DssExec.sol), and no longer appear in the spell.
+Luego de llamar a `schedule` ("programar") y después de que finalice el retraso, cualquiera puede llamar a `cast` ("emisión"), que ejecutará el código en la función `DssSpellActions` de SpellAction, que se encuentra a continuación.
 
-After `schedule` has been called and after the delay is up, anyone can call `cast` which will execute the code in the SpellAction's `DssSpellActions` function, below.
+### Acciones de los _Spells_
 
-### Spell Actions
+Ahora que hay confianza en el _framework_ en torno al _spell_ y la biblioteca externa, es posible concentrarse en las Acciones de los _Spells_, que es la mayor parte de lo que se programa y lanza para su ejecución.
 
-Now that there is confidence in the framework around the spell and the external library, it is possible to focus on Spell Actions, which is the bulk of what is getting scheduled and cast for execution. 
+Los usuarios que han revisado _spells_ anteriores, pueden recordar el uso de la función `execute` ("ejecutar"). Esto ya no se usa debido a que las acciones de _spells_ se emplean para apuntar a ExecLib y realizar cambios en el Protocolo. Una vez más, esto destaca la importancia de la biblioteca y un enfoque útil para reducir el tamaño de los _spells_.
 
-Users reviewing past spells may recall the use of the `execute` function. This is no longer used as Spell Actions are used to point to the ExecLib to make protocol changes. Again this highlights the importance of the library and a useful approach for reducing the size of spells.
-
-As a general rule, it is important to check everything in the section before or after the Spell Actions is a **constant**, as shown here for example:
+Como regla general, es importante verificar que todo en la sección anterior o posterior a las Acciones de los _Spells_ sea una **constante**, por ejemplo, como se muestra aquí:
 
 ```
 contract DssSpellAction is DssAction {
@@ -133,9 +140,10 @@ contract DssSpellAction is DssAction {
     function actions() public override {
 ```
 
-If any of these values are not constants, they could present malicious code in the form of memory mutations impacting the function of the pause proxy, and the community should be alerted. This risk is further covered below in the Constant Variables section.
+Si alguno de estos valores no es constante, esto podría presentar un código malicioso en forma de mutaciones de memoria que afecten la función del proxy de pausa y se debe alertar a la comunidad. Este riesgo se cubre más adelante en la sección de Variables Constantes.
 
-As mentioned in the library section above, standard actions will typically use DssExecLib calls to perform an action in a safe way. For non-standard actions, these will fall back to direct system calls. Some examples include:
+
+Como se mencionó en la sección de la biblioteca, las acciones estándar generalmente usarán DssExecLib para realizar una acción de manera segura. Para las acciones no estándar, estas recurrirán a las llamadas directas al sistema. Algunos ejemplos incluyen:
 
 ```
 function actions() public override {
@@ -156,52 +164,61 @@ function actions() public override {
 
 
 
-### Office Hours
-The office hours function determines whether or not the spell, once voted in, is limited to being scheduled between 10:00 - 16:00 EST weekdays. Setting the value to true/false specifically enumerates whether it is applied or not. 
+### Horario de Oficina
 
-If this function is missing from the Spell Action, the code will fall back to the default office hours state there, which is true (office hours on)
+La función de horario de oficina determina si el _spell_, una vez votado, se limita o no a programarse entre las 10:00 y las 16:00 EST de lunes a viernes. Para saber si debe aplicarse o no, se establece el valor booleano _true_/_false_ ("verdadero/falso").
+
+Si falta esta función en la Acción de los _Spells_, el código volverá al estado de horario de oficina que se encuentre predeterminado, el cual es _true_ (horario de oficina _on_)
+
 ```
 function officeHours() public virtual returns (bool) {
     return true;
 ```
-Such a value is `true` when new changes may impact integrators or auction keepers, and is otherwise `false` when office hours are not applied - meaning the spell can be cast at anypoint once successfully voted in. The code determining these rules has also been [abstracted](https://etherscan.io/address/0xfD88CeE74f7D78697775aBDAE53f9Da1559728E4#code#L335) away into the ExecLib.
 
-## Non Exhaustive Checklist
+Tal valor es `true` cuando los nuevos cambios pueden afectar a los integradores o a los encargados de las subastas, y es `false` cuando no se aplica el horario de oficina, lo que significa que el _spell_ se puede lanzar en cualquier momento una vez que se haya votado con éxito. El código que determina estas reglas también ha sido [abstraído](https://etherscan.io/address/0xfD88CeE74f7D78697775aBDAE53f9Da1559728E4#code#L335) en ExecLib.
 
-### Verify that the contract code is visible
-Using the instructions above, find the contract code on Etherscan and ensure that it is visible and verified. Similarly ensure that the ExecLib is correctly referenced. verify that these match what the smart contract developers have published/deployed.
+## Lista de Verificación No Exhaustiva
 
-### Verify that the frontend copy matches the copy used to build the spell
-Create a hash of the github/frontend copy and reference this against the hash in the spell to confirm that the two align.
+### Verificar que el código del contrato sea visible
+Usando las instrucciones detalladas anteriormente, encuentra el código del contrato en Etherscan y asegúrate de que este sea visible y esté verificado. Del mismo modo, asegúrate de que se haga referencia a ExecLib correctamente. Verifica que estos coincidan con lo que los desarrolladores de _smart contracts_ han publicado/implementado.
 
-### Verify the constructor is as expected
-Ensure that the spell's expiry matches previous spells, includes the DssActions code block and that schedule and cast functions exist in DssExecLib. If the Constructor does not match previous functions, there should be an explanation as to why.
+### Verifica que la copia de la interfaz coincida con la copia utilizada para construir el _spell_
+Crea un hash de la copia de github/_frontend_ ("interfaz") y compáralo contra el hash en el _spell_ para confirmar que los dos estén alineados.
 
-### Review the changelog
-Ensure that DssExecLib calls out to the changelog with the correct name descriptors. (these used to be spell addresses, but have since been replaced with name descriptors for simplicity and error reduction). It is therefore good practice to review the changelog to ensure that the correct name descriptor has been referenced as part of the on-chain action.
+### Verifica que el constructor sea el esperado
+Asegúrate que la caducidad del _spell_ coincida con los _spells_ anteriores, esto incluye al bloque de código DssActions y que las funciones de programación y emisión existan en DssExecLib. Si el Constructor no coincide con las funciones anteriores, debe haber una explicación del por qué.
 
-### Review oracle addresses
-Occasionally, there are spells involving Oracles - generally adding addresses to the whitelist, and occasionally adding a new oracle. These addresses must also be carefully verified. To do so it is necessary to go to the [Changelog](https://changelog.makerdao.com/) and look for e.g. `PIP_ETH`. Taking the contract to Etherscan and opening the contract `read` tab will display the `src` (listed as number 7 currently). The contract address listed there can be verified to match the `MedianETHUSDcontract` that is in the spell.
+### Revisa el _Changelog_
 
+Asegúrate de que DssExecLib llame al _changelog_ ("registro de cambios") con los descriptores de nombre correctos (estas solían ser _addresses_ ortográficas, pero desde entonces han sido reemplazadas por descriptores de nombres para su simplicidad y reducción de errores). Por lo tanto, es una buena práctica revisar el _changelog_ para asegurarte que hayas hecho referencia al descriptor de nombre correcto como parte de la acción _on-chain_.
 
-### Review rate changes
-Rates are defined as per-second accumulation values. These values can be validated against the commented rate by using the bc command in a bash shell. Using the `NEW_FEE ` variable in the example contract the following is visible:
+### Revisa las _addresses_ de Oráculos
 
-`bc -l <<< 'scale=27; e( l(1.095)/(60 * 60 * 24 * 365) )` 
+Ocasionalmente, hay _spells_ que involucran a Oráculos, generalmente agregando _addresses_ a la lista y ocasionalmente, agregando un nuevo oráculo. Estas _addresses_ también deben verificarse cuidadosamente. Para hacerlo, es necesario ir al [_Changelog_](https://changelog.makerdao.com/) y buscar, como por e.j: `PIP_ETH`. Llevar el contrato a Etherscan y abrir la pestaña `read` ("leer") del contrato, que mostrará el `src` ("fuente"; aparece como número 7 actualmente). La _address_ del contrato que aparece allí se puede verificar para que coincida con el `MedianETHUSDcontract` ("Contrato medio de ETHUSD") que se encuentra en el _spell_.
 
-This produces 1.000000002877801985002875644. Removing the decimal place will allow you to see that this matches the definition of `NEW_FEE`.
+### Revisa los cambios de tasa
 
-Validating all rate adjustments can be done the same way. For more information on the rates module, please visit the  [developer guides github](https://github.com/makerdao/developerguides/blob/master/mcd/intro-rate-mechanism/intro-rate-mechanism.md). For easy reference, common pre-computed rates can also be viewed at the following [ipfs link](
-https://ipfs.io/ipfs/QmefQMseb3AiTapiAKKexdKHig8wroKuZbmLtPLv4u2YwW).
+Las tasas se definen como valores de acumulación por segundo. Estos valores se pueden validar con la tasa comentada usando el comando bc en una shell bash. En el ejemplo, usando la variable `NEW_FEE` en el contrato, se ve lo siguiente:
 
-### Review DssExecLib to ensure Drip is called before rates are changed
-When making rate changes, `drip`must be called on the respective contracts. For example, if a DSR rate change is being made, `drip`is called on the `pot` or if the stability fee is being changed on a collateral type, it is necessary to call `drip("ILK")` on the `jug`. Despite `drip` being abstracted to the DssExecLib, it can still be confirmed in the library as part of the prior libary checks.
+`bc -l <<< 'scale=27; e( l(1.095)/(60 * 60 * 24 * 365) )`
 
-To confirm this is possible, there is a boolean parameter `doDrip` in the execlib function. Users should ensure this is `true` to perform the drip, which can be found [here](https://github.com/makerdao/dss-exec-lib/blob/master/src/DssExecLib.sol#L777);
+Esto produce 1.000000002877801985002875644. Sacando los decimales, se puede comprobar que esto coincide con la definición de `NEW_FEE`.
+
+La validación de todos los ajustes de tasas se puede hacer de la misma manera. Para más información acerca del módulo de tasas, visita las [guías para desarrolladores de github](https://github.com/makerdao/developerguides/blob/master/mcd/intro-rate-mechanism/intro-rate-mechanism.md). Para una fácil referencia, las tasas comunes precalculadas también se pueden ver en el siguiente [enlace de ipfs](https://ipfs.io/ipfs/QmefQMseb3AiTapiAKKexdKHig8wroKuZbmLtPLv4u2YwW).
+
+### Revisa DssExecLib para asegurarte de que 'Drip' sea llamado antes de que se cambien las tasas
+Al hacer cambios en las tasas, se debe llamado la función `drip` en los respectivos contratos. Como por ejemplo, si se está haciendo el cambio de una tasa DSR, `drip` será llamado en al función `pot` o, si la tarifa de estabilidad está siendo modificada en un tipo de colateral, es necesario llamar a `drip("ILK")` en la función `jug`. A pesar de que `drip` se abstrae a DssExecLib, todavía se puede confirmar en la biblioteca como parte de las anteriores verificaciones de biblioteca.
+
+Para confirmar que esto es posible, hay un parámetro booleano en la función execlib, `doDrip`. El usuario debe asegurarse de que sea `true` para relaizar un `drip`, el cual se puede encontrar [aquí](https://github.com/makerdao/dss-exec-lib/blob/master/src/DssExecLib.sol#L777);
 
 ```
 function setIlkStabilityFee(bytes32 _ilk, uint256 _rate, bool _doDrip) public {
 ```
 
-### All SpellAction contract variables must be declared 'constant'
-SpellActions must never have anything in contract memory. Therefore, all contract variables must be declared as constant. This is because at execution time, the contract's variables will be that of the DSPauseProxy. If there are variables in this section that are anything other than constant then it is a significant bug and must not be voted on.
+### Toda variable de contrato _SpellActions_ ("Acciones de los _Spells_") debe declararse como "constante"
+
+_SpellActions_ nunca debe tener nada en la memoria del contrato. Por lo tanto, todas las variables del contrato deben declararse como constantes. Esto se debe a que, en el momento de la ejecución, las variables del contrato serán las del DSPauseProxy. Si hay variables en esta sección que no sean constantes, entonces es un error significativo y no debe votarse.
+
+---
+
+[Artículo Original](https://github.com/makerdao/governance-manual/edit/main/governance/executive-audit.md)

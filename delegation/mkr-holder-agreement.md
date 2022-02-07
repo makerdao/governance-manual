@@ -1,17 +1,17 @@
-# MKR Holders Delegation Agreement
+# Acuerdo de Delegación de los Poseedores de MKR
 
-## Obligation
+## Obligación
 
-MKR Token Holders are under no obligation to delegate. No delegate is obligated to continue voting on any MKR Holder’s behalf.
+Los poseedores de MKR no están bajo ninguna circunstancia obligados a delegar sus Tokens. De igual forma, ningún delegado está obligado a continuar votando en nombre de ningún poseedor de MKR.
 
-## Ability to Stop
+## Capacidad de Parar
 
-MKR Token Holders can and should stop the delegation of their MKR to any delegate if they determine that their MKR would be better served elsewhere.
+Los poseedores de Tokens MKR tienen la capacidad y la responsabilidad de detener la delegación de sus MKR a cualquier delegado, si consideran que sus MKR tendría un mejor uso en otro lado.
 
-## Time Requirement
+## Requerimientos de Tiempo
 
-MKR Token Holders accept that delegates may have other obligations in addition to the Maker Protocol and cannot be expected to be available 24/7/365.
+Los poseedores de Tokens MKR aceptan que los delegados podrían tener otras obligaciones además del Protocolo Maker, no pueden esperar una disponibilidad de 24/7/365.
 
-## Waiver of Liability
+## Exoneración de Responsabilidad
 
-MKR Token Holders accept that continued delegation of their MKR confirms their continual waiver of any and all types of liability on behalf of the delegate related to the delegate’s vote.
+Los poseedores de MKR aprueban que, al delegar sus tokens, renuncian a cualquier tipo de responsabilidad que tome el delegado en relación al voto del mismo.
