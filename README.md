@@ -1,5 +1,5 @@
 ---
-Description: >-
+description: >-
   Este conjunto de documentos tiene la intención de familiarizar a los poseedores de MKR con el proceso de votación y de servir como material de referencia para las consultas diarias en las operaciones del Protocolo.
 ---
 
