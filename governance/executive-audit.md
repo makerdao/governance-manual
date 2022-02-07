@@ -1,5 +1,3 @@
-###### tags: `Translations`
-
 # Auditoría de los _Spells_ Ejecutivos
 
 Esta es una guía para ayudar a los poseedores de MKR a verificar los _spells_ ejecutivos en el Protocolo de Maker antes de votar por ellos.
