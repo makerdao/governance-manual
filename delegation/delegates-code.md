@@ -1,33 +1,33 @@
-# Delegates Code of Conduct
+# Código de Conducta de los Delegados
 
-## Good Faith
+## Buena Fe
 
-Delegates should act at all times with honesty, integrity, and transparency.
+Los Delegados deben actuar en todo momento con honestidad, integridad y transparencia.
 
-## Best Interest
+## Mejor Interés
 
-Delegates should operate and vote in what they believe is in the best interests of the Maker Protocol.
+Los Delegados deben operar y votar de la manera que consideren que representa el mejor interés de la DAO.
 
-## Due Care and Attention
+## Debido Cuidado y Atención
 
-Delegates should make a professional and unbiased review of each proposal prior to the submission of their vote.
+Los Delegados deben hacer una reseña profesional e imparcial de cada propuesta antes de enviar su voto.
 
-## Communication
+## Comunicación
 
-Delegates should ensure that they communicate the rationale behind each of their votes in a clear and accessible way.
+Los Delegados deben asegurarse de comunicar los motivos de cada una de sus votaciones de una manera clara y accesible.
 
-## Professional Knowledge
+## Conocimientos Profesionales
 
-Delegates should maintain a working knowledge of developments at Maker and in the wider cryptocurrency space.
+Los Delegados deben mantener un conocimiento práctico sobre los desarrollos de Maker y del espacio de criptomonedas en general.
 
-## Conflicts of Interest
+## Conflictos de Intereses
 
-Delegates should avoid conflicts of interest where possible and mitigate their impact when not possible. Disclose in writing any conflicts. Publicize any offer of external compensation related to delegation or the Maker Protocol.
+Los Delegados deben evitar conflictos de interés siempre que sea posible y mitigar el impacto de los mismos cuando no sea posible. Revelar por escrito cualquier conflicto. Publicar cualquier oferta de compensación externa relacionada a la delegación del Protocolo de Maker.
 
-## Availability
+## Disponibilidad
 
-Delegates should - within reason - be accessible to the community to answer questions, respond to comments, and discuss issues.
+Los Delegados deben (dentro de lo razonable) ser accesibles para la comunidad y responder preguntas, comentarios y debatir problemas.
 
-## End of Delegation
+## Fin de la Delegación
 
-Delegates should communicate their intention to stop being a delegate at least a month in advance. This will allow any MKR holders delegating to them an opportunity to move their MKR to another delegate.
+Los Delegados deben comunicar con al menos un mes de anticipación si su intención es dejar de ser delegado. Esto le permitirá a los poseedores de MKR, que le estén delegando sus tokens, la posibilidad de destinar sus MKR a otro delegado.
