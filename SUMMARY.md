@@ -4,28 +4,28 @@
 
 ## MakerDAO
 * Estructura
-  * [Maker Improvement Proposals](governance/mips.md)
+  * [Maker Improvement Proposals](gobernanza/mips.md)
   * [Core Units](core-units/core-units.md)
 
 * Panorama
-  * [Estado y Dashboards](protocol-status/protocol-and-dao-status.md)
+  * [Estado y Dashboards](estado-protocolo/estado-dashboards.md)
   * [Flujo de Presupuesto de las Core Units](core-units/core-unit-budget-flow.md)
 
 ## Gobernanza
 * Ciclo de Gobernanza
-  * [Ciclo de Gobernanza Mensual](governance/monthly-governance-cycle.md)
-  * [Ciclo de Gobernanza Semanal](governance/weekly-governance-cycle.md)
+  * [Ciclo de Gobernanza Mensual](gobernanza/ciclo-mensual.md)
+  * [Ciclo de Gobernanza Semanal](gobernanza/ciclo-semanal.md)
 
-* [Votar](governance/voting-in-makerdao.md)
-  * [Guía práctica para votar](governance/practical-guide-voting.md)
-  * [Gobernanza On-Chain](governance/on-chain-governance.md)
-  * [Gobernanza Off-Chain](governance/off-chain-governance.md)
+* [Votar](gobernanza/votacion-makerdao.md)
+  * [Guía práctica para votar](gobernanza/guia-practica-votacion.md)
+  * [Gobernanza On-Chain](gobernanza/gobernanza-on-chain.md)
+  * [Gobernanza Off-Chain](gobernanza/gobernanza-off-chain.md)
 
 * Verificación
-  * [Spells Ejecutivos: auditoría](governance/executive-audit.md)
+  * [Spells Ejecutivos: auditoría](gobernanza/auditoria-spells-ejecutivos.md)
 
-* [Delegación](delegation/what-is-delegation.md)
-  * [Guía para los Poseedores de MKR](delegation/mkr-holder-guide.md)
-  * [Requisitos para Delegados Reconocidos](delegation/recognized-delegate-requirements.md)
-  * [Código de Conducta de los Delegados](delegation/delegates-code.md)
-  * [Acuerdo de Delegación de los Poseedores de MKR](delegation/mkr-holder-agreement.md)
+* [Delegación](delegacion/que-es-delegacion.md)
+  * [Guía para los Poseedores de MKR](delegacion/guia-delegacion-poseedores-MKR.md)
+  * [Requisitos para Delegados Reconocidos](delegacion/requisitos-delegados-reconocidos.md)
+  * [Código de Conducta de los Delegados](delegacion/codigo-conducta-delegados.md)
+  * [Acuerdo de Delegación de los Poseedores de MKR](delegation/acuerdo-delegacion-poseedores-MKR.md)
