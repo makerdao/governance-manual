@@ -1,49 +1,54 @@
-# Recognized Delegate Requirements
+# Requisitos para Delegados Reconocidos
 
-## 1. Inform a Governance Facilitator of your intention to become a recognized delegate
+## 1. Informar al Facilitador de la Gobernanza de tu intención en convertirte en un delegado reconocido.
 
-Speak to one of the Governance Facilitators (currently @LongForWisdom and @prose11). The best way to get in contact is via the official MakerDAO discord or the official MakerDAO forum. Please do not use email.
+Habla tanto con @LongForWisdom o con @prose11 - La mejor forma de contactarte con ellos es por medio del chat o el foro oficiales de MakerDAO. Por favor, no envíes un mail.
 
-## 2. Read and sign-up for the Delegates Code of Conduct
+## 2. Leer y registrarse en el Código de Conducta de Delegados.
 
-The canonical Code of Conduct is located [here](https://forum.makerdao.com/t/recognised-delegate-code-of-conduct/9384). Sign-up can be as fancy or not-fancy as you like. Some options include:
+El Código de Conducta canónico se encuentra [aquí](https://forum.makerdao.com/t/recognised-delegate-code-of-conduct/9384). Registrarse puede ser tan lujoso o poco lujoso como se desee. Alguna de las opciones incluyen:
 
-* Signing a message on-chain.
-* Confirming that you have read and agreed to it within your delegate platform post.
-* Uploading a copy of the CoC to IPFS along with a statement saying that you have signed on to it.
+* Poniendo un mensaje _on-chain_.
+* Confirmando de que has leído y aceptado dentro de tu posteo de la plataforma de delegados.
+* Subiendo la copia del Código de Conducta a IPFS junto con una confirmación de que ya te has registrado.
 
-## 3. Fill in and post a Recognized Delegate Platform using the provided template
+## 3. Completar y publicar una Plataforma de Delegado Reconocido usando una plantilla.
 
-The canonical template is located [here](https://forum.makerdao.com/t/recognised-delegate-initial-template/8989). Deviation from the template is acceptable, but you should try to cover everything in the template. Contact details and Conflict of Interest disclosures are not optional (except where marked as such.)
+La plantilla canónica se encuentra [aquí](https://forum.makerdao.com/t/recognised-delegate-initial-template/8989).
+La desviación de la plantilla es aceptable, pero se debe tratar de cubrir todo lo que esté en ella. Los detalles de Contacto y las divulgaciones de conflictos de intereses no son opcionales (excepto donde se indique así).
 
-This is a chance to lay out what you stand for as a delegate within MakerDAO. Make it as clear and unambiguous as possible what you stand for, and why. This is the lens through which MKR Holders will see you, and your actions. Try to make it attractive!
+Esta es una oportunidad para exponer lo que representas como delegado dentro de MakerDAO. Haz que el _qué_ y _por qué_ representas sea lo más claro e inequívoco posible. Intenta atraer a poseedores de MKR, convéncelos de que deberían delegarte al menos una parte de su MKR.
 
-## 4. Participate in a ‘Meet your Delegate' meeting
+## 4. Participa en una reunión de 'Conoce a tu Delgado'.
 
-The Governance Facilitators will schedule this in collaboration with you and will host and manage recording of the meeting. The meeting recording will be uploaded to the MakerDAO youtube. The recording can be removed in the future if you wish to cease being a Recognized Delegate.
+Los Facilitadores de la Gobernanza pueden ayudarte a programar esto como también a organizar y manejar la grabación de la reunión. La grabación de la reunión se subirá en el canal de YouTube de MakerDAO y esta se puede eliminar si deseas dejar de ser un delegado reconocido.
 
-## 5. Setup a delegate contract
+## 5. Configurar un Contrato de Delegado.
 
-This can be done using the official MakerDAO voting UI, using the [account](https://vote.makerdao.com/account?network=mainnet) page.
+Esto puede realizarse usando la interface de votación oficial de MakerDAO, utilizando la página de la [cuenta](https://vote.makerdao.com/account?network=mainnet).
 
-A guide on how to get your delegate contract verified on Etherscan can be found [here](https://dux.makerdao.network/Verifying-a-delegate-contract-on-Etherscan-df677c604ac94911ae071fedc6a98ed2). It is strongly recommended that you do this, as many MKR Holders will not be comfortable interacting with a unverified smart contract.
+Puedes encontrar [aquí](https://dux.makerdao.network/Verifying-a-delegate-contract-on-Etherscan-df677c604ac94911ae071fedc6a98ed2) la guía de como tener verificado tu contrato de delegado en Etherscan. Se recomienda encarecidamente que realices esto, ya que muchos poseedores de MKR no se sentirán cómodos interactuando con un _smart contract_ que no se encuentre verificado.
 
-## 6. Make a Pull Request to the MakerDAO community GitHub for integration with the Voting Portal
+## 6. Realiza una Solicitud de Incorporación en el GitHub de la comunidad de MakerDAO para su integración en el Portal de Votación.
 
-An example of what is required can be found [here](https://github.com/makerdao/community/tree/master/governance/delegates/template). These files should be copied to a new folder such that the folder name matches the delegate contract address.
+[Aquí](https://github.com/makerdao/community/tree/master/governance/delegates/template) se puede encontrar un ejemplo de lo que se requiere. Estos archivos deben ser copiados a una nueva carpeta y el nombre de dicha carpeta, debe coincidir con el _address_ del contrato del delegado.
 
-Recognized Delegates need to replace the profile.md and profile.jpg files. The metrics.md should be left as it is in the template, and will be updated by GovAlpha.
+Los Delegados Reconocidos deben reemplazar los archivos **profile.md** y **profile.jpg**  **metrics.md** debe dejarse como está en la plantilla y GovAlpha lo actualizará.
 
-Other examples for existing delegates can be found in the delegates [folder](https://github.com/makerdao/community/tree/master/governance/delegates).
+Se pueden encontrar otros ejemplos de delegados existentes en la [carpeta](https://github.com/makerdao/community/tree/master/governance/delegates) de delegados.
 
-If you are completely unfamiliar with GitHub, the Governance Facilitators can help you with this process.
+Si no te encuentras completamente familiarizado con GitHub, los Facilitadores de la Gobernanza pueden ayudarte con este proceso.
 
-## 7. Be aware that vote participation and communication will be tracked
+## 7. Ten en cuenta que se realizará un seguimiento de la comunicación y participación en los votos.
 
-Participation tracking is currently done manually by GovAlpha, but will hopefully be automated in the future. Abstain votes count as valid votes for the purposes of poll participation.
+El seguimiento de la participación será automático y hará un seguimiento de los votos en las encuestas y los ejecutivos por separado. Los votos de abstención cuentan como votos válidos a los efectos de la participación en las encuestas.
 
-Failing to vote on an executive is valid and should be done in an emergency situation, or a situation in which the delegate has fundamental disagreement with the contents. However, failing to vote for an executive does count against you as part of the participation tracking. This reflects the issues failing to pass an executive can have in the MakerDAO governance process.
+No votar sobre un ejecutivo es válido y debe hacerse en una situación de emergencia, o una situación en la que el delegado tiene un desacuerdo fundamental con el contenido. Sin embargo, no votar en un ejecutivo cuenta en tu contra con respecto a tu participación en tu seguimiento. Esto refleja los problemas que puede tener el no aprobar un ejecutivo en el proceso de la Gobernanza de MakerDAO.
 
-Forum and community participation will also be tracked, specifically related to voting. Recognized Delegates are expected to communicate their reasoning for voting when they vote. This can be in whichever format delegates feel is most appropriate, but must be communicated publicly so that GovAlpha can update the delegate's metrics.
+También se hará un seguimiento de la participación en el Foro y con la Comunidad, específicamente en relación con la votación. Se espera que los Delegados Reconocidos comuniquen sus razones para votar cuando voten. Esto puede realizarse en el formato que los delegados consideren más apropiado, pero debe comunicarse públicamente y vincularse a los Facilitadores de la Gobernanza para que las estadísticas puedan actualizarse.
 
-Updates to the participation metrics are manual and will be performed on a weekly basis.
+Las actualizaciones de las métricas de participación son manuales y se realizarán semanalmente.
+
+___
+
+[Artículo original](https://forum.makerdao.com/t/recognized-delegate-requirements/9421)

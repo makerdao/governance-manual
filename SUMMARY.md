@@ -26,6 +26,6 @@
 
 * [Delegación](delegation/what-is-delegation.md)
   * [Guía para los Poseedores de MKR](delegation/mkr-holder-guide.md)
-  * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
+  * [Requisitos para Delegados Reconocidos](delegation/recognized-delegate-requirements.md)
   * [Código de Conducta de los Delegados](delegation/delegates-code.md)
   * [Acuerdo de Delegación de los Poseedores de MKR](delegation/mkr-holder-agreement.md)
