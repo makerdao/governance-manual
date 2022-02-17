@@ -18,6 +18,7 @@
 
 * Flowcharts
   * [Governance Flow](governance/governance-flow.md)
+  * [Urgent Governance Flow](governance/urgent-governance-flow.md)
 
 * [Voting](governance/voting-in-makerdao.md)
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
