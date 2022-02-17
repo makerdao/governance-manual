@@ -1,20 +1,23 @@
 # Debt Auction Delay
 
-```
-Alias: Debt Auction Delay
-Parameter Name: wait
-Containing Contract: Vow
-Scope: System
-Technical Docs: https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation
-```
+>**Alias:** Flop Delay  
+>**Parameter Name:** wait  
+>**Containing Contract:** Vow  
+>**Scope:** System  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation)  
 
 ## Description
 
 The Debt Auction Delay, or `wait` parameter, defines how much time must pass after a Vault has been liquidated before any corresponding debt is marked as bad debt.
 
-If a corresponding Collateral Auction does not clear the debt and any associated penalty fees within the Debt Auction Delay, the remaining debt will be considered bad debt. This can happen either if the Collateral Auction does not raise enough Dai to cover the total debt despite all collateral being sold, or if the auction does not finish within the Debt Auction Delay. Initially, the Surplus Buffer will cover the bad debt, but if the system accrues enough bad debt to exhaust the Surplus Buffer, the system will trigger a Debt Auction where MKR is minted and sold to cover the balance.
+If a corresponding Collateral Auction does not clear the debt and any associated penalty fees within the Debt Auction Delay, the remaining debt will be considered bad debt. This can happen either if the Collateral Auction does not raise enough Dai to cover the total debt despite all collateral being sold, or if the auction does not finish within the Debt Auction Delay. 
 
-For example, if the Debt Auction Delay is set to two hours, once a Vault is liquidated, if the Vault's debt has not been covered within two hours it will be considered bad debt.
+Initially, the Surplus Buffer will cover the bad debt, but if the system accrues enough bad debt to exhaust the Surplus Buffer, the system will trigger a Debt Auction where MKR is minted and sold to cover the balance.
+
+### Example
+`Debt Auction Delay` = 2 hours
+
+Once a Vault is liquidated, if the Vault's debt has not been covered within two hours it will be considered bad debt, if the Surplus Buffer cannot cover the debt, a debt auction will begin.
 
 ## Purpose
 
