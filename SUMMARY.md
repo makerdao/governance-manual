@@ -16,6 +16,9 @@
   * [Monthly Governance Cycle](governance/monthly-governance-cycle.md)
   * [Weekly Governance Cycle](governance/weekly-governance-cycle.md)
 
+* Flowcharts
+  * [Governance Flow](governance/governance-flow.md)
+
 * [Voting](governance/voting-in-makerdao.md)
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
   * [On-Chain Governance](governance/on-chain-governance.md)
