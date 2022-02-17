@@ -1,6 +1,6 @@
 # Governance Flow 
 
-![Governance Flowchart](../images/governance-process-selector-chart.png)
+![Governance Process Selector - Open to zoom](../images/governance-process-selector-chart.png)
 
 ## References
 
