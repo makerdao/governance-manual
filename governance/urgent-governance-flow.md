@@ -1,6 +1,6 @@
 # Urgent Governance Flow
 
-![Governance Flowchart](../images/urgent-governance-flowchart.png)
+![Urgent Governance Flow - Open to zoom](../images/urgent-governance-flowchart.png)
 
 ## References
 
