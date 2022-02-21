@@ -1,5 +1,4 @@
 # Core Unit Section
-## Maker Operational Manual
 
 ## What is a Core Unit?
 
