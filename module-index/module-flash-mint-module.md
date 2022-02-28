@@ -1,11 +1,9 @@
 # Flash Mint Module
 
-```
-Alias: Flash
-Contract Name: DSSFlash
-Scope: System
-Techincal Docs: https://docs.makerdao.com/smart-contract-modules/flash-mint-module
-```
+>**Alias:** Flash
+>**Contract Name:** DSSFlash
+>**Scope:** System
+>**Techincal Docs:** https://docs.makerdao.com/smart-contract-modules/flash-mint-module
 
 ## Description
 
@@ -19,8 +17,8 @@ To demonstrate how this works in practice, we will imagine DAI trades at 1.02 DA
 
 * Mint 1000 DAI using the Flash Mint Module
 * Exchange 1000 DAI for 1020 USDC at DEX-1
-* Exchange 1020 USDC for 1040 DAI at DEX-2
-* Pay 1000 DAI back to the Flash Mint Module and has made a profit of 40 DAI
+* Exchange 1020 USDC for ~1040 DAI at DEX-2
+* Pay 1000 DAI back to the Flash Mint Module and has made a profit of ~40 DAI
 
 The above example ignores gas fees for simplicity. In reality, flash loan arbitrage must account for gas fees in order to be profitable.
 
@@ -32,7 +30,7 @@ The Flash Mint Module adds DAI Flash Loans to the Maker Protocol, under the cont
 
 There are several benefits offered to the Maker Protocol and broader Dai ecosystem by the Flash Mint Module:
 
-* Improved Flash Loan liquidity - other providers of Flash Loans are reliant on market supply of DAI in order to provide Flash Loan capability. Because the Maker Protocol is able to mint DAI, Flash Loans can theoretically be of infinite size. Because DAI is burned at the end of the transaction this will not effect collateralization of DAI.
+* Improved Flash Loan liquidity - other providers of Flash Loans are reliant on market supply of DAI in order to provide Flash Loan capability. Because the Maker Protocol is able to mint DAI, Flash Loans can theoretically be of infinite size. Because DAI is burned at the end of the transaction this does not affect the collateralization of DAI.
 * Market efficiency of DAI is improved by Flash Loan arbitrage - a secondary effect of this could be increased liquidity in DAI markets and Peg stability as deviations from the Peg will be more susceptible to arbitrage.
 * The ability to borrow large sums increases the utility of Flash Loans to identify exploits in DeFi protocols - by exposing exploits and attack vectors, the DeFi ecosystem can be made more robust.
 * The Flash Mint Module encourages further integration between the Maker Protocol and other Decentralized Apps - DEX aggregators can use it to ensure their users get the best prices available, or Vault automation systems can utilize Flash Loans to leverage and deleverage Vaults.
@@ -51,7 +49,7 @@ There are two key parameters in the Flash Mint Module that are controlled by Mak
 
 The Debt Ceiling refers to the maximum amount of Flash Loaned DAI that a user can mint in a single transaction.
 
-The higher this value, the greater the potential for profit from arbitrage opportunities and the potential for exploits to cause losses for DeFi protocols.
+The higher this value, the greater the potential for profit from arbitrage opportunities and for exploits to cause losses for DeFi protocols.
 
 If the Debt Ceiling is too low, the potential applications of the Flash Mint Module will be lower in number, as potential profit will be lower. As a result, users may look to alternative sources of DAI Flash Loans if they provide more generous Debt Ceilings.
 
@@ -65,7 +63,7 @@ If alternative sources of DAI Flash Loans charge lower or no fees, users may cho
 
 ## User Interaction
 
-The Flash Mint Module conforms to ERC1356. Therefore, users can use the reference borrower implementation from the ERC1356 spec. It requires the user to have the technical ability to work with Solidity, or access to a UI that is able to execute the desired transaction.
+The Flash Mint Module conforms to ERC1356. Therefore, users can use the reference borrower implementation from the ERC1356 spec. It requires the user to have the technical ability to work with Solidity, or access to a UI that is able to build and execute the desired transaction.
 
 ## Considerations
 
