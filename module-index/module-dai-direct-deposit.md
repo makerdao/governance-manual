@@ -1,9 +1,9 @@
 # Dai Direct Deposit
 
->**Alias:** D3M, DDM, Direct DAI Deposit
->**Contract Name:** `DssDirectDeposit` 
->**Scope:** One DssDirectDeposit contract per deposit target. 
->**Technical docs:** TBD
+>**Alias:** D3M, DDM, Direct DAI Deposit  
+>**Contract Name:** `DssDirectDeposit`  
+>**Scope:** One DssDirectDeposit contract per deposit target.  
+>**Technical docs:** TBD  
 
 ## Description
 
