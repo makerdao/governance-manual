@@ -166,10 +166,10 @@ function officeHours() public virtual returns (bool) {
 ```
 Such a value is `true` when new changes may impact integrators or auction keepers, and is otherwise `false` when office hours are not applied - meaning the spell can be cast at anypoint once successfully voted in. The code determining these rules has also been [abstracted](https://etherscan.io/address/0xfD88CeE74f7D78697775aBDAE53f9Da1559728E4#code#L335) away into the ExecLib.
 
-## Non Exhaustive Checklist
+## Non-Exhaustive Checklist
 
 ### Verify that the contract code is visible
-Using the instructions above, find the contract code on Etherscan and ensure that it is visible and verified. Similarly ensure that the ExecLib is correctly referenced. verify that these match what the smart contract developers have published/deployed.
+Using the instructions above, find the contract code on Etherscan and ensure that it is visible and verified. Similarly ensure that the ExecLib is correctly referenced. Verify that these match what the smart contract developers have published/deployed.
 
 ### Verify that the frontend copy matches the copy used to build the spell
 Create a hash of the github/frontend copy and reference this against the hash in the spell to confirm that the two align.
@@ -178,30 +178,30 @@ Create a hash of the github/frontend copy and reference this against the hash in
 Ensure that the spell's expiry matches previous spells, includes the DssActions code block and that schedule and cast functions exist in DssExecLib. If the Constructor does not match previous functions, there should be an explanation as to why.
 
 ### Review the changelog
-Ensure that DssExecLib calls out to the changelog with the correct name descriptors. (these used to be spell addresses, but have since been replaced with name descriptors for simplicity and error reduction). It is therefore good practice to review the changelog to ensure that the correct name descriptor has been referenced as part of the on-chain action.
+Ensure that DssExecLib calls out to the changelog with the correct name descriptors. (These used to be spell addresses, but have since been replaced with name descriptors for error reduction.) It is therefore good practice to review the changelog to ensure that the correct name descriptor has been referenced as part of the on-chain action.
 
 ### Review oracle addresses
 Occasionally, there are spells involving Oracles - generally adding addresses to the whitelist, and occasionally adding a new oracle. These addresses must also be carefully verified. To do so it is necessary to go to the [Changelog](https://changelog.makerdao.com/) and look for e.g. `PIP_ETH`. Taking the contract to Etherscan and opening the contract `read` tab will display the `src` (listed as number 7 currently). The contract address listed there can be verified to match the `MedianETHUSDcontract` that is in the spell.
 
 
 ### Review rate changes
-Rates are defined as per-second accumulation values. These values can be validated against the commented rate by using the bc command in a bash shell. Using the `NEW_FEE ` variable in the example contract the following is visible:
+Rates are defined as per-second accumulation values. These values can be validated against the commented rate by using the bc command in a bash shell. Using the `NEW_FEE` variable in the example contract the following is visible:
 
-`bc -l <<< 'scale=27; e( l(1.095)/(60 * 60 * 24 * 365) )` 
+`bc -l <<< 'scale=27; e( l(1.095)/(60 * 60 * 24 * 365) )'`
 
 This produces 1.000000002877801985002875644. Removing the decimal place will allow you to see that this matches the definition of `NEW_FEE`.
 
-Validating all rate adjustments can be done the same way. For more information on the rates module, please visit the  [developer guides github](https://github.com/makerdao/developerguides/blob/master/mcd/intro-rate-mechanism/intro-rate-mechanism.md). For easy reference, common pre-computed rates can also be viewed at the following [ipfs link](
+Validating all rate adjustments can be done the same way. For more information on the rates module, please visit the [developer guide](https://github.com/makerdao/developerguides/blob/master/mcd/intro-rate-mechanism/intro-rate-mechanism.md). For easy reference, common pre-computed rates can also be viewed at the following [ipfs link](
 https://ipfs.io/ipfs/QmefQMseb3AiTapiAKKexdKHig8wroKuZbmLtPLv4u2YwW).
 
 ### Review DssExecLib to ensure Drip is called before rates are changed
-When making rate changes, `drip`must be called on the respective contracts. For example, if a DSR rate change is being made, `drip`is called on the `pot` or if the stability fee is being changed on a collateral type, it is necessary to call `drip("ILK")` on the `jug`. Despite `drip` being abstracted to the DssExecLib, it can still be confirmed in the library as part of the prior libary checks.
+Immediately prior to making rate changes, `drip` must be called on the respective contracts. For example, if a DSR rate change is being made, `drip` is called on the `pot` or if the stability fee is being changed on a collateral type, it is necessary to call `drip("ILK")` on the `jug`. Despite `drip` being abstracted to the DssExecLib, it can still be confirmed in the library as part of the prior libary checks.
 
-To confirm this is possible, there is a boolean parameter `doDrip` in the execlib function. Users should ensure this is `true` to perform the drip, which can be found [here](https://github.com/makerdao/dss-exec-lib/blob/master/src/DssExecLib.sol#L777);
+To allow for situations where `drip` is unwanted, the execlib functions included a boolean parameter `doDrip`. Users should ensure either `doDrip` is `true` or there is a good reason why not. For example, see the code [here](https://github.com/makerdao/dss-exec-lib/blob/master/src/DssExecLib.sol#L777);
 
 ```
 function setIlkStabilityFee(bytes32 _ilk, uint256 _rate, bool _doDrip) public {
 ```
 
 ### All SpellAction contract variables must be declared 'constant'
-SpellActions must never have anything in contract memory. Therefore, all contract variables must be declared as constant. This is because at execution time, the contract's variables will be that of the DSPauseProxy. If there are variables in this section that are anything other than constant then it is a significant bug and must not be voted on.
+SpellActions must never have anything in contract memory. Therefore, all contract variables must be declared as constant. This is because at execution time, the contract's variables will be that of the DSPauseProxy. If there are variables in this section that are anything other than constant then it is a significant bug and must not be approved.
