@@ -30,7 +30,7 @@ The Flash Mint Module adds DAI Flash Loans to the Maker Protocol, under the cont
 
 There are several benefits offered to the Maker Protocol and broader Dai ecosystem by the Flash Mint Module:
 
-* Improved Flash Loan liquidity - other providers of Flash Loans are reliant on market supply of DAI in order to provide Flash Loan capability. Because the Maker Protocol is able to mint DAI, Flash Loans can theoretically be of infinite size. Because DAI is burned at the end of the transaction this does not affect the collateralization of DAI.
+* Improved Flash Loan liquidity - other providers of Flash Loans are reliant on the market supply of DAI in order to provide Flash Loan capability. Because the Maker Protocol is able to mint DAI, Flash Loans can theoretically be of infinite size. Because DAI is burned at the end of the transaction this does not affect the collateralization of DAI.
 * Market efficiency of DAI is improved by Flash Loan arbitrage - a secondary effect of this could be increased liquidity in DAI markets and Peg stability as deviations from the Peg will be more susceptible to arbitrage.
 * The ability to borrow large sums increases the utility of Flash Loans to identify exploits in DeFi protocols - by exposing exploits and attack vectors, the DeFi ecosystem can be made more robust.
 * The Flash Mint Module encourages further integration between the Maker Protocol and other Decentralized Apps - DEX aggregators can use it to ensure their users get the best prices available, or Vault automation systems can utilize Flash Loans to leverage and deleverage Vaults.
@@ -43,7 +43,7 @@ Flash Loans are potent tools, but they also carry some risk. For example, they c
 
 ## Key Parameters
 
-There are two key parameters in the Flash Mint Module that are controlled by Maker Governance. Changes to these parameters are a manual process that require an executive vote. Changes to these parameters are subject to the GSM Pause Delay.
+There are two key parameters in the Flash Mint Module that are controlled by Maker Governance. Changes to these parameters are a manual process that requires an executive vote. Changes to these parameters are subject to the GSM Pause Delay.
 
 ### Debt Ceiling (`line`)
 
