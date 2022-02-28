@@ -1,4 +1,4 @@
-# Flash Mint Module
+# Flash Mint
 
 >**Alias:** Flash
 >**Contract Name:** DSSFlash
