@@ -11,10 +11,10 @@ The Linear Interpolation Module (`lerp`) allows a governance parameter to be cha
 
 ## Purpose
 
-The primary purpose of the `lerp` module is to enable Governance to change a parameter gradually using only a single executive vote. The duration over which the parameter is changed, the starting value and final value of the parameter can be chosen for each instance of the lerp module.
+The primary purpose of the `lerp` module is to enable Governance to change a parameter gradually using only a single executive vote. The duration over which the parameter is changed, the starting value, and final value of the parameter can be chosen for each instance of the lerp module.
 
 ## Execution 
-The `lerp` contract has one method called tick(), which is permissionless and can be called by anyone. This updates the target parameter to be whatever value it should be at this moment in time. This will also finish off the `lerp` and set the parameter to the end value if the elapsed time is longer than the duration.
+The `lerp` contract has one method called tick(), which is permissionless and can be called by anyone. This updates the target parameter to be whatever value it should be at that moment. This will also finish off the `lerp` and set the parameter to the end value if the elapsed time is longer than the duration.
 
 
 ## Key Parameters
@@ -46,12 +46,12 @@ This refers to whether the given `lerp` instance is finished or not.
 
 ## Trade-offs
 
-Typically, the start and end parameters are adjusted to represent the current state and the desired state for the protocol. Hence, a longer `duration` results in the parameter being suboptimal for a longer period of time. On the other hand, the more gradual changes are desirable as the protocol users can adapt more easily.
+Typically, the start and end parameters are adjusted to represent the current state and the desired state for the protocol. Hence, a longer `duration` results in the parameter being suboptimal for a longer period of time. On the other hand, more gradual changes are desirable as the protocols users can adapt more easily.
 
 
 ## Considerations
 
-When `lerp` is used to determine allocation of protocol earnings, such as setting the surplus buffer, Governance should ensure that the desired rate of increase is not larger than the expected protocol earnings. If the desired rate is too high, then there the `lerp` has no effect. 
+When `lerp` is used to determine allocation of protocol earnings, such as setting the surplus buffer, Governance should ensure that the desired rate of increase is not larger than the expected protocol earnings. If the desired rate is too high, the `lerp` has no effect. 
 
 
 
