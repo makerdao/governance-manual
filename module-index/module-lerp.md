@@ -1,5 +1,6 @@
 # Linear Interpolation
 
+
 >**Alias:** `lerp`
 >**Contract Name:** `dss-lerp` 
 >**Scope:** One instance for each parameter
@@ -14,7 +15,7 @@ The Linear Interpolation Module (`lerp`) allows a governance parameter to be cha
 The primary purpose of the `lerp` module is to enable Governance to change a parameter gradually using only a single executive vote. The duration over which the parameter is changed, the starting value, and final value of the parameter can be chosen for each instance of the lerp module.
 
 ## Execution 
-The `lerp` contract has one method called tick(), which is permissionless and can be called by anyone. This updates the target parameter to be whatever value it should be at that moment. This will also finish off the `lerp` and set the parameter to the end value if the elapsed time is longer than the duration.
+The `lerp` contract has one method called tick(), which is permissionless and can be called by anyone. This updates the target parameter to be whatever value it should be at that moment. If the elapsed time is longer than the duration, calling tick() will finish the `lerp` by changing `done` to true and set the parameter to the end value. 
 
 
 ## Key Parameters
@@ -51,7 +52,7 @@ Typically, the start and end parameters are adjusted to represent the current st
 
 ## Considerations
 
-When `lerp` is used to determine allocation of protocol earnings, such as setting the surplus buffer, Governance should ensure that the desired rate of increase is not larger than the expected protocol earnings. If the desired rate is too high, the `lerp` has no effect. 
+When `lerp` is used to determine allocation of protocol earnings, such as setting the System Surplus Buffer, Governance should ensure that the desired rate of increase is not larger than the expected protocol earnings. If the desired rate is too high, the `lerp` has no effect. 
 
 
 
