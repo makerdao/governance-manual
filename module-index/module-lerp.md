@@ -2,8 +2,11 @@
 
 
 >**Alias:** `lerp`
+
 >**Contract Name:** `dss-lerp` 
+
 >**Scope:** One instance for each parameter
+
 >**Technical docs:** ?
 
 ## Description
