@@ -1,13 +1,10 @@
 # Linear Interpolation
 
 
->**Alias:** `lerp`
-
->**Contract Name:** `dss-lerp` 
-
->**Scope:** One instance for each parameter
-
->**Technical docs:** ?
+>**Alias:** `lerp`  
+>**Contract Name:** `dss-lerp`  
+>**Scope:** One instance for each parameter  
+>**Technical docs:**  
 
 ## Description
 
