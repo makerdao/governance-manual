@@ -58,7 +58,7 @@
     * [Incentivo Plano de Activación](indice-parametros/subastas-colaterales/param-incentivo-plano-activacion.md)
 
 
-  * Subastas de Excendentes
+  * Subastas de Excedentes
     * [Tamaño del Lote de Excedentes](indice-parametros/subastas-excedentes/param-tamano-lote-excedentes.md)
     * [Incremento Mínimo de Oferta](indice-parametros/subastas-excedentes/param-incremento-minimo-oferta-flap.md)
     * [Duración de Subasta](indice-parametros/subastas-excedentes/param-duracion-subasta-flap.md)
