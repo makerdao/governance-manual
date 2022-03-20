@@ -73,7 +73,7 @@
   * [Min Bid Decrease](parameter-index/debt-auction/param-min-bid-decrease-flop.md)
   * [Auction Duration](parameter-index/debt-auction/param-auction-duration-flop.md)
   * [Bid Duration](parameter-index/debt-auction/param-bid-duration-flop.md)
-  * [Debt Auction Delay](parameter-index/debt-auction/param-debt-auction-delay.md
+  * [Debt Auction Delay](parameter-index/debt-auction/param-debt-auction-delay.md)
 
 ## Module Index
 * [Peg Stability](module-index/module-psm.md)
