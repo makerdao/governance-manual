@@ -81,3 +81,4 @@
 * [Token Streaming](module-index/module-token-streaming.md)
 * [DAI Direct Deposit](module-index/module-dai-direct-deposit.md)
 * [Flash Mint](module-index/module-flash-mint-module.md)
+* [Linear Interpolation](module-index/module-lerp.md)
