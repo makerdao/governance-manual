@@ -73,8 +73,11 @@
   * [Min Bid Decrease](parameter-index/debt-auction/param-min-bid-decrease-flop.md)
   * [Auction Duration](parameter-index/debt-auction/param-auction-duration-flop.md)
   * [Bid Duration](parameter-index/debt-auction/param-bid-duration-flop.md)
+  * [Debt Auction Delay](parameter-index/debt-auction/param-debt-auction-delay.md)
 
 ## Module Index
 * [Peg Stability](module-index/module-psm.md)
 * [Debt Ceiling Instant Access](module-index/module-dciam.md)
 * [Token Streaming](module-index/module-token-streaming.md)
+* [DAI Direct Deposit](module-index/module-dai-direct-deposit.md)
+* [Flash Mint](module-index/module-flash-mint-module.md)

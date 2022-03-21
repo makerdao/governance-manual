@@ -30,11 +30,11 @@ The trade-offs to this parameter are heavily tied to the Auction Price Function 
 
 ## Changes
 
-Adjusting a Maximum Auction Duration parameter for a specific vault type is a manual process that requires an executive vote. Changes to Maximum Auction Drawdown parameters are subject to the GSM Pause Delay.
+Adjusting a Maximum Auction Duration parameter for a specific vault type is a manual process that requires an executive vote. Changes to Maximum Auction Duration parameters are subject to the GSM Pause Delay.
 
 ## Considerations
 
 Auction resets can only take place when either the Maximum Auction Duration parameter or the Maximum Auction Drawdown parameter are exceeded.
 
-During an Emergency Shutdown, new auctions are halted, but the Three-Stage Liquidations Circut Breaker determines if ongoing auctions can be reset or not. If only one additional level of the circuit breaker is triggered the Maximum Auction Duration will still be used to check eligibility for auction reset, but under the most severe level of the Liquidations Circut breaker no resets can be performed, thus limiting the effectiveness of the parameter.
+During an Emergency Shutdown, new auctions are halted, but the Three-Stage Liquidations Circuit Breaker determines if ongoing auctions can be reset or not. If only one additional level of the circuit breaker is triggered the Maximum Auction Duration will still be used to check eligibility for auction reset, but under the most severe level of the Liquidations Circut breaker no resets can be performed, thus limiting the effectiveness of the parameter.
 
