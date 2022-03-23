@@ -26,7 +26,9 @@ The Governance Facilitators will schedule this in collaboration with you and wil
 
 This can be done using the official MakerDAO voting UI, using the [account](https://vote.makerdao.com/account?network=mainnet) page.
 
-A guide on how to get your delegate contract verified on Etherscan can be found [here](https://dux.makerdao.network/Verifying-a-delegate-contract-on-Etherscan-df677c604ac94911ae071fedc6a98ed2). It is strongly recommended that you do this, as many MKR Holders will not be comfortable interacting with a unverified smart contract.
+There are two guides that explain how to get your delegate contract verified on Etherscan. They can be found [here](https://dux.makerdao.network/Verifying-a-delegate-contract-on-Etherscan-df677c604ac94911ae071fedc6a98ed2) and [here](https://github.com/brianmcmichael/makerdao-stuff/blob/master/VerifyVoteDelegate.md).
+
+It is strongly recommended that delegates verify their contract, as many MKR Holders will not be comfortable interacting with an unverified smart contract.
 
 ## 6. Make a Pull Request to the MakerDAO community GitHub for integration with the Voting Portal
 
