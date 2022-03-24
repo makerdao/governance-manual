@@ -54,7 +54,7 @@
 * `TDC`: Target Debt Ceiling
 * `TFE`: Tax Favorable Entity
 * `TLM`: Term Lending Module
-* `TPAM`: Target Price Adjustment Module (dss-vox implementation)
+* `TPAM`: Target Price Adjustment Module
 * `TRFM`: Target Rate Feedback Mechanism
 * `TVL`: Total Value Locked
 * `TWAP`: Time-Weighted Average Price
