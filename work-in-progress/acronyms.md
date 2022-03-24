@@ -76,7 +76,7 @@
 * `YFI`: Yearn.finance Token
 
 #### Real World Assets
-* `CF-DROP`: ConsolFreight DROP - Freight Forwarding Invoices
+* `CF-DROP`: ConsolFreight DROP (Freight Forwarding Invoices)
 * `DROP`: Centrifuge Senior Tranche Token
 * `FFT1-DROP`: Fortunafi DROP (Revenue Based Financing Assets)
 * `HTC-DROP`: Harbor Trade Credit DROP (Short Term Trade Receivables)
