@@ -21,7 +21,7 @@
 * `GDPR`: General Data Protection Regulation
 * `IPFS`: InterPlanetary File System
 * `IS`: Immunefi Security Core Unit
-* `KPI`: Key Performance Indicatators
+* `KPI`: Key Performance Indicators
 * `KYC`: Know Your Customer
 * `L1/L2`: Layer 1/Layer 2
 * `MCD`: Multi-Collateral Dai
