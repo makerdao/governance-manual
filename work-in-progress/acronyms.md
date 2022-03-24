@@ -61,5 +61,24 @@
 
 ### **Collateral**
 
+* `CF-DROP`: ConsolFreight DROP - Freight Forwarding Invoices
+* `Curve`:  Curve Finance, AMM Platform
+* `DROP`: Centrifuge Senior Tranche Token
+* `FFT1-DROP`: Fortunafi DROP (Revenue Based Financing Assets)
+* `G-UNI`: Automated LP for Uniswap v3 powered by Gelato
+* `GUSD`: Gemini Dollar
+* `HTC-DROP`: Harbor Trade Credit DROP (Short Term Trade Receivables)
+* `LINK`: ChainLink Token
+* `MANA`: Decentraland Token
+* `MATIC`: Polygon Token
+* `NS-DROP`: New Silver DROP (US-based Residential Real Estate)
 * `PETH`: Pooled Ether
+* `renBTC`: ERC20-Token pegged to Bitcoin, backed on RenVM Protocol
+* `RWA-001/SIXS`: 6S Capital SPV (Real-Estate and Renewable Energy/Sustainability)
 * `stEth`: Lido Staked Ether
+* `TIN`: Centrifuge Junior Tranche Token
+* `UNI`: Uniswap
+* `USDP`: Pax Dollar (Paxos)
+* `USDC`: USD Coin (Circle)
+* `WBTC`: Wrapped Bitcoin
+* `YFI`: Yearn.finance Token
