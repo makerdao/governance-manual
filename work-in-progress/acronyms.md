@@ -1,6 +1,7 @@
 # Acronyms
 
 * `ALM`: Asset-Liability Management
+* `AML`: Anti-Money Laundering
 * `AMM`: Automated Market Maker
 * `CDP`: Collateralized Debt Position
 * `CES`: Collateral Engineering Services Core Unit
@@ -21,13 +22,14 @@
 * `IPFS`: InterPlanetary File System
 * `IS`: Immunefi Security Core Unit
 * `KPI`: Key Performance Indicatators
+* `KYC`: Know Your Customer
 * `L1/L2`: Layer 1/Layer 2
 * `MCD`: Multi-Collateral Dai
 * `MEV`: Miner Extracted Value
 * `MKR`: Maker
 * `NFT`: Non-Fungible Tokens
 * `OMC`: Open Markets Committee
-* `LP`: Liquidity provider, Liquidation Penalty
+* `LP`: Liquidity Provider, Liquidation Penalty
 * `LR`: Liquidation Ratio
 * `MIP`: Maker Improvement Proposal
 * `OKR`: Objectives and Key Results
@@ -46,6 +48,7 @@
 * `SC`: Smart Contracts
 * `SF`: Stability Fee
 * `SP`: Subproposal
+* `SPV`: Special Purpose Vehicle
 * `SR`: Signal Request
 * `TAM`: Total Addressable Market
 * `TDC`: Target Debt Ceiling
