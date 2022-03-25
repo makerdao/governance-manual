@@ -34,6 +34,7 @@
   * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
   * [Delegates Code of Conduct](delegation/delegates-code.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
+  * [Separation of Powers](delegation/separation-of-powers.md)
 
 
 ## Parameter Index
