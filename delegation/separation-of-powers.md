@@ -14,15 +14,14 @@ Overlapping these groups may lead to issues in the longer term as this separatio
 
 Here are some examples of some negative outcomes that could result from the combination of Core Units and Recognized Delegates:
 * Core Units proposing and approving their own budgets - (no need to satisfy an outside stakeholder)
-* Recognized Delegates constructing and approving their own remuneration - (can break the connection between MKR delegated).
 * Reduction of transparency to the community and MKR Holders - (no need to be transparent outside the in-group if you have the power to both make and pass changes)
 * Core Units with attached Recognized Delegates receiving a disproportionate amount of budget relative to those without representation - (directing funds to your in-group versus where they are best used)
 * Centralization of control within the DAO - (fewer individuals holding the same powers)
 
-Given these risks, GovAlpha does not recommend that MKR Holders delegate to individuals that are members or facilitators of Core Units.
+Given these risks, GovAlpha **does not** recommend that MKR Holders delegate to individuals that are members or facilitators of Core Units.
 
 However, GovAlpha is aware that...
 * ... exceptional individuals and circumstances may exist in which MKR Holders want to delegate to Core Unit members.
 * ... no rule can be enforced here due to the permissionless nature of the delegate contracts.
 
-We leave it to MKR token holders to judge when and if it is appropriate for them to delegate to members of Core Units.
+Due to these points, there is no requirement or rule that members of Core Units cannot be Recognized Delegates. We leave it to MKR token holders to judge when and if it is appropriate for them to delegate to members of Core Units.
