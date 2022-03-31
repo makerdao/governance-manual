@@ -5,7 +5,7 @@
 ## Process
 
 1. Whitehats create bug reports in the [Immunefi Dashboard](https://bugs.immunefi.com).
-2. Immunefi Triaging Services does an initial evaluation to determine whether the report is valid.
+2. Immunefi Services Triaging does an initial evaluation to determine whether the report is valid.
 3. ISCU is brought in to escalate bugs to the associated Maker Core Unit.
 4. The associated Maker Core Unit is tasked with determining whether the report is a true vulnerability and confirm severity.
 5. Optionally, for smart contract vulnerabilities, ChainSecurity can be brought in to help research bug reports.
