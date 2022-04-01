@@ -35,6 +35,9 @@
   * [Delegates Code of Conduct](delegation/delegates-code.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
   * [Separation of Powers](delegation/separation-of-powers.md)
+  * [Why to Become a Recognized Delegate](delegation/why-to-become-a-recognized-delegate.md)
+  * [How to Attract More MKR as a Recognized Delegate?](delegation/delegate-attract-more-mkr.md)
+  * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
 
 
 ## Parameter Index
