@@ -34,6 +34,7 @@
   * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
   * [Delegates Code of Conduct](delegation/delegates-code.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
+  * [Separation of Powers](delegation/separation-of-powers.md)
 
 
 ## Parameter Index
@@ -81,3 +82,4 @@
 * [Token Streaming](module-index/module-token-streaming.md)
 * [DAI Direct Deposit](module-index/module-dai-direct-deposit.md)
 * [Flash Mint](module-index/module-flash-mint-module.md)
+* [Linear Interpolation](module-index/module-lerp.md)
