@@ -4,9 +4,9 @@
 * `AML`: Anti-Money Laundering
 * `AMM`: Automated Market Maker
 * `CDP`: Collateralized Debt Position
-* `CES`: Collateral Engineering Services Core Unit
+* `CES`: Collateral Engineering Services Core Unit (CES-001)
 * `COB`: Collateral Onboarding
-* `COM`: Governance Communications Core Unit
+* `COM`: Governance Communications Core Unit (COM-001)
 * `CU`: Core Unit
 * `DAO`: Decentralized Autonomous Organization
 * `DC`: Debt Ceiling
@@ -14,39 +14,39 @@
 * `DOI`: Declaration of Intent
 * `DSR`: Dai Savings Rate
 * `DSS`: Dai Stablecoin System
-* `DUX`: Development & UX (User Experience)
-* `D3M`: Direct Deposit DAI Module
+* `DUX`: Development & UX (User Experience) (DUX-001)
+* `D3M`: Direct Deposit DAI Module / DAI Direct Deposit Module
 * `ESM`: Emergency Shutdown Module
 * `FTE`: Full Time Equivalent
-* `GSM`: Government Security Module
+* `GSM`: Governance Security Module
 * `GDPR`: General Data Protection Regulation
 * `IPFS`: InterPlanetary File System
-* `IS`: Immunefi Security Core Unit
+* `IS`: Immunefi Security Core Unit (IS-001)
 * `KPI`: Key Performance Indicators
 * `KYC`: Know Your Customer
 * `L1/L2`: Layer 1/Layer 2
 * `MCD`: Multi-Collateral Dai
 * `MEV`: Miner Extracted Value
 * `MIP`: Maker Improvement Proposal
-* `MKR`: Maker
+* `MKR`: The ERC-20 token used for governance in MakerDAO
 * `NFT`: Non-Fungible Tokens
 * `OMC`: Open Markets Committee
-* `LP`: Liquidity Provider, Liquidation Penalty
+* `LP`: Liquidity Provider / Liquidation Penalty
 * `LR`: Liquidation Ratio
 * `MIP`: Maker Improvement Proposal
 * `OKR`: Objectives and Key Results
 * `OSM`: Oracle Security Module
-* `PE/PECU`: Protocol Engineering
+* `PE/PECU`: Protocol Engineering Core Unit (PE-001)
 * `PSM`: Peg Stability Module
 * `RoA`: Return over Asset
 * `RoE`: Return over Equity
 * `RP`: Risk Premium
 * `RFC`: Request For Comment
 * `RWA`: Real-World Assets
-* `RWF`: Real-World Finance Core Unit
+* `RWF`: Real-World Finance Core Unit (RWF-001)
 * `SCD/SAI`: Single Collateral DAI
-* `SES`: Sustainable Ecosystem Scaling Core Unit
-* `SB`: Surplus Buffer
+* `SES`: Sustainable Ecosystem Scaling Core Unit (SES-001)
+* `SB`: Surplus Buffer / System Surplus Buffer
 * `SC`: Smart Contracts
 * `SF`: Stability Fee
 * `SP`: Subproposal
