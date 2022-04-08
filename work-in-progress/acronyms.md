@@ -5,6 +5,7 @@
 * `AMM`: Automated Market Maker
 * `CDP`: Collateralized Debt Position
 * `CES`: Collateral Engineering Services Core Unit
+* `COB`: Collateral Onboarding
 * `COM`: Governance Communications Core Unit
 * `CU`: Core Unit
 * `DAO`: Decentralized Autonomous Organization
@@ -26,6 +27,7 @@
 * `L1/L2`: Layer 1/Layer 2
 * `MCD`: Multi-Collateral Dai
 * `MEV`: Miner Extracted Value
+* `MIP`: Maker Improvement Proposal
 * `MKR`: Maker
 * `NFT`: Non-Fungible Tokens
 * `OMC`: Open Markets Committee
