@@ -48,7 +48,7 @@
 * `SES`: Sustainable Ecosystem Scaling Core Unit (SES-001)
 * `SB`: Surplus Buffer / System Surplus Buffer
 * `SC`: Smart Contracts
-* `SF`: Stability Fee
+* `SF`: Stability Fee / Strategic Finance Core Unit (SF-001)
 * `SP`: Subproposal
 * `SPV`: Special Purpose Vehicle
 * `SR`: Signal Request
