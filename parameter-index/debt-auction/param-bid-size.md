@@ -10,7 +10,7 @@
 ```
 
 ## Description
-Debt Auctions are used to recapitalize the system by minting and auctioning off MKR for a fixed amount of DAI. In this process, keepers bid on how little MKR they are willing to accept for the fixed Dai amount they have to pay at auction settlement. During debt auctions, the fixed amount of Dai to be covered by any one debt auction is determined by the `Debt Auction Bid Size` parameter.
+Debt Auctions are used to recapitalize the system by minting and auctioning off MKR for a fixed amount of DAI. In this process, keepers bid on how little MKR they are willing to accept for the fixed Dai amount they have to pay at auction settlement. During debt auctions, the fixed amount of Dai to be covered by any debt auction is determined by the `Debt Auction Bid Size` parameter.
 
 
 ## Purpose
@@ -18,9 +18,9 @@ Changing the `Debt Auction Bid Size` parameter allows Maker Governance to minimi
 
 
 ## Trade-offs
-A small `Debt Auction Bid Size` would result in an auction being triggered more quickly when the protocol is undercollateralized. If the protocol is quickly recollateralized, this improves user confidence in Dai. A small `Debt Auction Bid Size` also means that gas costs for the auction would decrease the profit that keepers receive. In the event of a large system debt, this could also result in many parallel auctions and keepers may not be able to participate in all of them. Both of these could result in uncompetitive auctions with more MKR minted than necessary.
+A small `Debt Auction Bid Size` would result in an auction being triggered more quickly when the protocol is undercollateralized. If the protocol is quickly recollateralized, this improves user confidence in Dai. A small `Debt Auction Bid Size` also means that gas costs for the auction would decrease the profit that keepers receive. In the event of a large system debt, this could also result in many parallel auctions, and keepers may not be able to participate in all of them. Both of these could result in uncompetitive auctions with more MKR minted than necessary.
 	
-A large `Debt Auction Bid Size` keeps the protocol undercollateralized for longer. In the extreme case where this parameter is too large, debt auctions would never take place. Keepers who do not use flash loans may also find it harder to organize sufficient capital to participate in the debt auction if this parameter is too large. This lack of competition could result in more MKR minted. However, when this parameter is large, the gas costs paid by the keepers to participate in the auction would be small relative to their profit. In the case of large system debt, there would also be fewer auctions running in parallel and therefore a higher participation rate among keepers. Both of these would result in more competitive bids and decrease the amount of MKR minted. 
+A large `Debt Auction Bid Size` keeps the protocol undercollateralized for longer. In the extreme case where this parameter is too large, debt auctions would never occur. Keepers who do not use flash loans may find it harder to organize sufficient capital to participate in the debt auction if this parameter is too large. This lack of competition could result in more MKR minted. However, when this parameter is large, the gas costs paid by the keepers to participate in the auction would be small relative to their profit. In the case of large system debt, there would also be fewer auctions running in parallel and, therefore, a higher participation rate among keepers. Both of these would result in more competitive bids and decrease the amount of MKR minted. 
 
 
 ## Changes
