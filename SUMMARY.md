@@ -10,7 +10,9 @@
 * Overview
   * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
   * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
+  * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
   * [Bug Bounty Program](core-units/bug-bounty.md)
+
 
 ## Governance
 * Governance Cycle
