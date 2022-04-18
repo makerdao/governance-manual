@@ -27,7 +27,7 @@
 * `L1/L2`: Layer 1/Layer 2
 * `MCD`: Multi-Collateral Dai
 * `MEV`: Miner Extracted Value
-* `MIP`: Maker Improvement Proposal
+* `MIP`: [Maker Improvement Proposal](governance/mips.md)
 * `MKR`: The ERC-20 token used for governance in MakerDAO
 * `NFT`: Non-Fungible Tokens
 * `OMC`: Open Markets Committee
