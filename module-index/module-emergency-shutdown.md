@@ -38,3 +38,5 @@ Suppose the minimum threshold parameter is set too high. In that case, it become
 ## Considerations
 
 Maker Governance can effectively turn off the Emergency Shutdown Module by removing its authorization to trigger an emergency shutdown.
+
+Delegate contracts are unable to interact with the Emergency Shutdown Module. Therefore, there is no risk of a delegate depositing their delegated MKR into the Emergency Shutdown Module.
