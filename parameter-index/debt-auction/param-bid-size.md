@@ -1,13 +1,10 @@
----
 # Debt Auction Bid Size
 
-```
 >**Alias:  
 >**Parameter Name: `sump`  
 >**Containing Contract: Vow  
 >**Scope: System  
 >**Technical Docs: https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation
-```
 
 ## Description
 Debt Auctions are used to recapitalize the system by minting and auctioning off MKR for a fixed amount of DAI. In this process, keepers bid on how little MKR they are willing to accept for the fixed Dai amount they have to pay at auction settlement. During debt auctions, the fixed amount of Dai to be covered by any debt auction is determined by the `Debt Auction Bid Size` parameter.
