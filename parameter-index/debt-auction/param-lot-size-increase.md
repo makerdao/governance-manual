@@ -28,10 +28,10 @@ A large `Debt Auction Lot Size Increase` could result in large amounts of MKR mi
 Adjusting the `Debt Auction Lot Size Increase` parameter is a manual process that requires an executive vote. Changes to the `Debt Auction Lot Size Increase` are subject to the GSM Pause Delay.
 
 **Why increase this parameter?**
-Maker Governance may wish to increase the `Debt Auction Initial Lot Size` if debt auctions have to be repeated restarted before keepers are able to submit profitable bids.
+Maker Governance may wish to increase the `Debt Auction Lot Size Increase` if debt auctions have to be repeated restarted before keepers are able to submit profitable bids.
 
 **Why decrease this parameter?**
-Maker Governance may wish to decrease the `Debt Auction Initial Lot Size` if there is a risk of insufficient keeper participation resulting in a risk of high amounts of MKR being minted.
+Maker Governance may wish to decrease the `Debt Auction Lot Size Increase` if there is a risk of insufficient keeper participation resulting in a risk of high amounts of MKR being minted.
 
 
 ## Considerations
