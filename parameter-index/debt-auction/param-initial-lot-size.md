@@ -1,13 +1,13 @@
 ---
 # Debt Auction Initial Lot Size
 
-```
+
 >**Alias:  
 >**Parameter Name: `dump`  
 >**Containing Contract: Vow  
 >**Scope: System  
->**Technical Docs: https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation
-```
+>**Technical Docs: https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation  
+
 
 ## Description
 Debt Auctions are used to recapitalize the system by minting and auctioning off MKR for a fixed amount of DAI. In this process, keepers bid on how little MKR they are willing to accept for the fixed Dai amount they have to pay at auction settlement. The starting amount of MKR in these auctions is determined by the `Debt Auction Initial Lot Size` parameter. Auction participants may bid a lower amount of MKR than the initial lot size. If there are no bids, they must wait for the duration of the auction before the auction can be restarted with a higher `Debt Auction Initial Lot Size`. This increase is determined by the `pad` parameter. 
