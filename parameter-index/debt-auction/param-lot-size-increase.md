@@ -11,7 +11,7 @@
 Debt Auctions are used to recapitalize the system by minting and auctioning off MKR for a fixed amount of DAI. In this process, keepers bid on how little MKR they are willing to accept for the fixed Dai amount they have to pay at auction settlement. The starting amount of MKR in these auctions is determined by the `Debt Auction Initial Lot Size` parameter. Auction participants may bid a lower amount of MKR than the initial lot size. If there are no bids, they must wait for the duration of the auction before the auction can be restarted with a higher `Debt Auction Initial Lot Size`. This increase is determined by the `Debt Auction Lot Size Increase` parameter. 
 
 ## Example
-If the `Debt Auction Initial Lot Size` is 100 MKR and the `Debt Auction Lot Size Increase` is 50%, then an auction that is restarted due to no bids can have an initial bid of at most 150 MKR. If there are still no bids, the auction can be restarted again with an initial bid not exceeding 225 MKR.
+If the `Debt Auction Initial Lot Size` is 100 MKR and the `Debt Auction Lot Size Increase` is 50%, then an auction that is restarted due to no bids can have an initial bid not exceeding 150 MKR. If there are still no bids, the auction can be restarted again with an initial bid not exceeding 225 MKR.
 
 
 ## Purpose
