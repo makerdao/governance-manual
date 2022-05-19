@@ -20,7 +20,7 @@ Regularly updated governance status dashboard for MakerDAO. Find out what's bein
 
 Provides a list of all MakerDAO Recognized and Shadow delegates. Includes profiles, contact information and voting history as appropriate.
 
-### [Collateral Framework Sheet](https://docs.google.com/spreadsheets/d/1IX9e2fyfz7djtDMKn5gMyGsyFxHoY75GncMbAjnSXrM/edit#gid=0)
+### [Collateral Status Index Sheet](https://docs.google.com/spreadsheets/d/1PDf_CzhGa7mLuOUfX6Bz3WrnCjDRhIjmu-vDZMMw4Qc/edit#gid=1077340672)
 
 List of collaterals and their status within the collateral onboarding process. Includes prioritization and columns by which risk-reward is estimated for potential collaterals.
 
