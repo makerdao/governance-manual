@@ -55,14 +55,14 @@ All recurring proposals around the general functioning of the Core Units are exc
 # Off-chain Proposal Bounty Eligibility
 
 ## Eligibility
-**1.1** - Any community member with an account on forum.makerdao.com is eligible to receive off-chain proposal bounty payouts.
-**1.2** - Community members must opt-in and provide an ethereum mainnet address in order to receive payouts. This address will be publicly visible.
+**1.1** - Any community member with an account on forum.makerdao.com is eligible to receive off-chain proposal bounty payouts.  
+**1.2** - Community members must opt-in and provide an ethereum mainnet address in order to receive payouts. This address will be publicly visible.  
 
 ## Eligibility Exceptions
-**2.1** - Core Unit members are not eligible to recieve off-chain proposal bounties. This includes Core Unit Facilitators.
-**2.2** - Proposals concerning collateral onboarding are not eligible for off-chain proposal bounties.
-**2.3** - Proposals requesting funds from the Maker Protocol are not eligible for off-chain proposal bounties.
+**2.1** - Core Unit members are not eligible to recieve off-chain proposal bounties. This includes Core Unit Facilitators.  
+**2.2** - Proposals concerning collateral onboarding are not eligible for off-chain proposal bounties.  
+**2.3** - Proposals requesting funds from the Maker Protocol are not eligible for off-chain proposal bounties.  
 
 ## Exclusions
-**3.1** - GovAlpha Facilitators may exclude any community member from bounty payouts at any time, for any reason. 
-**3.2** - GovAlpha Facilitators must communicate a reason publicly if a given community member is being excluded from off-chain proposal bounty payouts.
+**3.1** - GovAlpha Facilitators may exclude any community member from bounty payouts at any time, for any reason.  
+**3.2** - GovAlpha Facilitators must communicate a reason publicly if a given community member is being excluded from off-chain proposal bounty payouts.  

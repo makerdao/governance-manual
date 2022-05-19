@@ -40,13 +40,13 @@ Payouts are consolidated into a CSV file and distributed by GovAlpha from the Go
 # Off-chain Participation Incentive Eligibility
 
 ## Eligibility
-**1.1** - Any community member with an official forum account is eligible to receive SourceCred payouts.
-**1.2** - Community members must opt-in and provide an ethereum mainnet address in order to receive payouts. This address will be publicly visible.
+**1.1** - Any community member with an official forum account is eligible to receive SourceCred payouts.  
+**1.2** - Community members must opt-in and provide an ethereum mainnet address in order to receive payouts. This address will be publicly visible.  
 
 ## Eligibility Exceptions
-**2.1** - Core Unit members are not eligible to recieve Community SourceCred payouts. This includes Core Unit Facilitators.
-**2.2** - Recognized Delegates are not eligible to recieve Community SourceCred payouts.
+**2.1** - Core Unit members are not eligible to recieve Community SourceCred payouts. This includes Core Unit Facilitators.  
+**2.2** - Recognized Delegates are not eligible to recieve Community SourceCred payouts.  
 
 ## Exclusions
-**3.1** - GovAlpha Facilitators may exclude any community member from SourceCred payouts at any time, for any reason. 
-**3.2** - GovAlpha Facilitators must communicate a reason publicly if a given user is being excluded from SourceCred payouts.
+**3.1** - GovAlpha Facilitators may exclude any community member from SourceCred payouts at any time, for any reason.  
+**3.2** - GovAlpha Facilitators must communicate a reason publicly if a given user is being excluded from SourceCred payouts.  
