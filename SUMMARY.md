@@ -42,7 +42,11 @@
   * [How to Attract More MKR as a Recognized Delegate?](delegation/delegate-attract-more-mkr.md)
   * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
 
-
+* Offchain Incentives
+  * [Community SourceCred](governance/sourcecred.md)
+  * [Delegate SourceCred](governance/delegate-sourcecred.md)
+  * [Proposal Bounties](governance/proposal-bounties.md)
+  
 ## Parameter Index
 
 * Core
