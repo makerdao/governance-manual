@@ -22,15 +22,24 @@ This parameter exists to control the shape of the price curve used when auctioni
 
 ### Exponential Stair Step
 
-**cut**  
+#### cut  
 Controls the 'depth' of each step in the function. A smaller cut means a smoother line, a large one means more pronounced steps.
 
 This is a multiplicative factor. For example, 0.99 equates to a 1% price drop.
 
-**step**  
+#### step  
 Controls the length of time between price drops. A smaller step means a smoother line, a large one means more pronounced steps. This is defined in seconds.
 
-![](https://github.com/blimpa/maker-operational-manual/tree/74d4a3e2c96e851b7fafa610ba57d628eab7c817/images/cut-and-step.png)
+![Exponential Stair Step Auction](https://github.com/patrick-j-govalpha/governance-manual/blob/trial-book/parameter-index/collateral-auction/images/cut-and-step.png?raw=true)
+
+### Linear Decrease
+
+In an auction utilizing a Linear Decrease Auction Price Function the auction will start at a price defined by the Auction Price Multiplier. The price will decrease linearly over time until it reaches 0. The time that it takes for an auction to reach 0 is controlled by the tau function.
+
+#### tau
+A value in seconds which controls how long it takes for the price of a Linear Decrease auction to reach 0. This controls the rate of fall in the price of the collateral being auctioned. A higher tau will result in slower reduction in the price of collaterals, whereas a lower tau will cause faster falls in price.
+
+The Linear Decrease function is also bounded by the Maximum Auction Duration parameter. This can be used to set a lower bound on the price accepted by the Maker Protocol. Once this value has been reached, the price will stop falling, Keepers can re-start the auction from the initial price at this point.
 
 ## Trade-offs
 
