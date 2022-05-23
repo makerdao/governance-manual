@@ -30,7 +30,7 @@ This is a multiplicative factor. For example, 0.99 equates to a 1% price drop.
 #### step  
 Controls the length of time between price drops. A smaller step means a smoother line, a large one means more pronounced steps. This is defined in seconds.
 
-![Exponential Stair Step Auction](https://github.com/patrick-j-govalpha/governance-manual/blob/trial-book/parameter-index/collateral-auction/images/cut-and-step.png?raw=true)
+![Exponential Stair Step Auction](https://github.com/makerdao/governance-manual/blob/main/parameter-index/collateral-auction/images/cut-and-step.png?raw=true)
 
 ### Linear Decrease
 
