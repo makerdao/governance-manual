@@ -12,7 +12,7 @@ This pool comes out of the GovAlpha Core Unit's budget.
 
 ### Cred Calculation
 
-SourceCred calculates reputation for users on the MakerDAO forum (called 'Cred') based on positive interactions between members of the community. Positive interactions, likes, responses, quotes, etc - result in the author recieving Cred.
+SourceCred calculates a reputation score for users on the MakerDAO forum (called 'Cred') based on positive interactions between members of the community. Positive interactions, likes, responses, quotes, etc - result in the author receiving Cred.
 
 DAI is then allocated on a weekly basis according to two reward mechanisms.
 
@@ -30,22 +30,25 @@ Allocates 625 DAI each week.
 
 ### Payout Process
 
-Participation rewards in DAI are calculated on a weekly basis, and paid out to opted-in users once a month. There is a minimum payout threshold of 50 DAI.
+Participation rewards in DAI are calculated on a weekly basis and paid out to opted-in users once a month. There is a minimum payout threshold of 50 DAI.
 
-Compensation calculations are transparent and located here: MakerDAO SourceCred Instance.
+Compensation calculations are transparent and located here: [MakerDAO SourceCred Instance](http://makerdao.sourcecred.io/).
 
-Payouts are consolidated into a CSV file and distributed by GovAlpha from the GovAlpha multisig wallet.
+Payouts are consolidated into a CSV file and distributed by GovAlpha from the GovAlpha multi-sig wallet.
 
 
 # Off-chain Participation Incentive Eligibility
 
 ## Eligibility
 **1.1** - Any community member with an official forum account is eligible to receive SourceCred payouts.  
-**1.2** - Community members must opt-in and provide an ethereum mainnet address in order to receive payouts. This address will be publicly visible.  
+**1.2** - Community members must opt-in and provide an Ethereum mainnet address in order to receive payouts. This address will be publicly visible.  
 
 ## Eligibility Exceptions
-**2.1** - Core Unit members are not eligible to recieve Community SourceCred payouts. This includes Core Unit Facilitators.  
-**2.2** - Recognized Delegates are not eligible to recieve Community SourceCred payouts.  
+**2.1** - Individuals working for/in Core Units are not eligible to receive Community SourceCred payouts.  
+**2.1.1** - This includes Core Unit Facilitators.  
+**2.1.2** - This includes individuals working for Incubating Core Units.  
+**2.1.3** - Former Core Unit Members become eligible 3 months after leaving their Core Unit.  
+**2.2** - Recognized Delegates are not eligible to receive Community SourceCred payouts.  
 
 ## Exclusions
 **3.1** - GovAlpha Facilitators may exclude any community member from SourceCred payouts at any time, for any reason.  
