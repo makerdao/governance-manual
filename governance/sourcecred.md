@@ -1,4 +1,3 @@
-# Off-chain Participation Incentives (SourceCred)
 
 MakerDAO rewards off-chain participation in governance discussion on the official MakerDAO forum using SourceCred.
 

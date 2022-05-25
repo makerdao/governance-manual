@@ -1,4 +1,3 @@
-# Off-chain Proposal Bounties
 
 MakerDAO rewards classes of governance action that result in measurable changes to the way the Maker Protocol or MakerDAO operates.
 
