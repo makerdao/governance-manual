@@ -11,7 +11,7 @@ Delegates are excluded from payouts under the main SourceCred instance. However,
 1. A separate pool of funds exists to compensate Recognized Delegates for their engagement.
 2. Rewards are distributed outside of the existing SourceCred instance.
 
-Separating the delegate and community engagement budgets prevents Recognized Delegates from monopolizing the DAI distribution and allows us to maintain the dispersion and decentralization of the benefits that SourceCred offers to the community.
+Separating the delegate and community engagement budgets prevents Recognized Delegates from monopolizing the DAI distribution. It also maintains the dispersion and decentralization of the benefits that SourceCred offers to the community.
 
 52,000 DAI annually is allocated to the Recognized Delegate reward pool. This breaks down to 1,000 DAI allocated to delegates per week based on their engagement in the MakerDAO forum.
 
@@ -24,7 +24,7 @@ This algorithm assesses the activity of the Delegates on a weekly basis, measuri
 This is performed in a three-step process:
 - First, the algorithm selects the week evaluated for a specific delegate.
 - Then, it filters out all of the actions that are not relevant for the scope of this calculation (user mentions, inter-week cred interactions, and cred lost for likes given).
-- Finally, it counts and stores the cred that's left in the selection.
+- Finally, it counts and stores the cred that is left in the selection.
 
 This makes the calculation more biased toward direct delegate activity and recent quality contributions, so Delegates that contribute less (garner fewer likes, replies, and link-backs) will notice that the DAI they receive from SourceCred will be greatly reduced.
 
