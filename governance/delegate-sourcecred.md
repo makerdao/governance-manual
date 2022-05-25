@@ -1,4 +1,3 @@
-# Delegate Engagement Compensation Mechanism
 
 Engagement and discussion around governance decisions are extremely important for the long-term health of MakerDAO.
 
