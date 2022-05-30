@@ -34,7 +34,7 @@ On the other hand, if the Surplus Auction Limit is too large, it can lead to hig
 
 
 ## Changes
-Adjusting the Surplus Auction Limit is a manual process that requires an executive vote. Changes to the Surplus Auction Limit are subject to the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md).
+Adjusting the Surplus Auction Limit is a manual process that requires an executive vote. Changes to the Surplus Auction Limit are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
 
 **Why increase this parameter?**
 This parameter should be increased to increase the number of potential parallel auctions. This could be when the average protocol profits are high enough that more parallel auctions are necessary.
