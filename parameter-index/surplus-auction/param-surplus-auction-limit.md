@@ -48,5 +48,4 @@ This parameter should be decreased to avoid too many simultaneous auctions resul
 ## Considerations
 The Surplus Auction Limit should be at least as high as the `lot` amount for a single auction. Otherwise, no auctions will take place.
 
-Changing this parameter only has an effect if it increases/decreases from one integer multiple of the `lot` to another. For example, if the `lot` is 30,000 DAI, setting the Surplus Auction Limit to 45,000 DAI would have the same effect as setting it to 30,000 DAI.
-
+If the amount of Dai on auction (`fill`) is less than the Surplus Auction Limit, then a new auction can be started even if that puts the total DAI on auction above the Surplus Auction Limit. At that point, no further auctions can be started. In other words, the maximum Dai on auction can be almost one `lot` higher than the Surplus Auction Limit.
