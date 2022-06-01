@@ -11,9 +11,9 @@
 ## Description
 During surplus auctions, excess DAI within the system is auctioned off in fixed lots for MKR. In this process, keepers bid on how much MKR they are willing to pay for a fixed Dai amount. MKR received this way is burned. 
 
-To avoid flooding the system with too many simultaneous auctions, the maximum amount of DAI that can be auctioned at any given point of time is limited. The parameter that sets this limit is the Surplus Auction Limit or `lid` parameter.
+To avoid flooding the system with too many simultaneous auctions, the maximum amount of DAI that can be auctioned at any given point in time is limited. The parameter that sets this limit is the Surplus Auction Limit or `lid` parameter.
 
-For example, if the Surplus Auction Limit is set to 30,000, then there can be at most 30,000 DAI being auctioned for MKR at any point of time.
+For example, if the Surplus Auction Limit is set to 30,000, then there can be at most 30,000 DAI being auctioned for MKR at any point in time.
 
 
 ## Purpose
@@ -27,7 +27,7 @@ A small Surplus Auction Limit restricts the number of simultaneous flap auctions
 However, if the Surplus Auction Limit is too low and the protocol is making a large amount of profit on average, this may result in excess DAI remaining in the surplus buffer instead of being used to burn MKR.
 
 
-A large Surplus Auction Limit allows for more parallel surplus auctions. This increases the potential rate at which protocol profits can be used to burn MKR. If the protocol profits are high on average, then more parallel auctions are also needed to occur to buyback and burn MKR at a fast enough rate. Finally, under certain specific scenarios where the protocol makes large profits and MKR price is simultaneously low (such as liquidations due to a market crash), a large Surplus Auction Limit could result in more MKR being burned. 
+A large Surplus Auction Limit allows for more parallel surplus auctions. This increases the potential rate at which protocol profits can be used to burn MKR. If the protocol profits are high on average, then more parallel auctions are also needed to occur to buy back and burn MKR at a fast enough rate. Finally, under certain specific scenarios where the protocol makes large profits and MKR price is simultaneously low (such as liquidations due to a market crash), a large Surplus Auction Limit could result in more MKR being burned. 
 
 On the other hand, if the Surplus Auction Limit is too large, it can lead to highly inefficient auctions due to too many auctions. In particular, past examples such as [Flappy Friday](https://forum.makerdao.com/t/flappy-friday-clip-and-flap-analysis/12790) have shown that too many simultaneous flap auctions can result in zero MKR bids winning the auction due to a lack of competition.
 
