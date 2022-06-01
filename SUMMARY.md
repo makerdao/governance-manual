@@ -85,6 +85,10 @@
   * [Auction Duration](parameter-index/debt-auction/param-auction-duration-flop.md)
   * [Bid Duration](parameter-index/debt-auction/param-bid-duration-flop.md)
   * [Debt Auction Delay](parameter-index/debt-auction/param-debt-auction-delay.md)
+  * [Debt Auction Bid Size](parameter-index/debt-auction/param-bid-size.md)
+  * [Initial Lot Size](parameter-index/debt-auction/param-initial-lot-size.md)
+  * [Lot Size Increased](parameter-index/debt-auction/param-lot-size-increase.md)
+
 
 ## Module Index
 * [Peg Stability](module-index/module-psm.md)
