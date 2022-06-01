@@ -79,6 +79,7 @@
   * [Min Bid Increase](parameter-index/surplus-auction/param-min-bid-increase-flap.md)
   * [Auction Duration](parameter-index/surplus-auction/param-auction-duration-flap.md)
   * [Bid Duration](parameter-index/surplus-auction/param-bid-duration-flap.md)
+  * [Surplus Auction Limit](parameter-index/surplus-auction/param-surplus-auction-limit.md)
 
 * Debt Auction
   * [Min Bid Decrease](parameter-index/debt-auction/param-min-bid-decrease-flop.md)
