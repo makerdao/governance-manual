@@ -2,7 +2,7 @@
 
 ## 1. Inform a Governance Facilitator of your intention to become a Recognized Delegate
 
-Speak to one of the Governance Facilitators (currently @LongForWisdom and @prose11). The best way to get in contact is via the official MakerDAO discord or the official MakerDAO forum. Please do not use email.
+Speak to a Governance Facilitator (currently @prose11). The best way to get in contact is via the official MakerDAO discord or the official MakerDAO forum. Please do not use email.
 
 ## 2. Read and sign-up for the Delegates Code of Conduct
 
