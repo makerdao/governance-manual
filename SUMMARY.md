@@ -42,7 +42,11 @@
   * [How to Attract More MKR as a Recognized Delegate?](delegation/delegate-attract-more-mkr.md)
   * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
 
-
+* Offchain Incentives
+  * [Community SourceCred](governance/sourcecred.md)
+  * [Delegate SourceCred](governance/delegate-sourcecred.md)
+  * [Proposal Bounties](governance/proposal-bounties.md)
+  
 ## Parameter Index
 
 * Core
@@ -75,12 +79,17 @@
   * [Min Bid Increase](parameter-index/surplus-auction/param-min-bid-increase-flap.md)
   * [Auction Duration](parameter-index/surplus-auction/param-auction-duration-flap.md)
   * [Bid Duration](parameter-index/surplus-auction/param-bid-duration-flap.md)
+  * [Surplus Auction Limit](parameter-index/surplus-auction/param-surplus-auction-limit.md)
 
 * Debt Auction
   * [Min Bid Decrease](parameter-index/debt-auction/param-min-bid-decrease-flop.md)
   * [Auction Duration](parameter-index/debt-auction/param-auction-duration-flop.md)
   * [Bid Duration](parameter-index/debt-auction/param-bid-duration-flop.md)
   * [Debt Auction Delay](parameter-index/debt-auction/param-debt-auction-delay.md)
+  * [Debt Auction Bid Size](parameter-index/debt-auction/param-bid-size.md)
+  * [Initial Lot Size](parameter-index/debt-auction/param-initial-lot-size.md)
+  * [Lot Size Increased](parameter-index/debt-auction/param-lot-size-increase.md)
+
 
 ## Module Index
 * [Peg Stability](module-index/module-psm.md)
