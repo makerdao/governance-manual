@@ -21,20 +21,21 @@ Further, it allows Maker to undercut centralized stablecoins on these lending pr
 
 Finally, it is likely that the D3M module is triggered during volatile markets as borrowing rates on lending protocols also tend to fluctuate heavily during such periods. The module assures DAI users on the lending protocol that the lending/borrowing rates remain predictable making DAI a better choice than other stablecoins.
 
-
 ## Key Parameters
 
 ### Debt Ceiling (line) 
-The Debt Ceiling parameter for the DAI Direct Deposit Module is substantially identical to the Debt Ceiling parameter for vault types. It controls the maximum amount of DAI that can be minted via the D3M. A D3M Debt Ceiling may also be controlled by the Debt Ceiling Instant Access Module.
+The Debt Ceiling parameter for the DAI Direct Deposit Module is substantially identical to the Debt Ceiling parameter for vault types. It controls the maximum amount of DAI that can be minted via the D3M. A D3M Debt Ceiling may also be controlled by the [Debt Ceiling Instant Access Module](../module-index/module-dciam.md).
 
 ### Target Borrow Rate (bar) 
 The Target Borrow Rate allows Maker Governance to set the 'ideal' rate for borrowing DAI on the target lending protocol. This is done by adding or removing an amount of DAI from the lending protocol such that the borrow rate on the target protocol becomes equal to the Target Borrow Rate (provided the debt ceiling constraint allows it.) 
 
 If the borrowing interest rate on the target lending protocol is higher than the target borrow rate and the debt ceiling has not been hit, then the module mints and deposits additional DAI into the lending protocol in exchange for deposit tokens.
 
-Conversely, if the borrowing interest rate on the target lending protocol is lower than the target borrow rate and the module holds a nonzero amount of deposit tokens, then the contract returns deposit tokens to the lending protocol in exchange for DAI which is then burned. 
+Conversely, if the borrowing interest rate on the target lending protocol is lower than the Target Borrow Rate and the module holds a nonzero amount of deposit tokens, then the contract returns deposit tokens to the lending protocol in exchange for DAI which is then burned. 
 
-The function to trigger this mechanism is permissionless and is called by bots run by MakerDAO at regular intervals. 
+The function to trigger this mechanism is permissionless and is called by bots run by MakerDAO at regular intervals.
+
+It is possible to deactivate the Aave D3M by setting the Target Borrow Rate to 0. Note that while setting the Target Borrow Rate to 0 might intuitively suggest that the Aave D3M will utilize it's full debt ceiling, it is a pre-programmed state in the D3M code that will de-activate the D3M entirely. It is possible to set the Target Borrow Rate to 0 using a MOM, this will bypass the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) and allow any change to take effect on execution of an Executive Vote.
 
 ## Meta Parameters
 
