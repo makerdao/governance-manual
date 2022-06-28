@@ -51,7 +51,12 @@ The main consideration when setting this parameter is how much time is required 
 
 In the event of a critical technical vulnerability being discovered and responsibly disclosed to the MakerDAO Smart Contracts Domain Team, the dark-spell mechanism may be employed to fix the exploit. The dark spell mechanism was introduced to help mitigate the risk of technical fixes being made to the protocol while subject to the GSM Pause Delay. If a technical fix to a critical vulnerability does not become active immediately, the vulnerability can be exploited before the fix goes live.
 
-The GSM Pause Delay does not apply to the Emergency Shutdown Module, which can be triggered at any time by a minority of MKR currently set to 50,000.
+## Bypass
 
-The GSM Pause Delay does not apply to 'cancel' spells \(executive spells that cancel an existing executive vote that has passed but is awaiting the expiry of the GSM Pause Delay before it becomes active.\)
+There are a few irregular protocol actions that can be effected by MKR Holders not subject to the delay.
 
+- Executive 'cancel' spells \(executive spells that cancel an existing executive vote that has passed but is awaiting the expiry of the GSM Pause Delay before it becomes active\)
+- [Emergency Shutdown Module](https://docs.makerdao.com/smart-contract-modules/shutdown)
+- Re-enabling liquidation auctions on a vault type after the [breaker was triggered](../../parameter-index/collateral-auction/param-breaker-price-tolerance#considerations)
+- [Freezing any price Oracle](https://docs.makerdao.com/smart-contract-modules/oracle-module/oracle-security-module-osm-detailed-documentation)
+- [Dai Direct Deposit Module Deactivation](../../module-index/module-dai-direct-deposit)
