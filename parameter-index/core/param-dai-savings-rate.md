@@ -48,3 +48,5 @@ Maker Governance should recognize that a negative Dai Savings Rate will not work
 Any changes to the Dai Savings Rate may affect PSM usage behavior. For example, increased upward pressure on the dollar peg caused by the Dai Savings Rate may require increased PSM usage to balance. This may contribute to negative cash flow as there will be no ongoing income from the PSM.
 
 In the event of an Emergency Shutdown, the Dai Savings Rate will be set to 0% to prevent the total debt of the Maker Protocol from increasing.
+
+$eof$

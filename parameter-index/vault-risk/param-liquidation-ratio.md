@@ -61,3 +61,4 @@ Some vault types do not have liquidations enabled. For these vault types, users 
 
 For USD denominated stablecoin vaults, Liquidation Ratios can be decreased to very low levels to allow arbitrage of the DAI peg. This puts an effective cap on the price of DAI while these vault types have available debt-ceiling space. The trade-offs around this decision are not covered here.
 
+$eof$

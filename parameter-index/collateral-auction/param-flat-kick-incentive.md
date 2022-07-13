@@ -52,3 +52,4 @@ Resetting a failed auction will also award the triggering keeper the Flat Kick I
 
 The funds for the Flat Kick Incentive are removed from the surplus buffer and may trigger MKR minting if there is no DAI available within the surplus buffer.
 
+$eof$

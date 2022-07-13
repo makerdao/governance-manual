@@ -9,3 +9,5 @@
 * [On-Chain Polling](on-chain-governance.md#governance-polls)
 * [On-Chain Executive](on-chain-governance.md#executive-votes)
 * [GSM Delay](../parameter-index/core/param-gsm-pause-delay.md)
+
+$eof$

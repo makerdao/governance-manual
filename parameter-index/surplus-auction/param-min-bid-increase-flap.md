@@ -45,3 +45,5 @@ This parameter should be decreased to increase auction efficiency i.e. winning b
 The gas cost to `kick` (trigger) a surplus auction is non-trivial. If the Min Bid Increase (Flap) is too low, surplus auctions may not be triggered by any keeper because they are required to accept a fixed cost for an uncertain return.
 
 "Front-running" may be an issue in surplus auctions.
+
+$eof$

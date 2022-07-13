@@ -42,3 +42,4 @@ Alternatively, if gas prices on the Ethereum network have dropped to consistentl
 
 Vaults with a debt amount lower than the current Debt Floor will not be able to draw or payback additional DAI unless it puts their total debt over the Debt Floor, or drops it to zero. However, they will not be forcibly liquidated or suffer any immediate negative consequences.
 
+$eof$

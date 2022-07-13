@@ -52,3 +52,5 @@ Delegates' engagement performance will be published in each month's Delegates Ro
 **3.1** - GovAlpha Facilitators may exclude any Recognized Delegate from engagement payouts at any time, for any reason.  
 
 **3.2** - GovAlpha Facilitators must communicate a reason publicly if a given Recognized Delegate is being excluded from off-chain proposal bounty payouts.  
+
+$eof$

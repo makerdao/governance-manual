@@ -68,3 +68,5 @@ The Flash Mint Module conforms to ERC1356. Therefore, users can use the referenc
 ## Considerations
 
 Fees accrued through the Flash Mint Module are transferred to the Surplus Buffer upon completion of the transaction.
+
+$eof$

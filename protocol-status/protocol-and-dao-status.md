@@ -51,3 +51,5 @@ Shows all active and finished liquidations across all collateral types and the c
 ### [Data API](https://data-api.makerdao.network/redoc)
 
 A RESTful API that covers multiple domains including vaults, liquidations, governance votes and protocol parameters.
+
+$eof$

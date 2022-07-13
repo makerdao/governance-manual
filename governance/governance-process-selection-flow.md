@@ -9,3 +9,5 @@
 * [MIPs Portal](https://mips.makerdao.com/)
 * [MIP6 Applications](https://mips.makerdao.com/mips/details/MIP6)
 * [Core Units](../core-units/core-units.md)
+
+$eof$

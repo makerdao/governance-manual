@@ -42,3 +42,5 @@ Triggering the Emergency Shutdown Module is not subject to the GSM Pause Delay.
 Maker Governance can effectively turn off the Emergency Shutdown Module by removing its authorization to trigger an emergency shutdown. This can also be achieved by raising the minimum threshold to a value greater than the amount of MKR in circulation.
 
 Delegate contracts are unable to interact with the Emergency Shutdown Module. Therefore, there is no risk of a delegate depositing their delegated MKR into the Emergency Shutdown Module.
+
+$eof$

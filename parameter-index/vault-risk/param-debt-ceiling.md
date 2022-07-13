@@ -56,3 +56,4 @@ The Debt Ceiling for a vault type can be exceeded as stability fees accrue to va
 
 If a Debt Ceiling parameter for a vault type is dropped below the current amount of DAI minted using that vault type, this does not have any negative effects beyond preventing further mints from vaults using that vault type.
 
+$eof$
