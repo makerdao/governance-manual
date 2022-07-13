@@ -9,7 +9,6 @@ Off-chain voting takes place on the [Maker Forum](https://forum.makerdao.com) an
 
 {% embed url="https://vimeo.com/649207489" %}
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

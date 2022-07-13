@@ -55,7 +55,6 @@ The GSM Pause Delay does not apply to the Emergency Shutdown Module, which can b
 
 The GSM Pause Delay does not apply to 'cancel' spells \(executive spells that cancel an existing executive vote that has passed but is awaiting the expiry of the GSM Pause Delay before it becomes active.\)
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

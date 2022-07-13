@@ -50,7 +50,6 @@ The Surplus Auction Limit should be at least as high as the `lot` amount for a s
 
 If the amount of Dai on auction (`fill`) is less than the Surplus Auction Limit, then a new auction can be started even if that puts the total DAI on auction above the Surplus Auction Limit. At that point, no further auctions can be started. In other words, the maximum Dai on auction can be almost one `lot` higher than the Surplus Auction Limit.
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

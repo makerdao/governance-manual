@@ -91,7 +91,6 @@
 * `USDP`: Pax Dollar (Paxos)
 * `USDC`: USD Coin (Circle)
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

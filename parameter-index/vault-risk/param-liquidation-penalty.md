@@ -50,7 +50,6 @@ Particularly important to vault holders is the notion that the Liquidation Penal
 
 During an Emergency Shutdown, no new collateral auctions may be started. All auctions underway during an emergency shutdown will be subject to the Liquidation Penalty parameter with no special considerations. 
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

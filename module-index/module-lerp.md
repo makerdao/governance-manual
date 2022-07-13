@@ -54,7 +54,6 @@ Typically, the start and end parameters are adjusted to represent the current st
 
 When `lerp` is used to determine allocation of protocol earnings, such as setting the System Surplus Buffer, Governance should ensure that the desired rate of increase is not larger than the expected protocol earnings. If the desired rate is too high, the `lerp` has no effect. 
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

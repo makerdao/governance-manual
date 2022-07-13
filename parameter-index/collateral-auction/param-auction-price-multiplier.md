@@ -49,7 +49,6 @@ An Auction Price Multiplier parameter might be decreased for a specific vault ty
 
 The Starting Price for an auction is calculated using the OSM \(Oracle Security Module\) price feed multiplied by the Auction Price Multiplier.
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

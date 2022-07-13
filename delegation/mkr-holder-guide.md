@@ -147,7 +147,6 @@ Ineffective or participation-starved governance will kill the Maker Protocol ove
 
 If you are holding non-trivial amounts of capital in the MKR token, GovAlpha believes you should seriously consider delegating responsibly.
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

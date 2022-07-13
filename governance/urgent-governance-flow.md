@@ -10,7 +10,6 @@
 * [On-Chain Executive](on-chain-governance.md#executive-votes)
 * [GSM Delay](../parameter-index/core/param-gsm-pause-delay.md)
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

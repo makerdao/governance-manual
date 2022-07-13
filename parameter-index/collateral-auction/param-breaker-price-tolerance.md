@@ -58,7 +58,6 @@ Re-enabling liquidation auctions on a vault type after the breaker has been trig
 
 During an Emergency Shutdown, the Breaker Price Tolerance parameter is not relevant as no new auctions may be triggered.
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

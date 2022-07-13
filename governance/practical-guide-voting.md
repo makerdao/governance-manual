@@ -18,7 +18,6 @@ Setting up a linked-wallet Voting Contract takes four transactions for a total o
 ### Delegation
 MKR holders may also delegate their MKR and allow the delegate to vote on their behalf. More information on delegation can be found [here](https://manual.makerdao.com/governance/what-is-delegation).
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

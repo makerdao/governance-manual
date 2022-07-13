@@ -53,7 +53,6 @@ Delegates' engagement performance will be published in each month's Delegates Ro
 
 **3.2** - GovAlpha Facilitators must communicate a reason publicly if a given Recognized Delegate is being excluded from off-chain proposal bounty payouts.  
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

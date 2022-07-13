@@ -16,7 +16,6 @@ Recognized Delegates act as a bridge between vote outcomes and other actors by a
 ## Shadow Delegates
 Shadow Delegates are permissionless, with no requirements or responsibilities beyond those they have agreed on directly with holders who delegate to them.
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

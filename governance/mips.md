@@ -50,7 +50,6 @@ MIP6 defines a standardized application form used to kick off the process of onb
 ### [MIP13: Declaration of Intent](https://mips.makerdao.com/mips/details/MIP13)
 MIP13 introduces declarations of intent, which allow Maker Governance to signal an intention to the wider community.
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

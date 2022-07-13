@@ -50,7 +50,6 @@ Forum and community participation will also be tracked, specifically related to 
 
 Updates to the participation metrics are manual and will be performed on a weekly basis.
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

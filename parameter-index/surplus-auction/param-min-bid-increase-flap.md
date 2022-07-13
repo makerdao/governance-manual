@@ -46,7 +46,6 @@ The gas cost to `kick` (trigger) a surplus auction is non-trivial. If the Min Bi
 
 "Front-running" may be an issue in surplus auctions.
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

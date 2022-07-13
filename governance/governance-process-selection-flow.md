@@ -10,7 +10,6 @@
 * [MIP6 Applications](https://mips.makerdao.com/mips/details/MIP6)
 * [Core Units](../core-units/core-units.md)
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

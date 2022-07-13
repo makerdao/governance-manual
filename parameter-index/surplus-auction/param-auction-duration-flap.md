@@ -45,7 +45,6 @@ Auction Duration (Flap) is always lower bounded by the Bid Duration (Flap) i.e. 
 
 For example, if Bid Duration (Flap) is 1 hour and Auction Duration (Flap) is 30 minutes, then the auction will only last 30 minutes, making the Bid Duration (Flap) irrelevant.
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

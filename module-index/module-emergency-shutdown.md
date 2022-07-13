@@ -43,7 +43,6 @@ Maker Governance can effectively turn off the Emergency Shutdown Module by remov
 
 Delegate contracts are unable to interact with the Emergency Shutdown Module. Therefore, there is no risk of a delegate depositing their delegated MKR into the Emergency Shutdown Module.
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

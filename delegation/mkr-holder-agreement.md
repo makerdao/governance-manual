@@ -16,7 +16,6 @@ MKR Token Holders accept that delegates may have other obligations in addition t
 
 MKR Token Holders accept that continued delegation of their MKR confirms their continual waiver of any and all types of liability on behalf of the delegate related to the delegate’s vote.
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+

@@ -38,7 +38,6 @@ The `Global Debt Ceiling` will not prevent DAI accruing in the system surplus bu
 
 Maker Governance should exercise caution when reducing the debt ceiling of collateral types; this may lead to an unintended situation where the `Global Debt Ceiling` is below the overall DAI supply, thus preventing further DAI from being minted.
 
-$eof1$
-$eof2$
-$eof3$
-$eof4$
+>Page last reviewed: -
+>Next review due: -
+
