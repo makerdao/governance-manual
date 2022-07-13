@@ -42,4 +42,7 @@ The Liquidations 2.0 system allows the Local Liquidation Limit to be set at a hi
 
 During an Emergency Shutdown, no new collateral auctions may be started. All auctions underway during an emergency shutdown would have been subject to the Local Liquidation Limit parameters with no special considerations.
 
-$eof$
+$eof1$
+$eof2$
+$eof3$
+$eof4$

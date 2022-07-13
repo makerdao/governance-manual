@@ -53,4 +53,7 @@ The auction will only last 30 minutes, making the Bid Duration (Flop) irrelevant
 
 The Auction Duration (Flap) parameter fulfills the same role as this parameter in Surplus Auctions.
 
-$eof$
+$eof1$
+$eof2$
+$eof3$
+$eof4$

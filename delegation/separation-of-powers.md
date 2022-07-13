@@ -26,4 +26,7 @@ However, GovAlpha is aware that...
 
 On account of these points, there is no requirement or rule that members of Core Units cannot be Recognized Delegates. We leave it to MKR token holders to judge when and if it is appropriate for them to delegate to members of Core Units.
 
-$eof$
+$eof1$
+$eof2$
+$eof3$
+$eof4$

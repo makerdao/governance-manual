@@ -80,4 +80,7 @@ If a stream is revoked at a future date, it will continue streaming up until tha
 
 When using the DAI Vesting contract, funds remain in the surplus buffer until a transfer is triggered by the recipient. This means any unused funds can be used to protect the protocol, however, also the contract carries the danger of MKR minting if a recipient collects funds from DssVestSuckable while the system surplus buffer does not contain sufficient funds. 
 
-$eof$
+$eof1$
+$eof2$
+$eof3$
+$eof4$

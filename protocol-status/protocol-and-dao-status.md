@@ -52,4 +52,7 @@ Shows all active and finished liquidations across all collateral types and the c
 
 A RESTful API that covers multiple domains including vaults, liquidations, governance votes and protocol parameters.
 
-$eof$
+$eof1$
+$eof2$
+$eof3$
+$eof4$

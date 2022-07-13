@@ -38,4 +38,7 @@ Auction resets can only take place when either the Maximum Auction Duration para
 
 During an Emergency Shutdown, new auctions are halted, but the Three-Stage Liquidations Circuit Breaker determines if ongoing auctions can be reset or not. If only one additional level of the circuit breaker is triggered the Maximum Auction Duration will still be used to check eligibility for auction reset, but under the most severe level of the Liquidations Circut breaker no resets can be performed, thus limiting the effectiveness of the parameter.
 
-$eof$
+$eof1$
+$eof2$
+$eof3$
+$eof4$

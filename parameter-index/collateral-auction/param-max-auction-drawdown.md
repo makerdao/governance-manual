@@ -34,4 +34,7 @@ Maximum Auction Drawdown is based on the starting auction price \(`top`\), which
 
 The Maximum Auction Drawdown parameter sets one of the two conditions that can independently prompt an auction reset, the other being the Maximum Auction Duration.
 
-$eof$
+$eof1$
+$eof2$
+$eof3$
+$eof4$

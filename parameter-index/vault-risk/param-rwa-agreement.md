@@ -25,4 +25,7 @@ Maker Governance should not change the parameter unless there has been a change 
 ## Considerations
 As MakerDAO is not a legal entity, the actual use of the contractual documentation may be limited.
 
-$eof$
+$eof1$
+$eof2$
+$eof3$
+$eof4$

@@ -58,4 +58,7 @@ The Bid Duration (Flap) parameter fulfills  the same role as this parameter in S
 
 A similar auction system was initially used for collateral auctions as well, it was replaced by a dutch auction system. 
 
-$eof$
+$eof1$
+$eof2$
+$eof3$
+$eof4$
