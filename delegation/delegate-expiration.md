@@ -12,7 +12,7 @@ VoteDelegate contracts expire by design, as a means to protect the Maker protoco
 VoteDelegate contracts expire exactly 365 days after its creation. The exact expiry date and time can be found on a delegate's profile page on the Governance Portal. This applies to both Recognized Delegates and Shadow Delegates.
 
 ## Migration for delegates
-Recognized delegates that own a VoteDelegate contract that's nearing expiration will be shown a prominent banner on the Governance Portal, prompting the delegate to migrate. The banner will redirect them to [the migration page for delegates](https://vote.makerdao.com/migration/delegate). 
+Recognized Delegates that own a VoteDelegate contract that's nearing expiration will be shown a prominent banner on the Governance Portal, prompting the delegate to migrate. The banner will redirect them to [the migration page for delegates](https://vote.makerdao.com/migration/delegate). 
 The delegate will be required to prepare a new address for creating the renewed delegate contract, since an address can only own one delegate contract (expired or not). The migration steps are as follows:
 
 * Step 1. Undelegate any of their own MKR holdings from their delegate contract
@@ -22,7 +22,7 @@ The delegate will be required to prepare a new address for creating the renewed 
 * Step 5. Delegate any of their own MKR holdings to the new delegate contract.
 * Step 6. Encourage their delegators to migrate their delegated MKR.
 
-Once a delegate successfully finished their migration, the Governance Portal UI will display their prior delegate profile in aggregation. Their prior profile markdown, performance metrics, voting history and commenting history will be visible on their new delegate contract profile page. A successful migration also triggers migration prompts for their delegators who still have MKR delegated to the old delegate contract.
+Once a delegate has successfully finished their migration, the Governance Portal UI will display their prior delegate profile in aggregation. Their prior profile markdown, performance metrics, voting history and commenting history will be visible on their new delegate contract profile page. A successful migration also triggers migration prompts for their delegators who still have MKR delegated to the old delegate contract.
 
 ## Migration for delegators
 
