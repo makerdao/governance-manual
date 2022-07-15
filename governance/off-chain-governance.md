@@ -24,6 +24,6 @@ Once a forum signal thread has been active for several weeks and voted on by a r
 
 If the Governance Facilitator agrees that the issue outlined in the signal thread is ready to go on-chain, then the Governance Facilitator will create an on-chain Governance Poll in the form specified by the community consensus created in the signal thread.
 
->Page last reviewed: -
->Next review due: -
+>Page last reviewed: -  
+>Next review due: -  
 

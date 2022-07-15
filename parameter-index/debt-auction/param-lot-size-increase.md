@@ -37,6 +37,6 @@ Maker Governance may wish to decrease the `Debt Auction Lot Size Increase` if th
 ## Considerations
 This parameter should be tuned in conjunction with the `Debt Auction Initial Lot Size` parameter, which has similar consequences when increased or decreased as the `Debt Auction Lot Size Increase` parameter.
 
->Page last reviewed: -
->Next review due: -
+>Page last reviewed: -  
+>Next review due: -  
 

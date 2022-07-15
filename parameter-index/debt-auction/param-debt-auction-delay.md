@@ -49,6 +49,6 @@ In theory, Maker Governance can arbitrarily extend the Debt Auction Delay, thus 
 
 In Emergency Shutdown, all Debt Auctions are cancelled, and the Debt Auction Delay is therefore nullified.
 
->Page last reviewed: -
->Next review due: -
+>Page last reviewed: -  
+>Next review due: -  
 

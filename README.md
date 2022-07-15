@@ -12,6 +12,6 @@ description: >-
 * [Collateral Onboarding](https://collateral.makerdao.com/) @ collateral.makerdao.com
 * [MIPs Portal](https://mips.makerdao.com/) @ mips.makerdao.com
 
->Page last reviewed: -
->Next review due: -
+>Page last reviewed: -  
+>Next review due: -  
 

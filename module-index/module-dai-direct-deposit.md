@@ -91,6 +91,6 @@ While the D3M module can be called by anyone, MakerDAO's Tech-Ops Core Unit runs
 
 Recursive lending is common on lending protocols due to yield farming. This is where a user deposits DAI as collateral, borrows DAI from the protocol, and deposits the borrowed DAI back into the protocol. This recursive loop can be repeated several times and inflates the total DAI supply figure. The maximum share calculation for the D3M debt ceiling only takes into account real DAI supply without recursive lending. 
 
->Page last reviewed: -
->Next review due: -
+>Page last reviewed: -  
+>Next review due: -  
 

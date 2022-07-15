@@ -10,6 +10,6 @@ The following are some of the benefits of becoming a Recognized Delegate in the 
 * Recognized Delegates who are also MKR holders may feel they can improve the value of their holdings by acting in ways that they feel lead to protocol and revenue growth.
 * Good performance as a Recognized Delegate in MakerDAO could afford opportunities for delegation in other protocols.
 
->Page last reviewed: -
->Next review due: -
+>Page last reviewed: -  
+>Next review due: -  
 
