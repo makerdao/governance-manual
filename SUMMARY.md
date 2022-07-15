@@ -32,20 +32,26 @@
 * Verification
   * [Executive Audit](governance/executive-audit.md)
 
-* [Delegation](delegation/what-is-delegation.md)
-  * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
-  * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
-  * [Delegates Code of Conduct](delegation/delegates-code.md)
-  * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
-  * [Separation of Powers](delegation/separation-of-powers.md)
-  * [Why to Become a Recognized Delegate](delegation/why-to-become-a-recognized-delegate.md)
-  * [How to Attract More MKR as a Recognized Delegate?](delegation/delegate-attract-more-mkr.md)
-  * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
-
 * Offchain Incentives
   * [Community SourceCred](governance/sourcecred.md)
   * [Delegate SourceCred](governance/delegate-sourcecred.md)
   * [Proposal Bounties](governance/proposal-bounties.md)
+  
+## Delegation
+  
+* Overview
+  * [What is Delegation?](delegation/what-is-delegation.md)
+  * [Separation of Powers](delegation/separation-of-powers.md)
+  * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
+* For MKR Holders
+  * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
+  * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
+* For Delegates  
+  * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
+  * [Delegates Code of Conduct](delegation/delegates-code.md)
+  * [Why to Become a Recognized Delegate](delegation/why-to-become-a-recognized-delegate.md)
+  * [How to Attract More MKR as a Recognized Delegate?](delegation/delegate-attract-more-mkr.md)
+* [Delegate Contract Migration](delegation/delegate-expiration.md)
   
 ## Parameter Index
 
@@ -79,12 +85,17 @@
   * [Min Bid Increase](parameter-index/surplus-auction/param-min-bid-increase-flap.md)
   * [Auction Duration](parameter-index/surplus-auction/param-auction-duration-flap.md)
   * [Bid Duration](parameter-index/surplus-auction/param-bid-duration-flap.md)
+  * [Surplus Auction Limit](parameter-index/surplus-auction/param-surplus-auction-limit.md)
 
 * Debt Auction
   * [Min Bid Decrease](parameter-index/debt-auction/param-min-bid-decrease-flop.md)
   * [Auction Duration](parameter-index/debt-auction/param-auction-duration-flop.md)
   * [Bid Duration](parameter-index/debt-auction/param-bid-duration-flop.md)
   * [Debt Auction Delay](parameter-index/debt-auction/param-debt-auction-delay.md)
+  * [Debt Auction Bid Size](parameter-index/debt-auction/param-bid-size.md)
+  * [Initial Lot Size](parameter-index/debt-auction/param-initial-lot-size.md)
+  * [Lot Size Increased](parameter-index/debt-auction/param-lot-size-increase.md)
+
 
 ## Module Index
 * [Peg Stability](module-index/module-psm.md)
@@ -93,3 +104,4 @@
 * [DAI Direct Deposit](module-index/module-dai-direct-deposit.md)
 * [Flash Mint](module-index/module-flash-mint-module.md)
 * [Linear Interpolation](module-index/module-lerp.md)
+* [Emergency Shutdown](module-index/module-emergency-shutdown.md)

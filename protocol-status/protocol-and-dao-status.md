@@ -28,9 +28,13 @@ List of collaterals and their status within the collateral onboarding process. I
 
 Business analytics for the Maker protocol. Organized by vault types in an intuitive display, it shows vault stats, fee stats, Dai supply stats, system stats, and auction stats with an option to export data breakdowns as CSV files.
 
-### [MCD Voting Tracker](https://beta.mcdgov.info/)
+### [MCD Voting Tracker](https://tracker-gov.makerdao.network/)
 
-Keeps track of current and historical votes and shows analytics. Useful to find out the outcome of a particular proposal or poll, find out how many and which addresses voted in it, and the distribution of MKR over time.
+Keeps track of current and historical votes and shows analytics. Useful to find out the outcome of a particular proposal or poll, find out how many and which addresses voted in it, and the distribution of MKR over time. It also includes a section for Protocol Parameters where you can find the historical changes in the protocol.
+
+### [MCD Vaults Tracker](https://tracker-vaults.makerdao.network/)
+
+Keeps track of current and historical vaults and shows analytics. Useful to find out the status of an ilk or specific vault, including the actions done related to it.
 
 ### [SAS - Unified Auctions](https://auctions.makerdao.network/)
 
@@ -43,3 +47,11 @@ Shows current auction parameters and the status of auctions that have triggered 
 ### [DeFI Explore: Liquidations](https://defiexplore.com/liquidations)
 
 Shows all active and finished liquidations across all collateral types and the current and final status of each liquidation. Detailed information about individual liquidations is also displayed.
+
+### [Data API](https://data-api.makerdao.network/redoc)
+
+A RESTful API that covers multiple domains including vaults, liquidations, governance votes and protocol parameters.
+
+>Page last reviewed: -
+>Next review due: -
+

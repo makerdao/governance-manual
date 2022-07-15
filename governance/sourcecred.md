@@ -1,3 +1,4 @@
+# Community SourceCred
 
 MakerDAO rewards off-chain participation in governance discussion on the official MakerDAO forum using SourceCred.
 
@@ -36,19 +37,29 @@ Compensation calculations are transparent and located here: [MakerDAO SourceCred
 Payouts are consolidated into a CSV file and distributed by GovAlpha from the GovAlpha multi-sig wallet.
 
 
-# Off-chain Participation Incentive Eligibility
+# Community SourceCred Eligibility
 
 ## Eligibility
-**1.1** - Any community member with an official forum account is eligible to receive SourceCred payouts.  
+**1.1** - Any community member with an official forum account is eligible to receive Community SourceCred payouts.  
+
 **1.2** - Community members must opt-in and provide an Ethereum mainnet address in order to receive payouts. This address will be publicly visible.  
 
 ## Eligibility Exceptions
 **2.1** - Individuals working for/in Core Units are not eligible to receive Community SourceCred payouts.  
+
 **2.1.1** - This includes Core Unit Facilitators.  
+
 **2.1.2** - This includes individuals working for Incubating Core Units.  
+
 **2.1.3** - Former Core Unit Members become eligible 3 months after leaving their Core Unit.  
+
 **2.2** - Recognized Delegates are not eligible to receive Community SourceCred payouts.  
 
 ## Exclusions
-**3.1** - GovAlpha Facilitators may exclude any community member from SourceCred payouts at any time, for any reason.  
-**3.2** - GovAlpha Facilitators must communicate a reason publicly if a given user is being excluded from SourceCred payouts.  
+**3.1** - GovAlpha Facilitators may exclude any community member from Community SourceCred payouts at any time, for any reason.  
+
+**3.2** - GovAlpha Facilitators must communicate a reason publicly if a given user is being excluded from Community SourceCred payouts.  
+
+>Page last reviewed: -
+>Next review due: -
+

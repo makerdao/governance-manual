@@ -24,3 +24,7 @@ Maker Governance should not change the parameter unless there has been a change 
 
 ## Considerations
 As MakerDAO is not a legal entity, the actual use of the contractual documentation may be limited.
+
+>Page last reviewed: -
+>Next review due: -
+

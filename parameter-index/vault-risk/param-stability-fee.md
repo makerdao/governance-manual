@@ -70,3 +70,6 @@ A Global Stability Fee parameter also exists within the Maker Protocol. In pract
 
 Before the introduction of the Rates Working Group Stability Fee parameters were composited from Risk Premiums and a Base Rate voted by governance.
 
+>Page last reviewed: -
+>Next review due: -
+

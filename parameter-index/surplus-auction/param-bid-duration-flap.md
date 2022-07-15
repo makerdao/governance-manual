@@ -53,3 +53,7 @@ Bid Duration (Flap) is always upper bounded by the total auction duration. If it
 The Bid Duration (Flop) parameter fulfills the same role as this parameter in Debt Auctions.
 
 A similar auction system was initially used for collateral auctions as well, it was replaced by a dutch auction system.
+
+>Page last reviewed: -
+>Next review due: -
+

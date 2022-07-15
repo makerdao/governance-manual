@@ -22,3 +22,7 @@ Two separate documents accomplish the specification of which assets are in-scope
 - If you know that you will need more time, ask for it. Hackers are generally understanding, but appreciate advanced notice.
 - Don't try to negotiate severity or bounty amount with the hacker. Coordinate with ISCU. :handshake: 
 - If anything needs to be changed with the bug bounty program, let us know. Provide feedback. We're here to make the process work.
+
+>Page last reviewed: -
+>Next review due: -
+

@@ -25,3 +25,7 @@ However, GovAlpha is aware that...
 * ... no rule can be enforced here due to the permissionless nature of the delegate contracts.
 
 On account of these points, there is no requirement or rule that members of Core Units cannot be Recognized Delegates. We leave it to MKR token holders to judge when and if it is appropriate for them to delegate to members of Core Units.
+
+>Page last reviewed: -
+>Next review due: -
+

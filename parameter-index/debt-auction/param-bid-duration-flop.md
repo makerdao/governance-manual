@@ -57,3 +57,7 @@ The auction will only last 30 minutes, making the Bid Duration (Flop) irrelevant
 The Bid Duration (Flap) parameter fulfills  the same role as this parameter in Surplus Auctions.
 
 A similar auction system was initially used for collateral auctions as well, it was replaced by a dutch auction system. 
+
+>Page last reviewed: -
+>Next review due: -
+

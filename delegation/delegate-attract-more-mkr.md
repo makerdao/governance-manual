@@ -15,3 +15,7 @@ Below are some potential avenues that can be used to attract more delegated MKR 
 * Some large token holders have delegate programs that Recognized Delegates can approach to try to source more voting power. Alternatively, Delegates may wish to directly approach known holders of large amounts of MKR to encourage them to delegate.
 * Consider campaigning on issues that are not represented among other Recognized Delegates, i.e. where a consensus opinion has formed among other Recognized Delegates, adopting an anti- or pro- stance may encourage MKR holders to delegate their MKR.
 * Consider under-represented groups or geographical regions and appeal to users located within those groups.
+
+>Page last reviewed: -
+>Next review due: -
+

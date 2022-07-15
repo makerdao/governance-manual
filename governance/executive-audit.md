@@ -205,3 +205,7 @@ function setIlkStabilityFee(bytes32 _ilk, uint256 _rate, bool _doDrip) public {
 
 ### All SpellAction contract variables must be declared 'constant'
 SpellActions must never have anything in contract memory. Therefore, all contract variables must be declared as constant. This is because at execution time, the contract's variables will be that of the DSPauseProxy. If there are variables in this section that are anything other than constant then it is a significant bug and must not be approved.
+
+>Page last reviewed: -
+>Next review due: -
+

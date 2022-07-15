@@ -1,3 +1,4 @@
+# Delegate SourceCred
 
 Engagement and discussion around governance decisions are extremely important for the long-term health of MakerDAO.
 
@@ -41,6 +42,7 @@ Delegates' engagement performance will be published in each month's Delegates Ro
 
 ## General Eligibility
 **1.1** - Any Recognized Delegate with one or more official forum accounts is eligible to receive delegate engagement payouts for **one account only**.  
+
 **1.2** - Recognized Delegates must opt in and confirm which forum account is accruing engagement payouts.  
 
 ## Monthly Eligibility
@@ -48,4 +50,9 @@ Delegates' engagement performance will be published in each month's Delegates Ro
 
 ## Exclusions
 **3.1** - GovAlpha Facilitators may exclude any Recognized Delegate from engagement payouts at any time, for any reason.  
+
 **3.2** - GovAlpha Facilitators must communicate a reason publicly if a given Recognized Delegate is being excluded from off-chain proposal bounty payouts.  
+
+>Page last reviewed: -
+>Next review due: -
+

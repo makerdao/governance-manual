@@ -1,8 +1,8 @@
 # Recognized Delegate Requirements
 
-## 1. Inform a Governance Facilitator of your intention to become a recognized delegate
+## 1. Inform a Governance Facilitator of your intention to become a Recognized Delegate
 
-Speak to one of the Governance Facilitators (currently @LongForWisdom and @prose11). The best way to get in contact is via the official MakerDAO discord or the official MakerDAO forum. Please do not use email.
+Speak to a Governance Facilitator (currently @prose11). The best way to get in contact is via the official MakerDAO discord or the official MakerDAO forum. Please do not use email.
 
 ## 2. Read and sign-up for the Delegates Code of Conduct
 
@@ -44,8 +44,12 @@ If you are completely unfamiliar with GitHub, the Governance Facilitators can he
 
 Participation tracking is currently done manually by GovAlpha, but will hopefully be automated in the future. Abstain votes count as valid votes for the purposes of poll participation.
 
-Failing to vote on an executive is valid and should be done in an emergency situation, or a situation in which the delegate has fundamental disagreement with the contents. However, failing to vote for an executive does count against you as part of the participation tracking. This reflects the issues failing to pass an executive can have in the MakerDAO governance process.
+Failing to vote on an Executive Vote is valid and may occur in an emergency situation, or when a Recognized Delegate has fundamental disagreement with the contents. Failing to vote for an Executive Vote does not count against you as part of the participation tracking if you are able to provide sound reasoning for your abstention. The outcome of an Executive Vote will have no bearing on participation tracking for that Executive Vote. GovAlpha strongly recommends that Recognized Delegates and MKR holders consider the security and operational risks that opposing an Executive Vote poses to the Maker Protocol.
 
-Forum and community participation will also be tracked, specifically related to voting. Recognized Delegates are expected to communicate their reasoning for voting when they vote. This can be in whichever format delegates feel is most appropriate, but must be communicated publicly so that GovAlpha can update the delegate's metrics.
+Forum and community participation will also be tracked, specifically related to voting. Recognized Delegates are expected to communicate their reasoning for voting when they vote. This can be in whichever format delegates feel is most appropriate, but must be communicated publicly so that GovAlpha can update the Recognized Delegate's metrics.
 
 Updates to the participation metrics are manual and will be performed on a weekly basis.
+
+>Page last reviewed: -
+>Next review due: -
+

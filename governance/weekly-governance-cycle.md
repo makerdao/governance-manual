@@ -31,3 +31,7 @@ The Weekly Governance Cycle works in conjunction with the Monthly Governance Cyc
 
 - Every Friday, successful Weekly Polls are included in the Executive Vote. The Weekly Executive Vote has an expiration of one week.
     - Governance Facilitators may choose to skip the weekly Executive Vote if it doesn't introduce substantive or pressing changes to the Maker Protocol.
+
+>Page last reviewed: -
+>Next review due: -
+

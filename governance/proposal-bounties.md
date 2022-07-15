@@ -1,3 +1,4 @@
+# Proposal Bounties
 
 MakerDAO rewards classes of governance action that result in measurable changes to the way the Maker Protocol or MakerDAO operates.
 
@@ -47,15 +48,25 @@ GovAlpha produces a short report each month communicating the initiatives and th
 
 ## Eligibility
 **1.1** - Any community member with an account on forum.makerdao.com is eligible to receive off-chain proposal bounty payouts.  
+
 **1.2** - Community members must opt-in and provide an Ethereum mainnet address in order to receive payouts. This address will be publicly visible.  
 
 ## Eligibility Exceptions
 **2.1** - Individuals working for/in Core Units are not eligible to receive off-chain proposal bounties.  
+
 **2.1.1** - This includes Core Unit Facilitators.  
+
 **2.1.2** - This includes individuals working for Incubating Core Units.  
+
 **2.2** - Proposals concerning collateral onboarding are not eligible for off-chain proposal bounties.  
+
 **2.3** - Proposals requesting funds from the Maker Protocol are not eligible for off-chain proposal bounties.  
 
 ## Exclusions
 **3.1** - GovAlpha Facilitators may exclude any community member from bounty payouts at any time, for any reason.  
+
 **3.2** - GovAlpha Facilitators must communicate a reason publicly if a given community member is being excluded from off-chain proposal bounty payouts.  
+
+>Page last reviewed: -
+>Next review due: -
+
