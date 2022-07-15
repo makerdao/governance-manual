@@ -44,6 +44,6 @@ The Liquidations 2.0 system allows the Global Liquidation Limit to be set at a h
 
 During an Emergency Shutdown, no new collateral auctions may be started. All auctions underway during an emergency shutdown would have been subject to the Global Liquidation Limit parameter with no special considerations.
 
->Page last reviewed: -
->Next review due: -
+>Page last reviewed: -  
+>Next review due: -  
 

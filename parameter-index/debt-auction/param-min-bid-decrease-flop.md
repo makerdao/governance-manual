@@ -47,6 +47,6 @@ The gas cost to `kick` (trigger) a debt auction is non-trivial. If the Min Bid D
 
 "Front-running" may be an issue in debt auctions.
 
->Page last reviewed: -
->Next review due: -
+>Page last reviewed: -  
+>Next review due: -  
 

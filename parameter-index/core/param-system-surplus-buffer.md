@@ -54,6 +54,6 @@ DAI can be pulled out of the Maker Protocol by Maker Governance by using the `su
 
 The System Surplus Buffer is not made up of ERC-20 DAI tokens. Rather, it is a number derived by subtracting the Maker Protocol's liabilities from its assets. At Emergency Shutdown the value represented by the system surplus goes to DAI holders in the form of a greater share of the collateral backing DAI.
 
->Page last reviewed: -
->Next review due: -
+>Page last reviewed: -  
+>Next review due: -  
 

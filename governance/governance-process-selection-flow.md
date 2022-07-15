@@ -10,6 +10,6 @@
 * [MIP6 Applications](https://mips.makerdao.com/mips/details/MIP6)
 * [Core Units](../core-units/core-units.md)
 
->Page last reviewed: -
->Next review due: -
+>Page last reviewed: -  
+>Next review due: -  
 

@@ -47,6 +47,6 @@ The Surplus Lot Size cannot be less than or equal to 0 DAI.
 
 The gas cost to `kick` (trigger) a surplus auction is non-trivial. If the Surplus Lot Size is too low, surplus auctions may not be triggered by any keeper because they are required to accept a fixed cost for an uncertain return.
 
->Page last reviewed: -
->Next review due: -
+>Page last reviewed: -  
+>Next review due: -  
 

@@ -29,6 +29,6 @@ Maker Governance may wish to increase the `Debt Auction Bid Size` if gas costs f
 **Why decrease this parameter?**
 Maker Governance may wish to decrease the `Debt Auction Bid Size` if there is insufficient keeper participation or to keep the protocol undercollateralized for a shorter duration.
 
->Page last reviewed: -
->Next review due: -
+>Page last reviewed: -  
+>Next review due: -  
 

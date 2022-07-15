@@ -62,6 +62,6 @@ A PSM is a regular vault type with the exception that it can only be accessed by
 
 A PSM is only really possible with an asset that is pegged to the same asset as DAI. Offering 1-to-1 swaps requires a liquidation ratio of 100%. If a PSM with a non-stable asset is attempted, it would run the risk of becoming undercollateralized as soon as the market price of the collateral asset decreased.
 
->Page last reviewed: -
->Next review due: -
+>Page last reviewed: -  
+>Next review due: -  
 
