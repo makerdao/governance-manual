@@ -21,8 +21,9 @@ The delegate will be required to prepare a new address for creating the renewed 
 * Step 4. Connect this new Ethereum address to the Governance Portal, and click the banner to continue the migration process. You'll be asked to navigate to the account page and generate a new delegate contract. Once created, the migration is essentially completed.
 * Step 5. Delegate any of their own MKR holdings to the new delegate contract.
 * Step 6. Encourage their delegators to migrate their delegated MKR.
+Once a delegate successfully finished their migration, their old and new addresses are linked and the Governance Portal UI will display their prior delegate profile in aggregation. Their prior profile markdown, performance metrics, voting history and commenting history will be visible on their new delegate contract profile page. A successful migration also triggers migration prompts for their delegators who still have MKR delegated to the old delegate contract.
 
-Once a delegate has successfully finished their migration, the Governance Portal UI will display their prior delegate profile in aggregation. Their prior profile markdown, performance metrics, voting history and commenting history will be visible on their new delegate contract profile page. A successful migration also triggers migration prompts for their delegators who still have MKR delegated to the old delegate contract.
+The links between the old and new delegate contract owner addressess can be found in a [mapping file](https://github.com/makerdao/governance-portal-v2/blob/master/modules/migration/delegateAddressLinks.ts) on the GitHub repository. This mapping file is used by the Governance Portal to show the metadata of Recognized Delegates on all their associated old and new delegate contracts. The file is also used by various other teams (eg. DIN). This file can be considered the source of truth for determining which EOAs (user-owned addressess) are associated with a Recognized Delegate. The file is open-source and can be viewed by anyone.
 
 ## Migration for delegators
 
