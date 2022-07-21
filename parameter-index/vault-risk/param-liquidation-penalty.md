@@ -49,3 +49,7 @@ The Liquidation Penalty should always be higher than the sum of liquidation rewa
 Particularly important to vault holders is the notion that the Liquidation Penalty represents the minimum loss during a liquidation event, not the maximum. As vault holders will only receive collateral back in excess of the debt liquidated and the Liquidation Penalty, there is no guarantee the auction of collateral will be enough to cover both.
 
 During an Emergency Shutdown, no new collateral auctions may be started. All auctions underway during an emergency shutdown will be subject to the Liquidation Penalty parameter with no special considerations. 
+
+>Page last reviewed: -  
+>Next review due: -  
+

@@ -65,3 +65,7 @@ The public is encouraged to self-audit the code for each vote. There is an acces
 
 #### With regard to a user's voting record
 The voter's current vote is displayed on a given proposal page in the [Governance Portal](https://vote.makerdao.com/). Historical voting records are also available on the governance portal.
+
+>Page last reviewed: -  
+>Next review due: -  
+

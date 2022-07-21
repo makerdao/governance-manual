@@ -146,3 +146,7 @@ To aid in cost-benefit judgments, here is our estimate of the cost-to-the-indivi
 Ineffective or participation-starved governance will kill the Maker Protocol over the long-term just as surely as governance attacks will in the short term.
 
 If you are holding non-trivial amounts of capital in the MKR token, GovAlpha believes you should seriously consider delegating responsibly.
+
+>Page last reviewed: -  
+>Next review due: -  
+

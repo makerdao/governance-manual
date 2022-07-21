@@ -49,3 +49,7 @@ Failing to vote on an Executive Vote is valid and may occur in an emergency situ
 Forum and community participation will also be tracked, specifically related to voting. Recognized Delegates are expected to communicate their reasoning for voting when they vote. This can be in whichever format delegates feel is most appropriate, but must be communicated publicly so that GovAlpha can update the Recognized Delegate's metrics.
 
 Updates to the participation metrics are manual and will be performed on a weekly basis.
+
+>Page last reviewed: -  
+>Next review due: -  
+
