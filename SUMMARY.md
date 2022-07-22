@@ -32,6 +32,8 @@
 * Verification
   * [Executive Audit](governance/executive-audit.md)
 
+* [Attacks](governance/attack.md)
+
 * Offchain Incentives
   * [Community SourceCred](governance/sourcecred.md)
   * [Delegate SourceCred](governance/delegate-sourcecred.md)
