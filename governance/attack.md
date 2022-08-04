@@ -2,7 +2,7 @@
 
 This document does not discuss [Oracle attacks](https://docs.makerdao.com/smart-contract-modules/oracle-module/oracle-security-module-osm-detailed-documentation).
 
-Since Maker is almost entirely controlled by executive spells, a malicious [executive spell](https://manual.makerdao.com/governance/voting-in-makerdao/on-chain-governance#executive-votes) is the natural way to attack the protocol. The [simplest attack](https://medium.com/coinmonks/how-to-turn-20m-into-340m-in-15-seconds-48d161a42311) is to transfer ownership of the protocol from the [Pause Proxy](https://docs.makerdao.com/smart-contract-modules/governance-module/pause-detailed-documentation) to an attacker controlled address.
+Since Maker is almost entirely controlled by executive spells, a malicious [executive spell](https://manual.makerdao.com/governance/voting-in-makerdao/on-chain-governance#executive-votes) is the natural way to attack the protocol. The simplest attack is to transfer ownership of the protocol from the [Pause Proxy](https://docs.makerdao.com/smart-contract-modules/governance-module/pause-detailed-documentation) to an attacker controlled address.
 
 ## How to profit
 
