@@ -12,7 +12,7 @@ One way to profit from an attack is to set up trading positions that should bene
 
 There are layers of defenses against such an attack:
 - MKR holders would have to approve the spell. This is unlikely to happen because at least some voters should [audit the spell](https://manual.makerdao.com/governance/verification/executive-audit) before voting, and raise the alarm.
-- Alternately, the attacker could gather enough MKR together to overcome the vote of honest MKR holders. This would be expense, but if cost was not a concern, possible.
+- Alternately, the attacker could gather enough MKR together to overcome the vote of honest MKR holders. This would be expensive, but if the cost was not a concern, possible.
 - If a malicious spell was approved then the pause timer is started. MKR holders still have a chance to rally votes and cancel the spell before expiration of the [GSM Pause Delay](https://manual.makerdao.com/parameter-index/core/param-gsm-pause-delay).
 
 These may seem like adequate safeguards, but suppose:
