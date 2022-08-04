@@ -18,7 +18,7 @@ There are layers of defenses against such an attack:
 These may seem like adequate safeguards, but suppose:
 - The market capitalization of the MKR token is small compared to the market value of the assets locked in the protocol. A successful attack might profit a million dollars per unit MKR.
 - The attack is conducted via a [TakerDAO](https://twitter.com/ameensol/status/1229848488621428736)-like smart contract that allows many individual MKR holders to trustlessly collude.
-- The attackers collude with insiders, including Protocol Engineering. No alarm is raised because the people usually watching for attackers decide to abet the attack.
+- The attackers collude with insiders, including Protocol Engineering, GovAlpha, and TechOps. No alarm is raised because the people usually watching for attackers decide to abet the attack.
 - Somehow the attackers have a solid plan to dodge legal liability.
 
 This attack is even economically rational. Ethics or altruism is the only thing standing in the way.
