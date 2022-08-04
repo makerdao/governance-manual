@@ -51,3 +51,7 @@ Shows all active and finished liquidations across all collateral types and the c
 ### [Data API](https://data-api.makerdao.network/redoc)
 
 A RESTful API that covers multiple domains including vaults, liquidations, governance votes and protocol parameters.
+
+### [Governance Dashboard](https://www.makerdao-governance-dashboard.com/)
+
+Unified dashboard containing useful stats and charts about governance and delegation, an improved UI for GovAlpha's governance tracker and a delegates section to keep track of delegates comments regarding on-chain polls and executive votes.
