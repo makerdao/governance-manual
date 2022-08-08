@@ -16,6 +16,10 @@ Shows an overview of the current state of the Maker Protocol. Including total DA
 
 Regularly updated governance status dashboard for MakerDAO. Find out what's being voted, discussed or is pending further action.
 
+### [Governance Dashboard](https://www.makerdao-governance-dashboard.com/)
+
+Unified dashboard containing useful stats and charts about governance and delegation, an improved UI for GovAlpha's governance tracker and a delegates section to keep track of delegates comments regarding on-chain polls and executive votes.
+
 ### [Delegates @ vote.makerdao.com](https://vote.makerdao.com/delegates?network=mainnet)
 
 Provides a list of all MakerDAO Recognized and Shadow delegates. Includes profiles, contact information and voting history as appropriate.
