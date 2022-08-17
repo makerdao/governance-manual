@@ -59,3 +59,7 @@ Payouts are consolidated into a CSV file and distributed by GovAlpha from the Go
 **3.1** - GovAlpha Facilitators may exclude any community member from Community SourceCred payouts at any time, for any reason.  
 
 **3.2** - GovAlpha Facilitators must communicate a reason publicly if a given user is being excluded from Community SourceCred payouts.  
+
+>Page last reviewed: -  
+>Next review due: -  
+

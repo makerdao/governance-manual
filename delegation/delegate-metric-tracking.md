@@ -19,3 +19,7 @@ For example, a score of 100% would mean a Recognized Delegate communicated all o
 ## Spreadsheet
 
 GovAlpha maintains a publicly accessible spreadsheet that tracks Recognized Delegate metrics. This can be seen [here](https://docs.google.com/spreadsheets/d/1E-VBZFN_N7cj60-wMze2yR1fBDWVs_QoPn-aS5Y-1pM/edit#gid=1415939965).
+
+>Page last reviewed: -  
+>Next review due: -  
+

@@ -34,3 +34,8 @@ Through the UI the delegators are guided through the process of undelegating fro
 ## Upcoming changes to vote delegation
 
 The current design of VoteDelegate expiration succeeds in protecting the protocol against stale MKR tokens, but also adds a lot of recurring friction to both delegates and delegators—ultimately providing a negative incentive to participate in Maker vote delegation. Improvement points to the VoteDelegateFactory contract have been defined and will likely be implemented by the end of 2022.
+
+>Page last reviewed: 2022-07-13  
+>Next review due: 2023-07-13  
+
+
