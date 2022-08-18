@@ -25,7 +25,13 @@ This attack is even economically rational. Ethics or altruism is the only thing 
 
 ## With an Emergency Shutdown Module
 
-With the [Emergency Shutdown Module](https://manual.makerdao.com/module-index/module-emergency-shutdown) (ESM), a minority of MKR holders (but not delegates) can shut down the protocol and prevent locked bearer assets from being stolen. To underline the gravity of this procedure, MKR deposited into the ESM is burnt. Once the protocol is shut down, what happens next is matter of politics and coordination. Designers of the ESM envisioned that a Maker defense team would re-launch the protocol with a new MKR distribution that re-issues the MKR burnt in triggering ESM and burns the MKR used to launch the attack. If this new MKR token, and associated Maker re-deployment, was accepted by the community, this new MKR distribution would grant substantial profits to non-attacking MKR.
+With the [Emergency Shutdown Module](https://manual.makerdao.com/module-index/module-emergency-shutdown) (ESM), a minority of MKR holders can shut down the protocol and prevent locked bearer assets from being stolen. However, this process would require swift action and deft coordination.
+
+- MKR exceeding the ESM Threshold must be deposited in the ESM. To underline the gravity of this procedure, MKR deposited into the ESM is burnt.
+- Delegates cannot participate in this action because only the underlying MKR holders can deposit to the ESM.
+- The ESM Threshold must be exceeded before expiration of the GSM Pause Delay.
+- Once successfully shutdown, re-launching the Maker protocol will take considerable political will and delicate consensus building.
+
+Designers of the ESM envisioned that a Maker defense team re-launch the protocol. A new MKR distribution would need to be specified that re-issues the MKR burnt in triggering ESM and burns the MKR used to launch the attack. It may not be feasible to burn all of the attacking MKR because some of it may have already been sold or transferred during the attack. In any case, if this new MKR token, and associated Maker re-deployment, was accepted by the community, this new MKR distribution would great substantial profits to non-attacking MKR.
 
 The ESM adds an economic reason to defend the protocol. Defense is no longer just a matter of altruism, defenders could benefit handsomely from an attack. The ESM flips the economic incentives. Instead of attackers being economically incentivized, attackers can expect no economic benefit due to the economic incentive attached to defending the protocol.
-
