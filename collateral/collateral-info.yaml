@@ -1,5 +1,5 @@
 ```
-defs:
+collateral-defs:
     Ether (ETH): &ETH
         desc: Ether is the native token of the Ethereum blockchain. It is used as the fee currency when making transactions on the Ethereum network. Validators of the ethereum network are required to lock up 32 ETH as a stake, and earn a variable yield for this work.
 
@@ -36,25 +36,26 @@ defs:
     Curve stETH/ETH Liquidity Pool Tokens: &CurveSTETHETH
         desc: These tokens represent a combination of stETH and ETH tokens held in a Curve liquidity pool. The tokens accrue fees from seETH-ETH swaps that go through this liquidity pool.
 
-ETH-A: *ETH
-ETH-B: *ETH
-ETH-C: *ETH
-WBTC-A: *WBTC
-WBTC-B: *WBTC
-WBTC-C: *WBTC
-WSTETH-A: *WSTETH
-WSTETH-B: *WSTETH
-USDC-A: *USDC
-PSM-USDC-A: *USDC
-USDP-A: *USDP
-PSM-USDP-A: *USDP
-GUSD-A: *GUSD
-PSM-GUSD-A: *GUSD
-GUNIV3DAIUSDC1-A: *GelatoUSDCDAI
-GUNIV3DAIUSDC2-A: *GelatoUSDCDAI
-MANA-A: *MANA
-MATIC-A: *MATIC
-RENBTC-A: *RENBTC
-LINK-A: *LINK
-CRVV1ETHSTETH-A: *CurveSTETHETH
+ilks:
+    ETH-A: *ETH
+    ETH-B: *ETH
+    ETH-C: *ETH
+    WBTC-A: *WBTC
+    WBTC-B: *WBTC
+    WBTC-C: *WBTC
+    WSTETH-A: *WSTETH
+    WSTETH-B: *WSTETH
+    USDC-A: *USDC
+    PSM-USDC-A: *USDC
+    USDP-A: *USDP
+    PSM-USDP-A: *USDP
+    GUSD-A: *GUSD
+    PSM-GUSD-A: *GUSD
+    GUNIV3DAIUSDC1-A: *GelatoUSDCDAI
+    GUNIV3DAIUSDC2-A: *GelatoUSDCDAI
+    MANA-A: *MANA
+    MATIC-A: *MATIC
+    RENBTC-A: *RENBTC
+    LINK-A: *LINK
+    CRVV1ETHSTETH-A: *CurveSTETHETH
 ```
