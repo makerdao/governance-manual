@@ -17,33 +17,33 @@ Wrapped staked Ether is a fungible derivative of Ether that is exposed to the yi
 USDC is a fiat backed U.S. Dollar stablecoin operated by Circle. Each USDC is backed by 1 dollar worth of cash and short-dated U.S treasuries. USDC is redeemable for dollars and the backing is audited monthly. 
 
 ## PAX Dollar
-```USDP-A, PSM-USDP-A```
+```USDP-A, PSM-USDP-A```  
 USDP is a fiat backed U.S. Dollar stablecoin operated by Paxos. Each USDP is backed by 1 dollar worth of cash and cash equivalents. USDP is redeemable for dollars and the backing is audited monthly. 
 
 ## Gemini USD
-```GUSD-A, PSM-GUSD-A```
+```GUSD-A, PSM-GUSD-A```  
 GUSD is a fiat backed U.S Dollar stablecoin operated by Gemini. Each GUSD is backed by 1 dollar worth of cash or short-term U.S treasury bonds.GUSD is redeemable for dollars and the backing is audited monthly.
 
 ## Gelato Uniswap V3 DAI/USDC Liquidity Pool Tokens
-```GUNIV3DAIUSDC1-A, GUNIV3DAIUSDC2-A```
+```GUNIV3DAIUSDC1-A, GUNIV3DAIUSDC2-A```  
 These tokens represent a combination of DAI and USDC held in UniswapV3 liquidity pools. The tokens accrue fees from DAI-USDC swaps that go through these liquidity pools. The gelato network manages these tokens. 
 
 ## Decentraland (MANA)
-```MANA-A```
+```MANA-A```  
 MANA tokens are used to pay for goods and services within the 3D virtual reality platform Decentraland.
 
 ## Polygon (MATIC)
-```MATIC-A```
+```MATIC-A```  
 The MATIC token is used to pay transaction fees and participate in proof-of-stake consensus in the Polygon network. The MATIC tokens Maker uses as collateral have been bridged to Ethereum from the Polygon network.
 
 ## renBTC
-```RENBTC-A```
+```RENBTC-A```  
 RenBTC is a form of bitcoin in use on the Ethereum network. Through the Ren Protocol, renBTC can be exchanged directly for bitcoin. The Ren protocol is maintained by a collection of darknodes that facilitate swaps and custody assets.
 
 ## Chainlink (LINK)
-```LINK-A```
+```LINK-A```  
 Chainlink is a decentralized oracle network that brings off-chain information on-chain. The LINK tokens are used as a currency to pay Chainlink node operators.
 
 ## Curve stETH/ETH Liquidity Pool Tokens
-```CRVV1ETHSTETH-A```
+```CRVV1ETHSTETH-A```  
 These tokens represent a combination of stETH and ETH tokens held in a Curve liquidity pool. The tokens accrue fees from seETH-ETH swaps that go through this liquidity pool.
