@@ -52,6 +52,9 @@
   * [How to Attract More MKR as a Recognized Delegate?](delegation/delegate-attract-more-mkr.md)
 * [Delegate Contract Migration](delegation/delegate-expiration.md)
   
+## Collateral
+* [Overview](collateral/collateral-overview.md)
+  
 ## Parameter Index
 
 * Core
