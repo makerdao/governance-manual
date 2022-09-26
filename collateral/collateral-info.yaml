@@ -1,61 +1,233 @@
 ```
+# MUST BE KEPT IN SYNC WITH COLLATERAL-OVERVIEW.MD
+
+# NOTIFY CONSUMERS BEFORE CHANGING STRUCTURE OR REMOVING PROPERTIES (ADDS ARE FINE)
+#  - Makerburn
+#  - Others?
+
+# Note desc must be single-line, and should be kept reasonably short.
+# &anchor syntax defines labels that are picked up in ilks section.
+
 collateral-defs:
-    Ether (ETH): &ETH
-        desc: Ether is the native token of the Ethereum blockchain. It is used as the fee currency when making transactions on the Ethereum network. Validators of the ethereum network are required to lock up 32 ETH as a stake, and earn a variable yield for this work.
+    ETH: &ETH
+        collateral-desc: Ether is the native token of the Ethereum blockchain. It is used as the fee currency when making transactions on the Ethereum network. Validators of the ethereum network are required to lock up 32 ETH as a stake, and earn a variable yield for this work.
+        collateral-shortname: Ether
+        collateral-symbol: ETH
 
-    Wrapped Bitcoin (wBTC): &WBTC
-        desc: Wrapped bitcoin is the most used form of bitcoin in use on the Ethereum network. Through a wBTC partner, wrapped bitcoin can be exchanged directly for bitcoin. Wrapped bitcoin is maintained by a group called the wBTC DAO with over 30 members.
+    WBTC: &WBTC
+        collateral-desc: Wrapped bitcoin is the most used form of bitcoin in use on the Ethereum network. Through a wBTC partner, wrapped bitcoin can be exchanged directly for bitcoin. Wrapped bitcoin is maintained by a group called the wBTC DAO with over 30 members.
+        collateral-shortname: Wrapped Bitcoin
+        collateral-symbol: WBTC
 
-    Wrapped Lido Staked Ether (wstETH): &WSTETH
-        desc: Wrapped staked Ether is a fungible derivative of Ether that is exposed to the yield earned by validators on the Ethereum network. It is managed by LidoDAO. 
+    WSTETH: &WSTETH
+        collateral-desc: Wrapped staked Ether is a fungible derivative of Ether that is exposed to the yield earned by validators on the Ethereum network. It is managed by LidoDAO. 
+        collateral-shortname: Wrapped Lido Staked Ether
+        collateral-symbol: WSTETH
 
-    U.S. Dollar Coin (Circle): &USDC
-        desc: USDC is a fiat backed U.S. Dollar stablecoin operated by Circle. Each USDC is backed by 1 dollar worth of cash and short-dated U.S treasuries. USDC is redeemable for dollars and the backing is audited monthly. 
+    USDC: &USDC
+        collateral-desc: USDC is a fiat backed U.S. Dollar stablecoin operated by Circle. Each USDC is backed by 1 dollar worth of cash and short-dated U.S treasuries. USDC is redeemable for dollars and the backing is audited monthly. 
+        collateral-shortname: U.S. Dollar Coin (Circle)
+        collateral-symbol: USDC
 
-    PAX Dollar: &USDP
-        desc: USDP is a fiat backed U.S. Dollar stablecoin operated by Paxos. Each USDP is backed by 1 dollar worth of cash and cash equivalents. USDP is redeemable for dollars and the backing is audited monthly. 
+    USDP: &USDP
+        collateral-desc: USDP is a fiat backed U.S. Dollar stablecoin operated by Paxos. Each USDP is backed by 1 dollar worth of cash and cash equivalents. USDP is redeemable for dollars and the backing is audited monthly. 
+        collateral-shortname: PAX Dollar
+        collateral-symbol: USDP
 
-    Gemini USD: &GUSD
-        desc: GUSD is a fiat backed U.S Dollar stablecoin operated by Gemini. Each GUSD is backed by 1 dollar worth of cash or short-term U.S treasury bonds.GUSD is redeemable for dollars and the backing is audited monthly.
+    GUSD: &GUSD
+        collateral-desc: GUSD is a fiat backed U.S Dollar stablecoin operated by Gemini. Each GUSD is backed by 1 dollar worth of cash or short-term U.S treasury bonds.GUSD is redeemable for dollars and the backing is audited monthly.
+        collateral-shortname: Gemini USD
+        collateral-symbol: GUSD
+        
+    GelatoUSDCDAI1: &GUNIV3DAIUSDC1
+        collateral-desc: These tokens represent a combination of DAI and USDC held in UniswapV3 liquidity pools. The tokens accrue fees from DAI-USDC swaps that go through these liquidity pools. The gelato network manages these tokens.
+        collateral-shortname: GUNI-DAI/USDC 0.05%
+        collateral-longname: Gelato Uniswap V3 DAI/USDC 0.05% Fee Liquidity Pool Tokens
+        collateral-symbol: GUNIV3DAIUSDC2
 
-    Gelato Uniswap V3 DAI/USDC Liquidity Pool Tokens: &GelatoUSDCDAI
-        desc: These tokens represent a combination of DAI and USDC held in UniswapV3 liquidity pools. The tokens accrue fees from DAI-USDC swaps that go through these liquidity pools. The gelato network manages these tokens. 
+    GelatoUSDCDAI2: &GUNIV3DAIUSDC2
+        collateral-desc: These tokens represent a combination of DAI and USDC held in UniswapV3 liquidity pools. The tokens accrue fees from DAI-USDC swaps that go through these liquidity pools. The gelato network manages these tokens.
+        collateral-shortname: GUNI-DAI/USDC 0.01%
+        collateral-longname: Gelato Uniswap V3 DAI/USDC 0.01% Fee Liquidity Pool Tokens
+        collateral-symbol: GUNIV3DAIUSDC2
 
-    Decentraland (MANA): &MANA
-        desc: MANA tokens are used to pay for goods and services within the 3D virtual reality platform Decentraland.
+    MANA: &MANA
+        collateral-desc: MANA tokens are used to pay for goods and services within the 3D virtual reality platform Decentraland.
+        collateral-shortname: Decentraland
+        collateral-symbol: MANA
 
-    Polygon (MATIC): &MATIC
-        desc: The MATIC token is used to pay transaction fees and participate in proof-of-stake consensus in the Polygon network. The MATIC tokens Maker uses as collateral have been bridged to Ethereum from the Polygon network.
+    MATIC: &MATIC
+        collateral-desc: The MATIC token is used to pay transaction fees and participate in proof-of-stake consensus in the Polygon network. The MATIC tokens Maker uses as collateral have been bridged to Ethereum from the Polygon network.
+        collateral-shortname: Polygon
+        collateral-symbol: MATIC
 
-    renBTC: &RENBTC
-        desc: RenBTC is a form of bitcoin in use on the Ethereum network. Through the Ren Protocol, renBTC can be exchanged directly for bitcoin. The Ren protocol is maintained by a collection of darknodes that facilitate swaps and custody assets.
+    RENBTC: &RENBTC
+        collateral-desc: RenBTC is a form of bitcoin in use on the Ethereum network. Through the Ren Protocol, renBTC can be exchanged directly for bitcoin. The Ren protocol is maintained by a collection of darknodes that facilitate swaps and custody assets.
+        collateral-shortname: renBTC
+        collateral-symbol: RENBTC
 
-    Chainlink (LINK): &LINK
-        desc: Chainlink is a decentralized oracle network that brings off-chain information on-chain. The LINK tokens are used as a currency to pay Chainlink node operators.
+    LINK: &LINK
+        collateral-desc: Chainlink is a decentralized oracle network that brings off-chain information on-chain. The LINK tokens are used as a currency to pay Chainlink node operators.
+        collateral-shortname: Chainlink
+        collateral-symbol: LINK
 
-    Curve stETH/ETH Liquidity Pool Tokens: &CurveSTETHETH
-        desc: These tokens represent a combination of stETH and ETH tokens held in a Curve liquidity pool. The tokens accrue fees from seETH-ETH swaps that go through this liquidity pool.
+    CRVV1ETHSTETH: &CurveSTETHETH
+        collateral-desc: These tokens represent a combination of stETH and ETH tokens held in a Curve liquidity pool. The tokens accrue fees from seETH-ETH swaps that go through this liquidity pool.
+        collateral-shortname: Curve stETH/ETH
+        collateral-longname: Curve stETH/ETH Liquidity Pool Tokens
+        collateral-symbol: CRVV1ETHSTETH
+
+    ADAI: &ADAI
+        collateral-desc: These tokens represent...
+        collateral-shortname: Aave DAI
+        collateral-symbol: aDAI
+
+status-defs:
+    Deprecated: &STATUS_DEPRECATED
+        status-id: Deprecated
+    Active: &STATUS_ACTIVE
+        status-id: Active
+    Offboarding: &STATUS_OFFBOARDING
+        status-id: Offboarding
+
+stability-defs:
+    Stable: &STABLE
+        stability-id: Stable
+
+    Volatile: &VOLATILE
+        stability-id: Volatile
+
+module-defs:
+    PSM: &PSM
+        module-id: PSM 
+        module-name: Peg Stability Module
+        module-desc: A Peg Stability Module is...
+
+    D3M: &D3M
+        module-id: D3M
+        module-name: Direct DAI Deposit Module
+        module-desc: A Direct DAI Deposit Module is...
+
+type-defs:
+    RWA: &RWA
+        type-id: RWA
+        type-name: Real World Asset
+        type-desc: Real World Asset collateral is...
+
+    LPT: &LPT
+        type-id: LPT
+        type-name: Liquidity Pool Token
+        type-desc: Liquidity Pool Token collateral is...
+    
+    UNIV2: &UNIV2
+        type-id: UNIV2
+        type-name: Uniswap V2 Liquidity Pool Token
+        type-desc: Uniswap V2 Liquidity Pool Token collateral is...
+        
+    UNIV3G: &UNIV3G
+        type-id: UNIV3G
+        type-name: Uniswap V3 Liquidity Pool Token powered by Gelato
+        type-desc: Uniswap V2 Liquidity Pool Token powered by Gelato are...
+        
+    CRV: &CRV
+        type-id: CRV
+        type-name: Curve Liquidity Pool Token
+        type-desc: Curve Liquidity Pool Tokens powered by Gelato are...
 
 ilks:
-    ETH-A: *ETH
-    ETH-B: *ETH
-    ETH-C: *ETH
-    WBTC-A: *WBTC
-    WBTC-B: *WBTC
-    WBTC-C: *WBTC
-    WSTETH-A: *WSTETH
-    WSTETH-B: *WSTETH
-    USDC-A: *USDC
-    PSM-USDC-A: *USDC
-    USDP-A: *USDP
-    PSM-USDP-A: *USDP
-    GUSD-A: *GUSD
-    PSM-GUSD-A: *GUSD
-    GUNIV3DAIUSDC1-A: *GelatoUSDCDAI
-    GUNIV3DAIUSDC2-A: *GelatoUSDCDAI
-    MANA-A: *MANA
-    MATIC-A: *MATIC
-    RENBTC-A: *RENBTC
-    LINK-A: *LINK
-    CRVV1ETHSTETH-A: *CurveSTETHETH
+    ETH-A: 
+        <<: *ETH
+        <<: *VOLATILE
+        <<: *STATUS_ACTIVE
+    ETH-B: 
+        <<: *ETH
+        <<: *VOLATILE
+        <<: *STATUS_ACTIVE
+    ETH-C: 
+        <<: *ETH
+        <<: *VOLATILE
+        <<: *STATUS_ACTIVE
+    WBTC-A: 
+        <<: *WBTC
+        <<: *VOLATILE
+        <<: *STATUS_ACTIVE
+    WBTC-B:
+        <<: *WBTC
+        <<: *VOLATILE
+        <<: *STATUS_ACTIVE
+    WBTC-C:
+        <<: *WBTC
+        <<: *VOLATILE
+        <<: *STATUS_ACTIVE
+    WSTETH-A:
+        <<: *WSTETH
+        <<: *VOLATILE
+        <<: *STATUS_ACTIVE
+    WSTETH-B:
+        <<: *WSTETH
+        <<: *VOLATILE
+        <<: *STATUS_ACTIVE
+    USDC-A:
+        <<: *USDC
+        <<: *STABLE
+        <<: *STATUS_DEPRECATED
+    PSM-USDC-A:
+        <<: *USDC
+        <<: *PSM
+        <<: *STABLE
+        <<: *STATUS_ACTIVE
+    USDP-A:
+        <<: *USDP
+        <<: *STABLE
+        <<: *STATUS_DEPRECATED
+    PSM-USDP-A:
+        <<: *USDP
+        <<: *PSM
+        <<: *STABLE
+        <<: *STATUS_ACTIVE
+    GUSD-A:
+        <<: *GUSD
+        <<: *STABLE
+        <<: *STATUS_DEPRECATED
+    PSM-GUSD-A:
+        <<: *GUSD
+        <<: *PSM
+        <<: *STABLE
+        <<: *STATUS_ACTIVE
+    GUNIV3DAIUSDC1-A:
+        <<: *GUNIV3DAIUSDC1
+        <<: *STABLE
+        <<: *UNIV3G
+        <<: *STATUS_ACTIVE
+    GUNIV3DAIUSDC2-A:
+        <<: *GUNIV3DAIUSDC2
+        <<: *STABLE
+        <<: *UNIV3G
+        <<: *STATUS_ACTIVE
+    MANA-A:
+        <<: *MANA
+        <<: *VOLATILE
+        <<: *STATUS_ACTIVE
+    MATIC-A:
+        <<: *MATIC
+        <<: *VOLATILE
+        <<: *STATUS_ACTIVE
+    RENBTC-A:
+        <<: *RENBTC
+        <<: *VOLATILE
+        <<: *STATUS_ACTIVE
+    LINK-A:
+        <<: *LINK
+        <<: *VOLATILE
+        <<: *STATUS_ACTIVE
+    CRVV1ETHSTETH-A:
+        <<: *CurveSTETHETH
+        <<: *VOLATILE
+        <<: *CRV
+        <<: *STATUS_ACTIVE
+    DIRECT-AAVEV2-DAI:
+        <<: *ADAI
+        <<: *D3M
+        <<: *STABLE
+        <<: *STATUS_ACTIVE
 ```

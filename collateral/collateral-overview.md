@@ -1,5 +1,7 @@
 ### Collateral Overview
 
+<!-- MUST BE KEPT IN SYNC WITH COLLATERAL-INFO.YAML -->
+
 ## Ether (ETH)
 ```ETH-A, ETH-B, ETH-C```  
 Ether is the native token of the Ethereum blockchain. It is used as the fee currency when making transactions on the Ethereum network. Validators of the ethereum network are required to lock up 32 ETH as a stake, and earn a variable yield for this work.
