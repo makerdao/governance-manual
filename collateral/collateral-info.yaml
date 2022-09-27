@@ -8,70 +8,75 @@
 # Note desc must be single-line, and should be kept reasonably short.
 # &anchor syntax defines labels that are picked up in ilks section.
 
+
+base-values: &BASE
+# overridden later
+    is-stablecoin: false
+
 collateral-typedefs:
     ONCHAIN: &ONCHAIN
         collateral-typeid: ONCHAIN
         collateral-typename: On-chain
-        collateral-typedesc: TODO
+        collateral-typedesc: Collateral that exists in a meaningful way on a public blockchain.
 
     RWA: &RWA
         collateral-typeid: RWA
         collateral-typename: Real World Asset
-        collateral-typedesc: TODO
+        collateral-typedesc: Collateral that relies on the traditional financial and legal system.
 
     LPT: &LPT
         collateral-typeid: LPT
         collateral-typename: Liquidity Pool Token
-        collateral-typedesc: TODO
+        collateral-typedesc: Tokens that represent some amount and variety of pooled liquidity in an on-chain smart contract or protocol.
 
 collateral-subtypedefs:
     SIMPLE-ONCHAIN: &SIMPLE-ONCHAIN
         <<: *ONCHAIN
         collateral-subtypeid: SIMPLE-ONCHAIN
         collateral-subtypename: Simple On-chain
-        collateral-subtypedesc: TODO
+        collateral-subtypedesc: Either Ether, or a simple on-chain token meeting the ERC20 (or similar) standard.
         
     CUSTODIAL-ONCHAIN: &CUSTODIAL-ONCHAIN
         <<: *ONCHAIN
         collateral-subtypeid: CUSTODIAL-ONCHAIN
         collateral-subtypename: Custodial On-chain
-        collateral-subtypedesc: TODO
+        collateral-subtypedesc: A token that is widely used on-chain, but that relies on the custody of a DAO or traditional organization to maintain its value.
         
     BRIDGED-ONCHAIN: &BRIDGED-ONCHAIN
         <<: *ONCHAIN
         collateral-subtypeid: BRIDGED-ONCHAIN
         collateral-subtypename: Bridged On-chain
-        collateral-subtypedesc: TODO
+        collateral-subtypedesc: A token that has originated on a different blockchain and has been bridged to mainnet Ethereum.
 
     RWA-CUSTOM: &RWA-CUSTOM
         <<: *RWA
         collateral-subtypeid: CUSTOM-RWA
         collateral-subtypename: Custom RWA
-        collateral-subtypedesc: TODO
+        collateral-subtypedesc: A real world asset that does not fit into another category that has a structure that was purpose built.
 
     CFG-DROP: &CFG-DROP
         <<: *RWA
         collateral-subtypeid: CFG-DROP
         collateral-subtypename: Centrifuge DROP
-        collateral-subtypedesc: TODO
+        collateral-subtypedesc: A token representing senior debt in a revolving credit facility provided by the Centrifuge platform to a specific asset orginiator.
 
     UNIV2: &UNIV2-LPT
         <<: *LPT
         collateral-subtypeid: UNIV2
         collateral-subtypename: Uniswap V2 Liquidity Pool Token
-        collateral-subtypedesc: TODO
+        collateral-subtypedesc: A liquidity pool token representing a share of a liquidity pool in the UniswapV2 protocol, a constant-product automated market maker.
         
     UNIV3G: &UNIV3G-LPT
         <<: *LPT
         collateral-subtypeid: UNIV3G
         collateral-subtypename: Uniswap V3 Liquidity Pool Token powered by Gelato
-        collateral-subtypedesc: TODO
+        collateral-subtypedesc: A pool token representing a share in a Gelato-managed liquidity position in the UniswapV3 protocol, a constant-product automated market maker.
         
     CRV: &CRV-LPT
         <<: *LPT
         collateral-subtypeid: CRV
         collateral-subtypename: Curve Liquidity Pool Token
-        collateral-subtypedesc: TODO
+        collateral-subtypedesc: A liquidity pool token representing a share of a liquidity pool in the Curve protocol, an automated market maker.
 
 collateral-defs:
     ETH: &ETH
@@ -97,18 +102,21 @@ collateral-defs:
         collateral-desc: USDC is a fiat backed U.S. Dollar stablecoin operated by Circle. Each USDC is backed by 1 dollar worth of cash and short-dated U.S treasuries. USDC is redeemable for dollars and the backing is audited monthly. 
         collateral-shortname: U.S. Dollar Coin (Circle)
         collateral-symbol: USDC
+        is-stablecoin: true
 
     USDP: &USDP
         <<: *CUSTODIAL-ONCHAIN
         collateral-desc: USDP is a fiat backed U.S. Dollar stablecoin operated by Paxos. Each USDP is backed by 1 dollar worth of cash and cash equivalents. USDP is redeemable for dollars and the backing is audited monthly. 
         collateral-shortname: PAX Dollar
         collateral-symbol: USDP
+        is-stablecoin: true
 
     GUSD: &GUSD
         <<: *CUSTODIAL-ONCHAIN
         collateral-desc: GUSD is a fiat backed U.S Dollar stablecoin operated by Gemini. Each GUSD is backed by 1 dollar worth of cash or short-term U.S treasury bonds.GUSD is redeemable for dollars and the backing is audited monthly.
         collateral-shortname: Gemini USD
         collateral-symbol: GUSD
+        is-stablecoin: true
         
     GelatoUSDCDAI1: &GUNIV3DAIUSDC1
         <<: *UNIV3G-LPT
@@ -116,6 +124,7 @@ collateral-defs:
         collateral-shortname: GUNI-DAI/USDC 0.05%
         collateral-longname: Gelato Uniswap V3 DAI/USDC 0.05% Fee Liquidity Pool Tokens
         collateral-symbol: GUNIV3DAIUSDC2
+        is-stablecoin: true
 
     GelatoUSDCDAI2: &GUNIV3DAIUSDC2
         <<: *UNIV3G-LPT
@@ -123,6 +132,7 @@ collateral-defs:
         collateral-shortname: GUNI-DAI/USDC 0.01%
         collateral-longname: Gelato Uniswap V3 DAI/USDC 0.01% Fee Liquidity Pool Tokens
         collateral-symbol: GUNIV3DAIUSDC2
+        is-stablecoin: true
 
     MANA: &MANA
         <<: *SIMPLE-ONCHAIN
@@ -157,47 +167,48 @@ collateral-defs:
 
     ADAI: &ADAI
         <<: *SIMPLE-ONCHAIN
-        collateral-desc: TODO
+        collateral-desc: These tokens are a receipt-like token that represents DAI deposited in the AaveV2 protocol. These tokens accrue value over time from over-collateralized loans made to users of the Aave Protocol.
         collateral-shortname: Aave DAI
         collateral-symbol: aDAI
+        is-stablecoin: true
 
     RWA001: &RWA001
         <<: *RWA-CUSTOM
-        collateral-desc: TODO
+        collateral-desc: Loans financing the construction of commercial retail properties to be leased to large companies such as O-Reilly’s Auto Parts and Tesla. This debt is senior, and potential losses are limited by junior debt from other investors.
         collateral-shortname: 6s Capital
         collateral-symbol: RWA001
 
     RWA002: &RWA002
         <<: *CFG-DROP
-        collateral-desc: TODO
+        collateral-desc: Short term loans (12 months average) financing real estate investors who buy and renovate single-family homes in the U.S. This debt is senior, and potential losses are limited by junior debt from other investors.
         collateral-longname: Centrifuge New Silver DROP Token
         collateral-shortname: New Silver DROP
         collateral-symbol: NS-DROP
 
     RWA003: &RWA003
         <<: *CFG-DROP
-        collateral-desc: TODO
+        collateral-desc: Very short-term loans against invoices for any sort of tradable good. Companies use such loans to manage their working capital requirements, such as labor costs or paying for new orders. This debt is senior, and potential losses are limited by junior debt from other investors.
         collateral-longname: Centrifuge ConsolFreight DROP Token
         collateral-shortname: ConsolFreight DROP
         collateral-symbol: CF-DROP
 
     RWA004: &RWA004
         <<: *CFG-DROP
-        collateral-desc: TODO
+        collateral-desc: Very short-term loans against invoices for any sort of tradable good. Companies use such loans to manage their working capital requirements, such as labor costs or paying for new orders. This debt is senior, and potential losses are limited by junior debt from other investors.
         collateral-longname: Centrifuge Harbour Trade Credit DROP Token
         collateral-shortname: Harbour Trade Credit DROP
         collateral-symbol: HTC-DROP
 
     RWA005: &RWA005
         <<: *CFG-DROP
-        collateral-desc: TODO
+        collateral-desc: Loans originated by Pipe and Corl against future, contract-secured revenues from SaaS and E-commerce businesses. This debt is senior, and potential losses are limited by junior debt from other investors.
         collateral-longname: Centrifuge FortunaFi DROP Token
         collateral-shortname: FortunaFi DROP
         collateral-symbol: FFT1-DROP
 
     RWA009: &RWA009
         <<: *RWA-CUSTOM
-        collateral-desc: TODO
+        collateral-desc: A variety of real estate, business, and consumer loans with a range of durations. HVB invests along-side MakerDAO as an equal senior investor. This debt is senior, and potential losses are limited by the value of the loan collateral.
         collateral-longname: Huntingdon Valley Bank
         collateral-shortname: H. V. Bank
         collateral-symbol: RWA009
@@ -210,213 +221,212 @@ status-defs:
     Offboarding: &STATUS_OFFBOARDING
         status: Offboarding
 
-stability-defs:
-    Stable: &STABLE
-        stability-typeid: Stable
-
-    Volatile: &VOLATILE
-        stability-typeid: Volatile
-
 module-typedefs:
     PSM: &PSM
         module-typeid: PSM 
         module-typename: Peg Stability Module
-        module-typedesc: TODO
+        module-typedesc: A Peg Stability Module exchanges the collateral asset for DAI (and vice-versa) at a 1:1 ratio, with an optional trading fee set by Maker Governance.
 
     D3M: &D3M
         module-typeid: D3M
         module-typename: Direct DAI Deposit Module
-        module-typedesc: TODO
+        module-typedesc: A Direct DAI Deposit Module deposits newly minted DAI into another protocol in exchange for a receipt token which is used as the collateral backing.
 
 ilks:
     ETH-A: 
+        <<: *BASE
         <<: *ETH
-        <<: *VOLATILE
         <<: *STATUS_ACTIVE
         id: ETH-A
         shortname: ETH Balanced
         longname: ETH Mid-Fee Mid-Ratio
     ETH-B: 
+        <<: *BASE
         <<: *ETH
-        <<: *VOLATILE
         <<: *STATUS_ACTIVE
         id: ETH-B
         shortname: ETH Low Ratio
         longname: ETH Low-Ratio High-Fee
     ETH-C: 
+        <<: *BASE
         <<: *ETH
-        <<: *VOLATILE
         <<: *STATUS_ACTIVE
         id: ETH-C
         shortname: ETH Low Fee
         longname: ETH High-Ratio Low-Fee
     WBTC-A: 
+        <<: *BASE
         <<: *WBTC
-        <<: *VOLATILE
         <<: *STATUS_ACTIVE
         id: WBTC-A
         shortname: WBTC Balanced
         longname: WBTC Mid-Fee Mid-Ratio
     WBTC-B:
+        <<: *BASE
         <<: *WBTC
-        <<: *VOLATILE
         <<: *STATUS_ACTIVE
         id: WBTC-B
         shortname: WBTC Low Ratio
         longname: WBTC Low-Ratio High-Fee
     WBTC-C:
+        <<: *BASE
         <<: *WBTC
-        <<: *VOLATILE
         <<: *STATUS_ACTIVE
         id: WBTC-C
         shortname: WBTC Low Fee
         longname: WBTC High-Ratio Low-Fee
     WSTETH-A:
+        <<: *BASE
         <<: *WSTETH
-        <<: *VOLATILE
         <<: *STATUS_ACTIVE
         id: WSTETH-A
         shortname: stETH Balanced
         longname: Lido wstETH Mid-Fee Mid-Ratio
     WSTETH-B:
+        <<: *BASE
         <<: *WSTETH
-        <<: *VOLATILE
         <<: *STATUS_ACTIVE
         id: WSTETH-B
         shortname: stETH Low Fee
         longname: Lido wstETH High-Ratio Low-Fee
     USDC-A:
+        <<: *BASE
         <<: *USDC
-        <<: *STABLE
         <<: *STATUS_DEPRECATED
         id: USDC-A
         shortname: USDC Minimal Ratio
         longname: USDC Minimal-Ratio Low-Fee
     PSM-USDC-A:
+        <<: *BASE
         <<: *USDC
         <<: *PSM
-        <<: *STABLE
         <<: *STATUS_ACTIVE
         id: PSM-USDC-A
         shortname: PSM (USDC)
         longname: Peg Stability Module (USDC)
     USDP-A:
+        <<: *BASE
         <<: *USDP
-        <<: *STABLE
         <<: *STATUS_DEPRECATED
         id: USDP-A
         shortname: USDP Minimal Ratio
         longname: USDP Minimal-Ratio Low-Fee
     PSM-USDP-A:
+        <<: *BASE
         <<: *USDP
         <<: *PSM
-        <<: *STABLE
         <<: *STATUS_ACTIVE
         id: PSM-USDP-A
         shortname: PSM (USDP)
         longname: Peg Stability Module (USDP)
     GUSD-A:
+        <<: *BASE
         <<: *GUSD
-        <<: *STABLE
         <<: *STATUS_DEPRECATED
         id: GUSD-A
         shortname: GUSD Minimal Ratio
         longname: GUSD Minimal-Ratio Low-Fee
     PSM-GUSD-A:
+        <<: *BASE
         <<: *GUSD
         <<: *PSM
-        <<: *STABLE
         <<: *STATUS_ACTIVE
         id: PSM-GUSD-A
         shortname: PSM (GUSD)
         longname: Peg Stability Module (GUSD)
     GUNIV3DAIUSDC1-A:
+        <<: *BASE
         <<: *GUNIV3DAIUSDC1
-        <<: *STABLE
         <<: *STATUS_ACTIVE
         id: GUNIV3DAIUSDC1-A
         shortname: GUNI-DAI/USDC 0.05%
         longname: Gelato Uniswap V3 DAI/USDC 0.05% Pool
     GUNIV3DAIUSDC2-A:
+        <<: *BASE
         <<: *GUNIV3DAIUSDC2
-        <<: *STABLE
         <<: *STATUS_ACTIVE
         id: GUNIV3DAIUSDC2-A
         shortname: GUNI-DAI/USDC 0.01%
         longname: Gelato Uniswap V3 DAI/USDC 0.01% Pool
     MANA-A:
+        <<: *BASE
         <<: *MANA
-        <<: *VOLATILE
         <<: *STATUS_ACTIVE
         id: MANA-A
         shortname: MANA 
         longname: Decentraland (MANA)
     MATIC-A:
+        <<: *BASE
         <<: *MATIC
-        <<: *VOLATILE
         <<: *STATUS_ACTIVE
         id: MATIC-A
         shortname: MATIC
         longname: Polygon (MATIC)
     RENBTC-A:
+        <<: *BASE
         <<: *RENBTC
-        <<: *VOLATILE
         <<: *STATUS_ACTIVE
         id: RENBTC-A
         shortname: renBTC
         longname: renBTC
     LINK-A:
+        <<: *BASE
         <<: *LINK
-        <<: *VOLATILE
         <<: *STATUS_ACTIVE
         id: LINK-A
         shortname: LINK
         longname: Chainlink (LINK)
     CRVV1ETHSTETH-A:
+        <<: *BASE
         <<: *CurveSTETHETH
-        <<: *VOLATILE
         <<: *STATUS_ACTIVE
         id: CRVV1ETHSTETH-A
         shortname: Curve stETH/ETH
         longname: Curve stETH/ETH Pool
     DIRECT-AAVEV2-DAI:
+        <<: *BASE
         <<: *ADAI
         <<: *D3M
-        <<: *STABLE
         <<: *STATUS_ACTIVE
         id: DIRECT-AAVEV2-DAI
         shortname: D3M (AAVE-V2)
         longname: Direct Deposit DAI Module (AAVE-V2)
     RWA001-A:
+        <<: *BASE
         <<: *RWA001
         <<: *STATUS_ACTIVE
         id: RWA001-A
         shortname: 6s Capital
     RWA002-A:
+        <<: *BASE
         <<: *RWA002
         <<: *STATUS_ACTIVE
         id: RWA002-A
         shortname: NS-DROP
         longname: New Silver DROP
     RWA003-A:
+        <<: *BASE
         <<: *RWA003
         <<: *STATUS_ACTIVE
         id: RWA003-A
         shortname: CF-DROP
         longname: ConsolFreight DROP
     RWA004-A:
+        <<: *BASE
         <<: *RWA004
         <<: *STATUS_ACTIVE
         id: RWA004-A
         shortname: HTC-DROP
         longname: Harbor Trade Credit DROP
     RWA005-A:
+        <<: *BASE
         <<: *RWA005
         <<: *STATUS_ACTIVE
         id: RWA005-A
         shortname: FFT1-DROP
         longname: Fortunafi DROP
     RWA009-A:
+        <<: *BASE
         <<: *RWA009
         <<: *STATUS_ACTIVE
         id: RWA009-A

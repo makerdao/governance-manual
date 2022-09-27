@@ -52,6 +52,10 @@ Chainlink is a decentralized oracle network that brings off-chain information on
 ```CRVV1ETHSTETH-A```  
 These tokens represent a combination of stETH and ETH tokens held in a Curve liquidity pool. The tokens accrue fees from seETH-ETH swaps that go through this liquidity pool.
 
+## AaveV2 Dai
+```DIRECT-AAVEV2-DAI```
+These tokens are a receipt-like token that represents DAI deposited in the AaveV2 protocol. These tokens accrue value over time from over-collateralized loans made to users of the Aave Protocol.
+
 ## New Silver DROP
 Short term loans (12 months average) financing real estate investors who buy and renovate single-family homes in the U.S. This debt is senior, and potential losses are limited by junior debt from other investors.
 
