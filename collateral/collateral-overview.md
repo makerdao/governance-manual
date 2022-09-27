@@ -1,5 +1,7 @@
 ### Collateral Overview
 
+This page contains layman’s explanations of the collateral that backs the value of the Dai Stablecoin.
+
 <!-- MUST BE KEPT IN SYNC WITH COLLATERAL-INFO.YAML -->
 
 ## Ether (ETH)
@@ -49,3 +51,21 @@ Chainlink is a decentralized oracle network that brings off-chain information on
 ## Curve stETH/ETH Liquidity Pool Tokens
 ```CRVV1ETHSTETH-A```  
 These tokens represent a combination of stETH and ETH tokens held in a Curve liquidity pool. The tokens accrue fees from seETH-ETH swaps that go through this liquidity pool.
+
+## New Silver DROP
+Short term loans (12 months average) financing real estate investors who buy and renovate single-family homes in the U.S. This debt is senior, and potential losses are limited by junior debt from other investors.
+
+## 6s Capital
+Loans financing the construction of commercial retail properties to be leased to large companies such as O-Reilly’s Auto Parts and Tesla. This debt is senior, and potential losses are limited by junior debt from other investors.
+
+## FortunaFi DROP
+Loans originated by Pipe and Corl against future, contract-secured revenues from SaaS and E-commerce businesses. This debt is senior, and potential losses are limited by junior debt from other investors.
+
+## Harbor Trade Credit DROP
+Very short-term loans against invoices for any sort of tradable good. Companies use such loans to manage their working capital requirements, such as labor costs or paying for new orders. This debt is senior, and potential losses are limited by junior debt from other investors.
+
+## Consol Freight DROP
+Very short-term loans against invoices for any sort of tradable good. Companies use such loans to manage their working capital requirements, such as labor costs or paying for new orders. This debt is senior, and potential losses are limited by junior debt from other investors.
+
+## Huntingdon Valley Bank
+A variety of real estate, business, and consumer loans with a range of durations. HVB invests along-side MakerDAO as an equal senior investor. This debt is senior, and potential losses are limited by the value of the loan collateral.

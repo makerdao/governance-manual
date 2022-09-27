@@ -8,226 +8,418 @@
 # Note desc must be single-line, and should be kept reasonably short.
 # &anchor syntax defines labels that are picked up in ilks section.
 
+collateral-typedefs:
+    ONCHAIN: &ONCHAIN
+        collateral-typeid: ONCHAIN
+        collateral-typename: On-chain
+        collateral-typedesc: TODO
+
+    RWA: &RWA
+        collateral-typeid: RWA
+        collateral-typename: Real World Asset
+        collateral-typedesc: TODO
+
+    LPT: &LPT
+        collateral-typeid: LPT
+        collateral-typename: Liquidity Pool Token
+        collateral-typedesc: TODO
+
+collateral-subtypedefs:
+    SIMPLE-ONCHAIN: &SIMPLE-ONCHAIN
+        <<: *ONCHAIN
+        collateral-subtypeid: SIMPLE-ONCHAIN
+        collateral-subtypename: Simple On-chain
+        collateral-subtypedesc: TODO
+        
+    CUSTODIAL-ONCHAIN: &CUSTODIAL-ONCHAIN
+        <<: *ONCHAIN
+        collateral-subtypeid: CUSTODIAL-ONCHAIN
+        collateral-subtypename: Custodial On-chain
+        collateral-subtypedesc: TODO
+        
+    BRIDGED-ONCHAIN: &BRIDGED-ONCHAIN
+        <<: *ONCHAIN
+        collateral-subtypeid: BRIDGED-ONCHAIN
+        collateral-subtypename: Bridged On-chain
+        collateral-subtypedesc: TODO
+
+    RWA-CUSTOM: &RWA-CUSTOM
+        <<: *RWA
+        collateral-subtypeid: CUSTOM-RWA
+        collateral-subtypename: Custom RWA
+        collateral-subtypedesc: TODO
+
+    CFG-DROP: &CFG-DROP
+        <<: *RWA
+        collateral-subtypeid: CFG-DROP
+        collateral-subtypename: Centrifuge DROP
+        collateral-subtypedesc: TODO
+
+    UNIV2: &UNIV2-LPT
+        <<: *LPT
+        collateral-subtypeid: UNIV2
+        collateral-subtypename: Uniswap V2 Liquidity Pool Token
+        collateral-subtypedesc: TODO
+        
+    UNIV3G: &UNIV3G-LPT
+        <<: *LPT
+        collateral-subtypeid: UNIV3G
+        collateral-subtypename: Uniswap V3 Liquidity Pool Token powered by Gelato
+        collateral-subtypedesc: TODO
+        
+    CRV: &CRV-LPT
+        <<: *LPT
+        collateral-subtypeid: CRV
+        collateral-subtypename: Curve Liquidity Pool Token
+        collateral-subtypedesc: TODO
+
 collateral-defs:
     ETH: &ETH
+        <<: *SIMPLE-ONCHAIN
         collateral-desc: Ether is the native token of the Ethereum blockchain. It is used as the fee currency when making transactions on the Ethereum network. Validators of the ethereum network are required to lock up 32 ETH as a stake, and earn a variable yield for this work.
         collateral-shortname: Ether
         collateral-symbol: ETH
 
     WBTC: &WBTC
+        <<: *CUSTODIAL-ONCHAIN
         collateral-desc: Wrapped bitcoin is the most used form of bitcoin in use on the Ethereum network. Through a wBTC partner, wrapped bitcoin can be exchanged directly for bitcoin. Wrapped bitcoin is maintained by a group called the wBTC DAO with over 30 members.
         collateral-shortname: Wrapped Bitcoin
         collateral-symbol: WBTC
 
     WSTETH: &WSTETH
+        <<: *CUSTODIAL-ONCHAIN
         collateral-desc: Wrapped staked Ether is a fungible derivative of Ether that is exposed to the yield earned by validators on the Ethereum network. It is managed by LidoDAO. 
         collateral-shortname: Wrapped Lido Staked Ether
         collateral-symbol: WSTETH
 
     USDC: &USDC
+        <<: *CUSTODIAL-ONCHAIN
         collateral-desc: USDC is a fiat backed U.S. Dollar stablecoin operated by Circle. Each USDC is backed by 1 dollar worth of cash and short-dated U.S treasuries. USDC is redeemable for dollars and the backing is audited monthly. 
         collateral-shortname: U.S. Dollar Coin (Circle)
         collateral-symbol: USDC
 
     USDP: &USDP
+        <<: *CUSTODIAL-ONCHAIN
         collateral-desc: USDP is a fiat backed U.S. Dollar stablecoin operated by Paxos. Each USDP is backed by 1 dollar worth of cash and cash equivalents. USDP is redeemable for dollars and the backing is audited monthly. 
         collateral-shortname: PAX Dollar
         collateral-symbol: USDP
 
     GUSD: &GUSD
+        <<: *CUSTODIAL-ONCHAIN
         collateral-desc: GUSD is a fiat backed U.S Dollar stablecoin operated by Gemini. Each GUSD is backed by 1 dollar worth of cash or short-term U.S treasury bonds.GUSD is redeemable for dollars and the backing is audited monthly.
         collateral-shortname: Gemini USD
         collateral-symbol: GUSD
         
     GelatoUSDCDAI1: &GUNIV3DAIUSDC1
+        <<: *UNIV3G-LPT
         collateral-desc: These tokens represent a combination of DAI and USDC held in UniswapV3 liquidity pools. The tokens accrue fees from DAI-USDC swaps that go through these liquidity pools. The gelato network manages these tokens.
         collateral-shortname: GUNI-DAI/USDC 0.05%
         collateral-longname: Gelato Uniswap V3 DAI/USDC 0.05% Fee Liquidity Pool Tokens
         collateral-symbol: GUNIV3DAIUSDC2
 
     GelatoUSDCDAI2: &GUNIV3DAIUSDC2
+        <<: *UNIV3G-LPT
         collateral-desc: These tokens represent a combination of DAI and USDC held in UniswapV3 liquidity pools. The tokens accrue fees from DAI-USDC swaps that go through these liquidity pools. The gelato network manages these tokens.
         collateral-shortname: GUNI-DAI/USDC 0.01%
         collateral-longname: Gelato Uniswap V3 DAI/USDC 0.01% Fee Liquidity Pool Tokens
         collateral-symbol: GUNIV3DAIUSDC2
 
     MANA: &MANA
+        <<: *SIMPLE-ONCHAIN
         collateral-desc: MANA tokens are used to pay for goods and services within the 3D virtual reality platform Decentraland.
         collateral-shortname: Decentraland
         collateral-symbol: MANA
 
     MATIC: &MATIC
+        <<: *BRIDGED-ONCHAIN
         collateral-desc: The MATIC token is used to pay transaction fees and participate in proof-of-stake consensus in the Polygon network. The MATIC tokens Maker uses as collateral have been bridged to Ethereum from the Polygon network.
         collateral-shortname: Polygon
         collateral-symbol: MATIC
 
     RENBTC: &RENBTC
+        <<: *BRIDGED-ONCHAIN
         collateral-desc: RenBTC is a form of bitcoin in use on the Ethereum network. Through the Ren Protocol, renBTC can be exchanged directly for bitcoin. The Ren protocol is maintained by a collection of darknodes that facilitate swaps and custody assets.
         collateral-shortname: renBTC
         collateral-symbol: RENBTC
 
     LINK: &LINK
+        <<: *SIMPLE-ONCHAIN
         collateral-desc: Chainlink is a decentralized oracle network that brings off-chain information on-chain. The LINK tokens are used as a currency to pay Chainlink node operators.
         collateral-shortname: Chainlink
         collateral-symbol: LINK
 
     CRVV1ETHSTETH: &CurveSTETHETH
+        <<: *CRV-LPT
         collateral-desc: These tokens represent a combination of stETH and ETH tokens held in a Curve liquidity pool. The tokens accrue fees from seETH-ETH swaps that go through this liquidity pool.
         collateral-shortname: Curve stETH/ETH
         collateral-longname: Curve stETH/ETH Liquidity Pool Tokens
         collateral-symbol: CRVV1ETHSTETH
 
     ADAI: &ADAI
-        collateral-desc: These tokens represent...
+        <<: *SIMPLE-ONCHAIN
+        collateral-desc: TODO
         collateral-shortname: Aave DAI
         collateral-symbol: aDAI
 
+    RWA001: &RWA001
+        <<: *RWA-CUSTOM
+        collateral-desc: TODO
+        collateral-shortname: 6s Capital
+        collateral-symbol: RWA001
+
+    RWA002: &RWA002
+        <<: *CFG-DROP
+        collateral-desc: TODO
+        collateral-longname: Centrifuge New Silver DROP Token
+        collateral-shortname: New Silver DROP
+        collateral-symbol: NS-DROP
+
+    RWA003: &RWA003
+        <<: *CFG-DROP
+        collateral-desc: TODO
+        collateral-longname: Centrifuge ConsolFreight DROP Token
+        collateral-shortname: ConsolFreight DROP
+        collateral-symbol: CF-DROP
+
+    RWA004: &RWA004
+        <<: *CFG-DROP
+        collateral-desc: TODO
+        collateral-longname: Centrifuge Harbour Trade Credit DROP Token
+        collateral-shortname: Harbour Trade Credit DROP
+        collateral-symbol: HTC-DROP
+
+    RWA005: &RWA005
+        <<: *CFG-DROP
+        collateral-desc: TODO
+        collateral-longname: Centrifuge FortunaFi DROP Token
+        collateral-shortname: FortunaFi DROP
+        collateral-symbol: FFT1-DROP
+
+    RWA009: &RWA009
+        <<: *RWA-CUSTOM
+        collateral-desc: TODO
+        collateral-longname: Huntingdon Valley Bank
+        collateral-shortname: H. V. Bank
+        collateral-symbol: RWA009
+
 status-defs:
     Deprecated: &STATUS_DEPRECATED
-        status-id: Deprecated
+        status: Deprecated
     Active: &STATUS_ACTIVE
-        status-id: Active
+        status: Active
     Offboarding: &STATUS_OFFBOARDING
-        status-id: Offboarding
+        status: Offboarding
 
 stability-defs:
     Stable: &STABLE
-        stability-id: Stable
+        stability-typeid: Stable
 
     Volatile: &VOLATILE
-        stability-id: Volatile
+        stability-typeid: Volatile
 
-module-defs:
+module-typedefs:
     PSM: &PSM
-        module-id: PSM 
-        module-name: Peg Stability Module
-        module-desc: A Peg Stability Module is...
+        module-typeid: PSM 
+        module-typename: Peg Stability Module
+        module-typedesc: TODO
 
     D3M: &D3M
-        module-id: D3M
-        module-name: Direct DAI Deposit Module
-        module-desc: A Direct DAI Deposit Module is...
-
-type-defs:
-    RWA: &RWA
-        type-id: RWA
-        type-name: Real World Asset
-        type-desc: Real World Asset collateral is...
-
-    LPT: &LPT
-        type-id: LPT
-        type-name: Liquidity Pool Token
-        type-desc: Liquidity Pool Token collateral is...
-    
-    UNIV2: &UNIV2
-        type-id: UNIV2
-        type-name: Uniswap V2 Liquidity Pool Token
-        type-desc: Uniswap V2 Liquidity Pool Token collateral is...
-        
-    UNIV3G: &UNIV3G
-        type-id: UNIV3G
-        type-name: Uniswap V3 Liquidity Pool Token powered by Gelato
-        type-desc: Uniswap V2 Liquidity Pool Token powered by Gelato are...
-        
-    CRV: &CRV
-        type-id: CRV
-        type-name: Curve Liquidity Pool Token
-        type-desc: Curve Liquidity Pool Tokens powered by Gelato are...
+        module-typeid: D3M
+        module-typename: Direct DAI Deposit Module
+        module-typedesc: TODO
 
 ilks:
     ETH-A: 
         <<: *ETH
         <<: *VOLATILE
         <<: *STATUS_ACTIVE
+        id: ETH-A
+        shortname: ETH Balanced
+        longname: ETH Mid-Fee Mid-Ratio
     ETH-B: 
         <<: *ETH
         <<: *VOLATILE
         <<: *STATUS_ACTIVE
+        id: ETH-B
+        shortname: ETH Low Ratio
+        longname: ETH Low-Ratio High-Fee
     ETH-C: 
         <<: *ETH
         <<: *VOLATILE
         <<: *STATUS_ACTIVE
+        id: ETH-C
+        shortname: ETH Low Fee
+        longname: ETH High-Ratio Low-Fee
     WBTC-A: 
         <<: *WBTC
         <<: *VOLATILE
         <<: *STATUS_ACTIVE
+        id: WBTC-A
+        shortname: WBTC Balanced
+        longname: WBTC Mid-Fee Mid-Ratio
     WBTC-B:
         <<: *WBTC
         <<: *VOLATILE
         <<: *STATUS_ACTIVE
+        id: WBTC-B
+        shortname: WBTC Low Ratio
+        longname: WBTC Low-Ratio High-Fee
     WBTC-C:
         <<: *WBTC
         <<: *VOLATILE
         <<: *STATUS_ACTIVE
+        id: WBTC-C
+        shortname: WBTC Low Fee
+        longname: WBTC High-Ratio Low-Fee
     WSTETH-A:
         <<: *WSTETH
         <<: *VOLATILE
         <<: *STATUS_ACTIVE
+        id: WSTETH-A
+        shortname: stETH Balanced
+        longname: Lido wstETH Mid-Fee Mid-Ratio
     WSTETH-B:
         <<: *WSTETH
         <<: *VOLATILE
         <<: *STATUS_ACTIVE
+        id: WSTETH-B
+        shortname: stETH Low Fee
+        longname: Lido wstETH High-Ratio Low-Fee
     USDC-A:
         <<: *USDC
         <<: *STABLE
         <<: *STATUS_DEPRECATED
+        id: USDC-A
+        shortname: USDC Minimal Ratio
+        longname: USDC Minimal-Ratio Low-Fee
     PSM-USDC-A:
         <<: *USDC
         <<: *PSM
         <<: *STABLE
         <<: *STATUS_ACTIVE
+        id: PSM-USDC-A
+        shortname: PSM (USDC)
+        longname: Peg Stability Module (USDC)
     USDP-A:
         <<: *USDP
         <<: *STABLE
         <<: *STATUS_DEPRECATED
+        id: USDP-A
+        shortname: USDP Minimal Ratio
+        longname: USDP Minimal-Ratio Low-Fee
     PSM-USDP-A:
         <<: *USDP
         <<: *PSM
         <<: *STABLE
         <<: *STATUS_ACTIVE
+        id: PSM-USDP-A
+        shortname: PSM (USDP)
+        longname: Peg Stability Module (USDP)
     GUSD-A:
         <<: *GUSD
         <<: *STABLE
         <<: *STATUS_DEPRECATED
+        id: GUSD-A
+        shortname: GUSD Minimal Ratio
+        longname: GUSD Minimal-Ratio Low-Fee
     PSM-GUSD-A:
         <<: *GUSD
         <<: *PSM
         <<: *STABLE
         <<: *STATUS_ACTIVE
+        id: PSM-GUSD-A
+        shortname: PSM (GUSD)
+        longname: Peg Stability Module (GUSD)
     GUNIV3DAIUSDC1-A:
         <<: *GUNIV3DAIUSDC1
         <<: *STABLE
-        <<: *UNIV3G
         <<: *STATUS_ACTIVE
+        id: GUNIV3DAIUSDC1-A
+        shortname: GUNI-DAI/USDC 0.05%
+        longname: Gelato Uniswap V3 DAI/USDC 0.05% Pool
     GUNIV3DAIUSDC2-A:
         <<: *GUNIV3DAIUSDC2
         <<: *STABLE
-        <<: *UNIV3G
         <<: *STATUS_ACTIVE
+        id: GUNIV3DAIUSDC2-A
+        shortname: GUNI-DAI/USDC 0.01%
+        longname: Gelato Uniswap V3 DAI/USDC 0.01% Pool
     MANA-A:
         <<: *MANA
         <<: *VOLATILE
         <<: *STATUS_ACTIVE
+        id: MANA-A
+        shortname: MANA 
+        longname: Decentraland (MANA)
     MATIC-A:
         <<: *MATIC
         <<: *VOLATILE
         <<: *STATUS_ACTIVE
+        id: MATIC-A
+        shortname: MATIC
+        longname: Polygon (MATIC)
     RENBTC-A:
         <<: *RENBTC
         <<: *VOLATILE
         <<: *STATUS_ACTIVE
+        id: RENBTC-A
+        shortname: renBTC
+        longname: renBTC
     LINK-A:
         <<: *LINK
         <<: *VOLATILE
         <<: *STATUS_ACTIVE
+        id: LINK-A
+        shortname: LINK
+        longname: Chainlink (LINK)
     CRVV1ETHSTETH-A:
         <<: *CurveSTETHETH
         <<: *VOLATILE
-        <<: *CRV
         <<: *STATUS_ACTIVE
+        id: CRVV1ETHSTETH-A
+        shortname: Curve stETH/ETH
+        longname: Curve stETH/ETH Pool
     DIRECT-AAVEV2-DAI:
         <<: *ADAI
         <<: *D3M
         <<: *STABLE
         <<: *STATUS_ACTIVE
+        id: DIRECT-AAVEV2-DAI
+        shortname: D3M (AAVE-V2)
+        longname: Direct Deposit DAI Module (AAVE-V2)
+    RWA001-A:
+        <<: *RWA001
+        <<: *STATUS_ACTIVE
+        id: RWA001-A
+        shortname: 6s Capital
+    RWA002-A:
+        <<: *RWA002
+        <<: *STATUS_ACTIVE
+        id: RWA002-A
+        shortname: NS-DROP
+        longname: New Silver DROP
+    RWA003-A:
+        <<: *RWA003
+        <<: *STATUS_ACTIVE
+        id: RWA003-A
+        shortname: CF-DROP
+        longname: ConsolFreight DROP
+    RWA004-A:
+        <<: *RWA004
+        <<: *STATUS_ACTIVE
+        id: RWA004-A
+        shortname: HTC-DROP
+        longname: Harbor Trade Credit DROP
+    RWA005-A:
+        <<: *RWA005
+        <<: *STATUS_ACTIVE
+        id: RWA005-A
+        shortname: FFT1-DROP
+        longname: Fortunafi DROP
+    RWA009-A:
+        <<: *RWA009
+        <<: *STATUS_ACTIVE
+        id: RWA009-A
+        shortname: H. V. Bank
+        longname: Huntingdon Valley Bank
 ```
