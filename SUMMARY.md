@@ -45,6 +45,7 @@
 * For MKR Holders
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
+  * [How To Delegate Video](delegation/mkr-holder-how-to-delegate.md)
 * For Delegates  
   * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
   * [Delegates Code of Conduct](delegation/delegates-code.md)
