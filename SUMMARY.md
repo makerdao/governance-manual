@@ -11,7 +11,6 @@
   * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
   * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
   * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
-  * [Bug Bounty Program](core-units/bug-bounty.md)
 
 
 ## Governance
@@ -32,20 +31,27 @@
 * Verification
   * [Executive Audit](governance/executive-audit.md)
 
-* [Delegation](delegation/what-is-delegation.md)
-  * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
-  * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
-  * [Delegates Code of Conduct](delegation/delegates-code.md)
-  * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
-  * [Separation of Powers](delegation/separation-of-powers.md)
-  * [Why to Become a Recognized Delegate](delegation/why-to-become-a-recognized-delegate.md)
-  * [How to Attract More MKR as a Recognized Delegate?](delegation/delegate-attract-more-mkr.md)
-  * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
-
 * Offchain Incentives
   * [Community SourceCred](governance/sourcecred.md)
   * [Delegate SourceCred](governance/delegate-sourcecred.md)
   * [Proposal Bounties](governance/proposal-bounties.md)
+  
+## Delegation
+  
+* Overview
+  * [What is Delegation?](delegation/what-is-delegation.md)
+  * [Separation of Powers](delegation/separation-of-powers.md)
+  * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
+* For MKR Holders
+  * [How to Delegate Video](delegation/mkr-holder-HowToDelegate.md)
+  * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
+  * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
+* For Delegates  
+  * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
+  * [Delegates Code of Conduct](delegation/delegates-code.md)
+  * [Why to Become a Recognized Delegate](delegation/why-to-become-a-recognized-delegate.md)
+  * [How to Attract More MKR as a Recognized Delegate?](delegation/delegate-attract-more-mkr.md)
+* [Delegate Contract Migration](delegation/delegate-expiration.md)
   
 ## Parameter Index
 

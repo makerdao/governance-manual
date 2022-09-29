@@ -54,3 +54,6 @@ Resetting a failed auction will also award the triggering keeper the Proportiona
 
 The funds for the Proportional Kick Incentive are removed from the surplus buffer and may trigger MKR minting if there is no DAI available within the surplus buffer.
 
+>Page last reviewed: -  
+>Next review due: -  
+

@@ -23,3 +23,7 @@ Forum polls can be used to measure community sentiment about anything and their 
 Once a forum signal thread has been active for several weeks and voted on by a reasonable number of community members, the creator of the signal thread will decide whether to refine the signal thread and post a new one or request that the Governance Facilitator push it to an on-chain governance poll.
 
 If the Governance Facilitator agrees that the issue outlined in the signal thread is ready to go on-chain, then the Governance Facilitator will create an on-chain Governance Poll in the form specified by the community consensus created in the signal thread.
+
+>Page last reviewed: -  
+>Next review due: -  
+

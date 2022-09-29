@@ -52,3 +52,7 @@ The first Monday of each calendar month marks the beginning of the Monthly Gover
 ### Calendar Exceptions ([MIP51c4](https://mips.makerdao.com/mips/details/MIP51#MIP51c4))
 
 Due to the multitude of cultural and religious holidays occurring in and around the month of December, there will be no Monthly Governance Cycle in December.
+
+>Page last reviewed: -  
+>Next review due: -  
+

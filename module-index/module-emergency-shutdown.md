@@ -7,6 +7,7 @@
 
 ## Description
 
+
 The Emergency Shutdown Module allows users to deposit MKR into the module to perform an emergency shutdown of the Maker Protocol. 
 
 When MKR holders have deposited enough MKR to the Emergency Shutdown Module, if the Emergency Shutdown Module has the appropriate authorization over the `End` contract, the emergency shutdown process can be triggered permissionlessly by calling the `fire` function.
@@ -19,7 +20,7 @@ Suppose Governance has set the minimum threshold of MKR required to trigger emer
 
 ## Purpose
 
-The Emergency Shutdown Module allows MKR holders to trigger the emergency shutdown process, allowing the Maker Protocol to wind down, with DAI holders able to redeem DAI for underlying collateral.
+The Emergency Shutdown Module allows MKR holders to trigger the emergency shutdown process, allowing the Maker Protocol to wind down, with DAI holders able to redeem DAI for underlying collateral. It is intentionally designed to allow a minority of MKR token holders to intervene against the wishes of a (potentially malicious) majority.
 
 The Emergency Shutdown Module was designed with certain scenarios in mind, such as to prevent a malicious governance attack or to mitigate critical bugs.
 
@@ -37,4 +38,11 @@ Suppose the minimum threshold parameter is set too high. In that case, it become
 
 ## Considerations
 
-Maker Governance can effectively turn off the Emergency Shutdown Module by removing its authorization to trigger an emergency shutdown.
+Triggering the Emergency Shutdown Module is not subject to the GSM Pause Delay.
+
+Maker Governance can effectively turn off the Emergency Shutdown Module by removing its authorization to trigger an emergency shutdown. This can also be achieved by raising the minimum threshold to a value greater than the amount of MKR in circulation.
+
+Delegate contracts are unable to interact with the Emergency Shutdown Module. Therefore, there is no risk of a delegate depositing their delegated MKR into the Emergency Shutdown Module.
+
+>Page last reviewed: -  
+>Next review due: -  
