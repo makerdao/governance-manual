@@ -157,13 +157,33 @@ collateral-defs:
         collateral-desc: Chainlink is a decentralized oracle network that brings off-chain information on-chain. The LINK tokens are used as a currency to pay Chainlink node operators.
         collateral-shortname: Chainlink
         collateral-symbol: LINK
+        
+    LINK: &YFI
+        <<: *SIMPLE-ONCHAIN
+        collateral-desc: YFI is the governance token for Yearn Finance, a group of DeFI protocols that aim to optimize users yield on their crypto assets.
+        collateral-shortname: Yearn Finance
+        collateral-symbol: YFI
 
     CRVV1ETHSTETH: &CurveSTETHETH
         <<: *CRV-LPT
-        collateral-desc: These tokens represent a combination of stETH and ETH tokens held in a Curve liquidity pool. The tokens accrue fees from seETH-ETH swaps that go through this liquidity pool.
+        collateral-desc: These tokens represent a combination of stETH and ETH tokens held in a Curve liquidity pool. The tokens accrue fees from stETH-ETH swaps that go through this liquidity pool.
         collateral-shortname: Curve stETH/ETH
         collateral-longname: Curve stETH/ETH Liquidity Pool Tokens
         collateral-symbol: CRVV1ETHSTETH
+    
+    UNIV2DAIUSDC: &UNIV2DAIUSDC
+        <<: *UNIV2-LPT
+        collateral-desc: These tokens represent a combination of DAI and USDC tokens held in the UniswapV2 liquidity pool. The tokens accrue fees from DAI-USDC swaps that go through this liquidity pool.
+        collateral-shortname: UniswapV2 DAI/USDC
+        collateral-longname: UniswapV2 DAI/USDC Liquidity Pool Tokens
+        collateral-symbol: UNIV2DAIUSDC
+        
+    UNIV2USDCETH: &UNIV2USDCETH
+        <<: *UNIV2-LPT
+        collateral-desc: These tokens represent a combination of USDC and ETH tokens held in the UniswapV2 liquidity pool. The tokens accrue fees from USDC-ETH swaps that go through this liquidity pool.
+        collateral-shortname: UniswapV2 USDC/ETH
+        collateral-longname: UniswapV2 USDC/ETH Liquidity Pool Tokens
+        collateral-symbol: UNIV2USDCETH
 
     ADAI: &ADAI
         <<: *SIMPLE-ONCHAIN
@@ -206,6 +226,13 @@ collateral-defs:
         collateral-shortname: FortunaFi DROP
         collateral-symbol: FFT1-DROP
 
+    RWA008: &RWA008
+        <<: *RWA-CUSTOM
+        collateral-desc: TODO
+        collateral-longname: Societe Generale
+        collateral-shortname: Societe Generale
+        collateral-symbol: RWA008
+
     RWA009: &RWA009
         <<: *RWA-CUSTOM
         collateral-desc: A variety of real estate, business, and consumer loans with a range of durations. HVB invests along-side MakerDAO as an equal senior investor. This debt is senior, and potential losses are limited by the value of the loan collateral.
@@ -233,6 +260,159 @@ module-typedefs:
         module-typedesc: A Direct DAI Deposit Module deposits newly minted DAI into another protocol in exchange for a receipt token which is used as the collateral backing.
 
 ilks:
+# DEPRECATED
+    USDC-A:
+        <<: *BASE
+        <<: *USDC
+        <<: *STATUS_DEPRECATED
+        id: USDC-A
+        shortname: USDC Minimal Ratio
+        longname: USDC Minimal-Ratio Low-Fee
+    PAXUSD-A:
+        <<: *BASE
+        <<: *USDP
+        <<: *STATUS_DEPRECATED
+        id: PAXUSD-A
+        shortname: USDP Minimal Ratio
+        longname: USDP Minimal-Ratio Low-Fee
+    GUSD-A:
+        <<: *BASE
+        <<: *GUSD
+        <<: *STATUS_DEPRECATED
+        id: GUSD-A
+        shortname: GUSD Minimal Ratio
+        longname: GUSD Minimal-Ratio Low-Fee
+    USDC-B:
+        <<: *BASE
+        <<: *USDC
+        <<: *STATUS_DEPRECATED
+        id: USDC-B
+        shortname: USDC Emergency Provision
+# Note very deprecated stuff lacks collateral entries
+    BAT-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        id: BAT-A
+        shortname: BAT
+        longname: Basic Attention Token (BAT)
+    TUSD-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        id: TUSD-A
+        shortname: TUSD Minimal Ratio
+    KNC-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        id: KNC-A
+        shortname: KNC
+        longname: Kyber Network Crystal (KNC)
+    ZRX-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        id: ZRX-A
+        shortname: ZRX
+        longname: 0x Protocol (ZRX)
+    USDT-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        id: USDT-A
+        shortname: USDT
+        longname: USD Tether (USDT)
+    LRC-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        id: LRC-A
+        shortname: LRC
+        longname: Loopring (LRC)
+    COMP-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        id: COMP-A
+        shortname: COMP
+        longname: Compound (COMP)
+    BAL-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        id: BAL-A
+        shortname: BAL
+        longname: Balancer (BAL)
+    UNI-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        id: UNI-A
+        shortname: UNI
+        longname: Uniswap (UNI)
+    AAVE-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        id: AAVE-A
+        shortname: AAVE
+        longname: Aave (AAVE)
+    UNIV2DAIETH-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        <<: *UNIV2-LPT
+        id: UNIV2DAIETH-A
+        shortname: UniV2 DAI/ETH
+        longname: UniswapV2 DAI/ETH
+    UNIV2WBTCETH-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        <<: *UNIV2-LPT
+        id: UNIV2WBTCETH-A
+        shortname: UniV2 WBTC/ETH
+        longname: UniswapV2 WBTC/ETH
+    UNIV2ETHUSDT-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        <<: *UNIV2-LPT
+        id: UNIV2ETHUSDT-A
+        shortname: UniV2 ETH/USDT
+        longname: UniswapV2 ETH/USDT
+    UNIV2LINKETH-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        <<: *UNIV2-LPT
+        id: UNIV2LINKETH-A
+        shortname: UniV2 LINK/ETH
+        longname: UniswapV2 LINK/ETH
+    UNIV2UNIETH-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        <<: *UNIV2-LPT
+        id: UNIV2UNIETH-A
+        shortname: UniV2 UNI/ETH
+        longname: UniswapV2 UNI/ETH
+    UNIV2WBTCDAI-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        <<: *UNIV2-LPT
+        id: UNIV2WBTCDAI-A
+        shortname: UniV2 WBTC/DAI
+        longname: UniswapV2 WBTC/DAI
+    UNIV2AAVEETH-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        <<: *UNIV2-LPT
+        id: UNIV2AAVEETH-A
+        shortname: UniV2 AAVE/ETH
+        longname: UniswapV2 AAVE/ETH
+    UNIV2DAIUSDT-A:
+        <<: *BASE
+        <<: *STATUS_DEPRECATED
+        <<: *UNIV2-LPT
+        id: UNIV2DAIUSDT-A
+        shortname: UniV2 DAI/USDT
+        longname: UniswapV2 DAI/USDT
+    RWA006-A:
+        <<: *BASE
+        <<: *CFG-DROP
+        <<: *STATUS_DEPRECATED
+        id: RWA006-A
+        shortname: P1-DROP
+        longname: Peoples Company DROP
+        
+# ACTIVE
     ETH-A: 
         <<: *BASE
         <<: *ETH
@@ -289,13 +469,6 @@ ilks:
         id: WSTETH-B
         shortname: stETH Low Fee
         longname: Lido wstETH High-Ratio Low-Fee
-    USDC-A:
-        <<: *BASE
-        <<: *USDC
-        <<: *STATUS_DEPRECATED
-        id: USDC-A
-        shortname: USDC Minimal Ratio
-        longname: USDC Minimal-Ratio Low-Fee
     PSM-USDC-A:
         <<: *BASE
         <<: *USDC
@@ -304,28 +477,14 @@ ilks:
         id: PSM-USDC-A
         shortname: PSM (USDC)
         longname: Peg Stability Module (USDC)
-    USDP-A:
-        <<: *BASE
-        <<: *USDP
-        <<: *STATUS_DEPRECATED
-        id: USDP-A
-        shortname: USDP Minimal Ratio
-        longname: USDP Minimal-Ratio Low-Fee
-    PSM-USDP-A:
+    PSM-PAX-A:
         <<: *BASE
         <<: *USDP
         <<: *PSM
         <<: *STATUS_ACTIVE
-        id: PSM-USDP-A
+        id: PSM-PAX-A
         shortname: PSM (USDP)
         longname: Peg Stability Module (USDP)
-    GUSD-A:
-        <<: *BASE
-        <<: *GUSD
-        <<: *STATUS_DEPRECATED
-        id: GUSD-A
-        shortname: GUSD Minimal Ratio
-        longname: GUSD Minimal-Ratio Low-Fee
     PSM-GUSD-A:
         <<: *BASE
         <<: *GUSD
@@ -391,6 +550,27 @@ ilks:
         id: DIRECT-AAVEV2-DAI
         shortname: D3M (AAVE-V2)
         longname: Direct Deposit DAI Module (AAVE-V2)
+    YFI-A:
+        <<: *BASE
+        <<: *YFI
+        <<: *STATUS_ACTIVE
+        id: YFI-A
+        shortname: YFI
+        longname: Yearn Finance (YFI)
+    UNIV2DAIUSDC-A:
+        <<: *BASE
+        <<: *UNIV2DAIUSDC
+        <<: *STATUS_ACTIVE
+        id: UNIV2DAIUSDC-A
+        shortname: UniV2 DAI/USDC
+        longname: UniswapV2 DAI/USDC Minimal Ratio
+    UNIV2USDCETH-A:
+        <<: *BASE
+        <<: *UNIV2USDCETH
+        <<: *STATUS_ACTIVE
+        id: UNIV2USDCETH-A
+        shortname: UniV2 USDC/ETH
+        longname: UniswapV2 USDC/ETH
     RWA001-A:
         <<: *BASE
         <<: *RWA001
@@ -425,6 +605,13 @@ ilks:
         id: RWA005-A
         shortname: FFT1-DROP
         longname: Fortunafi DROP
+    RWA008-A:
+        <<: *BASE
+        <<: *RWA009
+        <<: *STATUS_ACTIVE
+        id: RWA008-A
+        shortname: Societe Generale
+        longname: Societe Generale
     RWA009-A:
         <<: *BASE
         <<: *RWA009
@@ -432,4 +619,10 @@ ilks:
         id: RWA009-A
         shortname: H. V. Bank
         longname: Huntingdon Valley Bank
+    TELEPORT-FW-A:
+        <<: *BASE
+        <<: *STATUS_ACTIVE
+        id: TELEPORT-FW-A
+        shortname: Maker Teleport
+        longname: Maker Teleport Fast Withdrawals
 ```

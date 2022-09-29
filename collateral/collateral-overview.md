@@ -44,6 +44,10 @@ The MATIC token is used to pay transaction fees and participate in proof-of-stak
 ```RENBTC-A```  
 RenBTC is a form of bitcoin in use on the Ethereum network. Through the Ren Protocol, renBTC can be exchanged directly for bitcoin. The Ren protocol is maintained by a collection of darknodes that facilitate swaps and custody assets.
 
+## YFI
+```YFI-A```
+YFI is the governance token for Yearn Finance, a group of DeFI protocols that aim to optimize users yield on their crypto assets.
+
 ## Chainlink (LINK)
 ```LINK-A```  
 Chainlink is a decentralized oracle network that brings off-chain information on-chain. The LINK tokens are used as a currency to pay Chainlink node operators.
