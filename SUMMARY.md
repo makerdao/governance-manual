@@ -27,7 +27,7 @@
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
   * [On-Chain Governance](governance/on-chain-governance.md)
   * [Off-Chain Governance](governance/off-chain-governance.md)
-  * [Video Guide To Voting In The Maker Protocl](governance/how-to-vote.md)
+  * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
 
 * Verification
   * [Executive Audit](governance/executive-audit.md)
