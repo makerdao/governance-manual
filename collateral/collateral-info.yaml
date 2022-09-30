@@ -158,7 +158,7 @@ collateral-defs:
         collateral-shortname: Chainlink
         collateral-symbol: LINK
         
-    LINK: &YFI
+    YFI: &YFI
         <<: *SIMPLE-ONCHAIN
         collateral-desc: YFI is the governance token for Yearn Finance, a group of DeFI protocols that aim to optimize users yield on their crypto assets.
         collateral-shortname: Yearn Finance
