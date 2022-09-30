@@ -89,41 +89,47 @@ These tokens represent a combination of stETH and ETH tokens held in a Curve liq
 [More info (Ethereum)...](https://ethereum.org/en/)  
 
 ## AaveV2 Dai
-```DIRECT-AAVEV2-DAI```
+```DIRECT-AAVEV2-DAI```  
 These tokens are a receipt-like token that represents DAI deposited in the AaveV2 protocol. These tokens accrue value over time from over-collateralized loans made to users of the Aave Protocol.
 
 [More info...](https://aave.com/)
 
 ## New Silver DROP
+```RWA002-A```  
 Short term loans (12 months average) financing real estate investors who buy and renovate single-family homes in the U.S. This debt is senior, and potential losses are limited by junior debt from other investors.
 
 [More info (Centrifuge)...](https://centrifuge.io/)  
 [More info (New Silver)...](collateral/new-silver.md)  
 
 ## 6s Capital
+```RWA001-A```  
 Loans financing the construction of commercial retail properties to be leased to large companies such as O-Reilly’s Auto Parts and Tesla. This debt is senior, and potential losses are limited by junior debt from other investors.
 
 [More info...](collateral/6s.md)
 
 ## FortunaFi DROP
+```RWA005-A```  
 Loans originated by Pipe and Corl against future, contract-secured revenues from SaaS and E-commerce businesses. This debt is senior, and potential losses are limited by junior debt from other investors.
 
 [More info (Centrifuge)...](https://centrifuge.io/)  
 [More info (FortunaFi)...](collateral/fortunafi.md)  
 
 ## Harbor Trade Credit DROP
+```RWA004-A```  
 Very short-term loans against invoices for any sort of tradable good. Companies use such loans to manage their working capital requirements, such as labor costs or paying for new orders. This debt is senior, and potential losses are limited by junior debt from other investors.
 
 [More info (Centrifuge)...](https://centrifuge.io/)  
 [More info (FortunaFi)...](collateral/harbour-trade.md)  
 
 ## Consol Freight DROP
+```RWA003-A```  
 Very short-term loans against invoices for any sort of tradable good. Companies use such loans to manage their working capital requirements, such as labor costs or paying for new orders. This debt is senior, and potential losses are limited by junior debt from other investors.
 
 [More info (Centrifuge)...](https://centrifuge.io/)  
 [More info (ConsolFreight)...](collateral/consolfreight.md)  
 
 ## Huntingdon Valley Bank
+```RWA009-A```  
 A variety of real estate, business, and consumer loans with a range of durations. HVB invests along-side MakerDAO as an equal senior investor. This debt is senior, and potential losses are limited by the value of the loan collateral.
 
 [More info...](collateral/hvbank.md)
