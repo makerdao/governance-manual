@@ -154,3 +154,7 @@ Very short-term loans against invoices for any sort of tradable good. Companies 
 A variety of real estate, business, and consumer loans with a range of durations. HVB invests along-side MakerDAO as an equal senior investor. This debt is senior, and potential losses are limited by the value of the loan collateral.
 
 [More info (Huntingdon Valley Bank)...](hvbank.md)
+
+
+>Page last reviewed: 2022-10-05  
+>Next review due: 2023-10-05  
