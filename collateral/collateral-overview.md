@@ -8,7 +8,7 @@ This page contains layman’s explanations of the collateral that backs the valu
 ```ETH-A, ETH-B, ETH-C```  
 Ether is the native token of the Ethereum blockchain. It is used as the fee currency when making transactions on the Ethereum network. Validators of the ethereum network are required to lock up 32 ETH as a stake, and earn a variable yield for this work.
 
-[More info...](https://ethereum.org/en/)
+[More info (Ethereum)...](https://ethereum.org/en/)
 
 ## Wrapped Bitcoin (wBTC)
 ```WBTC-A, WBTC-B, WBTC-C```  
@@ -29,19 +29,19 @@ Wrapped staked Ether is a fungible derivative of Ether that is exposed to the yi
 ```USDC-A, PSM-USDC-A```  
 USDC is a fiat backed U.S. Dollar stablecoin operated by Circle. Each USDC is backed by 1 dollar worth of cash and short-dated U.S treasuries. USDC is redeemable for dollars and the backing is audited monthly. 
 
-[More info...](https://www.circle.com/en/usdc)
+[More info (U.S Dollar Coin)...](https://www.circle.com/en/usdc)
 
 ## PAX Dollar
 ```USDP-A, PSM-USDP-A```  
 USDP is a fiat backed U.S. Dollar stablecoin operated by Paxos. Each USDP is backed by 1 dollar worth of cash and cash equivalents. USDP is redeemable for dollars and the backing is audited monthly. 
 
-[More info...](https://paxos.com/usdp/)
+[More info (PAX Dollar)...](https://paxos.com/usdp/)
 
 ## Gemini USD
 ```GUSD-A, PSM-GUSD-A```  
 GUSD is a fiat backed U.S Dollar stablecoin operated by Gemini. Each GUSD is backed by 1 dollar worth of cash or short-term U.S treasury bonds.GUSD is redeemable for dollars and the backing is audited monthly.
 
-[More info...](https://www.gemini.com/dollar)
+[More info (Gemini USD)...](https://www.gemini.com/dollar)
 
 ## Gelato Uniswap V3 DAI/USDC Liquidity Pool Tokens
 ```GUNIV3DAIUSDC1-A, GUNIV3DAIUSDC2-A```  
@@ -54,31 +54,31 @@ These tokens represent a combination of DAI and USDC held in UniswapV3 liquidity
 ```MANA-A```  
 MANA tokens are used to pay for goods and services within the 3D virtual reality platform Decentraland.
 
-[More info...](https://decentraland.org/)
+[More info (Decentraland)...](https://decentraland.org/)
 
 ## Polygon (MATIC)
 ```MATIC-A```  
 The MATIC token is used to pay transaction fees and participate in proof-of-stake consensus in the Polygon network. The MATIC tokens Maker uses as collateral have been bridged to Ethereum from the Polygon network.
 
-[More info...](https://polygon.technology/)
+[More info (Polygon)...](https://polygon.technology/)
 
 ## renBTC
 ```RENBTC-A```  
 RenBTC is a form of bitcoin in use on the Ethereum network. Through the Ren Protocol, renBTC can be exchanged directly for bitcoin. The Ren protocol is maintained by a collection of darknodes that facilitate swaps and custody assets.
 
-[More info...](https://renproject.io/)
+[More info (Ren Project)...](https://renproject.io/)
 
 ## YFI
 ```YFI-A```
 YFI is the governance token for Yearn Finance, a group of DeFI protocols that aim to optimize users yield on their crypto assets.
 
-[More info...](https://docs.yearn.finance/)
+[More info (Yearn Finance)...](https://docs.yearn.finance/)
 
 ## Chainlink (LINK)
 ```LINK-A```  
 Chainlink is a decentralized oracle network that brings off-chain information on-chain. The LINK tokens are used as a currency to pay Chainlink node operators.
 
-[More info...](https://chain.link/)
+[More info (Chainlink)...](https://chain.link/)
 
 ## Curve stETH/ETH Liquidity Pool Tokens
 ```CRVV1ETHSTETH-A```  
@@ -92,7 +92,7 @@ These tokens represent a combination of stETH and ETH tokens held in a Curve liq
 ```DIRECT-AAVEV2-DAI```  
 These tokens are a receipt-like token that represents DAI deposited in the AaveV2 protocol. These tokens accrue value over time from over-collateralized loans made to users of the Aave Protocol.
 
-[More info...](https://aave.com/)
+[More info (Aave)...](https://aave.com/)
 
 ## New Silver DROP
 ```RWA002-A```  
@@ -105,7 +105,7 @@ Short term loans (12 months average) financing real estate investors who buy and
 ```RWA001-A```  
 Loans financing the construction of commercial retail properties to be leased to large companies such as O-Reilly’s Auto Parts and Tesla. This debt is senior, and potential losses are limited by junior debt from other investors.
 
-[More info...](collateral/6s.md)
+[More info (6s Capital)...](collateral/6s.md)
 
 ## FortunaFi DROP
 ```RWA005-A```  
@@ -119,7 +119,7 @@ Loans originated by Pipe and Corl against future, contract-secured revenues from
 Very short-term loans against invoices for any sort of tradable good. Companies use such loans to manage their working capital requirements, such as labor costs or paying for new orders. This debt is senior, and potential losses are limited by junior debt from other investors.
 
 [More info (Centrifuge)...](https://centrifuge.io/)  
-[More info (FortunaFi)...](collateral/harbour-trade.md)  
+[More info (Harbor Trade Credit)...](collateral/harbour-trade.md)  
 
 ## Consol Freight DROP
 ```RWA003-A```  
@@ -132,4 +132,4 @@ Very short-term loans against invoices for any sort of tradable good. Companies 
 ```RWA009-A```  
 A variety of real estate, business, and consumer loans with a range of durations. HVB invests along-side MakerDAO as an equal senior investor. This debt is senior, and potential losses are limited by the value of the loan collateral.
 
-[More info...](collateral/hvbank.md)
+[More info (Huntingdon Valley Bank)...](collateral/hvbank.md)
