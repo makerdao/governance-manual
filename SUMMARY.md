@@ -54,7 +54,7 @@
   
 ## Collateral
 * [Overview](collateral/collateral-overview.md)
-* Real World Assets
+* Real World Assets In Detail
   * [6s Capital](collateral/6s.md)
   * [New Silver DROP](collateral/new-silver.md)
   * [ConsolFreight DROP](collateral/consolfreight.md)
