@@ -54,12 +54,13 @@
   
 ## Collateral
 * [Overview](collateral/collateral-overview.md)
-* [6s Capital](collateral/6s.md)
-* [New Silver DROP](collateral/new-silver.md)
-* [ConsolFreight DROP](collateral/consolfreight.md)
-* [FortunaFi DROP](collateral/fortunafi.md)
-* [Harbour Trade Credit DROP](collateral/harbour-trade.md)
-* [Huntingdon Valley Bank](collateral/hvbank.md)
+* [Real World Assets]
+  * [6s Capital](collateral/6s.md)
+  * [New Silver DROP](collateral/new-silver.md)
+  * [ConsolFreight DROP](collateral/consolfreight.md)
+  * [FortunaFi DROP](collateral/fortunafi.md)
+  * [Harbour Trade Credit DROP](collateral/harbour-trade.md)
+  * [Huntingdon Valley Bank](collateral/hvbank.md)
   
 ## Parameter Index
 
