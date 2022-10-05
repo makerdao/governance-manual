@@ -27,6 +27,7 @@
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
   * [On-Chain Governance](governance/on-chain-governance.md)
   * [Off-Chain Governance](governance/off-chain-governance.md)
+  * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
 
 * Verification
   * [Executive Audit](governance/executive-audit.md)
@@ -45,6 +46,7 @@
 * For MKR Holders
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
+  * [How To Delegate Video](delegation/mkr-holder-how-to-delegate.md)
 * For Delegates  
   * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
   * [Delegates Code of Conduct](delegation/delegates-code.md)
