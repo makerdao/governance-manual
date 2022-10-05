@@ -1,4 +1,4 @@
-### Collateral Overview
+# Collateral Overview
 
 This page contains layman’s explanations of the collateral that backs the value of the Dai Stablecoin.
 
