@@ -10,3 +10,5 @@ The company does not want to raise dilutive equity and cannot access bond market
 
 Pipe will extend the cyber-security company a short-term loan against the recurring contractual income it generates from its clients. FortunaFi will draw on its revolving credit facility from MakerDAO and buy this loan from Pipe. 
 
+>Page last reviewed: 2022-10-05  
+>Next review due: 2023-10-05  

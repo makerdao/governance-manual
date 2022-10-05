@@ -14,3 +14,6 @@ The HVB vault is structured as a participation facility in which DAI is minted d
 This structure contrasts to one where Maker would receive yield (fixed or floating) from a revolving credit facility that an originator would tap to fund end assets. So, Maker owns the end assets directly. 
 
 If assets are eligible for Maker’s participation, then half the loan will be sold to Maker’s trust.
+
+>Page last reviewed: 2022-10-05  
+>Next review due: 2023-10-05  
