@@ -54,6 +54,16 @@
   * [How to Attract More MKR as a Recognized Delegate?](delegation/delegate-attract-more-mkr.md)
 * [Delegate Contract Migration](delegation/delegate-expiration.md)
   
+## Collateral
+* [Overview](collateral/collateral-overview.md)
+* Real World Assets In Detail
+  * [6s Capital](collateral/6s.md)
+  * [New Silver DROP](collateral/new-silver.md)
+  * [ConsolFreight DROP](collateral/consolfreight.md)
+  * [FortunaFi DROP](collateral/fortunafi.md)
+  * [Harbour Trade Credit DROP](collateral/harbour-trade.md)
+  * [Huntingdon Valley Bank](collateral/hvbank.md)
+  
 ## Parameter Index
 
 * Core
