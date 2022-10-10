@@ -8,7 +8,7 @@ Our Approval Voting implementation is flexible, it can be used to select a singl
 
 When voting on an Approval Vote, voters should select **all** options that they agree with. There is no penalty for selecting multiple options. However, it is legitimate to only vote for one option if there is only one option that the voter agrees with.
 
-We have the option to stop people voting for the "Reject" options, as well as other poll options. The use case for this is limited and if this restriction is in place it will be clearly indicated in the poll text.
+We have the option to stop people voting for the "Reject" option in combination with other poll options. The use case for this is limited and if this restriction is in place it will be clearly indicated in the poll text.
 
 If you have any questions about Approval Voting please reach out to GovAlpha.
 
