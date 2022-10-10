@@ -13,3 +13,6 @@ We have the option to stop people voting for the "Reject" options, as well as ot
 If you have any questions about Approval Voting please reach out to GovAlpha.
 
 For further information on Approval Voting, see the [Wikipedia article](https://en.wikipedia.org/wiki/Approval_voting).
+
+>Page last reviewed: -  2022-10-10
+>Next review due: -  2023-10-10
