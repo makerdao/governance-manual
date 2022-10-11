@@ -4,7 +4,7 @@
 >**Parameter Name:** `buf`  
 >**Containing Contract:** `Clipper`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:**  
+>**Technical Docs:** -  
 
 ## Description
 

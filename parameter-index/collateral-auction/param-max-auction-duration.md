@@ -4,7 +4,7 @@
 >**Parameter Name:** `tail`  
 >**Containing Contract:** `Clipper`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:**  
+>**Technical Docs:** -  
 
 ## Description
 
