@@ -27,6 +27,7 @@
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
   * [On-Chain Governance](governance/on-chain-governance.md)
   * [Off-Chain Governance](governance/off-chain-governance.md)
+  * [Approval Voting Guide](governance/approval-voting-guide.md)
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
 
 * Verification
@@ -56,7 +57,7 @@
   
 ## Collateral
 * [Overview](collateral/collateral-overview.md)
-* Real World Assets
+* Real World Assets In Detail
   * [6s Capital](collateral/6s.md)
   * [New Silver DROP](collateral/new-silver.md)
   * [ConsolFreight DROP](collateral/consolfreight.md)
