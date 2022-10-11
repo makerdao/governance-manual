@@ -4,7 +4,7 @@
 >**Parameter Name:** `hole`  
 >**Containing Contract:** `Dog`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:** -  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  >**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
 
 ## Description
 
