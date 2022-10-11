@@ -92,20 +92,20 @@
   * [Flat Kick Incentive](parameter-index/collateral-auction/param-flat-kick-incentive.md)
 
 * Surplus Auction
-  * [Surplus Lot Size](parameter-index/surplus-auction/param-surplus-lot-size.md)
-  * [Min Bid Increase](parameter-index/surplus-auction/param-min-bid-increase-flap.md)
-  * [Auction Duration](parameter-index/surplus-auction/param-auction-duration-flap.md)
-  * [Bid Duration](parameter-index/surplus-auction/param-bid-duration-flap.md)
+  * [Surplus Auction Lot Size](parameter-index/surplus-auction/param-surplus-lot-size.md)
+  * [Surplus Auction Minimum Bid Increase](parameter-index/surplus-auction/param-min-bid-increase-flap.md)
+  * [Surplus Auction Duration](parameter-index/surplus-auction/param-auction-duration-flap.md)
+  * [Surplus Auction Bid Duration](parameter-index/surplus-auction/param-bid-duration-flap.md)
   * [Surplus Auction Limit](parameter-index/surplus-auction/param-surplus-auction-limit.md)
 
 * Debt Auction
-  * [Min Bid Decrease](parameter-index/debt-auction/param-min-bid-decrease-flop.md)
-  * [Auction Duration](parameter-index/debt-auction/param-auction-duration-flop.md)
-  * [Bid Duration](parameter-index/debt-auction/param-bid-duration-flop.md)
+  * [Debt Auction Minimum Bid Decrease](parameter-index/debt-auction/param-min-bid-decrease-flop.md)
+  * [Debt Auction Duration](parameter-index/debt-auction/param-auction-duration-flop.md)
+  * [Debt Auction Bid Duration](parameter-index/debt-auction/param-bid-duration-flop.md)
   * [Debt Auction Delay](parameter-index/debt-auction/param-debt-auction-delay.md)
   * [Debt Auction Bid Size](parameter-index/debt-auction/param-bid-size.md)
-  * [Initial Lot Size](parameter-index/debt-auction/param-initial-lot-size.md)
-  * [Lot Size Increased](parameter-index/debt-auction/param-lot-size-increase.md)
+  * [Debt Auction Initial Lot Size](parameter-index/debt-auction/param-initial-lot-size.md)
+  * [Debt Auction Lot Size Increase](parameter-index/debt-auction/param-lot-size-increase.md)
 
 
 ## Module Index
