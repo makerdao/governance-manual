@@ -4,7 +4,7 @@
 >**Parameter Name:** `chip`  
 >**Containing Contract:** `Clipper`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:**  
+>**Technical Docs:** -  
 
 ## Description
 

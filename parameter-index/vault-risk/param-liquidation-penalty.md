@@ -4,7 +4,7 @@
 >**Parameter Name:** `chop`  
 >**Containing Contract:** `Dog`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:**  
+>**Technical Docs:** -  
 
 ## Description
 
