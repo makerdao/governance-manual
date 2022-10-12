@@ -35,7 +35,6 @@ The components of a Core Unit Budget proposal are:
 - **Roadmap**: Timeline for specific deliverables over the course of the Budget Term.
 - **Breakdown**: List of expenses by type, disclose full-time equivalent headcount.
 - **Contingency Planning**: Describe how the core unit will cease operations in the event of offboarding.
-- **Budget Breakdown**: Consists of the Core Unit Facilitators' best guess breakdown of spending for their Core Unit during the budget period.
 - **Budget Implementation**: Defines when and how the Core Unit Facilitators will receive the funds that make up their budget.
 
 ### Facilitator(s)

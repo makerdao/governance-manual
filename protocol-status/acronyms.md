@@ -75,7 +75,7 @@
 * `SAS`: [Sidestream Auction Services (SAS-001)](https://mips.makerdao.com/mips/details/MIP39c2SP25)
 * `SECU/Starknet`: [StarkNet Engineering Core Unit (SNE-001)](https://mips.makerdao.com/mips/details/MIP39c2SP19)
 * `SES`: [Sustainable Ecosystem Scaling Core Unit (SES-001)](https://mips.makerdao.com/mips/details/MIP39c2SP10)
-* `TechOps`: [TechOps Core Unit (TECH-001)](https://mips.makerdao.com/mips/details/MIP39c2SP29)
+* `TOCU/TechOps`: [TechOps Core Unit (TECH-001)](https://mips.makerdao.com/mips/details/MIP39c2SP29)
 
 ## Collateral
 
@@ -101,6 +101,7 @@
 * `HVB`: Huntingdon Valley Bank
 * `NS-DROP`: New Silver DROP (US-based Residential Real Estate)
 * `RWA-001/SIXS`: 6S Capital SPV (Real-Estate and Renewable Energy/Sustainability)
+* `SocGen`: Societe Generale
 * `TIN`: Centrifuge Junior Tranche Token
 
 ### Stablecoins
