@@ -56,6 +56,6 @@ Shows all active and finished liquidations across all collateral types and the c
 
 A RESTful API that covers multiple domains including vaults, liquidations, governance votes and protocol parameters.
 
->Page last reviewed: -  
->Next review due: -  
+>Page last reviewed: 2022-10-12  
+>Next review due: 2023-04-12  
 
