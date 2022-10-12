@@ -158,7 +158,7 @@ A variety of real estate, business, and consumer loans with a range of durations
 ## Societe Generale
 > **Ilks: ** RWA008-A
 
-Different blends of short-terms bonds from ultra-short (<1 year) to short (1-3 years) maturities. Investments done through BlackRock and Baillie Gifford. Mainly invested in US Treasuries but some exposure to corporate bonds.
+Different blends of short-term bonds from ultra-short (<1 year) to short (1-3 years) maturities. Investments done through BlackRock and Baillie Gifford. Mainly invested in US Treasuries but some exposure to corporate bonds.
 
 >Page last reviewed: 2022-10-05  
 >Next review due: 2023-10-05  
