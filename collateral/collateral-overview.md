@@ -155,8 +155,8 @@ A variety of real estate, business, and consumer loans with a range of durations
 
 [More info (Huntingdon Valley Bank)...](hvbank.md)
 
-## Societe Generale
-> **Ilks: ** RWA008-A
+## Monetalis Clydesdale
+> **Ilks: ** RWA007-A
 
 Different blends of short-terms bonds from ultra-short (<1 year) to short (1-3 years) maturities. Investments done through BlackRock and Baillie Gifford. Mainly invested in US Treasuries but some exposure to corporate bonds.
 
