@@ -1,8 +1,8 @@
 # Debt Auction Delay
 
 >**Alias:** Flop Delay  
->**Parameter Name:** wait  
->**Containing Contract:** Vow  
+>**Parameter Name:** `wait`  
+>**Containing Contract:** `Vow`  
 >**Scope:** System  
 >**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation)  
 
