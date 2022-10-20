@@ -56,7 +56,8 @@
 
 ## Core Units
 
-* `Burban`: [Strategic Happiness Core Unit (SH-001)](https://mips.makerdao.com/mips/details/MIP39c2SP11)
+* `Burban/SH`: [Strategic Happiness Core Unit (SH-001)](https://mips.makerdao.com/mips/details/MIP39c2SP11)
+
 * `CES`: [Collateral Engineering Services Core Unit (CES-001)](https://mips.makerdao.com/mips/details/MIP39c2SP20)
 * `COM`: [Governance Communications Core Unit (COM-001)](https://mips.makerdao.com/mips/details/MIP39c2SP8)
 * `Dai Foundation`: [Dai Foundation Core Unit (DAIF-001)](https://mips.makerdao.com/mips/details/MIP39c2SP17)
