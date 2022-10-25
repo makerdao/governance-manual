@@ -19,8 +19,8 @@ Informal Polls can be used to:
 
 Signal Requests are the most immediately powerful means of effecting change off-chain. Signal Requests are a type of poll whose specific parameters and necessity are established by processes that have been ratified within the MIPs Framework. The nature of the effects of Signal Requests can vary greatly in accordance to the MIP-ratified process that requires or allows Signal Requests.
 
->Before the passing of [MIP4c2-SP27](), Signal Requests could be initiated by anyone and needed not be triggered nor required by a ratified MIP process.
+>Before the passing of [MIP4c2-SP27](https://mips.makerdao.com/mips/details/MIP4c2SP27), Signal Requests could be initiated by anyone and needed not be triggered nor required by a ratified MIP process.
 
 >Page last reviewed: 2022-10-25 
->Next review due: 2022-10-25
+>Next review due: 2023-10-25
 
