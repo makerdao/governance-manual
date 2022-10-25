@@ -61,5 +61,5 @@ The first Monday of each calendar month marks the beginning of the Monthly Gover
 
 Due to the multitude of cultural and religious holidays occurring in and around the month of December, there will be no Monthly Governance Cycle in December.
 
-> Page last reviewed: 2022-10-25
-> Next review due: 2023-10-25
+>Page last reviewed: 2022-10-25
+>Next review due: 2023-10-25
