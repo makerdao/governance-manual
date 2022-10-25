@@ -6,8 +6,8 @@ Core Units are the basic workforce divisions that Maker Governance can oversee, 
 
 Each active Core Unit consists of at least three active subproposals (i.e., subproposals that have not been superseded by other subproposals): 
 * A *mandate* subproposal (see [MIP39](https://mips.makerdao.com/mips/details/MIP39)) that lays out the objectives and directions that a given Core Unit is responsible for fulfilling. 
-* Executing these objectives usually requires funding, which is requested via *budget* subproposals (see [MIP40](https://mips.makerdao.com/mips/details/MIP40)). 
-* *Facilitator* subproposals (see [MIP41](https://mips.makerdao.com/mips/details/MIP41)) establish individuals as official points of contact and parties responsible for the Core Unit fulfilling its mandate.
+* A *budget* subproposal (see [MIP40](https://mips.makerdao.com/mips/details/MIP40)), to request the funding to meet these objectives.
+* A *Facilitator* subproposal (see [MIP41](https://mips.makerdao.com/mips/details/MIP41)) that establishes individuals as official points of contact and parties responsible for the Core Unit fulfilling its mandate.
 
 > The concept of Core Unit is defined in a MIP Set called *The Core Unit Operating Model*, also known as the *The Core Unit Framework*. This MIP Set comprises [MIP38](https://mips.makerdao.com/mips/details/MIP38), [MIP39](https://mips.makerdao.com/mips/details/MIP39), [MIP40](https://mips.makerdao.com/mips/details/MIP40), and [MIP41](https://mips.makerdao.com/mips/details/MIP41); jointly, these MIPs define the abstract Core Unit structure.
 
@@ -30,11 +30,11 @@ Facilitators have the flexibility to modify their plans away from the initially 
 Budgets are submitted during a budget submission window, which occur in the March, June, September and November governance cycles.
 
 The components of a Core Unit Budget proposal are:
-- **Budget Term**: Can be no longer than 12 months. 
-- **Value**: Explanation of how this budget leads to revenue growth or the potential for improved operational efficiency for MakerDAO.
-- **Roadmap**: Timeline for specific deliverables over the course of the Budget Term.
-- **Breakdown**: List of expenses by type, disclose full-time equivalent headcount.
-- **Contingency Planning**: Describe how the core unit will cease operations in the event of offboarding.
+- **Budget Term**: Describes the duration of the budget, which can be no longer than 12 months. 
+- **Value**: Explains how this budget leads to revenue growth or the potential for improved operational efficiency for MakerDAO.
+- **Roadmap**: Provides a timeline for specific deliverables over the course of the Budget Term.
+- **Breakdown**: Lists expenses by type, discloses full-time equivalent headcount.
+- **Contingency Planning**: Describes how the core unit will cease operations in the event of offboarding.
 - **Budget Implementation**: Defines when and how the Core Unit Facilitators will receive the funds that make up their budget.
 
 ### Facilitator(s)

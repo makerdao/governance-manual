@@ -2,7 +2,7 @@
 
 ## What is a MIP?
 
-A Maker Improvement Proposal (MIP) is a document that regulates and defines the behavior of Maker Governance, MakerDAO or the Maker Protocol. They are standardized documents voted upon by Maker Governance. MIPs can be added, amended, replaced, and removed.
+A Maker Improvement Proposal (MIP) is a document that regulates and defines the behavior of Maker Governance, MakerDAO, or the Maker Protocol. They are standardized documents voted upon by Maker Governance. MIPs can be added, amended, replaced, and removed.
 
 The [Maker Improvement Proposal Framework (MIP0)](https://mips.makerdao.com/mips/details/MIP0) defines the Maker Improvement Proposals (MIPs) Framework for all subsequent MIPs to utilize.
 
