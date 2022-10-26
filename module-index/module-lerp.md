@@ -4,7 +4,7 @@
 >**Alias:** `lerp`  
 >**Contract Name:** `dss-lerp`  
 >**Scope:** One instance for each parameter  
->**Technical docs:** https://github.com/makerdao/dss-lerp  
+>**Technical docs:** [link](https://github.com/makerdao/dss-lerp)  
 
 ## Description
 

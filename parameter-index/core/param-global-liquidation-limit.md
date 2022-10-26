@@ -4,7 +4,7 @@
 >**Parameter Name:** `Hole`  
 >**Containing Contract:** `Dog`  
 >**Scope:** System  
->**Technical Docs:**  
+>**Technical Docs:** -  
 
 ## Description
 

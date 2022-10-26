@@ -1,11 +1,11 @@
 
 # Surplus Auction Limit   
 
->Alias:N/A   
->Parameter Name: `lid`  
->Containing Contract: `Flap`  
->Scope: System  
->Technical Docs:   
+>**Alias:** N/A   
+>**Parameter Name:** `lid`  
+>**Containing Contract:** `Flap`  
+>**Scope:** System  
+>**Technical Docs:** -   
 
 
 ## Description
