@@ -16,6 +16,5 @@ Signal Requests are the most immediately powerful means of effecting change off-
 
 _Historic note: Before the passing of [MIP4c2-SP27](https://mips.makerdao.com/mips/details/MIP4c2SP27), Signal Requests could be initiated by anyone and needed not be triggered nor required by a ratified MIP process._
 
->Page last reviewed: 2022-10-25 
->Next review due: 2023-10-25
-
+>Page last reviewed: 2022-10-25  
+>Next review due: 2023-10-25  
