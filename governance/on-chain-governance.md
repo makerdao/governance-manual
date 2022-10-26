@@ -40,7 +40,7 @@ Executive Votes can be used to do the following (among other things):
 
 Here is [an example](https://vote.makerdao.com/executive/template-executive-vote-parameter-changes-wsteth-a-onboarding-october-22-2021?network=mainnet#proposal-detail) of an executive vote on the Governance Portal.
 
-Anyone can create an on-chain Executive Vote using the MakerDAO governance contracts, however, there is no non-technical UI available to do this. Users can create proposals, also known as [slates](https://docs.makerdao.com/smart-contract-modules/governance-module/chief-detailed-documentation), through this [experimental portal](https://chief.makerdao.com/), or by interacting directly with the smart contracts.
+Anyone can create an on-chain Executive Vote using the MakerDAO governance contracts; however, there is no non-technical UI available to do this. Users can create proposals, also known as [slates](https://docs.makerdao.com/smart-contract-modules/governance-module/chief-detailed-documentation), through this [experimental portal](https://chief.makerdao.com/), or by interacting directly with the smart contracts.
 
 Under the normal schedule, an Executive Vote's contents are determined collaboratively by relevant Core Units that consider changes that are both approved by governance and ready for safe implementation. Once the contents have been determined, the proposal smart contract is created by the Protocol Engineering Core Unit.
 
