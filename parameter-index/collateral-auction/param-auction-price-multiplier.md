@@ -6,6 +6,7 @@
 >**Scope:** Vault Type (Ilk)  
 >**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
 
+
 ## Description
 
 The Auction Price Multiplier parameter is a multiplier that is applied to the starting price of a collateral auction.
