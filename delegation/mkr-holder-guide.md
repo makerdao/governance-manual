@@ -2,30 +2,27 @@
 
 ## Five Key Points
 
-* **Trust**  
-Delegation is an expression of trust of the MKR Holder in the delegate.
+There are five key points to keep in mind when considering delegating your MKR.  
 
-* **Incentives**  
-Examine your delegate’s incentives. These are not solely monetary. These are not always permanent.
+**Trust** - Delegation is an expression of the MKR Holder's trust in the delegate.  
 
-* **Recognition**  
-Recognized Delegates are safer than Shadow Delegates (but not by much).
+**Incentives** - Your delegate will have different incentives than you. These may not be solely financial. These may not always be permanent.  
 
-* **Balance**  
-Be aware of the checks on power among delegates and Core Units. Having only a few large delegates is a risk. Delegation to Core Unit personnel is not advised by GovAlpha.
+**Recognition** - Recognized Delegates are safer than Shadow Delegates (but not by much).  
 
-* **Cost-Benefit**  
-Responsible Voting > Responsible Delegation > Apathy > Irresponsible Voting > Irresponsible Delegation. Responsible delegation is much, much cheaper than responsible voting and almost as good.
+**Balance** - Be aware of the checks on power between delegates and Core Units. Having only a few large delegates is a risk. Delegation to Core Unit personnel is not advised by GovAlpha.  
+
+**Cost-Benefit** - Responsible delegation is much, much cheaper than responsible voting and almost as good for the Maker Protocol.  
 
 ## Trust
 
 Trust has taken on a bad name in the crypto-space. Frequently this is for a good reason. Nevertheless, trust plays a key role in life and human interaction. Trust comes into play heavily in delegation.
 
-**Delegation is an expression of trust from the MKR Holder to the delegate**
+**Delegation is an expression of the MKR Holder's trust in the delegate**
 
 The fundamental trade-off made by MKR Holders when delegating is to benefit from the increased efficiency of governance, at the cost of trust and centralization. These costs are unavoidable, though they can be minimized by delegating responsibly.
 
-Ultimately the Maker Protocol (and the DAO) needs to have efficient enough governance to operate. If Maker cannot operate, then the MKR token will lose value. Likewise, if delegates collude and attack the Maker Protocol, then the MKR token will lose value.
+Ultimately the Maker Protocol (and the DAO) needs to have efficient enough governance to operate. If Maker cannot operate effectively, then the MKR token will lose value. Likewise, if delegates collude and attack the Maker Protocol, then the MKR token will lose value.
 
 MKR Holders must create a balance between these two extremes that results in an operable protocol while minimizing risk of governance attack.
 
@@ -33,9 +30,9 @@ MKR Holders must create a balance between these two extremes that results in an 
 
 The word ‘incentive’ has taken on a narrow meaning within the crypto-space. This meaning - primarily financial - has led to the exclusion of a myriad of other motivations that humans hold. Humans are both dynamic and varied in their motivations, and we should expect the same from delegates.
 
-**Examine your delegate’s incentives, these are not solely monetary, these are not always permanent.**
+**Your delegate will have different incentives than you. These may not be solely financial. These may not always be permanent.**
 
-The table below shows a selection of incentives that delegates can have. It is not meant to be exhaustive (people are complicated) but it covers the factors that GovAlpha could come up with.
+The table below shows a selection of relevant incentives that delegates may have. It is not exhaustive because people can be complicated.
 
 |Source|Incentive Type|Stability|Governance Controllable|
 | --- | --- | --- | --- |
@@ -51,16 +48,16 @@ The table below shows a selection of incentives that delegates can have. It is n
 There are several items of note that can be taken from this table:
 
 1. Very few incentives are verifiably stable.
-2. Governance has control over some incentives.
+2. Governance only has control over a few incentives.
 3. The character of the delegate is important.
 
 To simplify this somewhat, if you are considering delegating your MKR. Ask yourself the following questions:
 
 * Does this delegate hold MKR? Is it locked for the duration of the delegate contract lifespan?
-* Is this delegate paid by the protocol or an external actor? If the latter, who and what is their objective?
+* Is this delegate paid by the protocol or an external actor? If the latter, who, and what is their motivation?
 * Is this delegate reliant on the Maker Protocol for their own financial stability?
 * Does this delegate have a reputation on the line? Do they care about their reputation?
-* Does this delegate enjoy being a delegate? Have they reliably enjoyed it in the past?
+* Does this delegate enjoy being a delegate? Have they consistently enjoyed it in the past?
 * Does this delegate believe the Maker Protocol is a public good?
 * Does this delegate display strong morals? Are they a trustworthy person?
 
