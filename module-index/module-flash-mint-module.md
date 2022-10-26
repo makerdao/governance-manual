@@ -3,7 +3,7 @@
 >**Alias:** Flash  
 >**Contract Name:** DSSFlash  
 >**Scope:** System  
->**Technical Docs:** https://docs.makerdao.com/smart-contract-modules/flash-mint-module  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/flash-mint-module)  
 
 ## Description
 
