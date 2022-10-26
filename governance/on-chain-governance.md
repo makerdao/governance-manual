@@ -1,8 +1,8 @@
 # On-chain Governance 
-There are two main types of on-chain governance activities: Governance polls and Executive votes. 
+There are two main types of on-chain governance activities: Governance Polls and Executive Votes. 
 
 ### Governance Polls
-Governance Polls occur on-chain and are used to measure the sentiment of MKR voters. Polls often run concurrently, allowing voters to participate in any number of them at the same time. Polls may have different formats like binary voting, [instant run-off](https://en.wikipedia.org/wiki/Ranked_voting), or [approval voting](https://en.wikipedia.org/wiki/Approval_voting) depending on the topic. The current schedule calls for polls to go live each week on Monday at 16:00 UTC.
+Governance Polls occur on-chain and are used to measure the sentiment of MKR voters. Polls often run concurrently, allowing voters to participate in any number of them at the same time. Polls may have different formats like Binary Voting, [Instant Run-Off Voting](https://en.wikipedia.org/wiki/Ranked_voting), or [Approval Voting](https://en.wikipedia.org/wiki/Approval_voting) depending on the topic. The current schedule calls for polls to go live each week on Monday at 16:00 UTC.
 
 MKR holders may be asked to:
 
@@ -16,7 +16,7 @@ MKR holders may be asked to:
 Here is [an example](https://vote.makerdao.com/polling/Qmeac95W?network=mainnet#poll-detail) of a governance poll on the Governance Portal.
 
 #### How long is the voting period of a Governance Poll?
-The voting period of a given Governance Poll varies. Recurring polls of the same type are usually standardized and have the same duration. The most common are three and fourteen day periods. Concurrently running polls do not necessarily have the same voting periods.
+The voting period of a given Governance Poll varies. Recurring polls of the same type are usually standardized and have the same duration. The most common are three and fourteen day periods. Concurrently posted polls do not necessarily have the same voting periods.
 
 #### Where can I find on-chain Governance Polls?
 Live and historic polls can be found on the [polling page](https://vote.makerdao.com/polling) of the Governance Portal.
@@ -49,7 +49,7 @@ Regularly scheduled proposals created by the Protocol Engineering Core Unit have
 * They are deactivated for safety reasons if they have not been passed within 30 days.
 
 #### How is the voting calculated?
-Executive votes are calculated through Continuous Approval voting. In such a system, competing proposals may be introduced at any time.
+Executive Votes are calculated through Continuous Approval Voting. In such a system, competing proposals may be introduced at any time.
 
 An active proposal may be executed if it has more votes in its favor than any other proposal. If MKR token holders do not agree with a new proposal, then they should cast their votes for the inactive proposal with the most vote-weight (usually the last proposal to successfully pass.)
 
