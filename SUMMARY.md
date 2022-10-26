@@ -51,7 +51,7 @@
 * For Delegates  
   * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
   * [Delegates Code of Conduct](delegation/delegates-code.md)
-  * [Why to Become a Recognized Delegate](delegation/why-to-become-a-recognized-delegate.md)
+  * [Why Become a Recognized Delegate?](delegation/why-to-become-a-recognized-delegate.md)
   * [How to Attract More MKR as a Recognized Delegate?](delegation/delegate-attract-more-mkr.md)
 * [Delegate Contract Migration](delegation/delegate-expiration.md)
   
