@@ -2,7 +2,7 @@
 
 ## What is a MIP?
 
-A Maker Improvement Proposal (MIP) is a document that regulates and defines the behavior of the Maker Governance and the Maker Protocol. They are standardized documents voted upon by the Maker Community. MIPs can be added, amended, replaced, and removed.
+A Maker Improvement Proposal (MIP) is a document that regulates and defines the behavior of Maker Governance, MakerDAO, or the Maker Protocol. They are standardized documents voted upon by Maker Governance. MIPs can be added, amended, replaced, and removed.
 
 The [Maker Improvement Proposal Framework (MIP0)](https://mips.makerdao.com/mips/details/MIP0) defines the Maker Improvement Proposals (MIPs) Framework for all subsequent MIPs to utilize.
 
@@ -20,7 +20,7 @@ Of particular note are the Core Principles (defined in MIP0) that MIPs should be
 
 ## Key MIPs
 
-Here are the MIPs that are essential to the process of understanding and participating in Governance.
+Several MIPS are essential to the process of understanding and participating in Governance, they are listed below.
 
 ### [MIP0: Maker Improvement Proposal Framework](https://mips.makerdao.com/mips/details/MIP0)
 MIP0 defines the Maker Improvement Proposals (MIPs) Framework for all subsequent MIPs to utilize.
@@ -47,9 +47,6 @@ The Core Unit Framework MIP Set is a set of MIPs that defines the structure of C
 ### [MIP6: Collateral Onboarding Application](https://mips.makerdao.com/mips/details/MIP6)
 MIP6 defines a standardized application form used to kick off the process of onboarding a new collateral asset to the Maker Protocol.
 
-### [MIP13: Declaration of Intent](https://mips.makerdao.com/mips/details/MIP13)
-MIP13 introduces declarations of intent, which allow Maker Governance to signal an intention to the wider community.
-
->Page last reviewed: -  
->Next review due: -  
+>Page last reviewed: 2022-10-12  
+>Next review due: 2023-01-12  
 
