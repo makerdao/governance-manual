@@ -34,4 +34,3 @@ Delegates should communicate their intention to stop being a delegate at least o
 
 >Page last reviewed: 2022-10-26  
 >Next review due: 2023-10-26  
-
