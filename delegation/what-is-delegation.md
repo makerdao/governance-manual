@@ -9,7 +9,7 @@ MakerDAO has two varieties of delegates.
 ## Recognized Delegates
 Recognized Delegates are whitelisted by the Governance Facilitators of MakerDAO. They must meet requirements for consistent participation in votes, and communication with the community.
 
-In exchange for meeting these requirements, Recognized Delegates are compensated and featured more prominently on voting frontends.
+In exchange for meeting these requirements, Recognized Delegates are compensated and are featured more prominently on voting frontends.
 
 Recognized Delegates act as a bridge between vote outcomes and other actors by actively and transparently communicating with the MakerDAO community.
 
