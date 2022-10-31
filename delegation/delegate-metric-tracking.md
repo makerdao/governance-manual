@@ -4,7 +4,7 @@ The GovAlpha Core Unit (GOV-001) tracks metrics relating to the voting activitie
 
 These metrics can be seen on the delegate cards on the [voting portal](https://vote.makerdao.com/delegates). In addition, a further breakdown of each Recognized Delegate's participation metric is available on their [metric pages](https://vote.makerdao.com/delegates) on the voting portal - here is an example of what a metric page looks like.
 
-![Flip Flop Flap Metric Page1](https://user-images.githubusercontent.com/90220256/199074891-3503c1d4-8daa-4ced-ad0b-03aec3746945.png)
+![Delegate Metrics (2)](https://user-images.githubusercontent.com/90220256/199079179-3d04ae92-8be4-4328-aea9-3af1361b6423.png)
 
 ## Participation Metric
 
@@ -22,6 +22,6 @@ For example, a score of 100% would mean a Recognized Delegate communicated all o
 
 GovAlpha maintains a publicly accessible spreadsheet that tracks Recognized Delegate metrics. This can be seen [here](https://docs.google.com/spreadsheets/d/1E-VBZFN_N7cj60-wMze2yR1fBDWVs_QoPn-aS5Y-1pM/edit#gid=1415939965).
 
->Page last reviewed: - 2022-10-26    
->Next review due: -  2023-10-26
+>Page last reviewed: 2022-10-26    
+>Next review due: 2023-10-26
 
