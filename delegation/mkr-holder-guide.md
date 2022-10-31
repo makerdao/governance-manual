@@ -28,11 +28,11 @@ MKR Holders must create a balance between these two extremes that results in an 
 
 ## Incentives
 
-The word ‘incentive’ has taken on a narrow meaning within the crypto-space. This meaning - primarily financial - has led to the exclusion of a myriad of other motivations that humans hold. Humans are both dynamic and varied in their motivations, and we should expect the same from delegates.
+Humans are both dynamic and varied in their motivations, and we should expect the same from delegates. Incentives in this context refers to more than just financial incentives.
 
 **Your delegate will have different incentives than you. These may not be solely financial. These may not always be permanent.**
 
-The table below shows a selection of relevant incentives that delegates may have. It is not exhaustive because people can be complicated.
+The table below shows a selection of relevant incentives that delegates may have. It is not exhaustive.
 
 |Source|Incentive Type|Stability|Governance Controllable|
 | --- | --- | --- | --- |
@@ -84,7 +84,7 @@ By default, Shadow Delegates lack even this incentive alignment. GovAlpha recomm
 
 ## Balance
 
-The distribution of power within the Maker Protocol is governed by a moderately complex web of checks and balances. By and large, the disengaged MKR Holder does not need to worry too deeply about this. That said, there are a couple of places where this impacts delegation.
+The distribution of power within MakerDAO is governed by a moderately complex web of checks and balances. By and large, the disengaged MKR Holder does not need to worry too deeply about this. That said, there are a couple of places where this impacts delegation.
 
 **Be aware of the balance of power among Delegates and Core Units.**
 
@@ -95,8 +95,6 @@ There are two main points to consider here.
 The more delegates that have a say in the passing or not-passing of proposals, the better. If your favorite delegate already has a large amount of MKR delegated to them, consider delegating to a different delegate.
 
 The delegation contracts support MKR Holders splitting their MKR between multiple delegates. This may be advisable to mitigate the risk posed by any individual delegate.
-
-In the longer term, GovAlpha would like to see a community of tens of delegates to effectively mitigate centralization risk.
 
 **#2 Delegate-Core Unit Balance**
 
@@ -116,34 +114,37 @@ Here are some examples of potential negative outcomes that could result from the
 
 All this being said, GovAlpha is aware that exceptional individuals and circumstances may exist. We are aware that no rule can be enforced here due to the permissionless nature of the delegate contracts.
 
-We leave it to MKR token holders to judge when and if it is appropriate to delegate to Core Unit personnel.
+MKR token holders must judge when and if it is appropriate to delegate to Core Unit personnel.
 
 ## Cost-Benefit
 
 The cost-benefit calculation to governance of the Maker Protocol has never been particularly favorable to MKR holders. There is much to govern and much to keep up with. Delegation represents a long-awaited improvement to this calculus.
 
-**Responsible Voting > Responsible Delegation > Apathy > Irresponsible Voting > Irresponsible Delegation.**
+As a general rule governance safety and effectivness decreases as you go down the following scale:
+* **Responsible Voting** (Best Action)
+* **Responsible Delegation** (Best Action for Cost)
+* **Apathy**
+* **Irresponsible Voting**
+* **Irresponsible Delegation** (Worst Action)
+
+**Responsible delegation is much, much cheaper than responsible voting and almost as good.**
 
 Delegation increases the variability of outcomes relative to individuals voting. The chance for greater governance effectiveness exists, but it is balanced by a greater amount of centralization and collusion risk.
 
 With individuals voting, there is less chance for effective governance, but also less chance for malicious governance. With delegation, there is a greater chance for both outcomes. For this reason, we view apathy as preferable to irresponsible delegation.
 
-**Responsible delegation is much, much cheaper than responsible voting and almost as good.**
-
-That said, responsible delegation is much, much cheaper than responsible voting, and almost as effective.
-
 To aid in cost-benefit judgments, here is our estimate of the cost-to-the-individual in terms of responsible delegation to one or more Recognized Delegates. Note that delegate contracts currently expire every year. So these should be considered annual costs:
 
 * Spend a few hours reading over the Recognized Delegate platforms, figure out which delegates care about what you care about. Watch ‘Meet Your Delegate’ recordings if you prefer video.
 * Spend 30 minutes thinking about incentives and trust in relation to your chosen delegate(s).
-* Take note of the metrics surfaced by GovAlpha on the ‘semi-official’ voting platform.
+* Take note of the metrics surfaced by GovAlpha on the [Voting Portal](https://vote.makerdao.com/delegates).
 * Spend gas to delegate your MKR to your chosen delegates.
-* Spend 30 minutes a month to check in. Check your delegate is still active, check their metrics are still good.
+* Spend a hour each month to check in. Check your delegates are still active, check their metrics are still good.
 
 Ineffective or participation-starved governance will kill the Maker Protocol over the long-term just as surely as governance attacks will in the short term.
 
-If you are holding non-trivial amounts of capital in the MKR token, GovAlpha believes you should seriously consider delegating responsibly.
+If you are holding non-trivial amounts of capital in the MKR token, you should seriously consider delegating responsibly.
 
->Page last reviewed: -  
->Next review due: -  
+>Page last reviewed: 2022-10-31  
+>Next review due: 2022-10-31  
 
