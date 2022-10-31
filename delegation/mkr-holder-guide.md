@@ -16,7 +16,7 @@ There are five key points to keep in mind when considering delegating your MKR.
 
 ## Trust
 
-Trust has taken on a bad name in the crypto-space. Frequently this is for a good reason. Nevertheless, trust plays a key role in life and human interaction. Trust comes into play heavily in delegation.
+Trust has taken on a bad name in the crypto-space. Frequently this is for a good reason. Nevertheless, trust plays a key role in life and human interaction. Trust comes into play heavily when delegating.
 
 **Delegation is an expression of the MKR Holder's trust in the delegate**
 
@@ -24,11 +24,11 @@ The fundamental trade-off made by MKR Holders when delegating is to benefit from
 
 Ultimately the Maker Protocol (and the DAO) needs to have efficient enough governance to operate. If Maker cannot operate effectively, then the MKR token will lose value. Likewise, if delegates collude and attack the Maker Protocol, then the MKR token will lose value.
 
-MKR Holders must create a balance between these two extremes that results in an operable protocol while minimizing risk of governance attack.
+MKR Holders must create a balance between these two extremes that results in an operable protocol while minimizing the risk of governance attack.
 
 ## Incentives
 
-Humans are both dynamic and varied in their motivations, and we should expect the same from delegates. Incentives in this context refers to more than just financial incentives.
+Humans are both dynamic and varied in their motivations, and we should expect the same from delegates. Incentives in this context refer to more than just financial incentives.
 
 **Your delegate will have different incentives than you. These may not be solely financial. These may not always be permanent.**
 
@@ -55,11 +55,11 @@ To simplify this somewhat, if you are considering delegating your MKR. Ask yours
 
 * Does this delegate hold MKR? Is it locked for the duration of the delegate contract lifespan?
 * Is this delegate paid by the protocol or an external actor? If the latter, who, and what is their motivation?
-* Is this delegate reliant on the Maker Protocol for their own financial stability?
+* Is this delegate reliant on the Maker Protocol for their financial stability?
 * Does this delegate have a reputation on the line? Do they care about their reputation?
 * Does this delegate enjoy being a delegate? Have they consistently enjoyed it in the past?
 * Does this delegate believe the Maker Protocol is a public good?
-* Does this delegate display strong morals? Are they a trustworthy person?
+* Does this delegate display strong morals? Are they trustworthy?
 
 Many of these questions are hard to answer, hence the requirements for trust:
 
@@ -69,7 +69,7 @@ Many of these questions are hard to answer, hence the requirements for trust:
 
 ## Recognition
 
-The split into Recognized and Shadow Delegates has a few advantages. One of which is the integration of reputational collateral for the Recognized Delegates. By requirement, they are publicly known. This gives them an incentive to do a good job with any MKR delegated to them on pain of damaging their reputation.
+The split into Recognized and Shadow Delegates has a few advantages. One of which is the integration of reputational collateral for the Recognized Delegates. By requirement, they are publicly known. This gives them an incentive to do a good job with any MKR delegated to them on pain of damage to their reputation.
 
 **Recognized Delegates are safer than Shadow Delegates (but not by much).**
 
@@ -98,11 +98,11 @@ The delegation contracts support MKR Holders splitting their MKR between multipl
 
 **#2 Delegate-Core Unit Balance**
 
-Delegates and Core Units are a check on each other's power. Delegates can propose (and potentially vote through) whatever they want. However, they require experienced personnel to construct proposals. Further, any decision that impacts the Core Units requires their implicit consent to accept that impact.
+Delegates and Core Units check each other's power. Delegates can propose (and potentially vote through) whatever they want. However, they require experienced personnel to construct proposals. Further, any decision that impacts the Core Units requires their implicit consent to accept that impact.
 
 On the other hand, delegates can refuse to vote through proposals created by the Core Units, if they do not believe they are in the interests of MKR Token Holders.
 
-In the worst case, a complete combination of the two groups means that a single collection of entities is responsible for implementating and ratifying changes.
+In the worst case, a complete combination of the two groups means that a single collection of entities is responsible for implementing and ratifying changes.
 
 Here are some examples of potential negative outcomes that could result from the combination of Core Units and Delegates:
 
@@ -118,9 +118,9 @@ MKR token holders must judge when and if it is appropriate to delegate to Core U
 
 ## Cost-Benefit
 
-The cost-benefit calculation to governance of the Maker Protocol has never been particularly favorable to MKR holders. There is much to govern and much to keep up with. Delegation represents a long-awaited improvement to this calculus.
+The cost-benefit calculation for the governance of the Maker Protocol has never been particularly favorable to MKR holders. There is much to govern and much to keep up with. Delegation represents a long-awaited improvement to this calculus.
 
-As a general rule governance safety and effectivness decreases as you go down the following scale:
+As a general rule governance safety and effectiveness decrease as you go down the following scale:
 * **Responsible Voting** (Best Action)
 * **Responsible Delegation** (Best Action for Cost)
 * **Apathy**
@@ -133,15 +133,15 @@ Delegation increases the variability of outcomes relative to individuals voting.
 
 With individuals voting, there is less chance for effective governance, but also less chance for malicious governance. With delegation, there is a greater chance for both outcomes. For this reason, we view apathy as preferable to irresponsible delegation.
 
-To aid in cost-benefit judgments, here is our estimate of the cost-to-the-individual in terms of responsible delegation to one or more Recognized Delegates. Note that delegate contracts currently expire every year. So these should be considered annual costs:
+To aid in cost-benefit judgments, here is our estimate of the cost to the individual in terms of responsible delegation to one or more Recognized Delegates. Note that delegate contracts currently expire every year. So these should be considered annual costs:
 
-* Spend a few hours reading over the Recognized Delegate platforms, figure out which delegates care about what you care about. Watch ‘Meet Your Delegate’ recordings if you prefer video.
+* Spend a few hours reading over the Recognized Delegate platforms, and figure out which delegates care about what you care about. Watch ‘Meet Your Delegate’ recordings if you prefer video.
 * Spend 30 minutes thinking about incentives and trust in relation to your chosen delegate(s).
 * Take note of the metrics surfaced by GovAlpha on the [Voting Portal](https://vote.makerdao.com/delegates).
 * Spend gas to delegate your MKR to your chosen delegates.
-* Spend a hour each month to check in. Check your delegates are still active, check their metrics are still good.
+* Spend an hour each month to check-in. Check your delegates are still active and check their metrics are still good.
 
-Ineffective or participation-starved governance will kill the Maker Protocol over the long-term just as surely as governance attacks will in the short term.
+Ineffective or participation-starved governance will kill the Maker Protocol over the long term just as surely as governance attacks will in the short term.
 
 If you are holding non-trivial amounts of capital in the MKR token, you should seriously consider delegating responsibly.
 
