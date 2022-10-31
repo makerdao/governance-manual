@@ -146,5 +146,5 @@ Ineffective or participation-starved governance will kill the Maker Protocol ove
 If you are holding non-trivial amounts of capital in the MKR token, you should seriously consider delegating responsibly.
 
 >Page last reviewed: 2022-10-31  
->Next review due: 2022-10-31  
+>Next review due: 2023-10-31  
 
