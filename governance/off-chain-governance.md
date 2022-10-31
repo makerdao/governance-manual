@@ -1,6 +1,6 @@
 # Off-Chain Governance
 
-Off-chain governance can be exercised in multiple ways and with different objectives: as the free exchange of ideas to improve the protocol; as a way of gathering feedback to support and inform prospective on-chain governance; as a way to approve or reject formal processes. In what follows the available means to conduct off-chain governance are described in increasing order of formality.
+Off-chain governance can be exercised in multiple ways and with different objectives: as the free exchange of ideas to improve the protocol; as a way of gathering feedback to support and inform prospective on-chain governance; or as a way to approve or reject formal processes. In what follows the available means to conduct off-chain governance are described in increasing order of formality.
 
 ## Discussion and Debate
 
