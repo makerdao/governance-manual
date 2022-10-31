@@ -1,71 +1,73 @@
 # On-chain Governance 
-There are two main types of on-chain governance activities: Governance polls and Executive votes. 
+There are two main types of on-chain governance activities: Governance Polls and Executive Votes. 
 
 ### Governance Polls
-Governance Polls occur on-chain and are used to measure the sentiment of MKR voters. Polls often run concurrently, allowing voters to participate in any number of them at the same time and some use [instant run-off](https://en.wikipedia.org/wiki/Ranked_voting). The current schedule calls for polls to go live on a weekly basis every Monday at 16:00 UTC.
+Governance Polls occur on-chain and are used to measure the sentiment of MKR voters. Polls often run concurrently, allowing voters to participate in any number of them at the same time. Polls may have different formats like Binary Voting, [Instant Run-Off Voting](https://en.wikipedia.org/wiki/Ranked_voting), or [Approval Voting](https://en.wikipedia.org/wiki/Approval_voting) depending on the topic. The current schedule calls for polls to go live each week on Monday at 16:00 UTC.
 
 MKR holders may be asked to:
 
 - Determine governance and DAO processes outside the technical layer of the Maker Protocol.
 - Form consensus on important community goals and targets.
-- Measure sentiment on potential Executive Vote proposals.
-- Ratify governance proposals originating from the MakerDAO forum signal threads.
+- Determine which proposals should proceed to a future Executive Vote.
+- Ratify governance proposals originating from MakerDAO Core Unit Facilitators.
 - Determine which values certain system parameters should be set to before those values are then confirmed in an executive vote.
-- Ratify risk parameters for new collateral types as presented by Risk Teams.
+- Ratify risk parameters for new collateral types.
 
 Here is [an example](https://vote.makerdao.com/polling/Qmeac95W?network=mainnet#poll-detail) of a governance poll on the Governance Portal.
 
 #### How long is the voting period of a Governance Poll?
-The voting period of a given Governance Poll varies. Recurring polls of the same type are usually standardized and have the same duration. The most common are three and seven day periods. Concurrently running polls do not necessarily have the same voting periods.
+The voting period of a given Governance Poll varies. Recurring polls of the same type are usually standardized and have the same duration. The most common are three and fourteen day periods. Concurrently posted polls do not necessarily have the same voting periods.
 
 #### Where can I find on-chain Governance Polls?
 Live and historic polls can be found on the [polling page](https://vote.makerdao.com/polling) of the Governance Portal.
 
-#### How to create an on-chain Governance Poll?
-Anyone can create an on-chain Governance Poll using the polling smart contract, however, there is no UI provided.
+#### How can I create an on-chain Governance Poll?
+The on-chain Governance Poll smart contracts are permissionless, meaning anyone can trigger a poll. However, there is no creation or voting UI provided for user-generated polls. Polls created by arbitrary Ethereum addresses **are not** displayed on the official governance portal.
 
-Currently, only the elected Governance Facilitators are able to put up polls that display on the [Governance Portal](https://vote.makerdao.com). Polls created by arbitrary Ethereum addresses **are not** displayed. In the future, MKR token holders or third parties may develop new UIs or other voting frontends that do allow is.
+Currently, only Governance Facilitators are able to put up polls that display on the official [Governance Portal](https://vote.makerdao.com), and they do so on behalf of the rest of MakerDAO. This helps to ensure a level of standardization and quality of presentation.
 
 ### Executive Votes
 Executive Votes occur on-chain and can be accessed through the [executive page](https://vote.makerdao.com/executive) in the Governance Portal.
 
-Executive Votes execute technical changes to the Maker Protocol. When active, each Executive Vote has a proposed set of changes being made on the Maker Protocol's smart-contracts. Executive Votes use a Continuous Approval Voting model.
+Executive Votes execute technical changes to the Maker Protocol. When active, each Executive Vote has a proposed set of changes being made to the Maker Protocol's smart contracts. Executive Votes use a Continuous Approval Voting model.
 
-Executive Vote can occur at any time, however the current schedule calls for Executive Votes to go live on Fridays. The exact time varies, but is almost always after 12pm EST, 9am PST, 14:00 UTC.
+Executive Votes can occur at any time, but the current schedule calls for Executive Votes to go live on Wednesdays. The exact time varies but is almost always after 14:00 UTC.
 
-Executive Votes can be used to:
-
-- Add or remove collateral types.
+Executive Votes can be used to do the following (among other things):
 - Add or remove Vault types.
-- Adjust global system parameters.
-- Adjust Vault-specific parameters.
+- Adjust system parameters.
 - Replace modular smart contracts.
-
-Anyone can create an on-chain Executive Vote using the MakerDAO governance contracts, however, there is no non-technical UI available to do this. Users can create proposals, also known as [slates](https://docs.makerdao.com/smart-contract-modules/governance-module/chief-detailed-documentation), through this [experimental portal](https://chief.makerdao.com/), or by interacting directly with the smart contracts.
 
 Here is [an example](https://vote.makerdao.com/executive/template-executive-vote-parameter-changes-wsteth-a-onboarding-october-22-2021?network=mainnet#proposal-detail) of an executive vote on the Governance Portal.
 
+Anyone can create an on-chain Executive Vote using the MakerDAO governance contracts; however, there is no non-technical UI available to do this. Users can create proposals, also known as [slates](https://docs.makerdao.com/smart-contract-modules/governance-module/chief-detailed-documentation), through this [experimental portal](https://chief.makerdao.com/), or by interacting directly with the smart contracts.
+
+Under the normal schedule, an Executive Vote's contents are determined collaboratively by relevant Core Units that consider changes that are both approved by governance and ready for safe implementation. Once the contents have been determined, the proposal smart contract is created by the Protocol Engineering Core Unit.
+
+Regularly scheduled proposals created by the Protocol Engineering Core Unit have the following properties: 
+* They execute a single set of changes exactly once. 
+* They are deactivated for safety reasons if they have not been passed within 30 days.
+
 #### How is the voting calculated?
-Executive votes are calculated through Continuous Approval voting. In such a system, competing proposals may be introduced any time. Proposals remain active for a period of 30 days or until they get executed, whichever is earlier. After this, they become inactive proposals but remain eligible for votes. 
+Executive Votes are calculated through Continuous Approval Voting. In such a system, competing proposals may be introduced at any time.
 
-An active proposal is executed if it has more votes in its favor than every other proposal. If MKR token holders do not agree with a new proposal, then they may cast their votes for any inactive proposal, implying that they support the current state of the system. To revert a change in the system an entirely new proposal must be put forth. It is impossible to reactivate a proposal, once it is inactive. 
+An active proposal may be executed if it has more votes in its favor than any other proposal. If MKR token holders do not agree with a new proposal, then they should cast their votes for the inactive proposal with the most vote-weight (usually the last proposal to successfully pass.)
 
-There are three aspects to consider with regard to Continuous Approval Voting:
+The highest vote-weight proposal is sometimes referred to as the 'hat' proposal.
 
-- A vote for any inactive proposal creates a barrier for new proposals, since new proposals need to surpass the voting weight of the inactive proposal with the largest amount of MKR voting for it.
-- Votes are meant to remain in the system continuously in order to prevent bad proposals from passing easily.
-- The more votes there are on the current state of the system, the more secure the system generally is from any "rogue" proposals.
-
-With Continuous Approval Voting, the continuity of staked votes challenges and reinforces the status quo of the system through movements of the majority of votes between the current state (most recent successful proposal) and new proposals.
+There are three aspects to consider about Continuous Approval Voting:
+- Vote-weight present on the 'hat' proposal sets the 'victory threshold' for new proposals.
+- Vote-weight may move from the 'hat' proposal to any new proposal, this both reduces the 'victory threshold' _and_ contributes to the new proposal's vote-weight.
+- Vote-weight is meant to remain in the system on the 'hat' proposal to help secure it from any "rogue" proposals.
 
 ### Auditability
 
-#### With regard to new votes
+#### New votes
 The public is encouraged to self-audit the code for each vote. There is an accessible guide on how to do so [here](governance/executive-audit.md). 
 
-#### With regard to a user's voting record
+#### Voting record
 The voter's current vote is displayed on a given proposal page in the [Governance Portal](https://vote.makerdao.com/). Historical voting records are also available on the governance portal.
 
->Page last reviewed: -  
->Next review due: -  
+>Page last reviewed: 2022-10-25  
+>Next review due: 2023-10-25  
 
