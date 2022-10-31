@@ -2,7 +2,9 @@
 
 The GovAlpha Core Unit (GOV-001) tracks metrics relating to the voting activities of Recognized Delegates. These are useful to both current and prospective delegators in gauging how active and consistent Recognized Delegates have been. The metrics currently tracked for Recognized Delegates centre on participation in on-chain voting and communication by Recognized Delegates regarding their voting choices.
 
-These metrics can be seen on the delegate cards on the [voting portal](https://vote.makerdao.com/delegates). In addition, a further breakdown of each Recognized Delegate's participation metric is available on their metric pages on the voting portal - here is a link to Flip Flop Flap Delegate LLC's metric page [as an example](https://vote.makerdao.com/address/0x0f4be9f208c552a6b04d9a1222f385785f95beaa#delegate-credentials).
+These metrics can be seen on the delegate cards on the [voting portal](https://vote.makerdao.com/delegates). In addition, a further breakdown of each Recognized Delegate's participation metric is available on their [metric pages](https://vote.makerdao.com/delegates) on the voting portal - here is an example of what a metric page looks like.
+
+![Flip Flop Flap Metric Page1](https://user-images.githubusercontent.com/90220256/199074891-3503c1d4-8daa-4ced-ad0b-03aec3746945.png)
 
 ## Participation Metric
 
@@ -20,6 +22,6 @@ For example, a score of 100% would mean a Recognized Delegate communicated all o
 
 GovAlpha maintains a publicly accessible spreadsheet that tracks Recognized Delegate metrics. This can be seen [here](https://docs.google.com/spreadsheets/d/1E-VBZFN_N7cj60-wMze2yR1fBDWVs_QoPn-aS5Y-1pM/edit#gid=1415939965).
 
->Page last reviewed: - 10-26-2022
->Next review due: -  10-26-2023
+>Page last reviewed: - 2022-10-26    
+>Next review due: -  2023-10-26
 
