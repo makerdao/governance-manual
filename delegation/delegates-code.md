@@ -6,7 +6,7 @@ Delegates should act at all times with honesty, integrity, and transparency.
 
 ## Best Interest
 
-Delegates should operate and vote in what they believe is in the best interests of the Maker Protocol.
+Delegates should operate and vote in what they believe is the best interests of the Maker Protocol.
 
 ## Due Care and Attention
 
@@ -22,16 +22,15 @@ Delegates should maintain a working knowledge of developments at Maker and in th
 
 ## Conflicts of Interest
 
-Delegates should avoid conflicts of interest where possible and mitigate their impact when not possible. Disclose in writing any conflicts. Publicize any offer of external compensation related to delegation or the Maker Protocol.
+Delegates should avoid conflicts of interest where possible and mitigate their impact where not possible. Delegates should disclose in writing any conflicts and publicize any offer of external compensation related to delegation or the Maker Protocol.
 
 ## Availability
 
-Delegates should - within reason - be accessible to the community to answer questions, respond to comments, and discuss issues.
+Delegates should &mdashwithin reason&mdash be accessible to the community to answer questions, respond to comments, and discuss issues.
 
 ## End of Delegation
 
-Delegates should communicate their intention to stop being a delegate at least a month in advance. This will allow any MKR holders delegating to them an opportunity to move their MKR to another delegate.
+Delegates should communicate their intention to stop being a delegate at least one month in advance. This will allow any MKR holders delegating to them an opportunity to move their MKR to another delegate.
 
->Page last reviewed: -  
->Next review due: -  
-
+>Page last reviewed: 2022-10-26  
+>Next review due: 2023-10-26  
