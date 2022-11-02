@@ -2,6 +2,7 @@
 There are two main types of on-chain governance activities: Governance Polls and Executive Votes. 
 
 ### Governance Polls
+
 Governance Polls occur on-chain and are used to measure the sentiment of MKR voters. Polls often run concurrently, allowing voters to participate in any number of them at the same time. Polls may have different formats like Binary Voting, [Instant Run-Off Voting](https://en.wikipedia.org/wiki/Ranked_voting), or [Approval Voting](https://en.wikipedia.org/wiki/Approval_voting) depending on the topic. The current schedule calls for polls to go live each week on Monday at 16:00 UTC.
 
 MKR holders may be asked to:
