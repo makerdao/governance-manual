@@ -26,7 +26,7 @@ Delegates should avoid conflicts of interest where possible and mitigate their i
 
 ## Availability
 
-Delegates should &mdashwithin reason&mdash be accessible to the community to answer questions, respond to comments, and discuss issues.
+Delegates should ---within reason--- be accessible to the community to answer questions, respond to comments, and discuss issues.
 
 ## End of Delegation
 
