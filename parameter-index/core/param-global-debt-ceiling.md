@@ -4,7 +4,7 @@
 >**Parameter Name:** `Line`  
 >**Containing contract:** `MCD_VAT`  
 >**Scope:** System  
->**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/core-module/vat-detailed-documentation)  
+>**Technical Docs:** [Vat Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/core-module/vat-detailed-documentation)  
 
 ## Description
 
@@ -24,7 +24,7 @@ If the Global Debt Ceiling is set too high then the Maker Protocol will have inc
 
 ## Changes
 
-Adjusting the Global Debt Ceiling parameter can be done through a manual process that requires an executive vote. Changes to the Global Debt Ceiling are subject to the GSM Pause Delay.
+Adjusting the Global Debt Ceiling parameter can be done through a manual process that requires an executive vote. Changes to the Global Debt Ceiling are subject to the [GSM Pause Delay](param-gsm-pause-delay.md).
 
 Generally speaking, the Global Debt Ceiling does not need to be manually managed by Maker Governance. The Protocol Engineering Core Unit includes changes to the parameter in executive proposals such that it approximately equals the sum of the debt ceilings of each vault type.
 
