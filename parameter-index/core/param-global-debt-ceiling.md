@@ -10,7 +10,7 @@
 
 The Global Debt Ceiling, or `Line`, parameter allows Maker Governance to set a maximum total amount of DAI that can be minted by users of the Maker Protocol. If a user tries to mint DAI and the amount of new DAI minted would put the total amount of DAI minted above the Global Debt Ceiling, the transaction will fail and no DAI will be minted.
 
-Additionally, vault types have a [Debt Ceiling](..\vault-risk\param-debt-ceiling.md) parameter that is not covered in this entry. For a user to mint DAI from their vault, there must be space available in both the vault type's Debt Ceiling and the Global Debt Ceiling.
+Additionally, vault types have a [Debt Ceiling](../vault-risk/param-debt-ceiling.md) parameter that is not covered in this entry. For a user to mint DAI from their vault, there must be space available in both the vault type's Debt Ceiling and the Global Debt Ceiling.
 
 ## Purpose
 
@@ -28,7 +28,7 @@ Adjusting the Global Debt Ceiling parameter can be done through a manual process
 
 Generally speaking, the Global Debt Ceiling does not need to be manually managed by Maker Governance. The Protocol Engineering Core Unit includes changes to the parameter in executive proposals such that it approximately equals the sum of the debt ceilings of each vault type.
 
-The Global Debt Ceiling is also automatically adjusted to account for debt ceiling changes that occur via the [Debt Ceiling Instant Access Module](..\..\module-index\module-dciam.md). The Debt Ceiling Instant Access Module allows the Debt Ceiling of a given Vault type to be adjusted instantly according to certain hard-coded rules and parameters. When this occurs, the Global Debt Ceiling will change by the same amount.
+The Global Debt Ceiling is also automatically adjusted to account for debt ceiling changes that occur via the [Debt Ceiling Instant Access Module](../../module-index/module-dciam.md). The Debt Ceiling Instant Access Module allows the Debt Ceiling of a given Vault type to be adjusted instantly according to certain hard-coded rules and parameters. When this occurs, the Global Debt Ceiling will change by the same amount.
 
 ## Considerations
 
