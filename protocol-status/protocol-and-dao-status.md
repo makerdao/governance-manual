@@ -20,6 +20,10 @@ Regularly updated governance status dashboard for MakerDAO. Find out what's bein
 
 Unified dashboard containing useful stats and charts about governance and delegation, an improved UI for GovAlpha's governance tracker and a delegates section to keep track of delegates comments regarding on-chain polls and executive votes.
 
+### [Strategic Finance Directory](https://dune.com/stratfi/maker-stratfi-directory)
+
+Directory for the Dune dashboards created and maintained by the Strategic Finance Core Unit.
+
 ### [Delegates @ vote.makerdao.com](https://vote.makerdao.com/delegates?network=mainnet)
 
 Provides a list of all MakerDAO Recognized and Shadow delegates. Includes profiles, contact information and voting history as appropriate.
