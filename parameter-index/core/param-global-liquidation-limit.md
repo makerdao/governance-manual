@@ -20,7 +20,7 @@ The Global Liquidation Limit also performs an important role during a malicious 
 
 ## Trade-offs
 
-While the Global Liquidation Limit provides some safety for the system, setting an appropriate limit may be difficult. If this parameter is set too high, the wider market may be overwhelmed and the collateral auctions may incurr more slippage than is desireable.
+While the Global Liquidation Limit provides some safety for the system, setting an appropriate limit may be difficult. If this parameter is set too high, the wider market may be overwhelmed and the collateral auctions may incur more slippage than is desirable.
 
 In addition to concerns noted above, having a Global Liquidation Limit that is too high during a time of major volatility could create such a demand for DAI that the peg breaks high, causing further issues with users attempting to avoid liquidation.
 
@@ -28,7 +28,7 @@ The main risk of setting the Global Liquidation Limit parameter too low is that 
 
 ## Changes
 
-Adjusting the Global Liquidation Limit parameter is a manual process that requires an executive vote. Changes to the Global Liquidation Limit are subject to the GSM Pause Delay.
+Adjusting the Global Liquidation Limit parameter is a manual process that requires an executive vote. Changes to the Global Liquidation Limit are subject to the [GSM Pause Delay](https://manual.makerdao.com/parameter-index/core/param-gsm-pause-delay).
 
 **Why increase this parameter?**
 
@@ -40,9 +40,9 @@ Conversely, the primary reason to decrease the Global Liquidation Limit is a con
 
 ## Considerations
 
-The Liquidations 2.0 system allows the Global Liquidation Limit to be set at a higher level than Liquidations 1.2 because the Dutch Auction format allows for instant settlement, enabling the use of Flash Loans by Maker Keepers. However, because auctions can have near-instant settlement, the Global Liquidiation Limit no longer acts as a rate-limit on auctions as it did in Liquidations 1.2.
+The Liquidations 2.0 system allows the Global Liquidation Limit to be set at a higher level than Liquidations 1.2 because the Dutch Auction format allows for instant settlement, enabling the use of Flash Loans by Maker Keepers. However, because auctions can have near-instant settlement, the Global Liquidation Limit no longer acts as a rate-limit on auctions as it did in Liquidations 1.2.
 
-During an Emergency Shutdown, no new collateral auctions may be started. All auctions underway during an emergency shutdown would have been subject to the Global Liquidation Limit parameter with no special considerations.
+During an Emergency Shutdown, no new collateral auctions may be started. All auctions underway during an Emergency Shutdown would have been subject to the Global Liquidation Limit parameter with no special considerations.
 
 >Page last reviewed: -  
 >Next review due: -  
