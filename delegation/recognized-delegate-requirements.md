@@ -36,7 +36,7 @@ It is strongly recommended that delegates verify their contract, as many MKR Hol
 
 An example of what is required can be found [here](https://github.com/makerdao/community/tree/master/governance/delegates/template). These files should be copied to a new folder such that the folder name matches the delegate contract address.
 
-Recognized Delegates need to replace the profile.md and profile.jpg files. The metrics.md should be left as it is in the template; it will be updated by GovAlpha.
+Recognized Delegates need to replace the profile.md and profile.jpg files. GovAlpha is available to assist with this procedure. The file named metrics.md should be left as it is in the template; it will be updated by GovAlpha.
 
 Other examples for existing delegates can be found in the delegates [folder](https://github.com/makerdao/community/tree/master/governance/delegates).
 
