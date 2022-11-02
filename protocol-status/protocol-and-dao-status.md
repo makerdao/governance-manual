@@ -2,11 +2,11 @@
 
 ### [MakerBurn](https://makerburn.com/)
 
-Clean and Elegant UI. Displays a plethora of information about the Maker Protocol and MakerDAO, including burn rate, revenues, expenses and more.
+Displays a plethora of information about the Maker Protocol and MakerDAO, including burn rate, revenues, expenses and more.
 
 ### [Maker @ BlockAnalitica](https://maker.blockanalitica.com/)
 
-Amazing risk stats and insight into the Maker Protocol. Especially useful when prices are dropping and you want to check out liquidations.
+Risk stats and insight into the Maker Protocol. Especially useful when prices are dropping and you want to check out liquidations.
 
 ### [DAI Stats](https://daistats.com/)
 
