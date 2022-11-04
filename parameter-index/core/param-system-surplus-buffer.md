@@ -46,7 +46,7 @@ Another reason to increase the Maximum System Surplus is if for whatever reason 
 
 **Why decrease this parameter?**
 
-The primary reason for decreasing the Maximum System Surplus when the buffer is full would be if Governance wished to use the DAI currently in the buffer to buy and burn MKR. Alternatively, if the buffer was not full, Governance may choose to decrease the buffer to restart the continuous MKR burn arising from the buffer overflow.
+The primary reason for decreasing the Maximum System Surplus when the buffer is full would be to use the DAI currently in the buffer to buy and burn MKR. Alternatively, if the buffer was not full, Governance may choose to decrease the buffer to restart the continuous MKR burn arising from the buffer overflow.
 
 Another reason to decrease the Maximum System Surplus might be if the risk from the collateral portfolio decreases, either due to reduced DAI debt across all vaults, or the portfolio of collateral backing DAI becoming more stable and less risky on average.
 
