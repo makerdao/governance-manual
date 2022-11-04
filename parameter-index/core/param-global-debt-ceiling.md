@@ -10,7 +10,7 @@
 
 The Global Debt Ceiling, or `Line`, parameter allows Maker Governance to set a maximum total amount of DAI that can be minted by users of the Maker Protocol. If a user tries to mint DAI and the amount of new DAI minted would put the total amount of DAI minted above the Global Debt Ceiling, the transaction will fail and no DAI will be minted.
 
-Additionally, vault types have a [Debt Ceiling](../vault-risk/param-debt-ceiling.md) parameter that is not covered in this entry. For a user to mint DAI from their vault, there must be space available in both the vault type's Debt Ceiling and the Global Debt Ceiling.
+Additionally, vault types have a [Debt Ceiling](../vault-risk/param-debt-ceiling.md) (`ilk.line`) parameter that is not covered in this entry. For a user to mint DAI from their vault, there must be space available in both the vault type's Debt Ceiling and the Global Debt Ceiling.
 
 ## Purpose
 
@@ -18,9 +18,9 @@ The purpose of the Global Debt Ceiling is to act as an upper bound on the amount
 
 ## Trade-offs
 
-If the Global Debt Ceiling is set too low, it will prevent DAI from being minted. This is both a bad experience for vault users, and may also cause the DAI peg to break upward if DAI demand increases, but DAI supply cannot increase.
+If the Global Debt Ceiling is set too low, it will prevent DAI from being minted. This is a bad experience for vault users, and may also cause the DAI peg to break upward if DAI demand increases but DAI supply cannot increase.
 
-If the Global Debt Ceiling is set too high then the Maker Protocol will have increased losses in the event of a bug or exploit that mints unbacked DAI.
+If the Global Debt Ceiling is set too high, then the Maker Protocol will have increased losses in the event of a bug or exploit that mints unbacked DAI.
 
 ## Changes
 
@@ -32,11 +32,11 @@ The Global Debt Ceiling is also automatically adjusted to account for debt ceili
 
 ## Considerations
 
-The Global Debt Ceiling will not prevent DAI from accruing in the system surplus buffer from stability fees. Therefore, the overall DAI supply can still increase despite the Global Debt Ceiling being reached.
+The Global Debt Ceiling will not prevent DAI from accruing in the [System Surplus Buffer](param-system-surplus-buffer.md) from stability fees. Therefore, the overall DAI supply can still increase despite the Global Debt Ceiling being reached.
 
 Maker Governance should exercise caution when reducing the debt ceiling of collateral types; this may lead to an unintended situation where the Global Debt Ceiling is below the overall DAI supply, thus preventing further DAI from being minted.
 
-If Emergency Shutdown is triggered, DAI cannot be minted regardless of the Global Debt Ceiling.
+If [Emergency Shutdown](https://docs.makerdao.com/smart-contract-modules/shutdown) is triggered, DAI cannot be minted regardless of the Global Debt Ceiling.
 
 >Page last reviewed: 2022-11-02  
 >Next review due: 2023-11-02  
