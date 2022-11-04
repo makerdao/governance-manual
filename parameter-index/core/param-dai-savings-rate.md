@@ -41,7 +41,7 @@ The primary reason to decrease the Dai Savings Rate is to reduce DAI demand. Red
 Maker Governance may also wish to decrease the Dai Savings Rate when The Maker Protocol experiences a drop in revenue. If Maker Governance does not reduce the Dai Savings Rate when income falls, the Maker Protocol could encounter negative cash flows. Negative cash flow will reduce the System Surplus Buffer over time, and if the buffer is depleted, the Protocol will mint and sell MKR to cover the shortfall.
 
 ## Considerations
-When DAI holders deposit DAI to the Dai Savings Rate contract, interest is paid from accrued stability fees. Therefore, increasing the Dai Savings Rate will cause the System Surplus Buffer to fill more slowly and reduce the amount of Dai available for Surplus Auctions. If the Dai Savings Rate is set too high, the Maker Protocol could have negative cash flow and eventually need to print MKR.
+When DAI holders deposit DAI to the Dai Savings Rate contract, interest is paid from accrued stability fees. Therefore, increasing the Dai Savings Rate will cause the [System Surplus Buffer](param-system-surplus-buffer.md) to fill more slowly and reduce the amount of Dai available for Surplus Auctions. If the Dai Savings Rate is set too high, the Maker Protocol could have negative cash flow and eventually need to print MKR.
 
 A negative Dai Savings Rate will not work as intended as balances within the Dai Savings Rate contract cannot decrease. This is because the `drip` function will revert if negative.
 
