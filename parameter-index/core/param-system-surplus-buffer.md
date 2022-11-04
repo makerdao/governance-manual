@@ -56,7 +56,7 @@ Care should be taken when decreasing the Maximum System Surplus parameter while 
 
 DAI can be pulled out of the Maker Protocol by Maker Governance by using the `suck` method as part of an executive vote. DAI `suck`ed from the protocol in this way will be deducted from the System Surplus Buffer and will trigger MKR mints if more DAI is `suck`ed than exists in the System Surplus Buffer.
 
-The System Surplus Buffer is not made up of ERC-20 DAI tokens. Rather, it is a number derived by subtracting the Maker Protocol's liabilities from its assets. At Emergency Shutdown the value represented by the system surplus goes to DAI holders in the form of a greater share of the collateral backing DAI.
+The System Surplus Buffer is not made up of ERC-20 DAI tokens. Rather, it is a number derived by subtracting the Maker Protocol's liabilities from its assets. At [Emergency Shutdown](https://docs.makerdao.com/smart-contract-modules/shutdown) the value represented by the system surplus goes to DAI holders in the form of a greater share of the collateral backing DAI.
 
 >Page last reviewed: 2022-11-04  
 >Next review due: 2023-11-04  
