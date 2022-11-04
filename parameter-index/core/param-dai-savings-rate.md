@@ -43,11 +43,11 @@ Maker Governance may also wish to decrease the Dai Savings Rate when The Maker P
 ## Considerations
 When DAI holders deposit DAI to the Dai Savings Rate contract, interest is paid from accrued stability fees. Therefore, increasing the Dai Savings Rate will cause the System Surplus Buffer to fill more slowly and reduce the amount of Dai available for Surplus Auctions. If the Dai Savings Rate is set too high, the Maker Protocol could have negative cash flow and eventually need to print MKR.
 
-A negative Dai Savings Rate will not work as intended as balances within the Dai Savings Rate contract cannot decrease. This is because the `drip` function will revert if negative.
+A negative Dai Savings Rate will not work as intended as balances within the Dai Savings Rate contract cannot decrease.
 
 Any changes to the Dai Savings Rate may affect PSM usage behavior. For example, increased upward pressure on the dollar peg caused by the Dai Savings Rate may require increased PSM usage to balance.
 
-In the event of an Emergency Shutdown, the Dai Savings Rate will be set to 0% to prevent the total debt of the Maker Protocol from increasing.
+In the event of an [Emergency Shutdown](https://docs.makerdao.com/smart-contract-modules/shutdown), the Dai Savings Rate will be set to 0% to prevent the total debt of the Maker Protocol from increasing.
 
 >Page last reviewed: 2022-11-02  
 >Next review due: 2023-11-02  
