@@ -18,9 +18,9 @@ The purpose of the Global Debt Ceiling is to act as an upper bound on the amount
 
 ## Trade-offs
 
-If the Global Debt Ceiling is set too low, it will prevent DAI from being minted. This is both a bad experience for vault users, and may also cause the DAI peg to break upward if DAI demand increases, but DAI supply cannot increase.
+If the Global Debt Ceiling is set too low, it will prevent DAI from being minted. This is a bad experience for vault users, and may also cause the DAI peg to break upward if DAI demand increases but DAI supply cannot increase.
 
-If the Global Debt Ceiling is set too high then the Maker Protocol will have increased losses in the event of a bug or exploit that mints unbacked DAI.
+If the Global Debt Ceiling is set too high, then the Maker Protocol will have increased losses in the event of a bug or exploit that mints unbacked DAI.
 
 ## Changes
 
@@ -32,7 +32,7 @@ The Global Debt Ceiling is also automatically adjusted to account for debt ceili
 
 ## Considerations
 
-The Global Debt Ceiling will not prevent DAI from accruing in the system surplus buffer from stability fees. Therefore, the overall DAI supply can still increase despite the Global Debt Ceiling being reached.
+The Global Debt Ceiling will not prevent DAI from accruing in the [System Surplus Buffer](param-system-surplus-buffer.md) from stability fees. Therefore, the overall DAI supply can still increase despite the Global Debt Ceiling being reached.
 
 Maker Governance should exercise caution when reducing the debt ceiling of collateral types; this may lead to an unintended situation where the Global Debt Ceiling is below the overall DAI supply, thus preventing further DAI from being minted.
 
