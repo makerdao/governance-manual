@@ -30,7 +30,7 @@ In essence, a higher Dai Savings Rate results in upward pressure on Dai price, a
 
 **Why increase this parameter?**
 
-The primary reason for increasing the Dai Savings Rate is to increase DAI demand. This increase in demand is achieved by encouraging DAI holders to deposit DAI to the Dai Savings Rate contract - thus removing it from the market, which should create upwards pressure on the dollar peg. Therefore, raising the Dai Savings Rate should be considered if DAI is trading below the dollar peg.
+The primary reason for increasing the Dai Savings Rate is to increase DAI demand. This increase in demand is achieved by encouraging DAI holders to deposit DAI to the Dai Savings Rate contract &mdash; thus removing it from the market, which should create upwards pressure on the dollar peg. Therefore, raising the Dai Savings Rate should be considered if DAI is trading below the dollar peg.
 
 Increasing the Dai Savings Rate should make DAI a more attractive asset for holders than other stablecoin assets, potentially increasing DAI's market share in comparison to these assets. It may also incentivize additional integrations with DAI and the Maker Protocol in other dApps.
 
