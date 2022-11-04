@@ -4,7 +4,7 @@
 >**Parameter Name:** `Hole`  
 >**Containing Contract:** `MCD_DOG`  
 >**Scope:** System  
->**Technical Docs:** -  
+>**Technical Docs:** [Liquidation 2.0 Module](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
 
 ## Description
 
@@ -14,7 +14,7 @@ The Global Liquidation Limit holds across all vault types. If auctions from ETH-
 
 ## Purpose
 
-The purpose of the Global Liquidation Limit is to prevent the amount of collateral up for auction from exceeding what the market can handle and incurring unacceptable slippage. While the implementation of [Liquidations 2.0](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation) settles many concerns about Keeper liquidity, the collateral purchased at auction still has to be sold off in the broader market.
+The purpose of the Global Liquidation Limit is to prevent the amount of collateral up for auction from exceeding what the market can handle and incurring unacceptable slippage. While the implementation of Liquidations 2.0 settles many concerns about Keeper liquidity, the collateral purchased at auction still has to be sold off in the broader market.
 
 The Global Liquidation Limit also performs an important role during a malicious attack on the protocol, preventing a large percentage of collateral from being moved into auctions at one time.
 
