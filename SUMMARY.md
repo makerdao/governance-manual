@@ -69,7 +69,7 @@
 
 * Core
   * [Governance Pause Delay](parameter-index/core/param-gsm-pause-delay.md)
-  * [System Surplus Buffer](parameter-index/core/param-system-surplus-buffer.md)
+  * [Maximum System Surplus](parameter-index/core/param-system-surplus-buffer.md)
   * [Dai Savings Rate](parameter-index/core/param-dai-savings-rate.md)
   * [Global Liquidation Limit](parameter-index/core/param-global-liquidation-limit.md)
   * [Global Debt Ceiling](parameter-index/core/param-global-debt-ceiling.md)
