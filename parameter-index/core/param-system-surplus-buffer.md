@@ -32,7 +32,7 @@ However, while the buffer is not full FLAP auctions do not take place, and MKR i
 
 Additionally, DAI in the System Surplus Buffer is not circulating in the market. This means that holding large amounts of DAI in the System Surplus Buffer will increase upwards pressure on the DAI peg.
 
-Maintaining too low of a  Maximum System Surplus on the other hand means that FLOP auctions are more likely to take place in the event of bad debt. This makes it more likely that the supply of MKR will increase and dilute the value of current MKR Holders.
+On the other hand, maintaining too low of a Maximum System Surplus means that FLOP auctions are more likely to take place in the event of bad debt. This makes it more likely that the supply of MKR will increase and dilute the value of current MKR Holders.
 
 ## Changes
 
@@ -40,7 +40,7 @@ Adjusting the Maximum System Surplus parameter is a manual process that requires
 
 **Why increase this parameter?**
 
-The primary reason for increasing the Maximum System Surplus is if it is judged that more surplus is needed to minimize the risk of MKR minting in the case of a market event leading to bad debt. In general, the larger the total DAI debt, the larger the Maximum System Surplus should be to balance the risk from volatile collateral.
+The primary reason for increasing the Maximum System Surplus is minimizing the risk of MKR minting in the case of a market event leading to bad debt. In general, the larger the total DAI debt, the larger the Maximum System Surplus should be to balance the risk from volatile collateral.
 
 Another reason to increase the Maximum System Surplus is if for whatever reason it is beneficial to prevent the burning of MKR for a certain time.
 
