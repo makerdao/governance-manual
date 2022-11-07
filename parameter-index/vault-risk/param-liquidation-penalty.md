@@ -28,7 +28,7 @@ The higher the Liquidation Penalty, the less likely it is that a vault user will
 
 ## Changes
 
-Adjusting the Liquidation Penalty parameter is a manual process that requires an executive vote. Changes to the Liquidation Penalty are subject to the [GSM Pause Delay](param-gsm-pause-delay.md).
+Adjusting the Liquidation Penalty parameter is a manual process that requires an executive vote. Changes to the Liquidation Penalty are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
 
 **Why increase a Liquidation Penalty Parameter?**
 
