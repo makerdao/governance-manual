@@ -2,9 +2,9 @@
 
 >**Alias:** Max Auction Duration  
 >**Parameter Name:** `tail`  
->**Containing Contract:** `Clipper`  
+>**Containing Contracts:** `MCD_CLIP_$ILK`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
+>**Technical Docs:** [Liquidations 2.0](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
 
 ## Description
 
@@ -18,7 +18,7 @@ The Maximum Auction Duration parameter overlaps with the Maximum Auction Drawdow
 
 The Maximum Auction Duration parameter exists to prevent auctions from continuing for longer than Maker Governance wishes. It is redundant with the Maximum Auction Drawdown parameter and allows Maker Governance to decide whether to set the maximum duration directly or implicitly via the Auction Price Curve and Maximum Auction Drawdown parameters.
 
-The Maximum Auction Duration would need to be used if the Auction Price Function for a vault type was entirely flat \(offering a fixed price redemption\), which may be true when liquidating stablecoin collateral.
+The Maximum Auction Duration would need to be used if the Auction Price Function for a vault type was entirely flat (offering a fixed price redemption), which may be true when liquidating stablecoin collateral.
 
 ## Trade-offs
 

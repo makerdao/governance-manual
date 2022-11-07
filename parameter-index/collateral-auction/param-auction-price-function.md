@@ -2,9 +2,9 @@
 
 >**Alias:** Price Curve  
 >**Parameter Name:** `calc`  
->**Containing Contract:** `Clipper`  
+>**Containing Contract:** `MCD_CLIP_$ILK`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
+>**Technical Docs:** [Liquidations 2.0](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
 
 
 ## Description

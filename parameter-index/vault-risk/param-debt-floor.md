@@ -2,9 +2,9 @@
 
 >**Alias:** Dust, Minimum Debt  
 >**Parameter Name:** `dust`  
->**Containing Contract:** `Vat`  
+>**Containing Contract:** `MCD_VAT`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/core-module/vat-detailed-documentation)  
+>**Technical Docs:** [Vat Detailed Documenation](https://docs.makerdao.com/smart-contract-modules/core-module/vat-detailed-documentation)  
 
 ## Description
 

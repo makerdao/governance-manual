@@ -2,9 +2,9 @@
 
 >**Alias:**  
 >**Parameter Name:** `buf`  
->**Containing Contract:** `Clipper`  
+>**Containing Contract:** `MCD_CLIP_$ILK`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
+>**Technical Docs:** [Liquidations 2.0](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
 
 
 ## Description
@@ -13,7 +13,7 @@ The Auction Price Multiplier parameter is a multiplier that is applied to the st
 
 Each vault type has its own Auction Price Multiplier that can be adjusted by Maker Governance separately. This multiplier is intended to be greater than 1.0x because Liquidations 2.0 uses falling price auctions. This means that it is generally preferable for the auction price to begin above the market price, and then fall to the correct value over some amount of time.
 
-If a user is liquidated and the OSM \(Oracle Security Module\) price is $100 and the Auction Price Multiplier is set to 1.6x, the starting auction price would be $160.
+If a user is liquidated and the OSM (Oracle Security Module) price is $100 and the Auction Price Multiplier is set to 1.6x, the starting auction price would be $160.
 
 ## Purpose
 
@@ -25,7 +25,7 @@ In a situation where a drop in collateral prices triggers liquidations but is sw
 
 The advantage of the Auction Price Multiplier greater than 1.0x is best illustrated with an example.
 
-Imagine that ETH drops from $1000 to $800 and liquidations are triggered for multiple vaults. Due to the OSM \(Oracle Security Module\), these liquidations are delayed by one hour. In that one hour, the ETH price then increases to $900.
+Imagine that ETH drops from $1000 to $800 and liquidations are triggered for multiple vaults. Due to the OSM (Oracle Security Module), these liquidations are delayed by one hour. In that one hour, the ETH price then increases to $900.
 
 * With an Auction Price Multiplier of 1.0x, the collateral would be sold instantly for $800, $100 below the market price.
 * With an Auction Price Multiplier of 1.2x, the auction would start at $960 and a short time later would drop to $900 and close just below the market price.
@@ -48,7 +48,7 @@ An Auction Price Multiplier parameter might be decreased for a specific vault ty
 
 ## Considerations
 
-The Starting Price for an auction is calculated using the OSM \(Oracle Security Module\) price feed multiplied by the Auction Price Multiplier.
+The Starting Price for an auction is calculated using the OSM (Oracle Security Module) price feed multiplied by the Auction Price Multiplier.
 
 >Page last reviewed: -  
 >Next review due: -  

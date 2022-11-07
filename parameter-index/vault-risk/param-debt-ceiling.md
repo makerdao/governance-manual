@@ -2,9 +2,9 @@
 
 >**Alias:** N/A  
 >**Parameter Name:** `line`  
->**Containing Contract:** `Vat`  
+>**Containing Contract:** `MCD_VAT`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/core-module/vat-detailed-documentation)  
+>**Technical Docs:** [Vat Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/core-module/vat-detailed-documentation)  
 
 ## Description
 
@@ -26,7 +26,7 @@ Increasing the Debt Ceiling parameter for a vault type allows more DAI to be min
 
 However, increasing the Debt Ceiling and allowing DAI to be collateralized heavily by a single asset increases the risk from a black swan event that is localized to that asset.
 
-Having a large amount of 'open space' between the Debt Ceiling for a vault type and the current amount of DAI minted using that vault type represents a risk. In the event of a significant drop in the price of the collateral used within this vault type, holders of that collateral can shift the loss onto the Maker protocol by minting DAI and leaving Maker to deal with the bad collateral. This risk is known as the 'OSM Timing Attack' because it is only possible due to the one hour delay on price updates from the OSM \(Oracle Security Module.\)
+Having a large amount of 'open space' between the Debt Ceiling for a vault type and the current amount of DAI minted using that vault type represents a risk. In the event of a significant drop in the price of the collateral used within this vault type, holders of that collateral can shift the loss onto the Maker protocol by minting DAI and leaving Maker to deal with the bad collateral. This risk is known as the 'OSM Timing Attack' because it is only possible due to the one hour delay on price updates from the OSM (Oracle Security Module.)
 
 Leaving a large amount of 'open space' in the Debt Ceiling for a vault type also means that the DAI supply can change rapidly in a way that may harm the DAI price peg.
 
