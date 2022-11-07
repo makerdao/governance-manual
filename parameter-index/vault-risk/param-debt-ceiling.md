@@ -33,7 +33,7 @@ Leaving a large `gap` in the Debt Ceiling for a vault type also means that the D
 
 Adjusting the Debt Ceiling parameter for a specific vault type can be done via an [Executive Vote](../../governance/on-chain-governance.md). Changes to Debt Ceiling parameters done via an Executive Vote are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md). 
 
-Some vaults use a [Debt Ceiling Instant Access Module (DC-IAM)](../../module-dciam.md) that can change the Debt Ceiling parameter without an Executive Vote.
+Some vaults use a [Debt Ceiling Instant Access Module (DC-IAM)](../../module-index/module-dciam.md) that can change the Debt Ceiling parameter without an Executive Vote.
 
 **Why increase a Debt Ceiling parameter?**
 
