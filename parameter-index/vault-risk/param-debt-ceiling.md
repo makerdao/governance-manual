@@ -21,7 +21,7 @@ The primary purpose of the Debt Ceiling parameter is to allow Governance to cont
 
 ## Trade-offs
 
-Increasing the Debt Ceiling parameter for a vault type allows more DAI to be minted using that vault type. In most cases, this is positive as Maker Governance will almost always want more DAI to exist given that the price peg to $1 can be maintained.
+Increasing the Debt Ceiling parameter for a vault type allows more DAI to be minted using that vault type. In most cases, this is positive as Maker Governance will almost always want more DAI to exist as long as the price peg to $1 can be maintained.
 
 However, increasing the Debt Ceiling and allowing DAI to be collateralized heavily by a single asset increases the risk from a black swan event that is localized to that asset.
 
