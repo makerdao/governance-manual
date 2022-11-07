@@ -4,11 +4,11 @@
 >**Parameter Name:** `chop`  
 >**Containing Contract:** `MCD_DOG`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:** [Liquidation 2.0 Module](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)    
+>**Technical Docs:** [Liquidations 2.0](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)    
 
 ## Description
 
-The Liquidation Penalty parameter controls the fee vault owners must pay when their position is liquidated due to insufficient collateral. Before a vault holder receives any collateral back from the liquidations process, the debt and Liquidation Penalty must be covered by the collateral auction.
+The Liquidation Penalty parameter controls the fee vault owners must pay when their position is liquidated due to insufficient collateral. For a vault holder to receive any collateral back from the liquidations process, the debt and Liquidation Penalty must be covered by the collateral auction.
 
 Each vault type has its own Liquidation Penalty that can be adjusted by Maker Governance. Note that the Liquidation Penalty applies collectively to all vaults created using a specific vault type, rather than to individual vaults.
 
