@@ -2,13 +2,13 @@
 
 >**Alias:** Liquidation Penalty  
 >**Parameter Name:** `chop`  
->**Containing Contract:** `Dog`  
+>**Containing Contract:** `MCD_DOG`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:** -  
+>**Technical Docs:** [Liquidation 2.0 Module](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)    
 
 ## Description
 
-The Liquidation Penalty parameter controls the fee vault owners must pay when their position is liquidated due to insufficient collateral. For a vault holder to receive any collateral back from the liquidations process, the debt and Liquidation Penalty must be covered by the collateral auction.
+The Liquidation Penalty parameter controls the fee vault owners must pay when their position is liquidated due to insufficient collateral. Before a vault holder receives any collateral back from the liquidations process, the debt and Liquidation Penalty must be covered by the collateral auction.
 
 Each vault type has its own Liquidation Penalty that can be adjusted by Maker Governance. Note that the Liquidation Penalty applies collectively to all vaults created using a specific vault type, rather than to individual vaults.
 
@@ -28,7 +28,7 @@ The higher the Liquidation Penalty, the less likely it is that a vault user will
 
 ## Changes
 
-Adjusting the Liquidation Penalty parameter is a manual process that requires an executive vote. Changes to the Liquidation Penalty are subject to the GSM Pause Delay.
+Adjusting the Liquidation Penalty parameter is a manual process that requires an executive vote. Changes to the Liquidation Penalty are subject to the [GSM Pause Delay](param-gsm-pause-delay.md).
 
 **Why increase a Liquidation Penalty Parameter?**
 
@@ -48,8 +48,8 @@ The Liquidation Penalty should always be higher than the sum of liquidation rewa
 
 Particularly important to vault holders is the notion that the Liquidation Penalty represents the minimum loss during a liquidation event, not the maximum. As vault holders will only receive collateral back in excess of the debt liquidated and the Liquidation Penalty, there is no guarantee the auction of collateral will be enough to cover both.
 
-During an Emergency Shutdown, no new collateral auctions may be started. All auctions underway during an emergency shutdown will be subject to the Liquidation Penalty parameter with no special considerations. 
+During an [Emergency Shutdown](https://docs.makerdao.com/smart-contract-modules/shutdown), no new collateral auctions may be started. All auctions underway during an emergency shutdown will be subject to the Liquidation Penalty parameter with no special considerations. 
 
->Page last reviewed: -  
->Next review due: -  
+>Page last reviewed: 2022-11-04  
+>Next review due: 2023-11-04  
 
