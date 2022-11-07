@@ -20,9 +20,9 @@ Trust has taken on a bad name in the crypto-space. Frequently this is for a good
 
 **Delegation is an expression of the MKR Holder's trust in the delegate**
 
-The fundamental trade-off made by MKR Holders when delegating is to benefit from the increased efficiency of governance, at the cost of trust and centralization. These costs are unavoidable, though they can be minimized by delegating responsibly.
+When delegating, the fundamental trade-off made by MKR Holders is to benefit from an increased efficiency of governance, at the cost of increased trust requirements and centralization. These costs are unavoidable, though they can be minimized by delegating responsibly.
 
-Ultimately the Maker Protocol (and the DAO) needs to have efficient enough governance to operate. If Maker cannot operate effectively, then the MKR token will lose value. Likewise, if delegates collude and attack the Maker Protocol, then the MKR token will lose value.
+Ultimately the Maker Protocol (and the DAO) needs effective governance in order to operate successfully. If Maker cannot operate successfully, then the MKR token will lose value. Likewise, if delegates collude and attack the Maker Protocol, then the MKR token will lose value.
 
 MKR Holders must create a balance between these two extremes that results in an operable protocol while minimizing the risk of governance attack.
 
@@ -54,7 +54,7 @@ There are several items of note that can be taken from this table:
 To simplify this somewhat, if you are considering delegating your MKR. Ask yourself the following questions:
 
 * Does this delegate hold MKR? Is it locked for the duration of the delegate contract lifespan?
-* Is this delegate paid by the protocol or an external actor? If the latter, who, and what is their motivation?
+* Is this delegate paid by the protocol or an external actor? If the latter, by whom, and what is their motivation?
 * Is this delegate reliant on the Maker Protocol for their financial stability?
 * Does this delegate have a reputation on the line? Do they care about their reputation?
 * Does this delegate enjoy being a delegate? Have they consistently enjoyed it in the past?
@@ -69,7 +69,7 @@ Many of these questions are hard to answer, hence the requirements for trust:
 
 ## Recognition
 
-The split into Recognized and Shadow Delegates has a few advantages. One of which is the integration of reputational collateral for the Recognized Delegates. By requirement, they are publicly known. This gives them an incentive to do a good job with any MKR delegated to them on pain of damage to their reputation.
+The split into Recognized and Shadow Delegates has a few advantages, one of which is the integration of reputational collateral for the Recognized Delegates. By requirement, they are publicly known; this gives them an incentive to do a good job with any MKR delegated to them on pain of damage to their reputation.
 
 **Recognized Delegates are safer than Shadow Delegates (but not by much).**
 
@@ -120,7 +120,7 @@ MKR token holders must judge when and if it is appropriate to delegate to Core U
 
 The cost-benefit calculation for the governance of the Maker Protocol has never been particularly favorable to MKR holders. There is much to govern and much to keep up with. Delegation represents a long-awaited improvement to this calculus.
 
-As a general rule governance safety and effectiveness decrease as you go down the following scale:
+As a general rule, governance safety and effectiveness decrease as you go down the following scale:
 * **Responsible Voting** (Best Action)
 * **Responsible Delegation** (Best Action for Cost)
 * **Apathy**
