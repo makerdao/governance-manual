@@ -49,7 +49,7 @@ If Maker Governance wants to increase the Liquidation Ratio for a vault type, a 
 
 One reason for decreasing the Liquidation Ratio for a vault type is that of monetary policy. Maker Governance may wish to encourage further minting of DAI, and consider the additional risk taken to be a reasonable trade-off to achieve this goal.
 
-Alternatively, a Liquidation Ratio might be decreased to increment the competitiveness (in terms of capital efficiency) of a vault type when compared to the wider market.
+Alternatively, a Liquidation Ratio might be decreased to increase the competitiveness (in terms of capital efficiency) of a vault type when compared to the wider market.
 
 Finally, Maker Governance or the Risk Domain Team may have judged that the collateral in question has become less risky, such that a lower Liquidation Ratio can be supported safely.
 
