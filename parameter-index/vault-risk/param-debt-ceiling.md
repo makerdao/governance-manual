@@ -2,9 +2,9 @@
 
 >**Alias:** N/A  
 >**Parameter Name:** `line`  
->**Containing Contract:** `Vat`  
+>**Containing Contract:** `MCD_VAT`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/core-module/vat-detailed-documentation)  
+>**Technical Docs:** [Vat Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/core-module/vat-detailed-documentation)  
 
 ## Description
 
@@ -14,11 +14,10 @@ Each vault type has its own Debt Ceiling that can be adjusted by Maker Governanc
 
 Additionally, there is a Global Debt Ceiling parameter that is not covered in this entry. For a user to mint DAI from their vault, there must be space available in both the vault type's Debt Ceiling and the Global Debt Ceiling.
 
-The Debt Ceiling for each vault type is expressed in absolute rather than relative terms, so 1,000,000 DAI rather than 10% of the Global Debt Ceiling.
 
 ## Purpose
 
-The primary purpose of the Debt Ceiling parameter is to allow Governance to control the amount of DAI that can be created using a certain vault type. Controlling the amount of DAI minted from a vault type limits the risk exposure to the collateral used within that vault type. It also limits the risk from the combination of system parameters that are used within a vault type - for example, a very low liquidation ratio combined with high stability fees.
+The primary purpose of the Debt Ceiling parameter is to allow Governance to control the amount of DAI that can be created using a certain vault type. Controlling the amount of DAI minted from a vault type limits the risk exposure to the collateral used within that vault type. It also limits the risk from the combination of system parameters that are used within a vault type - for example, a very low [liquidation ratio](param-liquidation-ratio.md) combined with high [stability fees](param-stability-fee.md).
 
 ## Trade-offs
 
@@ -26,29 +25,31 @@ Increasing the Debt Ceiling parameter for a vault type allows more DAI to be min
 
 However, increasing the Debt Ceiling and allowing DAI to be collateralized heavily by a single asset increases the risk from a black swan event that is localized to that asset.
 
-Having a large amount of 'open space' between the Debt Ceiling for a vault type and the current amount of DAI minted using that vault type represents a risk. In the event of a significant drop in the price of the collateral used within this vault type, holders of that collateral can shift the loss onto the Maker protocol by minting DAI and leaving Maker to deal with the bad collateral. This risk is known as the 'OSM Timing Attack' because it is only possible due to the one hour delay on price updates from the OSM \(Oracle Security Module.\)
+Having a large amount of open space known as `gap` between the Debt Ceiling for a vault type and the current amount of DAI minted using that vault type represents a risk. In the event of a significant drop in the price of the collateral used within this vault type, holders of that collateral can shift the loss onto the Maker protocol by minting DAI and leaving Maker to deal with the bad collateral. This risk is known as the 'OSM Timing Attack' because it is only possible due to the one hour delay on price updates from the OSM (Oracle Security Module.)
 
-Leaving a large amount of 'open space' in the Debt Ceiling for a vault type also means that the DAI supply can change rapidly in a way that may harm the DAI price peg.
+Leaving a large `gap` in the Debt Ceiling for a vault type also means that the DAI supply can change rapidly in a way that may harm the DAI price peg.
 
 ## Changes
 
-Adjusting the Debt Ceiling parameter for a specific vault type is a manual process that requires an executive vote. Changes to Debt Ceiling parameters are subject to the GSM Pause Delay.
+Adjusting the Debt Ceiling parameter for a specific vault type can be done via an [Executive Vote](../../governance/on-chain-governance.md). Changes to Debt Ceiling parameters done via an Executive Vote are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md). 
 
-**Why increase a Debt Ceiling Parameter?**
+Some vaults use a [Debt Ceiling Instant Access Module (DC-IAM)](../../module-index/module-dciam.md) that can change the Debt Ceiling parameter without an Executive Vote.
+
+**Why increase a Debt Ceiling parameter?**
 
 The primary reason for increasing the Debt Ceiling for a vault type is to allow more DAI to be minted using that vault type. This is usually positive, because it means additional fees captured by the protocol, and increased DAI supply.
 
 This reason is usually only valid if it is predicted that the current Debt Ceiling will be reached and will prevent further minting.
 
-**Why decrease a Debt Ceiling Parameter?**
+**Why decrease a Debt Ceiling parameter?**
 
 The primary reason for decreasing the Debt Ceiling for a Vault type is to decrease the risk and impact of the 'OSM Timing Attack' described above.
 
 A Debt Ceiling can also be lowered below the currently utilized amount of debt for the vault type to deprecate or temporarily prevent DAI from being minted using that vault type.
 
-The parameter can also be used to encourage diversification between vault types that are based on similar assets. For example, decreasing the Debt Ceiling on USDC-A could be used to shift stablecoin usage towards TUSD-A or PAX-A.
+The parameter can also be used to encourage diversification between vault types that are based on similar assets. For example, decreasing the Debt Ceiling on rETH could be used to shift staked ETH usage towards wstETH.
 
-The Debt Ceiling might also be lowered as an attempt to affect monetary policy, though in the past Maker Governance has preferred to use the stability for this purpose.
+The Debt Ceiling might also be lowered as an attempt to affect monetary policy, though in the past Maker Governance has preferred to use the stability fee for this purpose.
 
 ## Considerations
 
@@ -56,6 +57,6 @@ The Debt Ceiling for a vault type can be exceeded as stability fees accrue to va
 
 If a Debt Ceiling parameter for a vault type is dropped below the current amount of DAI minted using that vault type, this does not have any negative effects beyond preventing further mints from vaults using that vault type.
 
->Page last reviewed: -  
->Next review due: -  
+>Page last reviewed: 2022-11-07  
+>Next review due: 2023-11-07  
 
