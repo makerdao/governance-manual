@@ -9,13 +9,13 @@
 
 The DAI Direct Deposit Module (D3M) allows DAI to be minted and deposited in other crypto lending protocols on the Ethereum blockchain in exchange for a deposit/collateral token from that lending protocol.
 
-In essence, this allows Maker to distribute newly minted DAI indirectly via other lending protocols while ensuring that DAI remains fully backed. 
+In essence, this allows Maker to distribute newly minted DAI indirectly through other lending protocols while ensuring that DAI remains fully backed. 
 
 For example, the Aave D3M deposits DAI into the Aave protocol in exchange for aDAI tokens that represent deposits in Aave. The aDAI tokens are then used as collateral against the minted DAI. Effectively, this means that collateral deposited by Aave users that borrow DAI is indirectly used to maintain DAI's backing in the Maker Protocol. 
 
 ## Purpose
 
-The primary purpose of the D3M is to expand the reach of the DAI stablecoin by providing DAI directly to other lending protocols. In addition to this, it allows the Maker Protocol to earn a yield on the deposited DAI in these protocols, providing a source of income. 
+The primary purpose of the D3M is to expand the reach of the DAI stablecoin by providing DAI directly to other lending protocols. In addition, it allows the Maker Protocol to earn a yield on the DAI deposited in these protocols, thus creating a source of income.
 
 Further, it allows Maker to undercut centralized stablecoins on these lending protocols. By providing DAI directly on other lending protocols, Maker can ensure that the borrow rate for DAI on those protocols is almost always below the borrow rate for centralized stablecoins. 
 
@@ -24,7 +24,7 @@ Finally, it is likely that the D3M module is triggered during volatile markets a
 ## Key Parameters
 
 ### Debt Ceiling (line) 
-The Debt Ceiling parameter for the DAI Direct Deposit Module is substantially identical to the Debt Ceiling parameter for vault types. It controls the maximum amount of DAI that can be minted via the D3M. A D3M Debt Ceiling may also be controlled by the [Debt Ceiling Instant Access Module](../module-index/module-dciam.md).
+The Debt Ceiling parameter for the DAI Direct Deposit Module is substantially identical to the [Debt Ceiling](https://manual.makerdao.com/parameter-index/vault-risk/param-debt-ceiling) parameter for vault types. It controls the maximum amount of DAI that can be minted via the D3M. A D3M Debt Ceiling may also be controlled by the [Debt Ceiling Instant Access Module](https://manual.makerdao.com/module-index/module-dciam).
 
 ### Target Borrow Rate (bar) 
 The Target Borrow Rate allows Maker Governance to set the 'ideal' rate for borrowing DAI on the target lending protocol. This is done by adding or removing an amount of DAI from the lending protocol such that the borrow rate on the target protocol becomes equal to the Target Borrow Rate (provided the debt ceiling constraint allows it.) 
@@ -35,7 +35,7 @@ Conversely, if the borrowing interest rate on the target lending protocol is low
 
 The function to trigger this mechanism is permissionless and is called by bots run by MakerDAO at regular intervals.
 
-It is possible to deactivate the Aave D3M by setting the Target Borrow Rate to 0. Note that while setting the Target Borrow Rate to 0 might intuitively suggest that the Aave D3M will utilize its full debt ceiling, it is a pre-programmed state in the D3M code that will de-activate the D3M entirely. The Target Borrow Rate may be set to 0 using a `DIRECT_MOM`, this will bypass the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) and allow this change to take effect on the execution of an Executive Vote.
+It is possible to deactivate the Aave D3M by setting the Target Borrow Rate to 0. Note that while setting the Target Borrow Rate to 0 might intuitively suggest that the Aave D3M will utilize its full debt ceiling, it is a pre-programmed state in the D3M code that will de-activate the D3M entirely. The Target Borrow Rate may be set to 0 using a `DIRECT_MOM`, this will bypass the [GSM Pause Delay](https://manual.makerdao.com/parameter-index/core/param-gsm-pause-delay) and allow this change to take effect on the execution of an Executive Vote.
 
 ## Meta Parameters
 
@@ -91,6 +91,6 @@ While the D3M module can be called by anyone, MakerDAO's Tech-Ops Core Unit runs
 
 Recursive lending is common on lending protocols due to yield farming. This is where a user deposits DAI as collateral, borrows DAI from the protocol, and deposits the borrowed DAI back into the protocol. This recursive loop can be repeated several times and inflates the total DAI supply figure. The maximum share calculation for the D3M debt ceiling only takes into account real DAI supply without recursive lending. 
 
->Page last reviewed: -  
->Next review due: -  
+>Page last reviewed: 2022-11-07  
+>Next review due: 2023-11-07 
 
