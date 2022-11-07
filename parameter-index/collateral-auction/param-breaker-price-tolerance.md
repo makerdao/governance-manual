@@ -24,11 +24,11 @@ It may be easier to understand this parameter in terms of the maximum percentage
 
 If Governance feels the protocol should be protected from a 40% drop in a particular vault type, then the appropriate setting for the Breaker Price Tolerance parameter is 0.6.
 
-In the above example, anything past a 40% decline from the current OSM price could result in the circuit breaker being called.
+In the above example, anything past a 40% decline from the current OSM price could result in the breaker being called.
 
 ## Purpose
 
-The Breaker Price Tolerance is designed to protect against a sharp decline in the OSM price feed. Liquidations 2.0 increases the severity of attacks on the OSM price feed because of the switch to falling price auctions. Because auctions now start at their highest price point and move downward - catastrophic losses may occur if the auction were to start significantly below market rates.
+The Breaker Price Tolerance is designed to protect against a sharp decline in the OSM price feed. Liquidations 2.0 increases the severity of attacks on the OSM price feed because of the switch to falling price auctions. Because auctions now start at their highest price point and move downward, catastrophic losses may occur if the auction were to start significantly below market rates.
 
 While this parameter is designed to combat an Oracle attack, it also offers a further safety net during a legitimate market downturn.
 
@@ -42,11 +42,11 @@ Conversely, setting the Breaker Price Tolerance too low is similar to not having
 
 ## Changes
 
-Adjusting the Breaker Price Tolerance parameter is a manual process that requires an executive vote. Changes to the Breaker Price Tolerance are subject to the GSM Pause Delay.
+Adjusting the Breaker Price Tolerance parameter is a manual process that requires an executive vote. Changes to the Breaker Price Tolerance are subject to the [GSM Pause Delay](../Core/param-gsm-pause-delay.md).
 
 **Why increase this parameter?**
 
-The Breaker Price Tolerance parameter should be increased when Governance wants to limit the percentage drop of a particular asset before the breaker can be called. That at its most extreme \(setting this parameter to 1.0\), any price drop would enable the calling of the circuit breaker. The closer the Breaker Price Tolerance parameter is set to one, the more likely it is that the breaker can be called.
+The Breaker Price Tolerance parameter should be increased when Governance wants to limit the percentage drop of a particular asset before the breaker can be called. That at its most extreme (setting this parameter to 1.0), any price drop would enable the calling of the breaker. The closer the Breaker Price Tolerance parameter is set to one, the more likely it is that the breaker can be called.
 
 **Why decrease this parameter?**
 
@@ -56,8 +56,10 @@ If Governance wishes to allow for more price volatility from a particular vault 
 
 Re-enabling liquidation auctions on a vault type after the breaker has been triggered requires an executive vote. Importantly though, re-enabling liquidation auctions _does not_ require governance to wait for the GSM Pause Delay.
 
-During an Emergency Shutdown, the Breaker Price Tolerance parameter is not relevant as no new auctions may be triggered.
+If the conditions for its execution are satisfied and the breaker is called, it will set the liquidation stage for the vault type to 1 (new liquidations disabled) as per the [Four-Stage Liquidation Circuit Breaker](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation#four-stage-liquidation-circuit-breaker).
 
->Page last reviewed: -  
->Next review due: -  
+During an [Emergency Shutdown](https://docs.makerdao.com/smart-contract-modules/shutdown), the Breaker Price Tolerance parameter is not relevant as no new auctions may be triggered.
+
+>Page last reviewed: 2022-11-07  
+>Next review due: 2022-11-07  
 
