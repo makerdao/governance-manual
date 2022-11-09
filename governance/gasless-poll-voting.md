@@ -85,3 +85,6 @@ The gov polling db ETL service runs on both networks scraping blocks, listening 
 The frontend uses graphQL to request the vote events from the API function in the database, then displays the results in the UI, indicating which chain the vote is from, and a link to the transaction.
 
 ![Screen Shot 2022-09-27 at 3 28 50 PM](https://user-images.githubusercontent.com/9693447/200289935-5047f1af-1fe3-4b0e-b20e-4f775dde390c.jpg)
+
+>Page last reviewed: 2022-11-09  
+>Next review due: 2023-11-09 
