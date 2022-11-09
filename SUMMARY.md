@@ -25,6 +25,7 @@
 
 * [Voting](governance/voting-in-makerdao.md)
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
+  * [Gasless Poll Voting](governance/gasless-poll-voting.md)
   * [On-Chain Governance](governance/on-chain-governance.md)
   * [Off-Chain Governance](governance/off-chain-governance.md)
   * [Approval Voting Guide](governance/approval-voting-guide.md)
