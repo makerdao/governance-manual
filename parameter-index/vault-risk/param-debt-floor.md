@@ -26,7 +26,7 @@ Additionally, the higher the Debt Floor is set, the harder it becomes to test th
 
 ## Changes
 
-Adjusting the Debt Floor parameter for a specific vault type is a manual process that requires an [Executive Vote](../../governance/on-chain-governance.md). Changes to Debt Floor parameters are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
+Adjusting the Debt Floor parameter for a specific vault type is a manual process that requires an executive vote. Changes to Debt Floor parameters are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
 
 **Why increase this parameter?** Maker Governance may wish to increase this parameter if gas prices on the Ethereum network have been at sustained high rates. This indicates that Keepers may have trouble liquidating small vaults because the cost of gas will exceed the relative reward of bidding on collateral in the case of smaller vaults.
 
