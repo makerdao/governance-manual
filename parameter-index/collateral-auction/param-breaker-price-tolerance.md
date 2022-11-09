@@ -26,7 +26,7 @@ If Governance feels the protocol should be protected from a 40% drop in a partic
 
 In the above example, anything past a 40% decline from the current OSM price could result in the breaker being triggered, preventing liquidations.
 
-Note that the breaker is not automatic and needs to be triggered by some entity (either human or bot) before the Breaker Price Tolerance parameter has any effect.
+Note that the breaker is not automatic and needs to be triggered by some entity (either human or bot).
 
 ## Purpose
 
