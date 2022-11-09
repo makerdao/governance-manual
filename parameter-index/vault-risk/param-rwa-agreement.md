@@ -2,7 +2,7 @@
 
 >**Alias:** Asset Document Hash   
 >**Parameter Name:** `doc`  
->**Containing Contract:** `RwaLiquidationOracle`  
+>**Containing Contract:** `MIP21_LIQUIDATION_ORACLE`  
 >**Scope:** MIP21/Ilk (RWA)  
 >**Technical Docs:** [MIP21](https://mips.makerdao.com/mips/details/MIP21)  
 
@@ -16,7 +16,7 @@ By recording the contents of the RWA Agreement to the blockchain, a clear and tr
 This parameter is only used in RWA vaults using the MIP21-defined vault structure.
 
 ## Changes
-Changing the RWA Agreement parameter can be done through a manual process that requires an Executive Vote. Changes to the RWA Agreement parameter are subject to the GSM Pause Delay.
+Modifying the RWA Agreement can be done through a manual process that requires an executive vote. Changes to the RWA Agreement are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md). 
 
 Maker Governance should make changes to the parameter to reflect changes in the underlying contractual documentation.
 
