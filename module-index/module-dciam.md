@@ -35,7 +35,7 @@ Three key parameters for the DC-IAM are discussed below. Each of these parameter
 
 The Maximum Debt Ceiling refers to the maximum value for Debt Ceiling that the DC-IAM will allow in the given vault type. This parameter is also named `line` within the smart contract. When using the DC-IAM to manage the Debt Ceiling of a vault type, this parameter essentially replaces the [Debt Ceiling](https://manual.makerdao.com/parameter-index/vault-risk/param-debt-ceiling) parameter for that vault type. Rather than Governance setting the Debt Ceiling directly, they will need to set the Maximum Debt Ceiling in the DC-IAM.
 
-### Target Available Debt \(`gap`\)
+### Target Available Debt (`gap`)
 
 The Target Available Debt parameter controls how much of a gap the DC-IAM aims to maintain between the current debt usage and the Debt Ceiling of the vault type.
 
