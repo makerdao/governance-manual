@@ -2,7 +2,7 @@
 
 >**Alias:** Price Curve  
 >**Parameter Name:** `calc`  
->**Containing Contract:** `MCD_CLIP_$ILK`  
+>**Containing Contracts:** `MCD_CLIP_$ILK`  
 >**Scope:** Vault Type (Ilk)  
 >**Technical Docs:** [Liquidations 2.0](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
 
@@ -35,12 +35,12 @@ Controls the length of time between price drops. A smaller step means a smoother
 
 ### Linear Decrease
 
-In an auction utilizing a Linear Decrease Auction Price Function, the auction will start at a price defined by the Auction Price Multiplier. The price will decrease linearly over time until it reaches zero. The time that it takes for an auction to reach zero is controlled by the `tau` function.
+In an auction utilizing a Linear Decrease Auction Price Function, the auction will start at a price defined by the Auction Price Multiplier. The price will decrease linearly over time until it reaches zero. The time that it takes for an auction to reach zero is controlled by the `tau` parameter.
 
 #### tau
 A value expressed in seconds which controls how long it takes for the price of a Linear Decrease auction to reach zero. This controls the rate of fall in the price of the collateral being auctioned. A higher `tau` will result in a slower reduction in the price of collaterals, whereas a lower `tau` will cause faster falls in price.
 
-The Linear Decrease function is also bounded by the [Maximum Auction Duration parameter](param-max-auction-duration.md). This can be used to set a lower bound on the price accepted by the Maker Protocol. Once this value has been reached, the price will stop falling. Keepers can restart the auction from the initial price at this point.
+The Linear Decrease function is also bounded by the [Maximum Auction Duration](param-max-auction-duration.md) parameter. This can be used to set a lower bound on the price accepted by the Maker Protocol. Once this value has been reached, the price will stop falling. Keepers can restart the auction from the initial price at this point.
 
 ## Trade-offs
 
@@ -52,7 +52,7 @@ An auction price falling too slowly may increase the auction slippage and could 
 
 ## Changes
 
-Adjusting an Auction Price Function parameter is a manual process that requires an executive vote. Changes to an Auction Price Function are subject to the [GSM Pause Delay](param-gsm-pause-delay.md).
+Adjusting an Auction Price Function parameter is a manual process that requires an executive vote. Changes to an Auction Price Function are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
 
->Page last reviewed: 11-07-2022   
->Next review due: 11-07-2023  
+>Page last reviewed: 2022-11-10  
+>Next review due: 2023-11-10  
