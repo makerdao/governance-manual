@@ -2,7 +2,7 @@
 
 >**Alias:**  
 >**Parameter Name:** `buf`  
->**Containing Contract:** `MCD_CLIP_$ILK`  
+>**Containing Contracts:** `MCD_CLIP_$ILK`  
 >**Scope:** Vault Type (Ilk)  
 >**Technical Docs:** [Liquidations 2.0](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
 
@@ -17,7 +17,7 @@ For example, if a user is liquidated and the OSM (Oracle Security Module) price 
 
 ## Purpose
 
-The primary purpose of the Auction Price Multiplier is so that, when falling price collateral auctions begin, the Maker Protocol does not begin the auction lower than the current market price in the general case. An ideal outcome for the Maker Protocol is for collateral auctions to start slightly above the market price and then fall to the market price as quickly as possible.
+In the general case, when falling price collateral auctions commence, the Auction Price Multiplier stops the Maker Protocol from beginning the auction lower than the current market price. An ideal outcome for the Maker Protocol is for collateral auctions to start slightly above the market price and then fall to the market price as quickly as possible.
 
 ## Trade-offs
 
@@ -36,7 +36,7 @@ This negative effect of the Auction Price Multiplier can be mitigated by setting
 
 ## Changes
 
-Adjusting an Auction Price Multiplier parameter for a specific vault type is a manual process that requires an executive vote. Changes to Auction Price Multiplier parameters are subject to the [GSM Pause Delay](param-gsm-pause-delay.md).
+Adjusting an Auction Price Multiplier parameter for a specific vault type is a manual process that requires an executive vote. Changes to Auction Price Multiplier parameters are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
 
 **Why increase this parameter?**
 
@@ -50,5 +50,5 @@ An Auction Price Multiplier parameter might be decreased for a specific vault ty
 
 The Starting Price for an auction is calculated using the OSM (Oracle Security Module) price feed multiplied by the Auction Price Multiplier.
 
->Page last reviewed: 11-07-2022  
->Next review due: 11-07-2023  
+>Page last reviewed: 2022-11-10
+>Next review due: 2023-11-10  
