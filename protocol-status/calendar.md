@@ -1,4 +1,4 @@
-# Google Calendar
+# Official MakerDAO Google Calendar
 
 The following is an embed of the Official MakerDAO Calendar which is maintained by the GovAlpha and GovComms Core Units.
 
