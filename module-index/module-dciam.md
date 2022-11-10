@@ -8,7 +8,7 @@
 
 The Debt Ceiling Instant Access Module allows any user to adjust the [Debt Ceiling](https://manual.makerdao.com/parameter-index/vault-risk/param-debt-ceiling) of a supported vault type according to rules defined in the DC-IAM smart-contract logic and parameters set by Maker Governance.
 
-The rules defined in the DC-IAM smart-contract encourage an amount of 'open space' between the current debt usage and the Debt Ceiling of a vault type. The DC-IAM holds three parameters that can be set by governance for each vault type \(such as ETH-A.\).
+The rules defined in the DC-IAM smart-contract encourage an amount of 'open space' between the current debt usage and the Debt Ceiling of a vault type. The DC-IAM holds three parameters that can be set by governance for each vault type (such as ETH-A.).
 
 For example, if the ETH-A Debt Ceiling is currently 100 DAI, and 90 DAI is drawn as debt, the DC-IAM could be used to increase the ETH-A debt ceiling to 110 DAI, enforcing a 20 DAI gap between the usage and the ceiling. If the ETH-A Debt Ceiling then drops to 50 DAI, a user could trigger the DC-IAM and reduce the debt ceiling to 70 DAI, still enforcing the 20 DAI gap between usage and the ceiling.
 
