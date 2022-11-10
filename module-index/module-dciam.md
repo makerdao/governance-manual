@@ -31,7 +31,7 @@ The one minor downside is that the DC-IAM enables a griefing attack on the Debt 
 
 Three key parameters for the DC-IAM are discussed below. Each of these parameters can be set for each vault type.
 
-### Maximum Debt Ceiling \(`line`\)
+### Maximum Debt Ceiling (`line`)
 
 The Maximum Debt Ceiling refers to the maximum value for Debt Ceiling that the DC-IAM will allow in the given vault type. This parameter is also named `line` within the smart contract. When using the DC-IAM to manage the Debt Ceiling of a vault type, this parameter essentially replaces the [Debt Ceiling](https://manual.makerdao.com/parameter-index/vault-risk/param-debt-ceiling) parameter for that vault type. Rather than Governance setting the Debt Ceiling directly, they will need to set the Maximum Debt Ceiling in the DC-IAM.
 
