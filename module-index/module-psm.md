@@ -52,7 +52,7 @@ The percentage fee applied when trading DAI into the PSM in exchange for the col
 
 ## User Interaction
 
-Users can directly call the swap functions on a PSM contract, but it is hoped that PSM's will be integrated into DEX aggregators such that trades will take place when a PSM can offer the best market price.
+Users can directly call the swap functions on a PSM contract, but it is hoped that PSMs will be integrated into DEX aggregators such that trades will take place when a PSM can offer the best market price.
 
 ## Considerations
 
@@ -62,6 +62,6 @@ A PSM is a regular vault type with the exception that it can only be accessed by
 
 A PSM is only really possible with an asset that is pegged to the same asset as DAI. Offering 1-to-1 swaps requires a liquidation ratio of 100%. If a PSM with a non-stable asset is attempted, it would run the risk of becoming undercollateralized as soon as the market price of the collateral asset decreased.
 
->Page last reviewed: -  
->Next review due: -  
+>Page last reviewed: 18/09/2022  
+>Next review due: 18/09/2023
 

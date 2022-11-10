@@ -27,9 +27,9 @@ Debt Auctions are used to recapitalize the Maker Protocol by minting and auction
 The Auction Duration (Flop) parameter allows Maker Governance to adjust the maximum duration for debt auctions in order to ensure robust keeper participation. It also helps to ensure a predictable time frame for the protocol to recover from an undercollateralized state. 
 
 ## Trade-offs
-The Auction Duration (Flap) makes a trade-off between ensuring enough time for keepers to deploy their capital while limiting their market risk. A larger Auction Duration (Flop) gives keepers more time to participate in auctions. A smaller Auction Duration (Flop) means that keepers are less likely to be affected by negative price movements of the MKR Token during the auction process. Maximizing the number of participating bidders results in more efficient auctions and less MKR being minted.
+The Auction Duration (Flop) makes a trade-off between ensuring enough time for keepers to deploy their capital while limiting their market risk. A larger Auction Duration (Flop) gives keepers more time to participate in auctions. A smaller Auction Duration (Flop) means that keepers are less likely to be affected by negative price movements of the MKR Token during the auction process. Maximizing the number of participating bidders results in more efficient auctions and less MKR being minted.
 
-However, an Auction Duration (Flop) that is too large could result in a situation where there are many auctions happening simultaneously. If the Auction Duration (Flop) is too small, then keepers may not have sufficient time to organize their resources and place bids. Either of these situations could result in inefficient auctions that increase the amount of MKR that is minted.
+An Auction Duration (Flop) that is too large could result in a situation where there are many auctions happening simultaneously. If the Auction Duration (Flop) is too small, then keepers may not have sufficient time to organize their resources and place bids. Either of these situations could result in inefficient auctions that increase the amount of MKR that is minted.
 
 The parameter will also have an effect on how long it takes to recapitalize the Maker Protocol in the event that the protocol ends up with bad debt, which may be important depending on the severity of the situation.
 
@@ -53,6 +53,6 @@ The auction will only last 30 minutes, making the Bid Duration (Flop) irrelevant
 
 The Auction Duration (Flap) parameter fulfills the same role as this parameter in Surplus Auctions.
 
->Page last reviewed: -  
->Next review due: -  
+>Page last reviewed: 24/09/2022  
+>Next review due: 24/09/2023
 
