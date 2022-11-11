@@ -1,8 +1,9 @@
 # Token Streaming
 
 >**Alias:** Vesting Module, Vest  
->**Contract Names:** DSSVestMintable, DssVestSuckable, DssVestTransferrable  
->**Scope:** Three separate contracts that cover: minted MKR (DSSVestMintable), minted DAI (DssVestSuckable), and any ERC20 (DssVestTransferrable).  
+>**Contract Names:** `MCD_VEST_DAI`, `MCD_VEST_MKR`, `MCD_VEST_MKR_TREASURY`,`MCD_VEST_DAI_LEGACY`  
+>**Scope:** System  
+>**Technical docs:** TBD   
 
 ## Description
 
@@ -32,7 +33,7 @@ The recipients of the streamed funds can call a function on the relevant smart c
 3. Prior to 6 months passing, the contributor will not be able to redeem any MKR from the vesting contract.
 4. Once 6 months have expired, the contributor will be able to redeem 100 MKR from the vesting contract.
 5. After an additional month has passed, the contributor will be able to claim ~16.67 MKR from the vesting contract.
-6. After 12 months, the contributor may apply for the remainder of the MKR.
+6. After 12 months have passed, the contributor will be able to claim the remainder of the MKR.
 
 ## Purpose
 
