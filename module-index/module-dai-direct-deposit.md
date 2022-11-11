@@ -1,7 +1,7 @@
 # Dai Direct Deposit
 
 >**Alias:** D3M, DDM, Direct DAI Deposit  
->**Contract Name:** `MCD_JOIN_DIRECT_AAVEV2_DAI`  
+>**Contract Name:** `MCD_JOIN_DIRECT_AAVEV2_DAI`, `MCD_CLIP_DIRECT_AAVEV2_DAI`, `MCD_CLIP_CALC_DIRECT_AAVEV2_DAI`, `DIRECT_MOM`  
 >**Scope:** System  
 >**Technical docs:** TBD  
 
