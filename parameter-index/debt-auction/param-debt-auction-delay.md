@@ -24,7 +24,7 @@ Once a vault is liquidated, if the vault's debt has not been covered within two 
 
 ## Purpose
 
-The Debt Auction Delay exists to provide time for Keepers to bid on liquidated vaults via Collateral Auctions. If the Debt Auction Delay is set to zero, all liquidations will proceed instantly to Debt Auctions, as well as triggering a Collateral Auction, which would mint unnecessary amounts of MKR.
+The Debt Auction Delay exists to provide time for Keepers to bid on liquidated vaults via Collateral Auctions. If the Debt Auction Delay is set to zero, each liquidation would instantly trigger a Debt Auction, as well as a Collateral Auction, which would mint unnecessary amounts of MKR.
 
 ## Trade-offs
 
