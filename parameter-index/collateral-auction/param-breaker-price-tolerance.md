@@ -2,7 +2,7 @@
 
 >**Alias:** Breaker Price Tolerance  
 >**Parameter Name:** `tolerance`  
->**Containing Contract:** `ClipperMom`  
+>**Containing Contract:** `CLIPPER_MOM`  
 >**Scope:** Vault Type (Ilk)  
 >**Technical Docs:** -  
 
