@@ -63,6 +63,6 @@ If the conditions for its execution are satisfied and the breaker is triggered, 
 During an [Emergency Shutdown](https://docs.makerdao.com/smart-contract-modules/shutdown), the Breaker Price Tolerance parameter is not relevant as no new auctions may be triggered.
 
 >Page last reviewed: 2022-11-07  
->Next review due: 2022-11-07  
+>Next review due: 2023-11-07  
 
 
