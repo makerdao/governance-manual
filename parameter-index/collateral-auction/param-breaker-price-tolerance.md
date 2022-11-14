@@ -2,7 +2,7 @@
 
 >**Alias:** Breaker Price Tolerance  
 >**Parameter Name:** `tolerance`  
->**Containing Contract:** `ClipperMom`  
+>**Containing Contract:** `CLIPPER_MOM`  
 >**Scope:** Vault Type (Ilk)  
 >**Technical Docs:** -  
 
@@ -26,7 +26,7 @@ If Governance feels the protocol should be protected from a 40% drop in a partic
 
 In the above example, anything past a 40% decline from the current OSM price could result in the breaker being triggered, preventing liquidations.
 
-Note that the breaker is not automatic and needs to be triggered by some entity (either human or bot) before the Breaker Price Tolerance parameter has any effect.
+Note that the breaker is not automatic and needs to be triggered by some entity (either human or bot).
 
 ## Purpose
 
@@ -63,6 +63,6 @@ If the conditions for its execution are satisfied and the breaker is triggered, 
 During an [Emergency Shutdown](https://docs.makerdao.com/smart-contract-modules/shutdown), the Breaker Price Tolerance parameter is not relevant as no new auctions may be triggered.
 
 >Page last reviewed: 2022-11-07  
->Next review due: 2022-11-07  
+>Next review due: 2023-11-07  
 
 
