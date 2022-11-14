@@ -1,15 +1,14 @@
-
 # Surplus Auction Limit   
 
->**Alias:** N/A   
+>**Alias:** N/A  
 >**Parameter Name:** `lid`  
->**Containing Contract:** `Flap`  
+>**Containing Contract:** `MCD_FLAP`  
 >**Scope:** System  
->**Technical Docs:** -   
+>**Technical Docs:** [Flapper Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flap-detailed-documentation)  
 
 
 ## Description
-During surplus auctions, excess DAI within the system is auctioned off in fixed lots for MKR. In this process, keepers bid on how much MKR they are willing to pay for a fixed Dai amount. MKR received this way is burned. 
+During surplus auctions, excess DAI within the system is auctioned off in fixed lots for MKR. In this process, keepers bid on how much MKR they are willing to pay for a fixed amount of DAI. MKR received this way is burned. 
 
 To avoid flooding the system with too many simultaneous auctions, the maximum amount of DAI that can be auctioned at any given point in time is limited. The parameter that sets this limit is the Surplus Auction Limit or `lid` parameter.
 
