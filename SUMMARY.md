@@ -11,7 +11,9 @@
   * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
   * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
   * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
-
+  
+* Calendar
+  * [Official MakerDAO Google Calendar](protocol-status/calendar.md)
 
 ## Governance
 * Governance Cycle
@@ -25,6 +27,7 @@
 
 * [Voting](governance/voting-in-makerdao.md)
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
+  * [Gasless Poll Voting](governance/gasless-poll-voting.md)
   * [On-Chain Governance](governance/on-chain-governance.md)
   * [Off-Chain Governance](governance/off-chain-governance.md)
   * [Approval Voting Guide](governance/approval-voting-guide.md)
@@ -45,6 +48,7 @@
   * [Separation of Powers](delegation/separation-of-powers.md)
   * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
 * For MKR Holders
+  * [How to Delegate Video](delegation/mkr-holder-HowToDelegate.md)
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
   * [How To Delegate Video](delegation/mkr-holder-how-to-delegate.md)
