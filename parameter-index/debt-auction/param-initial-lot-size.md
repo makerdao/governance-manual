@@ -9,7 +9,7 @@
 
 ## Description
 
-Debt Auctions are used to recapitalize the system by minting and auctioning off MKR for a fixed amount of DAI. In this process, keepers bid on how little MKR they are willing to accept for the fixed Dai amount they have to pay at auction settlement. The starting amount of MKR in these auctions is determined by the Debt Auction Initial Lot Size parameter.
+Debt Auctions are used to recapitalize the system by minting and auctioning off MKR for a fixed amount of Dai. In this process, keepers bid on how little MKR they are willing to accept for the fixed Dai amount they have to pay at auction settlement. The starting amount of MKR in these auctions is determined by the Debt Auction Initial Lot Size parameter.
 
 Auction participants may bid a lower amount of MKR than the initial lot size. If there are no bids, they must wait for the duration of the auction before the auction can be restarted with a higher Debt Auction Initial Lot Size. This increase is determined by the `pad` parameter. 
 
@@ -21,7 +21,7 @@ Changing the Debt Auction Initial Lot Size parameter allows Maker Governance to 
 
 ## Trade-offs
 
-A small Debt Auction Initial Lot Size would result in auctions having to be restarted ("kicked") many times before they become interesting to keepers. This would result in the protocol remaining undercollateralized for a long period and also result in additional gas costs due to multiple restarts.
+A small Debt Auction Initial Lot Size would result in auctions having to be restarted ("`kick`ed") many times before they become interesting to keepers. This would result in the protocol remaining undercollateralized for a long period and also result in additional gas costs due to multiple restarts.
 	
 A large Debt Auction Initial Lot Size could result in large amounts of MKR minted if there are insufficient participants in the auctions. If there are sufficient participants, however, a sufficiently large Debt Auction Initial Lot Size would ensure that auctions do not need to be restarted multiple times. This saves gas costs for keepers and keeps the protocol in an undercollateralized state for a shorter duration.  
 
@@ -38,7 +38,8 @@ Maker Governance may wish to decrease the Debt Auction Initial Lot Size if there
 
 ## Considerations
 
-This parameter should be tuned in conjunction with the Debt Auction Lot Size Increase (`pad`) parameter, which has similar consequences when increased or decreased as the Debt Auction Initial Lot Size parameter.
+This parameter should be tuned in conjunction with the [Debt Auction Lot Size Increase](param-lot-size-increase.md)  parameter (`pad`), which has similar consequences when increased or decreased as the Debt Auction Initial Lot Size parameter.
 
->Page last reviewed: 2022-11-09  
->Next review due: 2023-11-09  
+>Page last reviewed: 2022-14-09  
+>Next review due: 2023-14-09  
+

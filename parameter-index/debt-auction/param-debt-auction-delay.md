@@ -16,7 +16,7 @@ Initially, the Surplus Buffer will cover the bad debt; however, if the system ac
 
 ### Example
 
-```text
+```
 Debt Auction Delay = 2 hours
 ```
 
@@ -28,7 +28,7 @@ The Debt Auction Delay exists to provide time for Keepers to bid on liquidated v
 
 ## Trade-offs
 
-If the Debt Auction Delay is set too low, the system may prematurely commence a Debt Auction before the corresponding Collateral Auction has been completed. For example, this can occur if the Debt Auction Delay is set to a lower value than the Max Auction Duration of Collateral Auctions. In this situation, it is conceivable that Keepers might cover outstanding debt within the remaining time, and the Debt Auction is therefore unnecessary. This scenario could lead to the Surplus Buffer being drained or to excess MKR being minted.
+If the Debt Auction Delay is set too low, the system may prematurely commence a Debt Auction before the corresponding Collateral Auction has been completed. For example, this can occur if the Debt Auction Delay is set to a lower value than the [Max Auction Duration](../collateral-auction/param-max-auction-duration.md) of Collateral Auctions. In this situation, it is conceivable that Keepers might cover outstanding debt within the remaining time, and the Debt Auction is therefore unnecessary. This scenario could lead to the Surplus Buffer being drained or to excess MKR being minted.
 
 If the Debt Auction Delay is set too high, then it will prevent Debt Auctions from occurring. This will prevent undercollateralized Dai being removed from the system. By allowing Dai to remain undercollateralized, confidence in Dai could be undermined.
 
@@ -42,7 +42,7 @@ Debt Auction Delay should be increased if the Max Auction Duration of Collateral
 
 **Why decrease this parameter?**
 
-The Debt Auction Delay might be decreased if it is taking too long for Debt Auctions to commence, leaving the system undercollateralized for longer than acceptable, which could impact Dai users and undermine confidence in Dai.
+The Debt Auction Delay might be decreased if it is taking too long for Debt Auctions to commence, leaving the system undercollateralized for longer than acceptable. This could impact Dai users and undermine confidence in Dai.
 
 ## Considerations
 
@@ -54,5 +54,6 @@ In [Emergency Shutdown](https://docs.makerdao.com/smart-contract-modules/shutdow
 
 >Page last reviewed: 2022-11-09  
 >Next review due: 2023-11-09  
+
 
 
