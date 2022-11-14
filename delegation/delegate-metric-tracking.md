@@ -1,6 +1,6 @@
 # Delegate Metric Tracking
 
-The GovAlpha Core Unit (GOV-001) tracks metrics relating to the voting activities of Recognized Delegates. These are useful to both current and prospective delegators in gauging how active and consistent Recognized Delegates have been. The metrics currently tracked for Recognized Delegates centre on participation in on-chain voting and communication by Recognized Delegates regarding their voting choices.
+The GovAlpha Core Unit (GOV-001) tracks metrics relating to the voting activities of Recognized Delegates. These are useful to both current and prospective delegators in gauging how active and consistent Recognized Delegates have been. Calculations are made over a 120-day rolling window and the metrics currently tracked for Recognized Delegates centre on participation in on-chain voting and communication by Recognized Delegates regarding their voting choices.
 
 These metrics can be seen on the delegate cards on the [voting portal](https://vote.makerdao.com/delegates). In addition, a further breakdown of each Recognized Delegate's participation metric is available on their [metric pages](https://vote.makerdao.com/delegates) on the voting portal - here is an example of what a metric page looks like.
 
