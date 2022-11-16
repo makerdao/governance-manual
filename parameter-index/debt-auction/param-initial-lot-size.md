@@ -11,7 +11,7 @@
 
 Debt Auctions are used to recapitalize the system by minting and auctioning off MKR for a fixed amount of Dai. In this process, keepers bid on how little MKR they are willing to accept for the fixed Dai amount they have to pay at auction settlement. The starting amount of MKR in these auctions is determined by the Debt Auction Initial Lot Size parameter.
 
-Auction participants may bid a lower amount of MKR than the initial lot size. If there are no bids, they must wait for the duration of the auction before the auction can be restarted with a higher Debt Auction Initial Lot Size. This increase is determined by the `pad` parameter. 
+A lower amount of MKR than the initial lot size may be bid by auction participants. If there are no bids by the time the auction reaches its end, the Debt Auction Initial Lot Size will be increased when the auction is restarted. This increase is determined by the [Debt Auction Lot Size Increase] parameter (`pad`). 
 
 
 ## Purpose
@@ -38,8 +38,9 @@ Maker Governance may wish to decrease the Debt Auction Initial Lot Size if there
 
 ## Considerations
 
-This parameter should be tuned in conjunction with the [Debt Auction Lot Size Increase](param-lot-size-increase.md)  parameter (`pad`), which has similar consequences when increased or decreased as the Debt Auction Initial Lot Size parameter.
+This parameter should be tuned in conjunction with the [Debt Auction Lot Size Increase](param-lot-size-increase.md) parameter (`pad`), which has similar consequences when increased or decreased as the Debt Auction Initial Lot Size parameter.
 
->Page last reviewed: 2022-14-09  
->Next review due: 2023-14-09  
+>Page last reviewed: 2022-11-16  
+>Next review due: 2023-11-16  
+
 

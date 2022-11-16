@@ -8,7 +8,7 @@
 
 ## Description
 
-The Debt Auction Bid Duration parameter (`ttl`) allows governance to control how soon after a successful bid a Debt Auction will end. Further bids reset this timer, extending the auction. A debt auction can extend up to a maximum time which is set by the [Flop Duration parameter](param-auction-duration-flop.md), at which point the auction will end regardless of the Bid Duration timer.
+The Debt Auction Bid Duration parameter (`ttl`) allows governance to control how soon after a successful bid a Debt Auction will end. Further bids reset this timer, extending the auction. A debt auction can extend up to a maximum time which is set by the [Flop Duration](param-auction-duration-flop.md) parameter, at which point the auction will end regardless of the Bid Duration timer.
 
 Debt auctions are used to recapitalize the system by minting and auctioning off MKR for a fixed amount of Dai. In this process, keepers bid on how little MKR they are willing to accept for a fixed amount of Dai that they provide. 
 
@@ -27,7 +27,7 @@ Debt Auction Duration = 24 hours
 
 ## Purpose
 
-Adjusting the Flop Bid Duration parameter allows Maker Governance to minimize the total MKR minted by ensuring sufficient competition among Keepers.
+Adjusting the Debt Auction Bid Duration parameter allows Maker Governance to minimize the total MKR minted by ensuring sufficient competition among Keepers.
 
 ## Trade-offs
 
@@ -41,7 +41,7 @@ A larger Debt Auction Bid Duration gives keepers more time to participate in auc
 
 ## Changes
 
-Adjusting the Flop Bid Duration parameter is a manual process that requires an executive vote. Changes to the Flop Bid Duration are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
+Adjusting the Debt Auction Bid Duration parameter is a manual process that requires an executive vote. Changes to the Flop Bid Duration are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
 
 **Why increase this parameter?**
 
@@ -55,8 +55,9 @@ Maker Governance may wish to decrease the Debt Auction Bid Duration if keepers a
 
 Debt Auction Bid Duration is always upper-bounded by the total [Debt Auction Duration](param-auction-duration-flop.md). If it is set higher than the total auction duration, then it will have no effect. 
 
->Page last reviewed: 2022-14-11  
->Next review due: 2023-14-11  
+>Page last reviewed: 2022-11-16  
+>Next review due: 2023-11-16  
+
 
 
 
