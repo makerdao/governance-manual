@@ -7,7 +7,7 @@
 >**Technical Docs:** [Flop Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/flop-detailed-documentation)
 
 ## Description
-Debt Auctions are used to recapitalize the system by minting and auctioning off MKR for a fixed amount of DAI. In this process, keepers bid on how little MKR they are willing to accept for the fixed Dai amount they have to pay at auction settlement. The starting amount of MKR in these auctions is determined by the [Debt Auction Initial Lot Size]() parameter (`pad`). 
+Debt Auctions are used to recapitalize the system by minting and auctioning off MKR for a fixed amount of DAI. In this process, keepers bid on how little MKR they are willing to accept for the fixed Dai amount they have to pay at auction settlement. The starting amount of MKR in these auctions is determined by the [Debt Auction Initial Lot Size](param-initial-lot-size.md) parameter (`pad`). 
 
 Auction participants may bid a lower amount of MKR than the initial lot size. If there are no bids, they must wait for the duration of the auction before the auction can be restarted with a higher Debt Auction Initial Lot Size. This increase is determined by the Debt Auction Lot Size Increase parameter. 
 
@@ -26,7 +26,7 @@ A large Debt Auction Lot Size Increase could result in large amounts of MKR mint
 
 
 ## Changes
-Adjusting the Debt Auction Lot Size Increase parameter is a manual process that requires an executive vote. Changes to the Debt Auction Lot Size Increase are subject to the [GSM Pause Delay](https://longforwisdom.gitbook.io/new-collection/parameter-index/core/param-gsm-pause-delay).
+Adjusting the Debt Auction Lot Size Increase parameter is a manual process that requires an executive vote. Changes to the Debt Auction Lot Size Increase are subject to the [GSM Pause Delay](../core/param_gsm_pause_delay.md).
 
 **Why increase this parameter?**  
 Maker Governance may wish to increase the Debt Auction Lot Size Increase if debt auctions have to be repeatedly restarted before keepers are able to submit profitable bids.
@@ -40,6 +40,7 @@ This parameter should be tuned in conjunction with the [Debt Auction Initial Lot
 
 >Page last reviewed: 2022-11-14  
 >Next review due: 2022-11-14  
+
 
 
 
