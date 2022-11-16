@@ -2,9 +2,9 @@
 
 >**Alias:** Flat Kick Incentive  
 >**Parameter Name:** `tip`  
->**Containing Contract:** `Clipper`  
+>**Containing Contracts:** `MCD_CLIP_$ILK`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
+>**Technical Docs:** [Liquidations 2.0](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)   
 
 ## Description
 
@@ -24,11 +24,11 @@ Increasing the Flat Kick Incentive parameter should cause auctions to be trigger
 
 However, if this parameter is set higher than the gas cost to both create and liquidate vaults, it provides an opportunity for attackers to exploit the system by liquidating their own vaults to harvest the DAI incentive.
 
-A further trade-off is that the funds for this parameter are removed from the surplus buffer, meaning that liquidations of very small vaults may cost governance more than it gains through the Liquidation Penalty.
+A further trade-off is that the funds for this parameter are removed from the surplus buffer, meaning that liquidations of very small vaults may cost governance more than it gains through the [Liquidation Penalty](../vault-risk/param-liquidation-penalty.md).
 
 ## Changes
 
-Adjusting a Flat Kick Incentive parameter is a manual process that requires an executive vote. Changes to a Flat Kick Incentive are subject to the GSM Timelock.
+Adjusting a Flat Kick Incentive parameter is a manual process that requires an executive vote. Changes to a Flat Kick Incentive are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
 
 **Why increase this parameter?**
 
@@ -38,7 +38,7 @@ Governance may consider increasing the Flat Kick Incentive for a vault type if h
 
 Governance may consider decreasing the Flat Kick Incentive for a vault type if smaller vaults are being liquidated reliably.
 
-A decrease to this parameter should be **strongly** considered when in combination with the Proportional Kick Incentive and the Liquidation Penalty the farming of liquidation incentives is a viable option for attackers.
+A decrease to this parameter should be **strongly** considered when in combination with the [Proportional Kick Incentive](param-proportional-kick-incentive.md) and the Liquidation Penalty the farming of liquidation incentives is a viable option for attackers.
 
 ## Considerations
 
@@ -52,6 +52,6 @@ Resetting a failed auction will also award the triggering keeper the Flat Kick I
 
 The funds for the Flat Kick Incentive are removed from the surplus buffer and may trigger MKR minting if there is no DAI available within the surplus buffer.
 
->Page last reviewed: -  
->Next review due: -  
+>Page last reviewed: 2022-11-16  
+>Next review due: 2023-11-16  
 
