@@ -1,7 +1,7 @@
 # Token Streaming
 
 >**Alias:** Vesting Module, Vest  
->**Contract Names:** `MCD_VEST_MKR`, `MCD_VEST_MKR_TREASURY`,`MCD_VEST_DAI_LEGACY`  
+>**Contract Names:** `MCD_VEST_MKR`, `MCD_VEST_MKR_TREASURY`,`MCD_VEST_DAI`  
 >**Scope:** System  
 >**Technical docs:** TBD   
 
@@ -12,7 +12,7 @@ The Token Streaming Modules allow the streaming of tokens from the Maker Protoco
 * Cliff Vesting - Set a date before which funds cannot be claimed.
 * Third-party revocation - Designate a third party who has permission to cancel the stream of funds.
 * Minted MKR - One version of the contract (`MCD_VEST_MKR`) supports streaming purpose-minted MKR tokens.
-* Minted DAI - One version of the contract (`MCD_VEST_DAI_LEGACY`) supports streaming purpose-minted DAI tokens.
+* Minted DAI - One version of the contract (`MCD_VEST_DAI`) supports streaming purpose-minted DAI tokens.
 * Any ERC20 - One version of the contract (`MCD_VEST_MKR_TREASURY`) supports streaming any ERC20 (though the source address must have the requisite tokens.)
 
 The recipients of the streamed funds can call a function on the relevant smart contract and receive some or all of the funds that have been vested at the point the function is called.
@@ -65,7 +65,7 @@ Parameters for DssVest are upon the deployment of a new stream. The primary para
 DssVest allows recipients to claim streamed tokens at their discretion. This involves:
 
 1. Locating the relevant token contract. MakerDAO contracts are listed [here](https://chainlog.makerdao.com/). They are listed as:  
-`MCD_VEST_DAI_LEGACY` - To get DAI minted from the Maker Protocol.  
+`MCD_VEST_DAI` - To get DAI minted from the Maker Protocol.  
 `MCD_VEST_MKR` - To get MKR minted from the Maker Protocol.  
 `MCD_VEST_MKR_TREASURY` - - To get MKR transferred from the Maker Protocol treasury.  
 
