@@ -2,9 +2,9 @@
 
 >**Alias:** Price Curve  
 >**Parameter Name:** `calc`  
->**Containing Contract:** `Clipper`  
+>**Containing Contracts:** `MCD_CLIP_$ILK`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
+>**Technical Docs:** [Liquidations 2.0](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
 
 
 ## Description
@@ -35,12 +35,12 @@ Controls the length of time between price drops. A smaller step means a smoother
 
 ### Linear Decrease
 
-In an auction utilizing a Linear Decrease Auction Price Function the auction will start at a price defined by the Auction Price Multiplier. The price will decrease linearly over time until it reaches 0. The time that it takes for an auction to reach 0 is controlled by the tau function.
+In an auction utilizing a Linear Decrease Auction Price Function, the auction will start at a price defined by the Auction Price Multiplier. The price will decrease linearly over time until it reaches zero. The time that it takes for an auction to reach zero is controlled by the `tau` parameter.
 
 #### tau
-A value in seconds which controls how long it takes for the price of a Linear Decrease auction to reach 0. This controls the rate of fall in the price of the collateral being auctioned. A higher tau will result in slower reduction in the price of collaterals, whereas a lower tau will cause faster falls in price.
+A value expressed in seconds which controls how long it takes for the price of a Linear Decrease auction to reach zero. This controls the rate of fall in the price of the collateral being auctioned. A higher `tau` will result in a slower reduction in the price of collaterals, whereas a lower `tau` will cause faster falls in price.
 
-The Linear Decrease function is also bounded by the Maximum Auction Duration parameter. This can be used to set a lower bound on the price accepted by the Maker Protocol. Once this value has been reached, the price will stop falling, Keepers can re-start the auction from the initial price at this point.
+The Linear Decrease function is also bounded by the [Maximum Auction Duration](param-max-auction-duration.md) parameter. This can be used to set a lower bound on the price accepted by the Maker Protocol. Once this value has been reached, the price will stop falling. Keepers can restart the auction from the initial price at this point.
 
 ## Trade-offs
 
@@ -48,12 +48,11 @@ Having control over the parameters of the Auction Price Function allows Governan
 
 An auction price falling too quickly may lead to a situation where keepers are not able to bid before the auction ends.
 
-An auction price falling too slowly may increase the auction slippage, and could potentially cause bad debt.
+An auction price falling too slowly may increase the auction slippage and could potentially cause bad debt.
 
 ## Changes
 
-Adjusting an Auction Price Function parameter is a manual process that requires an executive vote. Changes to an Auction Price Function are subject to the GSM Pause Delay.
+Adjusting an Auction Price Function parameter is a manual process that requires an executive vote. Changes to an Auction Price Function are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
 
->Page last reviewed: -  
->Next review due: -  
-
+>Page last reviewed: 2022-11-10  
+>Next review due: 2023-11-10  
