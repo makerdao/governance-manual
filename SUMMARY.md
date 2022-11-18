@@ -34,6 +34,9 @@
   * [Community SourceCred](governance/sourcecred.md)
   * [Delegate SourceCred](governance/delegate-sourcecred.md)
   * [Proposal Bounties](governance/proposal-bounties.md)
+* Technical MIPs
+  * [Technical MIPs Development Best Practices](governance/technical-mips-development-best-practices.md)
+  * [Full Example](governance/technical-mip-full-example.md)
   
 ## Delegation
   
