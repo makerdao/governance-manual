@@ -21,7 +21,7 @@ A large Debt Auction Bid Size keeps the protocol undercollateralized for longer.
 
 
 ## Changes
-Adjusting the Debt Auction Bid Size parameter is a manual process that requires an executive vote. Changes to the Debt Auction Bid Size are subject to the [GSM Pause Delay](../core/param_gsm_pause_delay.md).
+Adjusting the Debt Auction Bid Size parameter is a manual process that requires an executive vote. Changes to the Debt Auction Bid Size are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
 
 **Why increase this parameter?**  
 Maker Governance may wish to increase the Debt Auction Bid Size if gas costs for keepers are too high or if the number of debt auctions that may occur in parallel is too large.
@@ -31,6 +31,7 @@ Maker Governance may wish to decrease the Debt Auction Bid Size if there is insu
 
 >Page last reviewed: 2022-11-14  
 >Next review due: 2023-11-14  
+
 
 
 
