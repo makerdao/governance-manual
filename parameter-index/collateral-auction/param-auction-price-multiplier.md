@@ -4,7 +4,8 @@
 >**Parameter Name:** `buf`  
 >**Containing Contract:** `Clipper`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:**  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
+
 
 ## Description
 
@@ -48,4 +49,7 @@ An Auction Price Multiplier parameter might be decreased for a specific vault ty
 ## Considerations
 
 The Starting Price for an auction is calculated using the OSM \(Oracle Security Module\) price feed multiplied by the Auction Price Multiplier.
+
+>Page last reviewed: -  
+>Next review due: -  
 

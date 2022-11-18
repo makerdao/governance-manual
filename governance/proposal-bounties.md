@@ -66,3 +66,7 @@ GovAlpha produces a short report each month communicating the initiatives and th
 **3.1** - GovAlpha Facilitators may exclude any community member from bounty payouts at any time, for any reason.  
 
 **3.2** - GovAlpha Facilitators must communicate a reason publicly if a given community member is being excluded from off-chain proposal bounty payouts.  
+
+>Page last reviewed: -  2022-08-24  
+>Next review due: -  2023-08-24
+

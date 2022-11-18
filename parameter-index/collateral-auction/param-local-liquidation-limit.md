@@ -4,7 +4,7 @@
 >**Parameter Name:** `hole`  
 >**Containing Contract:** `Dog`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:**  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)   
 
 ## Description
 
@@ -41,4 +41,7 @@ Conversely, the primary reason to decrease the Local Liquidation Limit is a conc
 The Liquidations 2.0 system allows the Local Liquidation Limit to be set at a higher level than the `box` in Liquidations 1.2 because the Dutch Auction format allows for instant settlement, enabling the use of Flash Loans by Maker Keepers. However, because auctions can have near-instant settlement, the Local Liquidation Limit does always act as a rate-limit on collateral auctions.
 
 During an Emergency Shutdown, no new collateral auctions may be started. All auctions underway during an emergency shutdown would have been subject to the Local Liquidation Limit parameters with no special considerations.
+
+>Page last reviewed: -  
+>Next review due: -  
 

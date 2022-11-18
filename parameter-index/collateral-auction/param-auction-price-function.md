@@ -4,7 +4,8 @@
 >**Parameter Name:** `calc`  
 >**Containing Contract:** `Clipper`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:**  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
+
 
 ## Description
 
@@ -52,4 +53,7 @@ An auction price falling too slowly may increase the auction slippage, and could
 ## Changes
 
 Adjusting an Auction Price Function parameter is a manual process that requires an executive vote. Changes to an Auction Price Function are subject to the GSM Pause Delay.
+
+>Page last reviewed: -  
+>Next review due: -  
 

@@ -11,7 +11,6 @@
   * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
   * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
   * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
-  * [Bug Bounty Program](core-units/bug-bounty.md)
 
 
 ## Governance
@@ -26,8 +25,11 @@
 
 * [Voting](governance/voting-in-makerdao.md)
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
+  * [Gasless Poll Voting](governance/gasless-poll-voting.md)
   * [On-Chain Governance](governance/on-chain-governance.md)
   * [Off-Chain Governance](governance/off-chain-governance.md)
+  * [Approval Voting Guide](governance/approval-voting-guide.md)
+  * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
 
 * Verification
   * [Executive Audit](governance/executive-audit.md)
@@ -40,24 +42,36 @@
 ## Delegation
   
 * Overview
-  * [Delegation](delegation/what-is-delegation.md)
+
+  * [What is Delegation?](delegation/what-is-delegation.md)
   * [Separation of Powers](delegation/separation-of-powers.md)
   * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
 * For MKR Holders
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
+  * [How To Delegate Video](delegation/mkr-holder-how-to-delegate.md)
 * For Delegates  
   * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
   * [Delegates Code of Conduct](delegation/delegates-code.md)
-  * [Why to Become a Recognized Delegate](delegation/why-to-become-a-recognized-delegate.md)
+  * [Why Become a Recognized Delegate?](delegation/why-to-become-a-recognized-delegate.md)
   * [How to Attract More MKR as a Recognized Delegate?](delegation/delegate-attract-more-mkr.md)
 * [Delegate Contract Migration](delegation/delegate-expiration.md)
+  
+## Collateral
+* [Overview](collateral/collateral-overview.md)
+* Real World Assets In Detail
+  * [6s Capital](collateral/6s.md)
+  * [New Silver DROP](collateral/new-silver.md)
+  * [ConsolFreight DROP](collateral/consolfreight.md)
+  * [FortunaFi DROP](collateral/fortunafi.md)
+  * [Harbour Trade Credit DROP](collateral/harbour-trade.md)
+  * [Huntingdon Valley Bank](collateral/hvbank.md)
   
 ## Parameter Index
 
 * Core
   * [Governance Pause Delay](parameter-index/core/param-gsm-pause-delay.md)
-  * [System Surplus Buffer](parameter-index/core/param-system-surplus-buffer.md)
+  * [Maximum System Surplus](parameter-index/core/param-system-surplus-buffer.md)
   * [Dai Savings Rate](parameter-index/core/param-dai-savings-rate.md)
   * [Global Liquidation Limit](parameter-index/core/param-global-liquidation-limit.md)
   * [Global Debt Ceiling](parameter-index/core/param-global-debt-ceiling.md)
@@ -81,20 +95,20 @@
   * [Flat Kick Incentive](parameter-index/collateral-auction/param-flat-kick-incentive.md)
 
 * Surplus Auction
-  * [Surplus Lot Size](parameter-index/surplus-auction/param-surplus-lot-size.md)
-  * [Min Bid Increase](parameter-index/surplus-auction/param-min-bid-increase-flap.md)
-  * [Auction Duration](parameter-index/surplus-auction/param-auction-duration-flap.md)
-  * [Bid Duration](parameter-index/surplus-auction/param-bid-duration-flap.md)
+  * [Surplus Auction Lot Size](parameter-index/surplus-auction/param-surplus-lot-size.md)
+  * [Surplus Auction Minimum Bid Increase](parameter-index/surplus-auction/param-min-bid-increase-flap.md)
+  * [Surplus Auction Duration](parameter-index/surplus-auction/param-auction-duration-flap.md)
+  * [Surplus Auction Bid Duration](parameter-index/surplus-auction/param-bid-duration-flap.md)
   * [Surplus Auction Limit](parameter-index/surplus-auction/param-surplus-auction-limit.md)
 
 * Debt Auction
-  * [Min Bid Decrease](parameter-index/debt-auction/param-min-bid-decrease-flop.md)
-  * [Auction Duration](parameter-index/debt-auction/param-auction-duration-flop.md)
-  * [Bid Duration](parameter-index/debt-auction/param-bid-duration-flop.md)
+  * [Debt Auction Minimum Bid Decrease](parameter-index/debt-auction/param-min-bid-decrease-flop.md)
+  * [Debt Auction Duration](parameter-index/debt-auction/param-auction-duration-flop.md)
+  * [Debt Auction Bid Duration](parameter-index/debt-auction/param-bid-duration-flop.md)
   * [Debt Auction Delay](parameter-index/debt-auction/param-debt-auction-delay.md)
   * [Debt Auction Bid Size](parameter-index/debt-auction/param-bid-size.md)
-  * [Initial Lot Size](parameter-index/debt-auction/param-initial-lot-size.md)
-  * [Lot Size Increased](parameter-index/debt-auction/param-lot-size-increase.md)
+  * [Debt Auction Initial Lot Size](parameter-index/debt-auction/param-initial-lot-size.md)
+  * [Debt Auction Lot Size Increase](parameter-index/debt-auction/param-lot-size-increase.md)
 
 
 ## Module Index

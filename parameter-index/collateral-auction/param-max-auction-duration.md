@@ -4,7 +4,7 @@
 >**Parameter Name:** `tail`  
 >**Containing Contract:** `Clipper`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:**  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
 
 ## Description
 
@@ -37,4 +37,7 @@ Adjusting a Maximum Auction Duration parameter for a specific vault type is a ma
 Auction resets can only take place when either the Maximum Auction Duration parameter or the Maximum Auction Drawdown parameter are exceeded.
 
 During an Emergency Shutdown, new auctions are halted, but the Three-Stage Liquidations Circuit Breaker determines if ongoing auctions can be reset or not. If only one additional level of the circuit breaker is triggered the Maximum Auction Duration will still be used to check eligibility for auction reset, but under the most severe level of the Liquidations Circut breaker no resets can be performed, thus limiting the effectiveness of the parameter.
+
+>Page last reviewed: -  
+>Next review due: -  
 

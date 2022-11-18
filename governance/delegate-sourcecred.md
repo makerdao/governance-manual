@@ -45,10 +45,11 @@ Delegates' engagement performance will be published in each month's Delegates Ro
 
 **1.2** - Recognized Delegates must opt in and confirm which forum account is accruing engagement payouts.  
 
-## Monthly Eligibility
-**2.1** - A Recognized Delegate is only eligible for engagement payouts in a given month if they meet the criteria in [MIP61](https://mips.makerdao.com/mips/details/MIP61#performance-modifier) to receive a non-zero amount of compensation for that month.  
-
 ## Exclusions
 **3.1** - GovAlpha Facilitators may exclude any Recognized Delegate from engagement payouts at any time, for any reason.  
 
 **3.2** - GovAlpha Facilitators must communicate a reason publicly if a given Recognized Delegate is being excluded from off-chain proposal bounty payouts.  
+
+>Page last reviewed: -  2022-08-24  
+>Next review due: -  2023-08-24
+

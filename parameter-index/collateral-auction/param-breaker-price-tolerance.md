@@ -4,7 +4,7 @@
 >**Parameter Name:** `tolerance`  
 >**Containing Contract:** `ClipperMom`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:**  
+>**Technical Docs:** -  
 
 ## Description
 
@@ -57,4 +57,7 @@ If Governance wishes to allow for more price volatility from a particular vault 
 Re-enabling liquidation auctions on a vault type after the breaker has been triggered requires an executive vote. Importantly though, re-enabling liquidation auctions _does not_ require governance to wait for the GSM Pause Delay.
 
 During an Emergency Shutdown, the Breaker Price Tolerance parameter is not relevant as no new auctions may be triggered.
+
+>Page last reviewed: -  
+>Next review due: -  
 

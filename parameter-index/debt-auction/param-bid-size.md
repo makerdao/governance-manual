@@ -1,10 +1,10 @@
 # Debt Auction Bid Size
 
->**Alias:  
->**Parameter Name: `sump`  
->**Containing Contract: Vow  
->**Scope: System  
->**Technical Docs: https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation
+>**Alias:** N/A  
+>**Parameter Name:** `sump`  
+>**Containing Contract:** `Vow`  
+>**Scope:** System  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation)  
 
 ## Description
 Debt Auctions are used to recapitalize the system by minting and auctioning off MKR for a fixed amount of DAI. In this process, keepers bid on how little MKR they are willing to accept for the fixed Dai amount they have to pay at auction settlement. During debt auctions, the fixed amount of Dai to be covered by any debt auction is determined by the `Debt Auction Bid Size` parameter.
@@ -23,11 +23,12 @@ A large `Debt Auction Bid Size` keeps the protocol undercollateralized for longe
 ## Changes
 Adjusting the `Debt Auction Bid Size` parameter is a manual process that requires an executive vote. Changes to the `Debt Auction Bid Size` are subject to the GSM Pause Delay.
 
-**Why increase this parameter?**
+**Why increase this parameter?**  
 Maker Governance may wish to increase the `Debt Auction Bid Size` if gas costs for keepers are too high or if the number of debt auctions that may occur in parallel is too large.
 
-**Why decrease this parameter?**
+**Why decrease this parameter?**  
 Maker Governance may wish to decrease the `Debt Auction Bid Size` if there is insufficient keeper participation or to keep the protocol undercollateralized for a shorter duration.
 
-
+>Page last reviewed: -  
+>Next review due: -  
 

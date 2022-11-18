@@ -4,7 +4,7 @@
 >**Parameter Name:** `chip`  
 >**Containing Contract:** `Clipper`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:**  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
 
 ## Description
 
@@ -53,4 +53,7 @@ If both the Proportional Kick Incentive and the Flat Kick Incentive are non-zero
 Resetting a failed auction will also award the triggering keeper the Proportional Kick Incentive.
 
 The funds for the Proportional Kick Incentive are removed from the surplus buffer and may trigger MKR minting if there is no DAI available within the surplus buffer.
+
+>Page last reviewed: -  
+>Next review due: -  
 

@@ -15,7 +15,7 @@ During debt auctions, new MKR bids must be lower than the current MKR bid by at 
 In practice the Min Bid Decrease (Flop) represents both:
 * The maximum profit that keepers can make when bidding in Debt Auctions. 
 * The maximum slippage MakerDAO is willing to accept during auctions to ensure sufficient keeper participation. 
-* 
+
 ### Example
 
 `Min Bid Decrease (Flop)` =5% 
@@ -46,3 +46,7 @@ This parameter should be decreased to increase auction efficiency i.e. winning b
 The gas cost to `kick` (trigger) a debt auction is non-trivial. If the Min Bid Decrease (Flop) is too low, debt auctions may not be triggered by any keeper because they are required to accept a fixed cost for an uncertain return.
 
 "Front-running" may be an issue in debt auctions.
+
+>Page last reviewed: -  
+>Next review due: -  
+

@@ -7,5 +7,7 @@
 * [Maker Improvement Proposals](mips.md)
 * [Signal Threads](off-chain-governance.md#forum-signal-threads)
 * [MIPs Portal](https://mips.makerdao.com/)
-* [MIP6 Applications](https://mips.makerdao.com/mips/details/MIP6)
 * [Core Units](../core-units/core-units.md)
+
+>Page last reviewed: 2022-10-31  
+>Next review due: 2023-10-31  

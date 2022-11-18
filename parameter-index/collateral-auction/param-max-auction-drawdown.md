@@ -4,7 +4,7 @@
 >**Parameter Name:** `cusp`  
 >**Containing Contract:** `Clipper`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:**  
+>**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
 
 ## Description
 
@@ -33,4 +33,7 @@ Adjusting a Maximum Auction Drawdown parameter for a specific vault type is a ma
 Maximum Auction Drawdown is based on the starting auction price \(`top`\), which is equal to the OSM price multiplied by the Auction Price Multiplier \(`buf`\).
 
 The Maximum Auction Drawdown parameter sets one of the two conditions that can independently prompt an auction reset, the other being the Maximum Auction Duration.
+
+>Page last reviewed: -  
+>Next review due: -  
 
