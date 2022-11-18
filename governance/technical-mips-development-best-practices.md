@@ -189,7 +189,7 @@ For quick access to a list of live contracts on both Kovan and Mainnet you can v
 
 To keep things simple we recommend you define interfaces inside the same file as the contract that is using them. The standard pattern is to define them as `FooLike`. Where `Foo` is the name of the contract dependency. You can see examples of this below.
 
-See [FullExample.sol](https://github.com/makerdao/mips-best-practices/blob/master/src/FullExample.sol).
+See [FullExample.sol](governance/technical-mip-full-example.md).
 
 ```
 // SPDX-License-Identifier: AGPL-3.0-or-later
