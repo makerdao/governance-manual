@@ -32,7 +32,7 @@ The recipients of the streamed funds can call a function on the relevant smart c
 3. Prior to 6 months passing, the contributor will not be able to redeem any MKR from the vesting contract.
 4. Once 6 months have expired, the contributor will be able to redeem 100 MKR from the vesting contract.
 5. After an additional month has passed, the contributor will be able to claim ~16.67 MKR from the vesting contract.
-6. After 12 months have passed, the contributor will be able to claim the remainder of the MKR.
+6. After 12 months, the contributor may apply for the remainder of the MKR.
 
 ## Purpose
 
@@ -80,6 +80,6 @@ If a stream is revoked at a future date, it will continue streaming up until tha
 
 When using the DAI Vesting contract, funds remain in the surplus buffer until a transfer is triggered by the recipient. This means any unused funds can be used to protect the protocol, however, also the contract carries the danger of MKR minting if a recipient collects funds from DssVestSuckable while the system surplus buffer does not contain sufficient funds. 
 
->Page last reviewed: -  
->Next review due: -  
+>Page last reviewed: 2022-11-07  
+>Next review due: 2023-11-07 
 
