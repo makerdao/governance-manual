@@ -36,7 +36,7 @@ A small Surplus Auction Bid Duration lessens the risk that the market will move 
 
 A small Surplus Auction Bid Duration also increases the risk of a more severe loss of value in the case of blockchain congestion. Rising gas prices may lock out keepers either due to technical issues or due to the additional fixed cost of gas. 
 
-A larger Surplus Auction Bid Duration gives keepers more time to participate in auctions, hopefully encouraging a higher number of bidders. However, if the Surplus Auction Bid Duration is too large, there may be bids for minimal amounts of MKR to safeguard against price volatility during the Surplus Auction Bid Duration period. Realistically priced bids would only appear when the auction end (determined by [Surplus Auction Duration](param-auction-duration-flap.md)) is closer than the Surplus Auction Bid Duration period. In situations where the price of MKR is dropping, this would lead to less MKR being burned than with a smaller Surplus Auction Bid Duration.
+A larger Surplus Auction Bid Duration gives keepers more time to participate in auctions, hopefully encouraging a higher number of bidders. However, if the Surplus Auction Bid Duration is too large, there may be bids for minimal amounts of MKR to safeguard against price volatility during the Surplus Auction Bid Duration period. Realistically priced bids would only appear when the auction end (determined by the [Surplus Auction Duration](param-auction-duration-flap.md)) is closer than the Surplus Auction Bid Duration period. In situations where the price of MKR is dropping, this would lead to less MKR being burned than with a smaller Surplus Auction Bid Duration.
 
 
 ## Changes
@@ -57,5 +57,6 @@ The [Debt Auction Bid Duration](../debt-auction/param-auction-duration-flop.md) 
 
 >Page last reviewed: 2022-11-18  
 >Next review due: 2022-11-18  
+
 
 
