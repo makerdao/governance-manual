@@ -45,7 +45,6 @@
   * [Separation of Powers](delegation/separation-of-powers.md)
   * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
 * For MKR Holders
-  * [How to Delegate Video](delegation/mkr-holder-HowToDelegate.md)
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
   * [How To Delegate Video](delegation/mkr-holder-how-to-delegate.md)

@@ -1,5 +1,5 @@
 ---
-description: >-
+Description: >-
   This set of documents intends to acquaint MKR Holders with the voting process and to serve as reference material for them to consult during the day-to-day operation of the protocol.
 ---
 
@@ -12,6 +12,6 @@ description: >-
 * [Collateral Onboarding](https://collateral.makerdao.com/) @ collateral.makerdao.com
 * [MIPs Portal](https://mips.makerdao.com/) @ mips.makerdao.com
 
->Page last reviewed: -  
->Next review due: -  
+>Page last reviewed: 2022-11-18    
+>Next review due: 2023-11-18   
 
