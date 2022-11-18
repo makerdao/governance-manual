@@ -40,7 +40,7 @@ Likewise, lower Stability Fees may temporarily or permanently decrease the reven
 
 Adjusting a Stability Fee parameter is a manual process that requires an executive vote. Changes to Stability Fee parameters are subject to the GSM Pause Delay.
 
-The Rates Working Group has been empowered by Maker Governance to propose rate changes based on monetary policy, risk, and competitive landscape. The operations, membership, and historic proposals of this working group can be found on the Maker Governance Forum.
+The Rates Working Group has been empowered by Maker Governance to propose rate changes based on monetary policy, risk, and competitive landscape. The operations, membership, and historic proposals of this working group can be found on the [Maker Governance Forum](https://forum.makerdao.com/).
 
 **Why increase a Stability Fee parameter?**
 
@@ -68,8 +68,7 @@ Absent active management by a vault user, the accrual of Stability Fees can push
 
 A Global Stability Fee parameter also exists within the Maker Protocol. In practice, this has not been used because it adds unnecessary complexity to the governance process and Stability Fee calculation.
 
-Before the introduction of the Rates Working Group Stability Fee parameters were composited from Risk Premiums and a Base Rate voted by governance.
 
->Page last reviewed: -  
->Next review due: -  
+>Page last reviewed: 2022-11-18    
+>Next review due: 2023-11-18  
 
