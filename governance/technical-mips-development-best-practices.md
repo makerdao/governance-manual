@@ -189,7 +189,7 @@ For quick access to a list of live contracts on both Kovan and Mainnet you can v
 
 To keep things simple we recommend you define interfaces inside the same file as the contract that is using them. The standard pattern is to define them as `FooLike`. Where `Foo` is the name of the contract dependency. You can see examples of this below.
 
-See [FullExample.sol](governance/technical-mip-full-example.md).
+See [FullExample.sol](governance/technical-mip-code-example.md).
 
 ```
 // SPDX-License-Identifier: AGPL-3.0-or-later
@@ -338,3 +338,6 @@ Below are some random tips for saving gas that we have collected along the way:
 Intuitively you may think that by using two `uint128`s in storage right next to each other you are saving gas. This is not necessarily the case and in fact this pattern may slightly increase gas usage. Unless you are using both variables in the same transaction you may be wasting gas on bitwise operations.
 
 It's somewhat common to have a flag variable to indicate if a contract is in some state. It is intuitive to use `bool` to define this varaible, but in fact it is usually more gas efficient to use `uint256` like in [this case](https://github.com/makerdao/dss/blob/master/src/vat.sol#L65) in the `vat`.
+
+>Page last reviewed: 2022-11-18  
+>Next review due: 2023-11-18  
