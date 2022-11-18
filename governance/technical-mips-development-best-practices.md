@@ -21,17 +21,17 @@ There are lots of tools to choose from in Ethereum ecosystem, and although it is
 
 Maker is organized into [a core set of contracts](https://github.com/makerdao/dss) as well as an ever-growing ecosystem of "edge contracts". For the purposes of this document we will be ignoring core contract development. The most common type of MIP is the addition of a new collateral type. Not every colleteral addition requires an associated MIP - most ERC20 tokens can just use the standard gem joins. A MIP is required if you are introducing new functionality. Here are some examples of collateral additions that require custom logic:
 
- * [MIP21: Real World Assets - Off-Chain Asset Backed Lender](https://mips.makerdao.com/mips/details/60626de7e65b747f996b3d43)
- * [MIP22: Centrifuge Direct Liquidation Module](https://mips.makerdao.com/mips/details/60626de7e65b747f996b3d44)
- * [MIP29: Peg Stability Module](https://mips.makerdao.com/mips/details/60626de7e65b747f996b3d4d)
- * [MIP30: Farmable cUSDC Adapter (CropJoin)](https://mips.makerdao.com/mips/details/60626de7e65b747f996b3d4f)
- * [MIP43: Term Lending Module (TLM)](https://mips.makerdao.com/mips/details/60626de7e65b747f996b3d84)
- * [MIP50: Direct Deposit Module](https://mips.makerdao.com/mips/details/606e444beb7b907fbc08f0f3)
+ * [MIP21: Real World Assets - Off-Chain Asset Backed Lender](https://mips.makerdao.com/mips/details/MIP21)
+ * [MIP22: Centrifuge Direct Liquidation Module](https://mips.makerdao.com/mips/details/MIP22)
+ * [MIP29: Peg Stability Module](https://mips.makerdao.com/mips/details/MIP29)
+ * [MIP30: Farmable cUSDC Adapter (CropJoin)](https://mips.makerdao.com/mips/details/MIP30)
+ * [MIP43: Term Lending Module (TLM)](https://mips.makerdao.com/mips/details/MIP43)
+ * [MIP50: Direct Deposit Module](https://mips.makerdao.com/mips/details/MIP50)
 
 Of course new collateral additions are not the only thing that can be added to the Maker ecosystem. Here are some examples of MIPs that interact with different parts of the Maker core contracts:
 
- * [MIP25: Flash Mint Module](https://mips.makerdao.com/mips/details/60626de7e65b747f996b3d47)
- * [MIP34: Keg Streaming Payments Module](https://mips.makerdao.com/mips/details/60626de7e65b747f996b3d53)
+ * [MIP25: Flash Mint Module](https://mips.makerdao.com/mips/details/MIP50)
+ * [MIP34: Keg Streaming Payments Module](https://mips.makerdao.com/mips/details/MIP34)
 
 ### Design and Specification
 
@@ -189,7 +189,7 @@ For quick access to a list of live contracts on both Kovan and Mainnet you can v
 
 To keep things simple we recommend you define interfaces inside the same file as the contract that is using them. The standard pattern is to define them as `FooLike`. Where `Foo` is the name of the contract dependency. You can see examples of this below.
 
-See [FullExample.sol](https://github.com/makerdao/mips-best-practices/blob/master/src/FullExample.sol).
+See [FullExample.sol](governance/technical-mip-full-example.md).
 
 ```
 // SPDX-License-Identifier: AGPL-3.0-or-later
