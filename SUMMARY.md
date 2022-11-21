@@ -28,6 +28,7 @@
   * [Off-Chain Governance](governance/off-chain-governance.md)
   * [Approval Voting Guide](governance/approval-voting-guide.md)
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
+  * [Impact Estimations](governance/impact-estimations.md)
 * Verification
   * [Executive Audit](governance/executive-audit.md)
 * Offchain Incentives
