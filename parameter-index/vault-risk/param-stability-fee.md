@@ -2,7 +2,7 @@
 
 >**Alias:** N/A  
 >**Parameter Name:** `duty`  
->**Containing Contract:** `Jug`  
+>**Containing Contract:** `MCD_JUG`  
 >**Scope:** Vault Type (Ilk)  
 >**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/rates-module/jug-detailed-documentation)  
 
@@ -40,7 +40,7 @@ Likewise, lower Stability Fees may temporarily or permanently decrease the reven
 
 Adjusting a Stability Fee parameter is a manual process that requires an executive vote. Changes to Stability Fee parameters are subject to the GSM Pause Delay.
 
-The Rates Working Group has been empowered by Maker Governance to propose rate changes based on monetary policy, risk, and competitive landscape. The operations, membership, and historic proposals of this working group can be found on the [Maker Governance Forum](https://forum.makerdao.com/).
+The Maker Open Market Committee has been empowered by Maker Governance to propose rate changes based on monetary policy, risk, and competitive landscape. The operations, membership, and historic proposals of this committee can be found on the [Maker Governance Forum](https://forum.makerdao.com/tag/rates-working-group).
 
 **Why increase a Stability Fee parameter?**
 
