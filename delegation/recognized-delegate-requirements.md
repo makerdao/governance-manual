@@ -14,7 +14,7 @@ The canonical Code of Conduct is located [here](https://forum.makerdao.com/t/rec
 
 ## 3. Fill in and post a Recognized Delegate Platform using the provided template
 
-The canonical template is located [here](https://forum.makerdao.com/t/recognised-delegate-initial-template/8989). Deviation from the template is acceptable, but you should try to cover everything in the template. Contact details and Conflict of Interest disclosures are not optional (except where marked as such).
+The canonical template is located [here](https://github.com/makerdao/community/blob/master/governance/delegates/template/profile.md). Deviation from the template is acceptable, but you should try to cover everything in the template. Contact details and Conflict of Interest disclosures are not optional (except where marked as such).
 
 This is a chance to lay out what you stand for as a delegate within MakerDAO. Make what you stand for and why as clear and unambiguous as possible. This is the lens through which MKR Holders will see you and your actions. Try to make it attractive!
 

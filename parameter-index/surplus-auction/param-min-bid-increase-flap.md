@@ -26,7 +26,7 @@ If the current winning bid is 10 MKR for 1000 DAI, the next bid must be at least
 The Surplus Auction Minimum Bid Increase parameter allows Maker Governance to ensure that keepers are sufficiently incentivized to bid in surplus auctions.
 
 ## Trade-offs
-A small Surplus Auction Minimum Bid Increase helps to increase the amount of MKR burned as bids will be closer to the market value of MKR. However, if it is too low, it can result in low keeper participation due to lack of perceived profit. If only a single keeper participates in an auction it can lead to significant losses for the Maker Protocol.
+A small Surplus Auction Minimum Bid Increase helps to increase the amount of MKR burned as bids will be closer to the market value of MKR. However, if it is too small, it can result in low keeper participation due to lack of perceived profit. If only a single keeper participates in an auction it can lead to significant losses for the Maker Protocol.
 
 A large Surplus Auction Minimum Bid Increase ensures high keeper participation as there is an opportunity for a larger profit. It also helps to balance other costs to the keeper when making a bid, such as the effect of the price volatility of MKR over the duration of the auction, and the cost of gas when making a bid.
 
@@ -42,7 +42,7 @@ This parameter should be increased to increase keeper participation in surplus a
 This parameter should be decreased to increase auction efficiency i.e. winning bid price vs. market price of MKR.
 
 ## Considerations
-The gas cost to `kick` (trigger) a surplus auction is non-trivial. If the Surplus Auction Minimum Bid Increase is too low, surplus auctions may not be triggered by any keeper because they are required to accept a fixed cost for an uncertain return.
+The gas cost to `kick` (trigger) a surplus auction is non-trivial. If the Surplus Auction Minimum Bid Increase is too small, surplus auctions may not be triggered by any keeper because they are required to accept a fixed cost for an uncertain return.
 
 >Page last reviewed: 2022-11-09  
 >Next review due: 2023-11-09  
