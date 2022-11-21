@@ -2,9 +2,9 @@
 
 >**Alias:** Proportional Kick Incentive  
 >**Parameter Name:** `chip`  
->**Containing Contract:** `Clipper`  
+>**Containing Contracts:** `MCD_CLIP_$ILK`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)  
+>**Technical Docs:** [Liquidations 2.0](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation)   
 
 ## Description
 
@@ -28,7 +28,7 @@ If this parameter is set higher than the Liquidation Penalty for vaults, it prov
 
 ## Changes
 
-Adjusting a Proportional Kick Incentive parameter is a manual process that requires an executive vote. Changes to a Proportional Kick Incentive are subject to the GSM Timelock.
+Adjusting a Proportional Kick Incentive parameter is a manual process that requires an executive vote. Changes to a Proportional Kick Incentive are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
 
 **Why increase this parameter?**
 
@@ -48,12 +48,12 @@ The Proportional Kick Incentive parameter should be set such that: `Proportional
 
 The combination of liquidations incentives should be set such that the following is true: `Flat Kick Incentive + Proportional Kick Incentive < Liquidation Penalty + Liquidation Gas Costs + Vault Creation Gas Costs`.
 
-If both the Proportional Kick Incentive and the Flat Kick Incentive are non-zero. A keeper triggering a valid liquidation will receive both.
+If both the Proportional Kick Incentive and the [Flat Kick Incentive](param-flat-kick-incentive.md) are non-zero. A keeper triggering a valid liquidation will receive both.
 
 Resetting a failed auction will also award the triggering keeper the Proportional Kick Incentive.
 
 The funds for the Proportional Kick Incentive are removed from the surplus buffer and may trigger MKR minting if there is no DAI available within the surplus buffer.
 
->Page last reviewed: -  
->Next review due: -  
+>Page last reviewed: 2022-11-16  
+>Next review due: 2023-11-16  
 
