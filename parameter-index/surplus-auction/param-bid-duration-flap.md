@@ -56,7 +56,7 @@ Surplus Auction Bid Duration is always upper-bounded by the [Surplus Auction Dur
 The [Debt Auction Bid Duration](../debt-auction/param-auction-duration-flop.md) parameter fulfills the same role as this parameter in Debt Auctions.
 
 >Page last reviewed: 2022-11-18  
->Next review due: 2022-11-18  
+>Next review due: 2023-11-18  
 
 
 
