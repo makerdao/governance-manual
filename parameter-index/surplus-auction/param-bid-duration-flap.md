@@ -58,5 +58,3 @@ The [Debt Auction Bid Duration](../debt-auction/param-auction-duration-flop.md) 
 >Next review due: 2023-11-18  
 
 
-
-
