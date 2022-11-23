@@ -24,7 +24,7 @@ The Maximum Auction Duration would need to be used if the Auction Price Function
 
 A large Maximum Auction Duration increases the amount of time that keepers have to bid in the auction before it needs to be reset. On the other hand, having a shorter duration means relying more heavily on the swift participation of keepers within collateral auctions.
 
-If auctions are too short there is a risk of liquidations not ending profitably before a reset is required. This may be negative depending on the settings for the [Flat Kick Incentive](param-flat-kick-incentive.md) and the [Proportional Kick Incentive](param-proportional-kick-incentive.md) because these incentives are paid to keepers at each reset.
+If auctions are too short, there is a risk of liquidations not ending profitably before a reset is required. This may be negative depending on the settings for the [Flat Kick Incentive](param-flat-kick-incentive.md) and the [Proportional Kick Incentive](param-proportional-kick-incentive.md) because these incentives are paid to keepers at each reset.
 
 The trade-offs to this parameter are heavily tied to the Auction Price Function parameter, as the shape of the curve may heavily affect the desired auction length.
 
@@ -36,7 +36,7 @@ Adjusting a Maximum Auction Duration parameter for a specific vault type is a ma
 
 Auction resets can only take place when either the Maximum Auction Duration parameter or the Maximum Auction Drawdown parameter are exceeded.
 
-During an [Emergency Shutdown](https://docs.makerdao.com/smart-contract-modules/shutdown), new auctions are halted, but the [Four-Stage Liquidations Circuit Breaker](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation#four-stage-liquidation-circuit-breaker) determines if ongoing auctions can be reset or not. If only one additional level of the circuit breaker is triggered the Maximum Auction Duration will still be used to check eligibility for auction reset, but under the most severe level of the Liquidations Circut breaker no resets can be performed, thus limiting the effectiveness of the parameter.
+During an [Emergency Shutdown](https://docs.makerdao.com/smart-contract-modules/shutdown), new auctions are halted, but the [Four-Stage Liquidations Circuit Breaker](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation#four-stage-liquidation-circuit-breaker) determines if ongoing auctions can be reset or not. If only one additional level of the circuit breaker is triggered, the Maximum Auction Duration will still be used to check eligibility for auction reset, but under the most severe level of the Liquidations Circut breaker no resets can be performed, thus limiting the effectiveness of the parameter.
 
 >Page last reviewed: 2022-11-07  
 >Next review due: 2023-11-07  
