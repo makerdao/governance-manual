@@ -1,6 +1,6 @@
 # Max Auction Duration
 
->**Alias:** Max Auction Duration  
+>**Alias:** Maximum Auction Duration  
 >**Parameter Name:** `tail`  
 >**Containing Contracts:** `MCD_CLIP_$ILK`  
 >**Scope:** Vault Type (Ilk)  
