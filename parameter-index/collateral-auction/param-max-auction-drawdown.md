@@ -1,6 +1,6 @@
 # Max Auction Drawdown
 
->**Alias:**  
+>**Alias:**  Max Auction Drawdown
 >**Parameter Name:** `cusp`  
 >**Containing Contract:** `MCD_CLIP_$ILK`  
 >**Scope:** Vault Type (Ilk)  
