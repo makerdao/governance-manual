@@ -1,18 +1,17 @@
 # Debt Ceiling Instant Access
 
 >**Alias:** DC-IAM  
->**Contract Name:** `DssAutoLine`  
->**Scope:** A single DssAutoLine contract can contain a set of parameters for each vault type.  
+>**Contract Name:** `MCD_IAM_AUTO_LINE`  
+>**Scope:** System  
+>**Technical docs:** TBD    
 
 ## Description
 
-The Debt Ceiling Instant Access Module allows any user to adjust the [Debt Ceiling](https://manual.makerdao.com/parameter-index/vault-risk/param-debt-ceiling) of a supported vault type according to rules defined in the DC-IAM smart-contract logic and parameters set by Maker Governance.
+The Debt Ceiling Instant Access Module allows any user to adjust the [Debt Ceiling](../parameter-index/vault-risk/param-debt-ceiling.md) of a supported vault type according to rules defined in the DC-IAM smart-contract logic and parameters set by Maker Governance.
 
-The rules defined in the DC-IAM smart-contract encourage an amount of 'open space' between the current debt usage and the Debt Ceiling of a vault type. The DC-IAM holds three parameters that can be set by governance for each vault type \(such as ETH-A.\).
+The rules defined in the DC-IAM smart-contract encourage an amount of 'open space' between the current debt usage and the Debt Ceiling of a vault type. The DC-IAM holds three parameters that can be set by governance for each vault type (such as ETH-A.). These parameters are `line`, `gap`, and `ttl`, and their effect is described in detail in the Key Parameters section.
 
-For example, if the ETH-A Debt Ceiling is currently 100 DAI, and 90 DAI is drawn as debt, the DC-IAM could be used to increase the ETH-A debt ceiling to 110 DAI, enforcing a 20 DAI gap between the usage and the ceiling. If the ETH-A Debt Ceiling then drops to 50 DAI, a user could trigger the DC-IAM and reduce the debt ceiling to 70 DAI, still enforcing the 20 DAI gap between usage and the ceiling.
-
-These parameters are `line`, `gap`, and `ttl`, and their effect is described in detail in the Key Parameters section.
+For example, if the ETH-A Debt Ceiling is currently 100 DAI, and 90 DAI is drawn as debt, the DC-IAM could be used to increase the ETH-A debt ceiling to 110 DAI, enforcing a 20 DAI gap between the usage and the ceiling. If the ETH-A Debt Ceiling then drops to 50 DAI, a user could trigger the DC-IAM and set the debt ceiling to 70 DAI, still enforcing the 20 DAI gap between usage and the ceiling.
 
 ## Purpose
 
@@ -31,11 +30,11 @@ The one minor downside is that the DC-IAM enables a griefing attack on the Debt 
 
 Three key parameters for the DC-IAM are discussed below. Each of these parameters can be set for each vault type.
 
-### Maximum Debt Ceiling \(`line`\)
+### Maximum Debt Ceiling (`line`)
 
-The Maximum Debt Ceiling refers to the maximum value for Debt Ceiling that the DC-IAM will allow in the given vault type. This parameter is also named `line` within the smart contract. When using the DC-IAM to manage the Debt Ceiling of a vault type, this parameter essentially replaces the [Debt Ceiling](https://manual.makerdao.com/parameter-index/vault-risk/param-debt-ceiling) parameter for that vault type. Rather than Governance setting the Debt Ceiling directly, they will need to set the Maximum Debt Ceiling in the DC-IAM.
+The Maximum Debt Ceiling refers to the maximum value for Debt Ceiling that the DC-IAM will allow in the given vault type. This parameter is also named `line` within the smart contract. When using the DC-IAM to manage the Debt Ceiling of a vault type, this parameter essentially replaces the [Debt Ceiling](../parameter-index/vault-risk/param-debt-ceiling.md) parameter for that vault type. Rather than Governance setting the Debt Ceiling directly, they will need to set the Maximum Debt Ceiling in the DC-IAM.
 
-### Target Available Debt \(`gap`\)
+### Target Available Debt (`gap`)
 
 The Target Available Debt parameter controls how much of a gap the DC-IAM aims to maintain between the current debt usage and the Debt Ceiling of the vault type.
 
@@ -115,35 +114,7 @@ Running this method will effectively modify the Debt Ceiling for the given vault
 ## Appendix
 
 * A one-method contract for executing DC-IAM for all vault types at the same time: [https://etherscan.io/address/0xd5a63a56c790c67e3f92bce5076dc464f98c6df1\#writeContract](https://etherscan.io/address/0xd5a63a56c790c67e3f92bce5076dc464f98c6df1#writeContract)
-* A list of the hexadecimal codes for all vault types that can be fed into DC-IAM:
-  * **AAVE-A**
-    * 0x414156452d410000000000000000000000000000000000000000000000000000
-  * **BAL-A**
-    * 0x42414c2d41000000000000000000000000000000000000000000000000000000
-  * **BAT-A**
-    * 0x4241542d41000000000000000000000000000000000000000000000000000000
-  * **COMP-A**
-    * 0x434f4d502d410000000000000000000000000000000000000000000000000000
-  * **ETH-A**
-    * 0x4554482d41000000000000000000000000000000000000000000000000000000
-  * **ETH-B**
-    * 0x4554482d42000000000000000000000000000000000000000000000000000000
-  * **KNC-A**
-    * 0x4b4e432d41000000000000000000000000000000000000000000000000000000
-  * **LINK-A**
-    * 0x4c494e4b2d410000000000000000000000000000000000000000000000000000
-  * **LRC-A**
-    * 0x4c52432d41000000000000000000000000000000000000000000000000000000
-  * **MANA-A**
-    * 0x4d414e412d410000000000000000000000000000000000000000000000000000
-  * **RENBTC-A**
-    * 0x52454e4254432d41000000000000000000000000000000000000000000000000
-  * **UNI-A**
-    * 0x554e492d41000000000000000000000000000000000000000000000000000000
-  * **WBTC-A**
-    * 0x574254432d410000000000000000000000000000000000000000000000000000
-  * **YFI-A**
-    * 0x5946492d41000000000000000000000000000000000000000000000000000000
 
+   
 >Page last reviewed: 2022-11-07  
 >Next review due: 2023-11-07 
