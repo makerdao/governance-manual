@@ -51,6 +51,6 @@ Surplus Auction Duration is always lower-bounded by the [Surplus Auction Bid Dur
 For example, if Surplus Auction Bid Duration is 1 hour and Surplus Auction Duration is 30 minutes, then the auction will only last 30 minutes, making the Surplus Auction Bid Duration irrelevant.
 
 >Page last reviewed: 2022-11-18  
->Next review due: 2022-11-18  
+>Next review due: 2023-11-18  
 
 

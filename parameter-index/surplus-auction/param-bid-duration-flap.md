@@ -1,4 +1,3 @@
-
 # Bid Duration (Flap)
 
 >**Alias:** N/A  
@@ -9,7 +8,7 @@
 
 ## Description
 
-The Surplus Auction Bid Duration parameter allows governance to control how soon after a successful bid a Surplus Auction will end. Further bids reset this timer, extending the auction. A surplus auction can extend up to a maximum time which is set by the Surplus Auction Duration parameter at which point the auction will end regardless of the Bid Duration timer.
+The Surplus Auction Bid Duration parameter allows governance to control how soon after a successful bid a Surplus Auction will end. Further bids reset this timer, extending the auction. A surplus auction can extend up to a maximum time which is set by the [Surplus Auction Duration](param-auction-duration-flap.md) parameter at which point the auction will end regardless of the Bid Duration timer.
 
 Surplus auctions are used to auction off excess DAI in fixed lots for a variable bid of MKR, which is then burned. In this process, keepers bid on how much MKR they are willing to pay for a fixed amount of DAI. 
 
@@ -36,7 +35,7 @@ A small Surplus Auction Bid Duration lessens the risk that the market will move 
 
 A small Surplus Auction Bid Duration also increases the risk of a more severe loss of value in the case of blockchain congestion. Rising gas prices may lock out keepers either due to technical issues or due to the additional fixed cost of gas. 
 
-A larger Surplus Auction Bid Duration gives keepers more time to participate in auctions, hopefully encouraging a higher number of bidders. However, if the Surplus Auction Bid Duration is too large, there may be bids for minimal amounts of MKR to safeguard against price volatility during the Surplus Auction Bid Duration period. Realistically priced bids would only appear when the auction end (determined by [Surplus Auction Duration](param-auction-duration-flap.md)) is closer than the Surplus Auction Bid Duration period. In situations where the price of MKR is dropping, this would lead to less MKR being burned than with a smaller Surplus Auction Bid Duration.
+A larger Surplus Auction Bid Duration gives keepers more time to participate in auctions, hopefully encouraging a higher number of bidders. However, if the Surplus Auction Bid Duration is too large, there may be bids for minimal amounts of MKR to safeguard against price volatility during the Surplus Auction Bid Duration period. Realistically priced bids would only appear when the auction end (determined by the [Surplus Auction Duration](param-auction-duration-flap.md)) is closer than the Surplus Auction Bid Duration period. In situations where the price of MKR is dropping, this would lead to less MKR being burned than with a smaller Surplus Auction Bid Duration.
 
 
 ## Changes
@@ -56,6 +55,6 @@ Surplus Auction Bid Duration is always upper-bounded by the [Surplus Auction Dur
 The [Debt Auction Bid Duration](../debt-auction/param-auction-duration-flop.md) parameter fulfills the same role as this parameter in Debt Auctions.
 
 >Page last reviewed: 2022-11-18  
->Next review due: 2022-11-18  
+>Next review due: 2023-11-18  
 
 
