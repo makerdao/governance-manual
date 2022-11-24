@@ -30,7 +30,7 @@ If there is any doubt about a given estimation, it will generally be rounded up.
 
 GovAlpha will add impact estimation tags in the following places:
 * [Governance tracker spreadsheet](https://docs.google.com/spreadsheets/d/1LWNlv6hr8oXebk8rvXZBPRVDjN-3OrzI0IgLwBVk0vM/edit#gid=0).   
-<img src="../images/governance-tracker-impact-tag.png" width="400" height="400" />
+<img src="../images/governance-tracker-impact-tag.png" width="400" />
 
 * Forum posts for RFC MIPs and Signal Requests.  
 ![](../images/forum-impact-tag.png)
