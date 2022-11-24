@@ -1,9 +1,7 @@
 # Impact Estimations
 
-GovAlpha applies impact estimations to active governance items (MIPs and Signal Requests). The goal of these estimations is to:
 
-* Provide delegates, core unit members and the wider community with an idea of how important it is that they pay attention to a given governance item given limited time.
-* Provide appropriate context for GovAlpha members conducting internal reviews of governance items.
+GovAlpha applies impact estimations to active governance items (MIPs and Signal Requests). The goal of these estimations is to provide delegates, core unit members and the wider community with an idea of how important it is that they pay attention to a given governance item given limited time.
 
 Impact estimations currently have a single dimension, giving GovAlpha’s estimate on the magnitude of the impact a given governance item will have on the Maker Protocol and MakerDAO. A `low`, `medium`, or `high` impact score will be assigned to active governance items.
 
@@ -32,7 +30,7 @@ If there is any doubt about a given estimation, it will generally be rounded up.
 
 GovAlpha will add impact estimation tags in the following places:
 * [Governance tracker spreadsheet](https://docs.google.com/spreadsheets/d/1LWNlv6hr8oXebk8rvXZBPRVDjN-3OrzI0IgLwBVk0vM/edit#gid=0).   
-![](../images/governance-tracker-impact-tag.png)
+![](../images/governance-tracker-impact-tag.png =x250)
 
 * Forum posts for RFC MIPs and Signal Requests.  
 ![](../images/forum-impact-tag.png)
@@ -40,7 +38,7 @@ GovAlpha will add impact estimation tags in the following places:
 * [Voting portal](https://vote.makerdao.com).  
 ![](../images/voting-portal-impact-tag.png)
 
-* [Governance Dashboard](https://governance-metrics-dashboard.vercel.app)  
+* [Governance Dashboard](https://governance-metrics-dashboard.vercel.app/tracker) 
 ![](../images/governance-dashboard-impact-tag.png)
 
 ## Disclaimer

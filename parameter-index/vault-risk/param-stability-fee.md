@@ -4,7 +4,7 @@
 >**Parameter Name:** `duty`  
 >**Containing Contract:** `MCD_JUG`  
 >**Scope:** Vault Type (Ilk)  
->**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/rates-module/jug-detailed-documentation)  
+>**Technical Docs:** [Jug Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/rates-module/jug-detailed-documentation)  
 
 ## Description
 
