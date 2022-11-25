@@ -38,8 +38,7 @@ Likewise, lower Stability Fees may temporarily or permanently decrease the reven
 
 ## Changes
 
-Adjusting a Stability Fee parameter is a manual process that requires an executive vote. Changes to Stability Fee parameters are subject to the GSM Pause Delay.
-
+Adjusting a Stability Fee parameter is a manual process that requires an executive vote. Changes to Stability Fee parameters are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
 
 The Maker Open Market Committee has been empowered by Maker Governance to propose rate changes based on monetary policy, risk, and competitive landscape. The operations, membership, and historic proposals of this committee can be found on the [Maker Governance Forum](https://forum.makerdao.com/tag/rates-working-group).
 
@@ -65,11 +64,11 @@ Finally, a Stability Fee might be decreased if competitors are offering lower ra
 
 The Stability Fee parameter has a lower bound of 0%, it cannot be negative.
 
-Absent active management by a vault user, the accrual of Stability Fees can push a vault's Collateralization Ration below the Liquidation Ratio, which will allow it to be liquidated.
+Absent active management by a vault user, the accrual of Stability Fees can push a vault's Collateralization Ration below the [Liquidation Ratio](param-liquidation-ratio.md), which will allow it to be liquidated.
 
 A Global Stability Fee parameter also exists within the Maker Protocol. In practice, this has not been used because it adds unnecessary complexity to the governance process and Stability Fee calculation.
 
 
->Page last reviewed: 2022-11-18    
->Next review due: 2023-11-18  
+>Page last reviewed: 2022-11-25    
+>Next review due: 2023-11-25  
 
