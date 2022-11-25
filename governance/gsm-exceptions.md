@@ -70,3 +70,6 @@ The `STARKNET_ESCROW_MOM` contract manages the breaker functionality for the Sta
 The breaker functionality allows a successful governance proposal to freeze withdrawals from the L1 Starknet bridge contract without waiting for the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) to expire. 
 
 This functionality is exceptional because StarkNet is expected to finalize its state on L1 at most every several hours. This gives Maker Governance a chance to prevent uncollateralized DAI minted on L2 moving into general circulation on L1, potentially limiting losses to the StarkNet L2.
+
+>Page last reviewed: 2022-11-25  
+>Next review due: 2023-05-25   
