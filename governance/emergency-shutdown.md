@@ -37,6 +37,6 @@ Real-world Assets are represented by RWA tokens and DAI holders may redeem the t
 
 ## Detailed Documentation
 
-Technical documentation about how Emergency Shutdown works can be found in the [Emergency Shutdown Module](https://docs.makerdao.com/smart-contract-modules/emergency-shutdown-module) section and [End - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/shutdown/end-detailed-documentation) section of [MCD Docs](https://docs.makerdao.com/).
+Technical documentation about how Emergency Shutdown works can be found in the [Emergency Shutdown Module](https://docs.makerdao.com/smart-contract-modules/emergency-shutdown-module) section and [End - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/shutdown/end-detailed-documentation) section of [MakerDAO Technical Docs](https://docs.makerdao.com/).
 
 
