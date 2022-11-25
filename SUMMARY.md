@@ -30,6 +30,7 @@
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
 * Verification
   * [Executive Audit](governance/executive-audit.md)
+  * [GSM Exceptions](governance/gsm-exceptions.md)
 * Offchain Incentives
   * [Community SourceCred](governance/sourcecred.md)
   * [Delegate SourceCred](governance/delegate-sourcecred.md)
