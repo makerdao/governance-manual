@@ -21,7 +21,6 @@
   * [Governance Flow](governance/governance-flow.md)
   * [Urgent Governance Flow](governance/urgent-governance-flow.md)
   * [Governance Process Selector](governance/governance-process-selection-flow.md)
-  * [Emergency Shutdown](governance/emergency-shutdown.md)
 * [Voting](governance/voting-in-makerdao.md)
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
   * [Gasless Poll Voting](governance/gasless-poll-voting.md)
@@ -30,6 +29,7 @@
   * [Approval Voting Guide](governance/approval-voting-guide.md)
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
   * [Impact Estimations](governance/impact-estimations.md)
+  * [Emergency Shutdown](governance/emergency-shutdown.md)
 * Verification
   * [Executive Audit](governance/executive-audit.md)
 * Offchain Incentives
