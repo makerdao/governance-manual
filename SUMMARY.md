@@ -21,6 +21,7 @@
   * [Governance Flow](governance/governance-flow.md)
   * [Urgent Governance Flow](governance/urgent-governance-flow.md)
   * [Governance Process Selector](governance/governance-process-selection-flow.md)
+  * [Emergency Shutdown](governance/emergency-shutdown.md)
 * [Voting](governance/voting-in-makerdao.md)
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
   * [Gasless Poll Voting](governance/gasless-poll-voting.md)
