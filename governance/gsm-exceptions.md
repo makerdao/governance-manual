@@ -15,11 +15,11 @@ Contracts may be looked up using the [Chainlog](https://chainlog.makerdao.com/).
 ### Executive Drop Functionality
 > Contract: `MCD_PAUSE`
 
-The `MCD_PAUSE` contract manages the timelock functionality of the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md), however it also contains an in-built exception to its own rule.
+The `MCD_PAUSE` contract manages the timelock functionality of the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md), however, it also contains an in-built exception to its own rule.
 
 The executive drop functionality allows a successful governance proposal to cancel a previous governance proposal that has not yet passed the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) period and been executed. Like any other, the new executive proposal must be the `hat` proposal, meaning more MKR is voting for it than is voting for any other executive proposal. 
 
-This functionality allows Maker governors to prevent a malicious attack on the protocol if they are able to exceed the attackers MKR weight before the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) expires.
+This functionality allows Maker governors to prevent a malicious attack on the protocol if they are able to exceed the attacker's MKR weight before the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) expires.
 
 The risk opened up by this exceptional functionality is that a malicious attacker may be able to delay or permanently block a legitimate governance proposal that negatively affects them.
 
@@ -30,7 +30,7 @@ The `OSM_MOM` contract manages the freeze functionality for MakerDAO's oracles.
 
 The freeze functionality allows a successful governance proposal to immediately freeze the oracle price for any or all of the vault types in the Maker Protocol. Once frozen, the oracle price will remain at its current value. The oracle cannot be unfrozen without waiting for the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) as part of a regular governance proposal.
 
-This functionality gives Maker Governance a chance to prevent a malicious oracle price from causing liquidations (or unbacked DAI minting) in the Maker Protocol. Due to the structure of Maker's oracles, the next oracle value is known one hour in advance of it becoming active in the Protocol. This is the window in which Maker Governance can act to prevent a malicious oracle price entering the protocol.
+This functionality gives Maker Governance a chance to prevent a malicious oracle price from causing liquidations (or unbacked DAI minting) in the Maker Protocol. Due to the structure of Maker's oracles, the next oracle value is known one hour in advance of it becoming active in the Protocol. This is the window in which Maker Governance can act to prevent a malicious oracle price from entering the protocol.
 
 The risk opened up by this exceptional functionality is that the oracles may be frozen by an attacker in order to either:
 * Prevent an expensive liquidation. 
@@ -58,7 +58,7 @@ The circuit breaker functionality allows a successful governance proposal to imp
 * Level 2 - New Liquidations and Resets Disabled - No new liquidations can take place. No existing auctions can be reset if they expire.
 * Level 3 - All Liquidations Disabled - No new liquidations, no resets, no bidding in active auctions. 
 
-Additionally, the contact allows for permissionless activation of the circuit breaker, if the price decrease in a collateral exceeds a preset percentage value between oracle price updates. The permissionless activation triggers the circuit breaker at Level 2, because both new auctions and resets reference the current oracle price. 
+Additionally, the contact allows for permissionless activation of the circuit breaker, if the price decrease in a collateral exceeds a preset percentage value between oracle price updates. The permissionless activation triggers the circuit breaker at Level 2 because both new auctions and resets reference the current oracle price. 
 
 This functionality is exceptional because liquidations at non-market prices have the potential to be irreversibly damaging to both users and the Maker Protocol. The circuit breaker allows Maker governance to attempt to limit the damage in the event of an issue affecting liquidations without waiting for the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md).
 
@@ -84,7 +84,7 @@ The `STARKNET_ESCROW_MOM` contract manages the breaker functionality for the Sta
 
 The breaker functionality allows a successful governance proposal to freeze withdrawals from the L1 Starknet bridge contract without waiting for the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) to expire. 
 
-This functionality is exceptional because StarkNet is expected to finalize its state on L1 at most every several hours. This gives Maker Governance a chance to prevent uncollateralized DAI minted on L2 moving into general circulation on L1, potentially limiting losses to the StarkNet L2.
+This functionality is exceptional because StarkNet is expected to finalize its state on L1 at most every several hours. This gives Maker Governance a chance to prevent uncollateralized DAI minted on L2 from moving into general circulation on L1, potentially limiting losses to the StarkNet L2.
 
 The risk opened up by this exceptional functionality is that DAI withdrawals from Starknet to mainnet are unexpectedly blocked with circumstance or timing that benefits an attacker, and inconveniences others. 
 
