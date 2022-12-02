@@ -29,7 +29,6 @@
   * [Approval Voting Guide](governance/approval-voting-guide.md)
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
   * [Impact Estimations](governance/impact-estimations.md)
-  * [Emergency Shutdown](governance/emergency-shutdown.md)
 * Verification
   * [Executive Audit](governance/executive-audit.md)
 * Offchain Incentives
