@@ -12,6 +12,12 @@ This page lists the current exceptions and gives details of:
 
 Contracts may be looked up using the [Chainlog](https://chainlog.makerdao.com/).
 
+{% hint style="warning" %}
+
+While all reasonable effort has been made to ensure the accuracy and currency of this page, the authors are not smart contract developers, and exceptional functionality may be added or removed by Maker Governance at any time (subject to the GSM Pause Delay).
+
+{% endhint %}
+
 ### Executive Drop Functionality
 
 The `MCD_PAUSE` contract manages the timelock functionality of the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md), however, it also contains an in-built exception to its own rule.
@@ -49,10 +55,10 @@ The risk opened up by this exceptional functionality is a theoretical griefing a
 The `CLIPPER_MOM` contract manages the circuit breaker functionality for vault types using [Liquidations 2.0](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation). 
 
 The circuit breaker functionality allows a successful governance proposal to impose governance's choice of limitations on liquidations for any or all of the vault types in the Maker Protocol.
-* Level 0 - Liquidations Enabled - The breaker is not tripped, new vaults can be liquidated and old liquidations can proceed.
-* Level 1 - New Liquidations Disabled - No new liquidations can take place.
-* Level 2 - New Liquidations and Resets Disabled - No new liquidations can take place. No existing auctions can be reset if they expire.
-* Level 3 - All Liquidations Disabled - No new liquidations, no resets, no bidding in active auctions. 
+* **Level 0 - Liquidations Enabled** - The breaker is not tripped, new vaults can be liquidated and old liquidations can proceed.
+* **Level 1 - New Liquidations Disabled** - No new liquidations can take place.
+* **Level 2 - New Liquidations and Resets Disabled** - No new liquidations can take place. No existing auctions can be reset if they expire.
+* **Level 3 - All Liquidations Disabled** - No new liquidations, no resets, no bidding in active auctions. 
 
 Additionally, the contact allows for permissionless activation of the circuit breaker, if the price decrease in a collateral exceeds a preset percentage value between oracle price updates. The permissionless activation triggers the circuit breaker at Level 2 because both new auctions and resets reference the current oracle price. 
 
