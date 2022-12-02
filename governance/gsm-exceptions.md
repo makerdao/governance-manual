@@ -13,7 +13,6 @@ This page lists the current exceptions and gives details of:
 Contracts may be looked up using the [Chainlog](https://chainlog.makerdao.com/).
 
 ### Executive Drop Functionality
-> Contract: `MCD_PAUSE`
 
 The `MCD_PAUSE` contract manages the timelock functionality of the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md), however, it also contains an in-built exception to its own rule.
 
@@ -24,7 +23,6 @@ This functionality allows Maker governors to prevent a malicious attack on the p
 The risk opened up by this exceptional functionality is that a malicious attacker may be able to delay or permanently block a legitimate governance proposal that negatively affects them.
 
 ### Oracle Freeze Functionality
-> Contract: `OSM_MOM`
 
 The `OSM_MOM` contract manages the freeze functionality for MakerDAO's oracles. 
 
@@ -34,10 +32,9 @@ This functionality gives Maker Governance a chance to prevent a malicious oracle
 
 The risk opened up by this exceptional functionality is that the oracles may be frozen by an attacker in order to either:
 * Prevent an expensive liquidation. 
-* Take advantage of a prearranged manipulation of collateral prices.
+* Take advantage of a significant drop in collateral prices to mint unbacked Dai.
 
 ### Dynamic Debt Ceiling Functionality
-> Contract: `MCD_IAM_AUTO_LINE`
 
 The `MCD_IAM_AUTO_LINE` contract manages the debt ceiling parameters for many of MakerDAO's vault types according to preset rules.
 
@@ -48,7 +45,6 @@ This functionality is exceptional so that the Maker protocol can react to change
 The risk opened up by this exceptional functionality is a theoretical griefing attack on the IAM that prevents debt from being accessible in affected vault types.
 
 ### Liquidations Circuit Breaker
-> Contract: `CLIPPER_MOM`
 
 The `CLIPPER_MOM` contract manages the circuit breaker functionality for vault types using [Liquidations 2.0](https://docs.makerdao.com/smart-contract-modules/dog-and-clipper-detailed-documentation). 
 
@@ -64,10 +60,9 @@ This functionality is exceptional because liquidations at non-market prices have
 
 The risk opened up by this exceptional functionality is that the oracles may be frozen by an attacker in order to either:
 * Prevent an expensive liquidation. 
-* Take advantage of a prearranged manipulation of collateral prices.
+* Take advantage of a significant drop in collateral prices to mint unbacked Dai.
 
 ### Direct Deposit Breaker
-> Contract: `DIRECT_MOM`
 
 The `DIRECT_MOM` contract manages the breaker functionality for [Direct Deposit Modules (D3Ms)](../module-index/module-dai-direct-deposit.md).
 
@@ -75,16 +70,15 @@ The breaker functionality allows a successful governance proposal to disable any
 
 This functionality is exceptional to give Maker Governance a chance to limit the lost value if the target protocol or entity for a D3M becomes insolvent. Because targets are often publicly accessible protocols there is likely to be a race to extract as much value as possible in the event of a hack or insolvency event. Waiting for the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) to expire makes it likely that the Maker Protocol will lose significant value - up to the maximum debt ceiling on the D3M. 
 
-The risk opened up by this exceptional functionality is that a given line of DAI credit is unexpectedly shut down, potentially leading to higher yields on an affected protocol that an attacker may be able to use to their advantage. 
+The risk opened up by this exceptional functionality is that a given line of DAI credit is unexpectedly shut down, this has the potential to disrupt the protocol in question which may impact Maker indirectly.
 
 ### Starknet Circuit Breaker
-> Contract: `STARKNET_ESCROW_MOM`
 
 The `STARKNET_ESCROW_MOM` contract manages the breaker functionality for the StarkNet-DAI bridge. 
 
 The breaker functionality allows a successful governance proposal to freeze withdrawals from the L1 Starknet bridge contract without waiting for the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) to expire. 
 
-This functionality is exceptional because StarkNet is expected to finalize its state on L1 at most every several hours. This gives Maker Governance a chance to prevent uncollateralized DAI minted on L2 from moving into general circulation on L1, potentially limiting losses to the StarkNet L2.
+This functionality is exceptional because StarkNet is expected to finalize its state on L1 at most every several hours. If an invalid or malicious state is finalized, it could lead to losses being transmitted from StarkNet to mainnet. The breaker gives Maker Governance a chance to prevent this, potentially limiting losses to the StarkNet L2.
 
 The risk opened up by this exceptional functionality is that DAI withdrawals from Starknet to mainnet are unexpectedly blocked with circumstance or timing that benefits an attacker, and inconveniences others. 
 
