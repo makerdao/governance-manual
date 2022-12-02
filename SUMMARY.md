@@ -28,6 +28,8 @@
   * [Off-Chain Governance](governance/off-chain-governance.md)
   * [Approval Voting Guide](governance/approval-voting-guide.md)
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
+  * [Impact Estimations](governance/impact-estimations.md)
+  * [Emergency Shutdown](governance/emergency-shutdown.md)
 * Verification
   * [Executive Audit](governance/executive-audit.md)
 * Offchain Incentives
@@ -45,7 +47,6 @@
   * [Separation of Powers](delegation/separation-of-powers.md)
   * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
 * For MKR Holders
-  * [How to Delegate Video](delegation/mkr-holder-HowToDelegate.md)
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
   * [How To Delegate Video](delegation/mkr-holder-how-to-delegate.md)

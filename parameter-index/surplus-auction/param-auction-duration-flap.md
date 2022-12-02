@@ -53,4 +53,3 @@ For example, if Surplus Auction Bid Duration is 1 hour and Surplus Auction Durat
 >Page last reviewed: 2022-11-18  
 >Next review due: 2023-11-18  
 
-
