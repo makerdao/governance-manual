@@ -64,7 +64,7 @@ Additionally, the contact allows for permissionless activation of the circuit br
 
 This functionality is exceptional because liquidations at non-market prices have the potential to be irreversibly damaging to both users and the Maker Protocol. The circuit breaker allows Maker governance to attempt to limit the damage in the event of an issue affecting liquidations without waiting for the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md).
 
-The risk opened up by this exceptional functionality is that the oracles may be frozen by an attacker in order to either:
+The risk opened up by this exceptional functionality is that liquidations may be halted by an attacker in order to either:
 * Prevent an expensive liquidation. 
 * Take advantage of a significant drop in collateral prices to mint unbacked Dai.
 
