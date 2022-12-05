@@ -26,16 +26,15 @@
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
   * [Gasless Poll Voting](governance/gasless-poll-voting.md)
   * [On-Chain Governance](governance/on-chain-governance.md)
-  * [Off-Chain Governance](governance/off-chain-governance.md)
   * [Approval Voting Guide](governance/approval-voting-guide.md)
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
-  * [Impact Estimations](governance/impact-estimations.md)
+  * [Emergency Shutdown](governance/emergency-shutdown.md)
 * Verification
   * [Executive Audit](governance/executive-audit.md)
   * [GSM Exceptions](governance/gsm-exceptions.md)
-* Offchain Incentives
-  * [Community SourceCred](governance/sourcecred.md)
-  * [Delegate SourceCred](governance/delegate-sourcecred.md)
+* Off-Chain
+  * [Off-Chain Governance](governance/off-chain-governance.md)
+  * [Impact Estimations](governance/impact-estimations.md)
   * [Proposal Bounties](governance/proposal-bounties.md)
 * Technical MIPs
   * [Best Practices](governance/technical-mips-development-best-practices.md)
