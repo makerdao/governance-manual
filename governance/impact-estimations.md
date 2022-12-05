@@ -29,13 +29,13 @@ If there is any doubt about a given estimation, it will generally be rounded up.
 ## Usage
 
 GovAlpha will add impact estimation tags in the following places:
-* [Governance tracker spreadsheet](https://docs.google.com/spreadsheets/d/1LWNlv6hr8oXebk8rvXZBPRVDjN-3OrzI0IgLwBVk0vM/edit#gid=0).   
-<img src="../images/governance-tracker-impact-tag.png" />
+* [Governance tracker spreadsheet](https://docs.google.com/spreadsheets/d/1LWNlv6hr8oXebk8rvXZBPRVDjN-3OrzI0IgLwBVk0vM/edit#gid=0)   
+![](../images/governance-tracker-impact-tag.png)
 
-* [Forum](https://forum.makerdao.com/) posts for RFC MIPs and Signal Requests.  
+* [Forum](https://forum.makerdao.com/) posts for RFC MIPs and Signal Requests   
 ![](../images/forum-impact-tag.png)
 
-* [Voting portal](https://vote.makerdao.com).  
+* [Voting portal](https://vote.makerdao.com)   
 ![](../images/voting-portal-impact-tag.png)
 
 * [Governance Dashboard](https://governance-metrics-dashboard.vercel.app/tracker)   
