@@ -62,7 +62,7 @@ The circuit breaker functionality allows a successful governance proposal to imp
 
 Additionally, the contract allows for permissionless activation of the circuit breaker, if the price decrease in a collateral exceeds a preset percentage value between oracle price updates. The permissionless activation triggers the circuit breaker at Level 2 because both new auctions and resets reference the current oracle price. 
 
-This functionality is exceptional because liquidations at non-market prices have the potential to be irreversibly damaging to both users and the Maker Protocol. The circuit breaker allows Maker governance to attempt to limit the damage in the event of an issue affecting liquidations without waiting for the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md).
+This functionality is exceptional because liquidations at non-market prices have the potential to be irreversibly damaging to both users and the Maker Protocol. The circuit breaker allows Maker Governance to attempt to limit the damage in the event of an issue affecting liquidations without waiting for the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md).
 
 The risk opened up by this exceptional functionality is that liquidations may be halted by an attacker in order to either:
 * Prevent an expensive liquidation. 
@@ -74,7 +74,7 @@ The `DIRECT_MOM` contract manages the breaker functionality for [Direct Deposit 
 
 The breaker functionality allows a successful governance proposal to disable any or all of the active D3Ms. In practice, this will set the `bar` parameter to zero, which (contrary to intuition) disables the module by setting the allowed Debt Ceiling to zero. At this point, no further DAI can be minted through the Direct Deposit Module.
 
-This functionality is exceptional to give Maker Governance a chance to limit the lost value if the target protocol or entity for a D3M becomes insolvent. Because targets are often publicly accessible protocols there is likely to be a race to extract as much value as possible in the event of a hack or insolvency event. Waiting for the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) to expire makes it likely that the Maker Protocol will lose significant value - up to the maximum debt ceiling on the D3M. 
+This functionality is exceptional to give Maker Governance a chance to limit the lost value if the target protocol or entity for a D3M becomes insolvent. Because targets are often publicly accessible protocols there is likely to be a race to extract as much value as possible in the event of a hack or insolvency event. Waiting for the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) to expire makes it likely that the Maker Protocol will lose significant value, up to the maximum debt ceiling on the D3M. 
 
 The risk opened up by this exceptional functionality is that a given line of DAI credit is unexpectedly shut down, this has the potential to disrupt the protocol in question which may impact Maker indirectly.
 
