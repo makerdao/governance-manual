@@ -4,6 +4,8 @@ This page contains layman’s explanations of the collateral that backs the valu
 
 <!-- MUST BE KEPT IN SYNC WITH COLLATERAL-INFO.YAML -->
 
+
+
 ## Ether (ETH)
 > **Ilks:** ETH-A, ETH-B, ETH-C  
 
@@ -156,7 +158,7 @@ A variety of real estate, business, and consumer loans with a range of durations
 [More info (Huntingdon Valley Bank)...](hvbank.md)
 
 ## Monetalis Clydesdale
-> **Ilks: ** RWA007-A
+> **Ilks:** RWA007-A
 
 Different blends of short-term bonds from ultra-short (<1 year) to short (1-3 years) maturities. Investments done through BlackRock and Baillie Gifford. Mainly invested in US Treasuries but some exposure to corporate bonds.
 
