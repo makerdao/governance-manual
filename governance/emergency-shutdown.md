@@ -12,7 +12,7 @@ Emergency Shutdown may also be triggered through a regular Executive Vote, thoug
 
 ## Sequence of events
 
-1. Once Emergency Shutdown has been activated, the following items take effect immediately:
+1. Once Emergency Shutdown has been activated, the following changes take place immediately:
     * The ability to create vaults, generate DAI from existing vaults, or repay borrowed DAI to vaults is disabled. 
     * All debt and surplus auctions are disabled. 
     * The DAI Savings Rate and all stability fees are set to zero. 
