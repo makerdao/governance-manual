@@ -1,8 +1,8 @@
 # Emergency Shutdown
 
 >**Alias:** ESM  
->**Contract Name:** `esm.sol`  
->**Scope:** system  
+>**Contract Name:** `MCD_ESM`  
+>**Scope:** System  
 >**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/shutdown/emergency-shutdown-module)
 
 ## Description
@@ -46,5 +46,5 @@ Delegate contracts are unable to interact with the Emergency Shutdown Module. Th
 
 If the protocol is restarted, Governance might choose to mint MKR to reward MKR holders depositing MKR into the Emergency Shutdown Module to encourage good-faith actors to act in a manner beneficial to the protocol. However, this is not guaranteed and requires a degree of trust in Governance of the restarted protocol.
 
->Page last reviewed: 31/08/2022  
->Next review due: 31/08/2023
+>Page last reviewed: 2022-08-31  
+>Next review due: 2023-08-31  
