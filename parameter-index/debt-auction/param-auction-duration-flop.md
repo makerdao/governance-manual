@@ -17,11 +17,15 @@ Debt Auctions are used to recapitalize the Maker Protocol by minting and auction
 `Debt Auction Bid Duration` = 300 seconds  
 `Debt Auction Duration` = 24 hours  
 
+**Scenario 1 - Limited by Bid Duration**
 1. A Debt Auction has been triggered and 3 hours pass with no bid.
 2. Keeper A offers to take 20 MKR in exchange for 100 DAI at the 3-hour mark.
 3. Keeper B has 300 seconds in which to offer a more attractive bid or else Keeper A will win the auction.
-4. Keeper B offers to take 19 MKR in exchange for 100 DAI at 23 hours and 59 minutes into the auction.
-5. Keeper A has 60 seconds in which to offer a more attractive bid or else Keeper B will win the auction.
+
+**Scenario 2 - Limited by Auction Duration**
+1. A Debt Auction has been triggered and 23 hours and 59 minutes pass with no bid.
+2. Keeper A offers to take 20 MKR in exchange for 100 DAI at 23 hours and 59 minutes into the auction.
+3. Keeper B has 60 seconds in which to offer a more attractive bid or else Keeper A will win the auction.
 
 ## Purpose
 The Debt Auction Duration parameter allows Maker Governance to adjust the maximum duration for debt auctions in order to ensure robust keeper participation. It also helps to ensure a predictable time frame for the protocol to recover from an undercollateralized state. 
@@ -45,7 +49,7 @@ Maker Governance may wish to decrease the Debt Auction Duration if the auctions 
 ## Considerations
 Debt Auction Duration is always lower bounded by the Debt Auction Bid Duration i.e. the time period before which a bid expires. If it is set lower than the Debt Auction Bid Duration, it will render that parameter unnecessary since the auction will end before a bid expires. 
 
-For example, if Debt Auction Bid Duration is 1 hour and Debt Auction Duration is 30 minutes, then the auction will only last 30 minutes, making the Surplus Auction Bid Duration irrelevant.
+For example, if Debt Auction Bid Duration is 1 hour and Debt Auction Duration is 30 minutes, then the auction will only last 30 minutes, making the Debt Auction Bid Duration irrelevant.
 
 The [Surplus Auction Duration](../surplus-auction/param-auction-duration-flap.md) parameter fulfills the same role as this parameter in Surplus Auctions.
 
