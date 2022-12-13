@@ -7,13 +7,19 @@ An important security feature of the Maker Protocol is the ability to perform an
 2. DAI holders are then entitled to a pro-rata share of remaining collateral assets. Depending on what the protocol's total assets are worth, each unit of DAI may be worth less than $1. 
 3. Race conditions are avoided so that no matter when DAI holders and Vault owners choose to redeem their collateral, the collateral they are entitled to remains unchanged.
 
+{% hint style="warning" %}
+
+While all reasonable effort has been made to ensure the accuracy and currency of this page, the authors are not smart contract developers, and changes to the Emergency Shutdown procedure may be made by Maker Governance at any time (subject to the GSM Pause Delay).
+
+{% endhint %}
+
 ## Activation
 
 Emergency Shutdown is a last-resort measure that shuts down the protocol. Example situations where it can be used is to defend the protocol against a high-severity attack or if MKR holders believe the protocol cannot be made solvent through debt auctions.
 
 The process of Emergency Shutdown starts with MKR holders depositing MKR into the [Emergency Shutdown Module (ESM)](../module-index/module-emergency-shutdown.md). Emergency Shutdown is triggered when MKR deposited to the ESM exceeds the minimum threshold parameter. 
 
-The protocol may also be shut down through a regular Executive Vote. Unlike triggering the ESM, this type of shutdown would be subject to the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) imposed by the Governance Security Module and is more likely to be used for planned technical upgrades.
+The protocol may also be shut down through a regular Executive Vote. Unlike triggering the ESM, this type of shutdown would be subject to the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) imposed by the Governance Security Module and is more likely to be used in the case of major technical upgrades.
 
 ## Sequence of events
 
@@ -50,9 +56,6 @@ Additional technical documentation about how Emergency Shutdown works can be fou
 * [Emergency Shutdown Module documentation](https://docs.makerdao.com/smart-contract-modules/emergency-shutdown-module)
 * [End - Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/shutdown/end-detailed-documentation)
 * [MakerDAO Technical Docs](https://docs.makerdao.com/).
-
-While all reasonable effort has been made to ensure the accuracy and currency of this page, the authors are not smart contract developers, and changes to the Emergency Shutdown procedure may be made by Maker Governance at any time (subject to the GSM Pause Delay).
-
 
 >Page last reviewed: 2022-12-11  
 >Next review due: 2023-12-11  
