@@ -38,8 +38,7 @@
 * Technical MIPs
   * [Best Practices](governance/technical-mips-development-best-practices.md)
   * [Code Example](governance/technical-mip-code-example.md)
-*[Emergency Shutdown](governance/emergency-shutdown.md)
-  
+* [Emergency Shutdown](governance/emergency-shutdown.md)  
 ## Delegation
   
 * Overview
