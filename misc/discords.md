@@ -8,7 +8,7 @@
 * [Development & UX](https://discord.gg/g2N9MmhCEY)
 * [Growth](https://discord.gg/e4gGVU5CJY)
 * [Oracles (Chronicle)](https://discord.gg/D8qQTEHQHJ)
-* [CES(https://discord.gg/uvXJqP5fnJ)
+* [CES](https://discord.gg/uvXJqP5fnJ)
 
 **Ecosystem**
 * [Oasis.app](https://discord.gg/oasisapp)
