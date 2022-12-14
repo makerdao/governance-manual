@@ -10,6 +10,7 @@
   * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
   * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
   * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
+  * [Discord Servers](misc/discords.md)
 * Calendar
   * [Official MakerDAO Google Calendar](protocol-status/calendar.md)
 
@@ -25,15 +26,14 @@
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
   * [Gasless Poll Voting](governance/gasless-poll-voting.md)
   * [On-Chain Governance](governance/on-chain-governance.md)
-  * [Off-Chain Governance](governance/off-chain-governance.md)
   * [Approval Voting Guide](governance/approval-voting-guide.md)
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
-  * [Impact Estimations](governance/impact-estimations.md)
 * Verification
   * [Executive Audit](governance/executive-audit.md)
-* Offchain Incentives
-  * [Community SourceCred](governance/sourcecred.md)
-  * [Delegate SourceCred](governance/delegate-sourcecred.md)
+  * [GSM Exceptions](governance/gsm-exceptions.md)
+* Off-Chain
+  * [Off-Chain Governance](governance/off-chain-governance.md)
+  * [Impact Estimations](governance/impact-estimations.md)
   * [Proposal Bounties](governance/proposal-bounties.md)
 * Technical MIPs
   * [Best Practices](governance/technical-mips-development-best-practices.md)
