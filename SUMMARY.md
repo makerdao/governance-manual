@@ -10,6 +10,7 @@
   * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
   * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
   * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
+  * [Discord Servers](misc/discords.md)
 * Calendar
   * [Official MakerDAO Google Calendar](protocol-status/calendar.md)
 
@@ -27,9 +28,9 @@
   * [On-Chain Governance](governance/on-chain-governance.md)
   * [Approval Voting Guide](governance/approval-voting-guide.md)
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
-  * [Emergency Shutdown](governance/emergency-shutdown.md)
 * Verification
   * [Executive Audit](governance/executive-audit.md)
+  * [GSM Exceptions](governance/gsm-exceptions.md)
 * Off-Chain
   * [Off-Chain Governance](governance/off-chain-governance.md)
   * [Impact Estimations](governance/impact-estimations.md)

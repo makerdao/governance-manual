@@ -67,6 +67,6 @@ GovAlpha produces a short report each month communicating the initiatives and th
 
 **3.2** - GovAlpha Facilitators must communicate a reason publicly if a given community member is being excluded from off-chain proposal bounty payouts.  
 
->Page last reviewed: -  2022-08-24  
->Next review due: -  2023-08-24
+>Page last reviewed: 2022-08-24  
+>Next review due: 2023-08-24  
 
