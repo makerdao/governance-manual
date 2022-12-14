@@ -31,6 +31,7 @@
   * [Impact Estimations](governance/impact-estimations.md)
 * Verification
   * [Executive Audit](governance/executive-audit.md)
+  * [GSM Exceptions](governance/gsm-exceptions.md)
 * Offchain Incentives
   * [Community SourceCred](governance/sourcecred.md)
   * [Delegate SourceCred](governance/delegate-sourcecred.md)

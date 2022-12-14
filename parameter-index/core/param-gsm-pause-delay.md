@@ -10,7 +10,7 @@
 
 The GSM (Governance Security Module) Pause Delay parameter sets the minimum amount of time after an executive vote has passed before changes will come into effect in the Maker Protocol. Once an executive spell passes, the GSM Pause Delay must pass before the changes within that executive spell can affect the Maker Protocol. The Maker Protocol only has one GSM Pause Delay, and all parameter changes are subject to it.
 
-It is possible to move functionality outside of the GSM Pause Delay; however, this requires additional engineering work. In the past, this has been enabled for functionality that allowed Maker Governance to freeze or unfreeze the oracle prices, and freeze or unfreeze liquidations without waiting for the delay to elapse.
+It is possible to move functionality outside of the GSM Pause Delay; however, this requires additional engineering work. In the past, this has been enabled for functionality that allowed Maker Governance to freeze or unfreeze the oracle prices, and freeze or unfreeze liquidations without waiting for the delay to elapse. A list of exceptional functionality can be found on the [GSM exceptions](../../governance/gsm-exceptions.md) page.
 
 The GSM Pause Delay is usually expressed in terms of hours.
 
