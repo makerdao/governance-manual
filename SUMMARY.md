@@ -10,9 +10,9 @@
   * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
   * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
   * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
-* Calendar
-  * [Official MakerDAO Google Calendar](protocol-status/calendar.md)
 * Calendars
+  * [MakerDAO Calls Calendar](protocol-status/calls-calendar.md)
+  * [MakerDAO Governance Calendar](protocol-status/governance-calendar.md)
 
 ## Governance
 * Governance Cycle
