@@ -10,6 +10,7 @@
   * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
   * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
   * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
+  * [Discord Servers](misc/discords.md)
 * Calendars
   * [MakerDAO Calls Calendar](protocol-status/calls-calendar.md)
   * [MakerDAO Governance Calendar](protocol-status/governance-calendar.md)
@@ -26,19 +27,19 @@
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
   * [Gasless Poll Voting](governance/gasless-poll-voting.md)
   * [On-Chain Governance](governance/on-chain-governance.md)
-  * [Off-Chain Governance](governance/off-chain-governance.md)
   * [Approval Voting Guide](governance/approval-voting-guide.md)
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
 * Verification
   * [Executive Audit](governance/executive-audit.md)
-* Offchain Incentives
-  * [Community SourceCred](governance/sourcecred.md)
-  * [Delegate SourceCred](governance/delegate-sourcecred.md)
+  * [GSM Exceptions](governance/gsm-exceptions.md)
+* Off-Chain
+  * [Off-Chain Governance](governance/off-chain-governance.md)
+  * [Impact Estimations](governance/impact-estimations.md)
   * [Proposal Bounties](governance/proposal-bounties.md)
 * Technical MIPs
   * [Best Practices](governance/technical-mips-development-best-practices.md)
   * [Code Example](governance/technical-mip-code-example.md)
-  
+* [Emergency Shutdown](governance/emergency-shutdown.md)  
 ## Delegation
   
 * Overview
@@ -46,7 +47,6 @@
   * [Separation of Powers](delegation/separation-of-powers.md)
   * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
 * For MKR Holders
-  * [How to Delegate Video](delegation/mkr-holder-HowToDelegate.md)
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
   * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
   * [How To Delegate Video](delegation/mkr-holder-how-to-delegate.md)

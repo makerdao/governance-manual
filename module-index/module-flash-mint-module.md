@@ -1,7 +1,7 @@
 # Flash Mint
 
 >**Alias:** Flash  
->**Contract Name:** DSSFlash  
+>**Contract Name:** MCD_FLASH  
 >**Scope:** System  
 >**Technical Docs:** [link](https://docs.makerdao.com/smart-contract-modules/flash-mint-module)  
 
@@ -69,6 +69,6 @@ The Flash Mint Module conforms to ERC1356. Therefore, users can use the referenc
 
 Fees accrued through the Flash Mint Module are transferred to the Surplus Buffer upon completion of the transaction.
 
->Page last reviewed: 18/09/2022  
->Next review due: 18/09/2023
+>Page last reviewed: 2022-09-18  
+>Next review due: 2023-09-18  
 

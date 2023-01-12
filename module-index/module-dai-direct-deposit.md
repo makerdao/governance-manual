@@ -1,8 +1,8 @@
 # Dai Direct Deposit
 
 >**Alias:** D3M, DDM, Direct DAI Deposit  
->**Contract Name:** `DssDirectDeposit`  
->**Scope:** One DssDirectDeposit contract per deposit target.  
+>**Contract Name:** `MCD_JOIN_DIRECT_AAVEV2_DAI`      
+>**Scope:** A contract (or set of contracts) per deposit target.    
 >**Technical docs:** TBD  
 
 ## Description
@@ -24,7 +24,7 @@ Finally, it is likely that the D3M module is triggered during volatile markets a
 ## Key Parameters
 
 ### Debt Ceiling (line) 
-The Debt Ceiling parameter for the DAI Direct Deposit Module is substantially identical to the [Debt Ceiling](https://manual.makerdao.com/parameter-index/vault-risk/param-debt-ceiling) parameter for vault types. It controls the maximum amount of DAI that can be minted via the D3M. A D3M Debt Ceiling may also be controlled by the [Debt Ceiling Instant Access Module](https://manual.makerdao.com/module-index/module-dciam).
+The Debt Ceiling parameter for the DAI Direct Deposit Module is substantially identical to the [Debt Ceiling](../parameter-index/vault-risk/param-debt-ceiling.md) parameter for vault types. It controls the maximum amount of DAI that can be minted via the D3M. A D3M Debt Ceiling may also be controlled by the [Debt Ceiling Instant Access Module](../module-index/module-dciam.md).
 
 ### Target Borrow Rate (bar) 
 The Target Borrow Rate allows Maker Governance to set the 'ideal' rate for borrowing DAI on the target lending protocol. This is done by adding or removing an amount of DAI from the lending protocol such that the borrow rate on the target protocol becomes equal to the Target Borrow Rate (provided the debt ceiling constraint allows it.) 
@@ -35,11 +35,11 @@ Conversely, if the borrowing interest rate on the target lending protocol is low
 
 The function to trigger this mechanism is permissionless and is called by bots run by MakerDAO at regular intervals.
 
-It is possible to deactivate the Aave D3M by setting the Target Borrow Rate to 0. Note that while setting the Target Borrow Rate to 0 might intuitively suggest that the Aave D3M will utilize its full debt ceiling, it is a pre-programmed state in the D3M code that will de-activate the D3M entirely. The Target Borrow Rate may be set to 0 using a `DIRECT_MOM`, this will bypass the [GSM Pause Delay](https://manual.makerdao.com/parameter-index/core/param-gsm-pause-delay) and allow this change to take effect on the execution of an Executive Vote.
+It is possible to deactivate the Aave D3M by setting the Target Borrow Rate to 0. Note that while setting the Target Borrow Rate to 0 might intuitively suggest that the Aave D3M will utilize its full debt ceiling, it is a pre-programmed state in the D3M code that will de-activate the D3M entirely. The Target Borrow Rate may be set to 0 using the `DIRECT_MOM` contract, this will bypass the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) and allow this change to take effect on the execution of an Executive Vote.
 
 ## Meta Parameters
 
-Meta parameters are parameters that don't exist directly on a smart contract (in this case the DssDirectDeposit contract) but are parameters that Maker Governance uses to determine general rules about how to set actual parameters.
+Meta parameters are parameters that don't exist directly on a smart contract (in this case the MCD_JOIN_DIRECT_AAVEV2_DAI contract) but are parameters that Maker Governance uses to determine general rules about how to set actual parameters.
 
 ### Maximum Share
 
