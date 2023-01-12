@@ -11,7 +11,9 @@
   * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
   * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
   * [Discord Servers](misc/discords.md)
-* [Calendar](protocol-status/calendar.md)
+* Calendars
+  * [MakerDAO Calls Calendar](protocol-status/calls-calendar.md)
+  * [MakerDAO Governance Calendar](protocol-status/governance-calendar.md)
 
 ## Governance
 * Governance Cycle
