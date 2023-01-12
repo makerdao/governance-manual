@@ -1,4 +1,4 @@
-# Official MakerDAO Google Calendar
+# MakerDAO Calls Calendar
 
 The following is an embed of the Official MakerDAO Calendar which is maintained by the GovAlpha Core Unit. Please note all times are in Coordinated Universal Time (UTC). You may add events to your own personal Google Calendar using the button in the bottom-right.
 
