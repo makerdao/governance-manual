@@ -12,6 +12,7 @@
   * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
 * Calendar
   * [Official MakerDAO Google Calendar](protocol-status/calendar.md)
+* Calendars
 
 ## Governance
 * Governance Cycle
