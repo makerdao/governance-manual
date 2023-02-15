@@ -3,7 +3,7 @@
 >**Alias:** DSR  
 >**Parameter Name:** `dsr`  
 >**Containing Contract:** `MCD_POT`  
->**Etherscan Link:** [0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7](https://etherscan.io/address/0x197e90f9fad81970ba7976f33cbd77088e5d7cf7)
+>**Etherscan Link:** [0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7](https://etherscan.io/address/0x197e90f9fad81970ba7976f33cbd77088e5d7cf7)  
 >**Scope:** System  
 >**Technical Docs:** [Pot Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/rates-module/pot-detailed-documentation)  
 
