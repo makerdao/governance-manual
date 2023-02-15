@@ -3,6 +3,7 @@
 >**Alias:** DSR  
 >**Parameter Name:** `dsr`  
 >**Containing Contract:** `MCD_POT`  
+>**Etherscan Link:** [0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7](https://etherscan.io/address/0x197e90f9fad81970ba7976f33cbd77088e5d7cf7)
 >**Scope:** System  
 >**Technical Docs:** [Pot Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/rates-module/pot-detailed-documentation)  
 
@@ -43,12 +44,16 @@ Maker Governance may also wish to decrease the Dai Savings Rate when The Maker P
 ## Considerations
 When DAI holders deposit DAI to the Dai Savings Rate contract, interest is paid from accrued stability fees. Therefore, increasing the Dai Savings Rate will cause the [System Surplus Buffer](param-system-surplus-buffer.md) to fill more slowly and reduce the amount of Dai available for Surplus Auctions. If the Dai Savings Rate is set too high, the Maker Protocol could have negative cash flow and eventually need to print MKR.
 
+Balances within the Dai Savings Rate contract will not be updated unless the `drip` function is called; this may be done permissionlessly.
+
+DAI deposited to the Dai Savings Rate contract is not held as an ERC-20 token balance within the contract. The balance of the contract is recorded in `MCD_VAT` and can be queried at any time by inputting the address of the MCD_POT contract (0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7) into the `dai` function of MCD_VAT (0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B).
+
 A negative Dai Savings Rate will not work as intended as balances within the Dai Savings Rate contract cannot decrease.
 
 Any changes to the Dai Savings Rate may affect PSM usage behavior. For example, increased upward pressure on the dollar peg caused by the Dai Savings Rate may require increased PSM usage to balance.
 
 In the event of an [Emergency Shutdown](https://docs.makerdao.com/smart-contract-modules/shutdown), the Dai Savings Rate will be set to 0% to prevent the total debt of the Maker Protocol from increasing.
 
->Page last reviewed: 2022-11-02  
->Next review due: 2023-11-02  
+>Page last reviewed: 2023-02-15  
+>Next review due: 2024-02-15  
 
