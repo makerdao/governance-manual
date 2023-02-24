@@ -53,13 +53,25 @@ If the borrowing interest rate on the target lending protocol is higher than the
 
 ## Meta Parameters
 
+Meta parameters are not directly present in a smart contract, but they are vital parameters that Maker Governance uses to determine general rules about how to set key parameters.
+
 ### Maximum Share
 
-The maximum share meta-parameter refers to the maximum proportional share of deposit tokens that MakerDAO wishes to hold for a target lending protocol. The parameter is expressed in terms of a percentage and is used to compute the debt ceiling parameter.
+The maximum share meta-parameter is the maximum proportional share of deposit tokens that MakerDAO is willing to hold for a target lending protocol. The parameter is expressed in terms of a percentage and is used to calculate the debt ceiling parameter.
+
+For instance, a maximum share of 100% indicates that MakerDAO is ready to be the only provider of DAI to the target lending protocol. On the other hand, a maximum share of 30% implies that MakerDAO is willing to provide 30% of the total DAI to the target lending protocol, with the remaining 70% being provided by other users or protocols.
 
 ### Spread
 
-The spread meta-parameter refers to the difference between the borrow rate for DAI on the target lending protocol and the target borrow rate set by Maker Governance. If the borrowing rate on the target lending protocol is higher than the target borrow rate, the D3M mints new DAI to earn a yield on deposited DAI, and if the borrowing rate is lower, DAI is burned, and deposit tokens are returned to the lending protocol.
+The spread meta-parameter is the difference between the borrow rate for DAI on the target lending protocol and the Maker Protocol stability fee on ETH-A. This is used to calculate the target borrow rate parameter. The spread parameter enables Maker governance to decide whether it should be cheaper or more expensive to borrow DAI on the target lending protocol compared to the Maker Protocol.
+
+The ETH-A stability fee acts as a proxy for the cost to borrow DAI using the Maker Protocol. It has traditionally been the largest non-PSM vault type in Maker.
+
+The spread is expressed as an annual percentage rate. A spread of 0% indicates that the cost to borrow DAI on the target lending protocol should equal the cost to borrow DAI in the ETH-A vault type over one year.
+
+For example, a spread of -0.5% implies that the cost to borrow DAI on the target lending protocol should be 0.5% cheaper than on the Maker Protocol over one year. Conversely, a spread of 0.5% implies that the cost to borrow DAI on the target lending protocol should be 0.5% more expensive than on the Maker Protocol over one year.
+
+It is crucial to note that the effective borrow rate for DAI on the target lending protocol may be affected by rewards offered by the lending protocol in question. Currently, these additional rewards are not considered while comparing borrow rates.
 
 ### Formulas
 
