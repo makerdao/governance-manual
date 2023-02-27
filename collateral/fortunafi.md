@@ -1,4 +1,9 @@
 # FortunaFi
+
+{% hint style="warning" %}
+While effort has been made to ensure accuracy, be aware that parts of this page may be inaccurate or out of date.
+{% endhint %}
+
 Senior-secured loans to SaaS and E-commerce businesses collateralized by contracted revenues. Typical 12-24 month maturities. 
 
 FortunaFi is an asset manager that originates Revenue Backed Finance, or RBF loans from other originators like Pipe. Pipe issues loans to SaaS and E-commerce businesses that have locked in contracts with customers. It is these contracts—contracted revenue—that loans are issued against (hence RBF).

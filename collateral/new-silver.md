@@ -1,4 +1,9 @@
 # New Silver
+
+{% hint style="warning" %}
+While effort has been made to ensure accuracy, be aware that parts of this page may be inaccurate or out of date.
+{% endhint %}
+
 Senior-secured loans for developers and homeowners to acquire and renovate residential properties. These loans are secured against those residential properties. So, DAI is effectively backed by those properties. Typically 9 - 18 month maturities.  
 
 These end assets are Acquisition + Renovation loans. This means that the loan principal is large enough to enable a borrower to finance the purchase of and renovation on a home.  

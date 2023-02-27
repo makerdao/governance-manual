@@ -1,5 +1,9 @@
 # Huntingdon Valley Bank
 
+{% hint style="warning" %}
+While effort has been made to ensure accuracy, be aware that parts of this page may be inaccurate or out of date.
+{% endhint %}
+
 A wide variety of senior-secured loans originated by the community bank in the normal course of business. Typically 6 - 60 month maturities. Loan types include:
 - **Stabilized CRE Loans**: mortgages against retail, industrial, hospitality, and office assets which are tenanted and cash-flowing. 
 - **Construction CRE Loans**: mortgages for the construction of commercial buildings.
