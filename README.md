@@ -12,6 +12,6 @@ description: >-
 * [MIPs Portal](https://mips.makerdao.com/) @ mips.makerdao.com
 * [Endgame](https://endgame.makerdao.com/) @ endgame.makerdao.com
 
->Page last reviewed: 2022-11-18    
->Next review due: 2023-11-18   
+>Page last reviewed: 2023-02-27    
+>Next review due: 2023-08-27    
 
