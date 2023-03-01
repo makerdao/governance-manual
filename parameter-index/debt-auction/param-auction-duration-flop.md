@@ -14,10 +14,10 @@ Debt Auctions are used to recapitalize the Maker Protocol by minting and auction
 
 {% hint style="info" %} 
 
-## Example
+**Example**
 
-**Debt Auction Bid Duration** = 300 seconds  
-**Debt Auction Duration** = 24 hours  
+_Debt Auction Bid Duration_ = 300 seconds  
+_Debt Auction Duration_ = 24 hours  
   
 **Scenario 1 - Limited by Bid Duration**
 1. A Debt Auction has been triggered and 3 hours pass with no bid.
