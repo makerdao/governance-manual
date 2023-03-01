@@ -31,6 +31,25 @@ Debt Auctions are used to recapitalize the Maker Protocol by minting and auction
 {% endtab %}
 {% endtabs %} 
 
+{% hint style="info" %} 
+
+# Example
+
+`Debt Auction Bid Duration` = 300 seconds  
+`Debt Auction Duration` = 24 hours  
+
+**Scenario 1 - Limited by Bid Duration**
+1. A Debt Auction has been triggered and 3 hours pass with no bid.
+2. Keeper A offers to take 20 MKR in exchange for 100 DAI at the 3-hour mark.
+3. Keeper B has 300 seconds in which to offer a more attractive bid or else Keeper A will win the auction.
+
+**Scenario 2 - Limited by Auction Duration**
+1. A Debt Auction has been triggered and 23 hours and 59 minutes pass with no bid.
+2. Keeper A offers to take 20 MKR in exchange for 100 DAI at 23 hours and 59 minutes into the auction.
+3. Keeper B has 60 seconds in which to offer a more attractive bid or else Keeper A will win the auction.
+
+{% endhint %}
+
 ## Purpose
 The Debt Auction Duration parameter allows Maker Governance to adjust the maximum duration for debt auctions in order to ensure robust keeper participation. It also helps to ensure a predictable time frame for the protocol to recover from an undercollateralized state. 
 
