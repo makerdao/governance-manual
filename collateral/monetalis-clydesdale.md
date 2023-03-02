@@ -13,4 +13,4 @@ A Dune dashboard displaying the status of the deal may be viewed [here](https://
 All documents related to this collateral may be seen on the forum [here](https://forum.makerdao.com/t/mip65-monetalis-clydesdale-documentation-hq/17923).
 
 >Page last reviewed: 2023-02-24  
->Next review due: 2024-02-24  
+>Next review due: 2023-08-25  
