@@ -4,7 +4,7 @@ MIP65 established a legal structure that borrows DAI from a vault, exchanges it 
 
 The end assets are IB01 and IBTA ETFs.
 
-The DAI loan is collateralized 1:1 with US Treasuries, althought the true collateralization ratio may vary with the value of the underlying holdings.
+The DAI loan is collateralized 1:1 with US Treasuries, although the true collateralization ratio may vary with the value of the underlying holdings.
 
 On a quarterly basis, surplus treasuries should be sold and the excess returned to the Surplus Buffer, marking profits for MakerDAO and MKR holders.
 
