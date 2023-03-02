@@ -19,7 +19,7 @@ For example, the Aave D3M deposits DAI into the Aave protocol in exchange for aD
 
 The primary purpose of the D3M is to expand the reach of the DAI stablecoin by providing DAI directly to other lending protocols. In addition, it allows the Maker Protocol to earn a yield on the DAI deposited in these protocols, thus creating a source of income.
 
-Further, it allows Maker the potential to undercut centralized stablecoins on these lending protocols. By providing DAI directly on other lending protocols, Maker could ensure that the borrow rate for DAI on those protocols is almost always below the borrow rate for centralized stablecoins. 
+Further, it gives Maker the ability to undercut centralized stablecoins on these lending protocols. By providing DAI directly on other lending protocols, Maker can ensure that the borrow rate for DAI on those protocols is almost always below the borrow rate for centralized stablecoins. 
 
 Finally, it is likely that the D3M module is triggered during volatile markets as borrowing rates on lending protocols also tend to fluctuate heavily during such periods. The module assures DAI users on the lending protocol that the lending/borrowing rates remain predictable making DAI a better choice than other stablecoins.
 
