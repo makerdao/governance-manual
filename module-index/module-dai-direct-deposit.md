@@ -4,7 +4,7 @@
 >**Primary Contract Name:** `D3MHub`  
 >**Secondary Contracts:** Numerous  
 >**Etherscan Link:** [0x12F36cdEA3A28C35aC8C6Cc71D9265c17C74A27F](https://etherscan.io/address/0x12f36cdea3a28c35ac8c6cc71d9265c17c74a27f)  
->**Scope:** A contract (or set of contracts) per deposit target.  
+>**Scope:** A set of secondary contracts per deposit target.  
 >**Technical docs:** [MIP50](https://mips.makerdao.com/mips/details/MIP50)  
 
 ## Description
