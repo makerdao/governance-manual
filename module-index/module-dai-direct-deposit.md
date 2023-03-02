@@ -1,10 +1,10 @@
 # Dai Direct Deposit
 
 >**Alias:** D3M, DDM, Direct DAI Deposit  
->**Primary Contract Name:** `D3MHub`  
->**Secondary Contracts:** Numerous  
+>**Primary Contract Name:** `DIRECT_HUB`  
 >**Etherscan Link:** [0x12F36cdEA3A28C35aC8C6Cc71D9265c17C74A27F](https://etherscan.io/address/0x12f36cdea3a28c35ac8c6cc71d9265c17c74a27f)  
->**Scope:** A contract (or set of contracts) per deposit target.  
+>**Secondary Contracts:** `DIRECT_MOM`, `DIRECT_$TARGET_DAI_POOL`, `DIRECT_$TARGET_DAI_PLAN`, `DIRECT_$TARGET_DAI_ORACLE`  
+>**Scope:** A set of secondary contracts per deposit target.  
 >**Technical docs:** [MIP50](https://mips.makerdao.com/mips/details/MIP50)  
 
 ## Description
@@ -19,27 +19,9 @@ For example, the Aave D3M deposits DAI into the Aave protocol in exchange for aD
 
 The primary purpose of the D3M is to expand the reach of the DAI stablecoin by providing DAI directly to other lending protocols. In addition, it allows the Maker Protocol to earn a yield on the DAI deposited in these protocols, thus creating a source of income.
 
-Further, it allows Maker the potential to undercut centralized stablecoins on these lending protocols. By providing DAI directly on other lending protocols, Maker could ensure that the borrow rate for DAI on those protocols is almost always below the borrow rate for centralized stablecoins. 
+Further, it gives Maker the ability to undercut centralized stablecoins on these lending protocols. By providing DAI directly on other lending protocols, Maker can ensure that the borrow rate for DAI on those protocols is almost always below the borrow rate for centralized stablecoins. 
 
 Finally, it is likely that the D3M module is triggered during volatile markets as borrowing rates on lending protocols also tend to fluctuate heavily during such periods. The module assures DAI users on the lending protocol that the lending/borrowing rates remain predictable making DAI a better choice than other stablecoins.
-
-## Technical Information
-
-### Contracts
-
-The primary contract for the Dai Direct Deposit Module is called D3MHub. It is important to note that each deployment of the D3M will have a Plan and a Pool contract associated with it. There may also be Oracle contracts associated with a D3M.
-
-#### D3MHub
-
-The D3M is the primary manager contract responsible for collecting all information and determining which action to take (if any). Each D3M instance is registered on the Hub using relevant file(ilk, ...) admin functions.
-
-#### D3MPool
-
-D3MPool helps move DAI in and out of a protocol, based on what the Hub tells it to do. It also has some functions that tell the Hub how much DAI can be moved in or out at a time. One of these functions is called maxWithdraw(), which tells the Hub how much DAI is available to be moved out right away. Different systems have different ways of making DAI available to be moved out, like raising interest rates or selling off some assets.
-
-#### D3MPlan
-
-D3MPlan can be seen as the decision-making mechanism for D3M instances. It is responsible for analyzing various inputs, such as the target interest rate and the current supply and borrowing levels in the market, and using this information to determine a target debt level. This target debt level is then communicated to the Hub, which takes the necessary actions to achieve the desired level of debt as quickly as possible.
 
 ## Key Parameters
 
@@ -75,9 +57,35 @@ It is crucial to note that the effective borrow rate for DAI on the target lendi
 
 ### Formulas
 
+The following formulas may be used when calculating the values for the Debt Ceiling and Target Borrow Rate. Note it is not necessary to use these formulas and Governance can choose to use different methods when setting these parameters.
+
+#### Debt Ceiling
+
 The Debt Ceiling can be calculated using the following formula:
 
 ``Debt Ceiling = Maximum Share * Total DAI Supply (Platform)``
+
+#### Target Borrow Rate
+
+``Target Borrow Rate = ETH-A Stability Fee + Spread``
+
+## Technical Information
+
+### Contracts
+
+The primary contract for the Dai Direct Deposit Module is called D3MHub. It is important to note that each deployment of the D3M will have a Plan and a Pool contract associated with it. There may also be Oracle contracts associated with a D3M.
+
+#### D3MHub
+
+The D3M is the primary manager contract responsible for collecting all information and determining which action to take (if any). Each D3M instance is registered on the Hub using relevant file(ilk, ...) admin functions.
+
+#### D3MPool
+
+D3MPool helps move DAI in and out of a protocol, based on what the Hub tells it to do. It also has some functions that tell the Hub how much DAI can be moved in or out at a time. One of these functions is called maxWithdraw(), which tells the Hub how much DAI is available to be moved out right away. Different systems have different ways of making DAI available to be moved out, like raising interest rates or selling off some assets.
+
+#### D3MPlan
+
+D3MPlan can be seen as the decision-making mechanism for D3M instances. It is responsible for analyzing various inputs, such as the target interest rate and the current supply and borrowing levels in the market, and using this information to determine a target debt level. This target debt level is then communicated to the Hub, which takes the necessary actions to achieve the desired level of debt as quickly as possible.
 
 ## Considerations
 
