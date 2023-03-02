@@ -6,7 +6,7 @@ The end assets are IB01 and IBTA ETFs.
 
 The DAI loan is collateralized 1:1 with US Treasuries, although the true collateralization ratio may vary with the value of the underlying holdings.
 
-On a quarterly basis, surplus treasuries should be sold and the excess returned to the Surplus Buffer, marking profits for MakerDAO and MKR holders.
+On a quarterly basis, surplus treasuries are sold and the excess returned to the Surplus Buffer, marking profits for MakerDAO and MKR holders.
 
 A Dune dashboard displaying the status of the deal may be viewed [here](https://dune.com/SebVentures/makerdao-mip65).
 
