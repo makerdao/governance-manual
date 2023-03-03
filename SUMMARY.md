@@ -66,6 +66,7 @@
   * [FortunaFi DROP](collateral/fortunafi.md)
   * [Harbour Trade Credit DROP](collateral/harbour-trade.md)
   * [Huntingdon Valley Bank](collateral/hvbank.md)
+  * [Monetalis Clydesdale](collateral/monetalis-clydesdale.md)
   
 ## Parameter Index
 
