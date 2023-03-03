@@ -12,7 +12,17 @@ The Stability Fee parameter is an annual percentage fee charged on the DAI gener
 
 Each vault type has its own Stability Fee that can be adjusted by Maker Governance. Note that the Stability Fee applies collectively to all vaults created using a specific vault type.
 
-As an example, a vault with 100 DAI of debt using a vault-type with a Stability Fee of 4% would be expected to owe 104 DAI after one year has passed \(assuming the Stability Fee remains at 4% for the year\).
+{% hint style="info" %} 
+
+**Example**
+
+_ETH-A Stability Fee_ = 4%
+  
+1. User A opens an ETH-A vault and generates 100 DAI.
+2. One year passes, during which the ETH-A Stability Fee remains at 4%.
+3. User A's vault debt is now 104 DAI.
+
+{% endhint %}
 
 ## Purpose
 

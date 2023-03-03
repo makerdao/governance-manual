@@ -12,7 +12,21 @@ The Liquidation Penalty parameter controls the fee vault owners must pay when th
 
 Each vault type has its own Liquidation Penalty that can be adjusted by Maker Governance. Note that the Liquidation Penalty applies collectively to all vaults created using a specific vault type, rather than to individual vaults.
 
-The Liquidation Penalty is expressed as a percentage of collateral rather than a fixed amount. For example, if a debt of 100 DAI is liquidated on a vault type with a 13% Liquidation Penalty then an auction will be triggered with the goal of recovering at least 113 DAI using the collateral in the liquidated vault.
+The Liquidation Penalty is expressed as a percentage of collateral rather than a fixed amount.
+
+{% hint style="info" %} 
+
+**Example**
+
+_Liquidation Penalty_ = 13%  
+_User A's Debt_ = 100 DAI
+
+1. User A has an ETH Vault with 100 DAI debt.
+2. User A is liquidated due to a fall in ETH price.
+3. A collateral auction is triggered for User A's vault.
+4. The collateral auction aims to recover 113 DAI using the collateral in User A's ETH vault.
+
+{% endhint %}
 
 ## Purpose
 

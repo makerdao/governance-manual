@@ -12,7 +12,19 @@ The Liquidation Ratio parameter limits the maximum amount of DAI debt that a vau
 
 Each vault type has its own Liquidation Ratio that can be adjusted by Maker Governance. Note that the Liquidation Ratio applies collectively to all vaults created using a specific vault type rather than to individual vaults.
 
-The Liquidation Ratio for each vault type is expressed as a percentage value of the collateral that must be present in the vault to support its debt. For example, a 150% Liquidation Ratio means that a debt of 66.66 DAI must be supported by a collateral value of at least $100.
+The Liquidation Ratio for each vault type is expressed as a percentage value of the collateral that must be present in the vault to support its debt.
+
+{% hint style="info" %} 
+
+**Example**
+
+_ETH-A Liquidation Ratio_ = 150%  
+
+1. User A opens an ETH-A vault and deposits 1 ETH worth $1000.
+2. User A generates 500 DAI using their ETH-A vault.
+3. User A's vault will be liquidated if the ETH price drops below $750.
+
+{% endhint %}
 
 ## Purpose
 

@@ -17,11 +17,19 @@ In practice the Debt Auction Min Bid Decrease represents both:
 * The maximum profit that keepers can make when bidding in Debt Auctions. 
 * The maximum slippage MakerDAO is willing to accept during auctions to ensure sufficient keeper participation. 
 
-## Example
+{% hint style="info" %} 
 
-_Debt Auction Min Bid Decrease = 5%_ 
+**Example**
 
-If the current bid is 10 MKR for 1000 Dai, the next bid must be at most 9.5 MKR for 1000 Dai, a 5% decrease.
+_Debt Auction Min Bid Decrease_ = 5%  
+_Debt Auction Initial Lot Size_ = 100 MKR  
+_Debt Auction Bid Size_ = 1000 DAI  
+
+1. An MKR Auction is triggered starting at 100 MKR.
+2. Keeper A bids to receive 100 MKR in exchange for their 1000 DAI.
+3. Keeper B must bid at most 95 MKR in exchange for their 1000 DAI, a 5% decrease.
+
+{% endhint %}
 
 ## Purpose
 
