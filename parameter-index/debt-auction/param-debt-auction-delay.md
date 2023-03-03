@@ -18,7 +18,7 @@ Initially, the Surplus Buffer will cover the bad debt; however, if the system ac
 
 **Example**
 
-_Debt Auction Delay_ = 2 hours
+_Debt Auction Delay_ = 2 hours  
 _Current Surplus Buffer Amount_ = 30 million DAI
 
 1. User A has an ETH vault with 100 million DAI debt.
