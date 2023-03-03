@@ -15,7 +15,7 @@ A lower amount of MKR than the initial lot size may be bid by auction participan
 
 **Example**
 
-_Debt Auction Initial Lot Size_ = 100 MKR
+_Debt Auction Initial Lot Size_ = 100 MKR  
 _Debt Auction Lot Size Increase_ = 50%
 
 1. An MKR Auction is triggered starting at 100 MKR and fails to receive any bids.
