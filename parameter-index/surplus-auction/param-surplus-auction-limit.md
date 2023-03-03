@@ -12,8 +12,20 @@ During surplus auctions, excess DAI within the system is auctioned off in fixed 
 
 To avoid flooding the system with too many simultaneous auctions, the maximum amount of DAI that can be auctioned at any given point in time is limited. The parameter that sets this limit is the Surplus Auction Limit or `lid` parameter.
 
-For example, if the Surplus Auction Limit is set to 30,000, then there can be at most 30,000 DAI being auctioned for MKR at any point in time.
+{% hint style="info" %} 
 
+**Example**
+
+_Surplus Auction Limit_ = 30,000 DAI  
+_Surplus Auction Lot Size_ = 10,000 DAI
+
+1. Three DAI Surplus Auctions (A, B and C) are triggered, accepting bids of MKR in exchange for 10,000 DAI.
+2. The amount of DAI in Surplus Auction now equals the Surplus Auction Limit.
+3. Keeper A attempts to start Surplus Auction D, but the transaction fails.
+3. Surplus Auction A concludes, and the amount of DAI in Surplus Auction now equals 20,000 DAI.
+4. Keeper A may now start Surplus Auction D.
+
+{% endhint %}
 
 ## Purpose
 Changing the Surplus Auction Limit allows Maker Governance to strike a reasonable tradeoff between efficient auctions and the rate at which protocol profits are directed towards burning MKR. 
