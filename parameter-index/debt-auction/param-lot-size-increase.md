@@ -19,8 +19,8 @@ _Debt Auction Initial Lot Size_ = 100 MKR
 _Debt Auction Lot Size Increase_ = 50%
 
 1. An MKR Auction is triggered starting at 100 MKR and fails to receive any bids.
-2. The MKR Auction is restarted starting at 150 MKR and fails to receive any bids.
-3. The MKR Auction is restarted starting at 225 MKR, and successfully receives bids.
+2. The MKR Auction is restarted at 150 MKR and fails to receive any bids.
+3. The MKR Auction is restarted at 225 MKR, and successfully receives bids.
 
 {% endhint %}
 

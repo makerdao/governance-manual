@@ -20,9 +20,9 @@ _Surplus Bid Duration_ = 300 seconds
 _Surplus Auction Duration_ = 24 hours
 
 1. A surplus auction is triggered and 3 hours pass with no bid.
-2. Keeper A offers to give 10 MKR in exchange for 100 DAI at the 3-hour mark.
+2. Keeper A bids 10 MKR in exchange for 100 DAI at the 3-hour mark.
 3. Keeper B has 300 seconds in which to offer a more attractive bid or else Keeper A will win the auction.
-4. Keeper B offers to give 11 MKR in exchange for 100 DAI at 23 hours and 59 minutes into the auction.
+4. Keeper B bids 11 MKR in exchange for 100 DAI at 23 hours and 59 minutes into the auction.
 5. Keeper A has 60 seconds to offer a more attractive bid or else Keeper B will win the auction.
 
 {% endhint %}
