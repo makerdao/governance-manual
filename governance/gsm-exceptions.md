@@ -51,9 +51,9 @@ The whitelist may be configured via a successful governance proposal, but must w
 * PSM (PAX) - `PSM-PAX-A`
 * PSM (GUSD) - `PSM-GUSD-A`
 
-The Debt Ceiling Breaker affects both the Debt Ceiling and the Maximum Debt Ceiling of a given vault type when activated, disabling the Dynamic Debt Ceiling functionality for that vault type if previously active.
+The Debt Ceiling Breaker affects both the Debt Ceiling and the Maximum Debt Ceiling of a given vault type when activated, disabling the Dynamic Debt Ceiling functionality for that vault type if enabled.
 
-In the event that external news impacts the value of a collateral, the market has a large lead on Governance in its ability to react and drain value from the Maker Protocol via minting DAI against the affected collateral due to the GSM Pause Delay. This is especially relevant in the case of vault types using a fixed oracle price. This exceptional functionality reduces the response time for enabled collaterals to the time taken for an executive vote to pass. This gives Governance a better chance to prevent bad debt in the Maker Protocol due to collapse in the value of a collateral.  
+In the event that external news impacts the value of a collateral, the market has a large lead on Governance in its ability to react and drain value from the Maker Protocol via minting DAI against the affected collateral due to the GSM Pause Delay. This is especially relevant in the case of vault types using a fixed oracle price. This exceptional functionality reduces the response time for enabled collaterals to the time taken for an executive vote to pass. This gives Governance a better chance to minimize bad debt in the Maker Protocol due to collapse in the value of a collateral.  
 
 The risk opened up by this exceptional functionality is relatively small. If abused, it could prevent new DAI being minted from whitelisted vault types at a time when DAI is trading above its peg. This impact would last for at least the duration of the GSM Delay. 
 
