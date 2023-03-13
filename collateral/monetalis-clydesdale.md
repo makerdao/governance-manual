@@ -1,5 +1,9 @@
 # MIP65 - Monetalis Clydesdale
 
+{% hint style="warning" %}
+While effort has been made to ensure accuracy, be aware that parts of this page may be inaccurate or out of date.
+{% endhint %}
+
 MIP65 established a legal structure that borrows DAI from a vault, exchanges it for USDC in the PSM and then cashes out the USDC to USD. These funds are then invested in a mixture of short-term US bonds. The end result is US treasuries backing DAI.
 
 The end assets are IB01 and IBTA ETFs.
