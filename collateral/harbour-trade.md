@@ -1,4 +1,9 @@
 # Harbor Trade Credit
+
+{% hint style="warning" %}
+While effort has been made to ensure accuracy, be aware that parts of this page may be inaccurate or out of date.
+{% endhint %}
+
 Senior-secured loans against trade payables/invoices. Typically with 30-120 day maturities. 
 
 Harbor Trade Credit operates within the space of Supply Chain Finance. Supply Chain Finance is similar to factoring, another working capital solution in trade finance. 
