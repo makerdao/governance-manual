@@ -40,15 +40,22 @@ The risk opened up by this exceptional functionality is that the oracles may be 
 * Prevent an expensive liquidation. 
 * Take advantage of a significant drop in collateral prices to mint unbacked Dai.
 
-### Dynamic Debt Ceiling
+### Debt Ceiling Breaker
 
-The `MCD_IAM_AUTO_LINE` contract manages the debt ceiling parameters for many of MakerDAO's vault types according to preset rules.
+The `LINE_MOM` contract manages the breaker for the Debt Ceilings of a configurable subset of the vault types in the Maker Protocol.
 
-Keepers can use the contract to attempt to maintain a [Target Available Debt](../module-index/module-dciam.md) in a given vault type. The contract modifies the debt ceiling up or down to maintain a level of available debt.
+This Debt Ceiling Breaker allows a successful governance proposal to reduce the debt ceilings of a pre-configured whitelist of vault types to zero without waiting for the [GSM Pause Delay](../parameter-index/core/param-gsm-pause-delay.md) to expire.
 
-This functionality is exceptional so that the Maker protocol can react to changes in debt demand more quickly than waiting for the GSM delay.
+The whitelist may be configured via a successful governance proposal, but must wait the GSM Delay before changes come into effect. At time of writing, the following vault types are whitelisted on the Debt Ceiling Breaker:
+* PSM (USDC) - `PSM-USDC-A`
+* PSM (PAX) - `PSM-PAX-A`
+* PSM (GUSD) - `PSM-GUSD-A`
 
-The risk opened up by this exceptional functionality is a theoretical griefing attack on the IAM that prevents debt from being accessible in affected vault types.
+The Debt Ceiling Breaker affects both the Debt Ceiling and the Maximum Debt Ceiling of a given vault type when activated, disabling the Dynamic Debt Ceiling functionality for that vault type if enabled.
+
+In the event that external news impacts the value of a collateral, the market has a large lead on Governance in its ability to react and drain value from the Maker Protocol via minting DAI against the affected collateral due to the GSM Pause Delay. This is especially relevant in the case of vault types using a fixed oracle price. This exceptional functionality reduces the response time for enabled collaterals to the time taken for an executive vote to pass. This gives Governance a better chance to minimize bad debt in the Maker Protocol due to collapse in the value of a collateral.  
+
+The risk opened up by this exceptional functionality is relatively small. If abused, it could prevent new DAI being minted from whitelisted vault types at a time when DAI is trading above its peg. This impact would last for at least the duration of the GSM Delay. 
 
 ### Liquidations Circuit Breaker
 
@@ -88,6 +95,17 @@ The breaker functionality allows a successful governance proposal to freeze with
 This functionality is exceptional because StarkNet is expected to finalize its state on L1 at most every several hours. If an invalid or malicious state is finalized, it could lead to losses being transmitted from StarkNet to mainnet. The breaker gives Maker Governance a chance to prevent this, potentially limiting losses to the StarkNet L2.
 
 The risk opened up by this exceptional functionality is that DAI withdrawals from Starknet to mainnet are unexpectedly blocked with circumstance or timing that benefits an attacker, and inconveniences others. 
+
+### Dynamic Debt Ceiling
+
+The `MCD_IAM_AUTO_LINE` contract manages the debt ceiling parameters for many of MakerDAO's vault types according to preset rules.
+
+Keepers can use the contract to attempt to maintain a [Target Available Debt](../module-index/module-dciam.md) in a given vault type. The contract modifies the debt ceiling up or down to maintain a level of available debt.
+
+This functionality is exceptional so that the Maker protocol can react to changes in debt demand more quickly than waiting for the GSM delay.
+
+The risk opened up by this exceptional functionality is a theoretical griefing attack on the IAM that prevents debt from being accessible in affected vault types.
+
 
 >Page last reviewed: 2022-11-25  
 >Next review due: 2023-05-25   
