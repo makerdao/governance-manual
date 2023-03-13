@@ -14,13 +14,20 @@ If a corresponding Collateral Auction does not clear the debt and any associated
 
 Initially, the Surplus Buffer will cover the bad debt; however, if the system accrues enough bad debt to exhaust the Surplus Buffer, the system will trigger a Debt Auction where MKR is minted and sold to cover the balance.
 
-### Example
+{% hint style="info" %} 
 
-```
-Debt Auction Delay = 2 hours
-```
+**Example**
 
-Once a vault is liquidated, if the vault's debt has not been covered within two hours it will be considered bad debt, and if the Surplus Buffer cannot cover the bad debt, a debt auction will begin.
+_Debt Auction Delay_ = 2 hours  
+_Current Surplus Buffer Amount_ = 30 million DAI
+
+1. User A has an ETH vault with 100 million DAI debt.
+2. User A's vault is liquidated and a collateral auction is triggered.
+3. 100 million DAI debt is subtracted from the Surplus Buffer, resulting in -70 million DAI.
+3. The collateral auction recovers 40 million DAI, which is added to the Surplus Buffer, resulting in -30 million DAI.
+5. 2 hours from the time of liquidation, Debt Auctions are triggered for the outstanding 30 million DAI of bad debt.
+
+{% endhint %}
 
 ## Purpose
 

@@ -8,11 +8,20 @@
 >**Technical Docs:** [Pot Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/rates-module/pot-detailed-documentation)  
 
 ## Description
-The Dai Savings Rate parameter allows Maker Governance to adjust the interest rate paid to DAI holders who have deposited DAI into the Dai Savings Rate contract (`MCD_POT`). All DAI Holders are permitted to deposit into the contract to receive the DSR.
+The Dai Savings Rate parameter allows Maker Governance to adjust the interest rate paid to DAI holders who have deposited DAI into the Dai Savings Rate contract (`MCD_POT`). All DAI Holders are permitted to deposit into the contract to receive the DSR. DAI is never locked in the Dai Savings Rate Contract, it is always accessible to the user that deposited it.
 
 The Dai Savings Rate is usually expressed as an APY percentage and will increase balances when set to any positive value.
 
-For example, if the Dai Savings Rate is set to 1%, a user depositing 100 DAI will be able to withdraw 101 DAI after one year.
+{% hint style="info" %} 
+
+**Example**
+
+_Dai Savings Rate_ = 1%
+
+1. User A deposits 100 DAI into the Dai Savings Rate Contract.
+2. User A is able to withdraw 101 DAI after 1 year.
+
+{% endhint %}
 
 ## Purpose
 
