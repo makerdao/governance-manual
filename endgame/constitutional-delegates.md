@@ -18,7 +18,7 @@ A set of templates can be found at in the [governance github repo](https://githu
 
 Create two new folders in the repository inside the delegates folder, one for each of the new delegate contracts. Select a CVC strategy to follow for each contract.
 
-Replace each avatar with an image of your choice.
+Leave the avatars unchanged. These will be updated to use a picture referring to the CVC by the Arbitration facilitators.
 
 Fill in the delegate profile for each contract. The delegate-specific information should be the same across each profile. The CVC strategy implementation section should differ for each profile.  The CVC section will be sourced from the CVC in question, and added to the document by the Arbitration Facilitators. 
 
