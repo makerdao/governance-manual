@@ -11,9 +11,18 @@ Debt Auctions are used to recapitalize the system by minting and auctioning off 
 
 A lower amount of MKR than the initial lot size may be bid by auction participants. If no bids are made before the auction reaches its end, the Debt Auction Initial Lot Size will be increased when the auction is restarted. This increase is determined by the Debt Auction Lot Size Increase parameter. 
 
-## Example
-If the Debt Auction Initial Lot Size is 100 MKR and the Debt Auction Lot Size Increase is 50%, then an auction that is restarted due to no bids can have an initial bid not exceeding 150 MKR. If there are still no bids, the auction can be restarted again with an initial bid not exceeding 225 MKR.
+{% hint style="info" %} 
 
+**Example**
+
+_Debt Auction Initial Lot Size_ = 100 MKR  
+_Debt Auction Lot Size Increase_ = 50%
+
+1. An MKR Auction is triggered starting at 100 MKR and fails to receive any bids.
+2. The MKR Auction is restarted at 150 MKR and fails to receive any bids.
+3. The MKR Auction is restarted at 225 MKR, and successfully receives bids.
+
+{% endhint %}
 
 ## Purpose
 Changing the Debt Auction Lot Size Increase parameter allows Maker Governance to minimize the total MKR minted by ensuring competitive auctions and minimizing gas costs for auction participants. 

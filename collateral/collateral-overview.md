@@ -4,7 +4,9 @@ This page contains layman’s explanations of the collateral that backs the valu
 
 <!-- MUST BE KEPT IN SYNC WITH COLLATERAL-INFO.YAML -->
 
-
+{% hint style="warning" %}
+While effort has been made to ensure accuracy, be aware that parts of this page may be inaccurate or out of date.
+{% endhint %}
 
 ## Ether (ETH)
 > **Ilks:** ETH-A, ETH-B, ETH-C  

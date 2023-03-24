@@ -16,11 +16,18 @@ In practice the Surplus Auction Minimum Bid Increase represents both:
 * The maximum profit that keepers can make when bidding in Surplus Auctions. 
 * The maximum slippage MakerDAO is willing to accept during auctions to ensure sufficient keeper participation. 
 
-### Example
+{% hint style="info" %} 
 
-_Surplus Auction Minimum Bid Increase = 5%_  
+**Example**
 
-If the current winning bid is 10 MKR for 1000 DAI, the next bid must be at least 10.5 MKR for 1000 DAI, a 5% increase.
+_Surplus Auction Minimum Bid Increase_ = 5%  
+_Surplus Auction Lot Size_ = 1,000 DAI
+
+1. A DAI Surplus Auction is triggered, accepting bids of MKR in exchange for 1,000 DAI.
+2. Keeper A bids to pay 10 MKR in exchange for 1,000 DAI.
+3. Keeper B must bid at least 10.5 MKR in exchange for the 1,000 DAI, a 5% increase.
+
+{% endhint %}
 
 ## Purpose
 The Surplus Auction Minimum Bid Increase parameter allows Maker Governance to ensure that keepers are sufficiently incentivized to bid in surplus auctions.
