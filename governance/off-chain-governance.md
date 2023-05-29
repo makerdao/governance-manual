@@ -1,7 +1,7 @@
 # Off-Chain Governance
 
 {% hint style="info" %}
-Since subDAOs can arbitrarily set up their own forms of internal off-chain governance, this article will restrict itself to the available off-chain, community-driven forms of governance within Maker Core.
+Since subDAOs can arbitrarily set up their own forms of internal off-chain governance, this article will restrict itself to the off-chain governance of Maker Core.
 {% endhint %}
 
 Off-chain governance is a form of governance that does not involve tokens or blockchain interaction. It allows more people to participate in improving the protocol by freely exchanging ideas and gathering feedback. This can be used  to support and inform future on-chain governance.
