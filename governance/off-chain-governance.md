@@ -9,7 +9,6 @@ Off-chain governance is a form of governance that does not require any token nor
 These exchanges and the possibility of initiating them are free for all. They can be conducted in several venues:
 
 - In the [MakerDAO forum](forum.makerdao.com/), usually under the [Ecosystem Discussion category](https://forum.makerdao.com/c/ecosystem-discussions/89).
-	- The MakerDAO forum also allows for the creation of polls, which can be used to gauge community sentiment and to stir further, deeper discussion.
 - In the [MakerDAO Discord server](https://discord.gg/RBRumCpEDH), in which many topical channels are available.
 
 When engaging in off-chain governance, it is important to prioritize courtesy and common sense. MakerDAO encourages respectful and inclusive discussions, and constructive feedback.
