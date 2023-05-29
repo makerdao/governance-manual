@@ -14,7 +14,6 @@ These exchanges and the possibility of initiating them are free for all. They ca
 
 When engaging in off-chain governance, it is important to prioritize courtesy and common sense. MakerDAO encourages respectful and inclusive discussions, and constructive feedback.
 
-While less direct than on-chain governance, the power of the free exchange of ideas should not be underestimated and can have large consequences for the protocol.
 
 >Page last reviewed: 2023-05-23  
 >Next review due: 2023-07-23  
