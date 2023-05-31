@@ -18,8 +18,6 @@ This method takes a single parameter, a bytes32 representing a _slate_.
 
 The first step here is locating the _slate_. A _slate_ represents a collection of addresses that normally correspond to executive spell contracts. Note that because the executive system uses approval voting, voters can vote for multiple addresses at once. A _slate_ represents a collection of addresses that are voted for together. Slates are also used to represent single addresses.
 
-The method signature should always match _a69beaba_.
-
 Using metamask, check the data and hex tabs:
 
 ![exec-transaction-verification-1](../images/exec-transaction-verification-1.png)
@@ -53,7 +51,7 @@ Next, you should increment the second input field and query until you see an err
 This method is used more rarely, usually only when you are the first person to vote on a new address or set of addresses.
 
 The structure of the transaction data is a little more variable than for method A. However it should:
-* Start with 0x_ed081329_
+* Start with **0xed081329**
 * Contain one or more Ethereum addresses separated by strings of zeros.
 
 ### Step 1 - Check Addresses
