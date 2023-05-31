@@ -35,6 +35,7 @@
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
 * Verification
   * [Executive Audit](governance/executive-audit.md)
+  * [Executive Transactions](governance/executive-transaction-verification.md)
   * [GSM Exceptions](governance/gsm-exceptions.md)
 * Off-Chain
   * [Off-Chain Governance](governance/off-chain-governance.md)
