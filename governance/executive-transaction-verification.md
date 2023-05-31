@@ -22,15 +22,15 @@ The method signature should always match _a69beaba_.
 
 Using metamask, check the data and hex tabs:
 
-[!](..\images\exec-transaction-verification-1.png)
+[!exec-transaction-verification-1](../images/exec-transaction-verification-1.png)
 
-[!](..\images\exec-transaction-verification-2.png)
+[!exec-transaction-verification-2](../images/exec-transaction-verification-2.png)
 
 ## Step 2 - Checking the Slate
 
 Once you have located the 64-character hexadecimal string that represents the slate, you should check it against the contents of the [DSChief](https://etherscan.io/address/0x0a3f6849f78076aefadf113f5bed87720274ddc0#readContract) contract.
 
-[!](..\images\exec-transaction-verification-3.png)
+[!exec-transaction-verification-3](../images/exec-transaction-verification-3.png)
 
 Using etherscan, you can navigate to read-method 17, 'slates'. There are two input fields.
 1. For the first field you should enter the slate address you identified in step 1. You should prefix the string with 0x.
@@ -38,11 +38,11 @@ Using etherscan, you can navigate to read-method 17, 'slates'. There are two inp
 
 Etherscan should display a spell address that matches the spell which you have selected using the Voting Portal UI.
 
-[!](..\images\exec-transaction-verification-4.png)
+[!exec-transaction-verification-4](../images/exec-transaction-verification-4.png)
 
 Next, you should increment the second input field and query until you see an error message.
 
-[!](..\images\exec-transaction-verification-5.png)
+[!exec-transaction-verification-5](../images/exec-transaction-verification-5.png)
 
 **All addresses that appear prior to this error message are addresses that you are voting for.**
 
@@ -60,9 +60,9 @@ The first and only step here is to check that addresses present in the transacti
 
 Using metamask, check the data and hex tabs:
 
-[!](..\images\exec-transaction-verification-6.png)
+[!exec-transaction-verification-6](../images/exec-transaction-verification-6.png)
 
-[!](..\images\exec-transaction-verification-7.png)
+[!exec-transaction-verification-7](../images/exec-transaction-verification-7.png)
 
 **All addresses that can be identified in the transaction data are addresses that you are voting for.**
 
