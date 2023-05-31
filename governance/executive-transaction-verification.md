@@ -36,7 +36,9 @@ Using etherscan, you can navigate to read-method 17, 'slates'. There are two inp
 1. For the first field you should enter the slate address you identified in step 1. You should prefix the string with 0x.
 2. The the second field you should first enter 0.
 
-Etherscan should display a spell address that matches the spell which you have selected using the Voting Portal UI.
+In the below example the address used is **0xd498E7DEE467d1eb6Ed3933e579c427E168b6E6c**.
+
+Etherscan should display a spell address that matches the spell address of the proposal which you have selected using the Voting Portal UI.
 
 ![exec-transaction-verification-4](../images/exec-transaction-verification-4.png)
 
@@ -51,12 +53,14 @@ Next, you should increment the second input field and query until you see an err
 This method is used more rarely, usually only when you are the first person to vote on a new address or set of addresses.
 
 The structure of the transaction data is a little more variable than for method A. However it should:
-* Start with 0xed081329
+* Start with 0x_ed081329_
 * Contain one or more Ethereum addresses separated by strings of zeros.
 
 ### Step 1 - Check Addresses
 
 The first and only step here is to check that addresses present in the transaction data match the addresses that you intend to vote for.
+
+In the below examples the address used is **0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2**.
 
 Using metamask, check the data and hex tabs:
 
