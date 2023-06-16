@@ -18,6 +18,7 @@ Technical documentation for the Maker Protocol executive governance system is lo
 * [Key Failure Modes](https://docs.makerdao.com/smart-contract-modules/governance-module/chief-detailed-documentation#5.-failure-modes-bounds-on-operating-conditions-and-external-risk-factors)
 * The [Pause](https://docs.makerdao.com/smart-contract-modules/governance-module/pause-detailed-documentation) contract
 * The [Governance Pause Delay](../parameter-index/core/param-gsm-pause-delay.md)
+* [Executive Proxies](../governance/executive-proxies.md)
 
 Concretely, it is important that delegates act to ensure that amount of MKR on the `hat` remains as high as possible for as long as possible when voting for new executive spells. This can be achieved by voting for both the current and next executive using the official voting portal.
 
