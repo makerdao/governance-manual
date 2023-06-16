@@ -29,6 +29,7 @@
   * [On-Chain Governance](governance/on-chain-governance.md)
   * [Approval Voting Guide](governance/approval-voting-guide.md)
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
+  * [Executive Proxies](governance/executive-proxies.md)
 * Verification
   * [Executive Audit](governance/executive-audit.md)
   * [GSM Exceptions](governance/gsm-exceptions.md)
