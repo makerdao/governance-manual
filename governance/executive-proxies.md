@@ -5,7 +5,7 @@
 
 An executive proxy is a smart contract that sits between the Maker Protocol executive spell and a ‘ProxySpell’ smart contract that triggers a set of actions meant to update or configure an external-to-maker set of smart contracts, such as Spark Protocol.
 
-Unlike the PauseProxy, an executive proxy is not granted any permissions over the core contracts of the Maker Protocol. Instead it is granted permissions over an external protocol, like Spark.
+Unlike the PauseProxy, an executive proxy is not granted any permissions over the core contracts of the Maker Protocol. Instead, it is granted permissions over an external protocol, like Spark.
 
 A key detail of this implementation is that the executive proxy cannot take any action unless it is triggered through a Maker Core executive spell (which can only be done when it is voted to the ‘hat’ by MKR holders).
 
@@ -32,12 +32,12 @@ The process of ProxySpell creation can then be managed by one or more external t
 
 Further, this also allows the process to prepare a ProxySpell to diverge from the Maker Core executive process if this is deemed worthwhile by the responsible teams. 
 
-Ultimately, this gives the MakerDAO executive process scalability in a way which has not previously been present. 
+Ultimately, this gives the MakerDAO executive process scalability in a way that has not previously been present. 
 
 
 ## How will executive proxies be used in Endgame?
 
-The future plans for executive proxies are that each SubDAO has its own SubDAO Proxy, and that this proxy is granted permissions over anything relevant to the given subDAO. 
+The future plans for executive proxies are that each SubDAO has its own SubDAO Proxy and that this proxy is granted permissions over anything relevant to the given subDAO. 
 
 SubDAOs will be responsible for producing their own ProxySpells if they need changes to be made to contracts or protocols under their control.
 
