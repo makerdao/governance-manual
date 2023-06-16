@@ -6,7 +6,7 @@
 
 Information about the major parameters that exist within the Maker Protocol can be found as part of the Maker Operational Manaual Parameter Index.
 
-The [Executive Transation](../governance/executive-transaction-verification.md) page shows you how to check that your voting transactions match the Voting Portal UI.
+The [Executive Transaction](../governance/executive-transaction-verification.md) page shows you how to check that your voting transactions match the Voting Portal UI.
 
 The [Executive Audit](../governance/executive-audit.md) page describes a non-exhaustive set of items that are important to check when looking at executive spell code. 
 
