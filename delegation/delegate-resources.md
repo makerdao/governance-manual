@@ -28,4 +28,4 @@ A list of all the exceptions to the Governance Security Module is available [her
 
 Any action that is not a part of the exception list will be delayed by the Governance Pause Delay before taking effect. This is in addition to any delay caused by failure for the emergency proposal to become the `hat`. For this reason, it is important that delegates vote as quickly as possible in an emergency.
 
-
+Previously, delegates have been given 'standby' instructions, where Governance Facilitators have informed delegates that they may be needed to vote on an upcoming out-of-schedule executive over a certain time period. This is not always possible, but if it does occur, delegates should ensure they are readily contactable until the standby is lifted. Time periods in the past have ranged from 3 to 72 hours. 
