@@ -34,7 +34,7 @@ Validate that the on-chain Etherscan code matches the corresponding [archive cod
 
 To do this code comparison, use a program called [Diff Checker](https://www.diffchecker.com/) to compare the Etherscan spell code against the relevant Github code. Clicking `find difference` will illustrate any differences between the two.
 
-Due to name collisions when combining source files into the combined spell code, some interface names may differ between the github version and the on-chain version. In this case, you may see `_1` or `_2` appended to certain interface names in the on-chain copy, this is not a cause for alarm.
+Due to name collisions when combining source files into the combined spell code, some interface names may differ between the github version and the on-chain version. In this case, you may see `_1` or `_2` appended to certain interface names in the on-chain Etherscan code, this is not a cause for alarm.
 
 Note, the Etherscan code will also illustrate interfaces to the DssExecLib, represented by the additional green section at the top of the file, which includes the following for awareness:
 
