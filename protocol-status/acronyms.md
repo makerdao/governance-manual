@@ -29,6 +29,7 @@
 * `L1/L2`: Layer 1/Layer 2
 * `LP`: Liquidity Provider / Liquidation Penalty
 * `LR`: [Liquidation Ratio](../parameter-index/vault-risk/param-liquidation-ratio.md)
+* `LR`: [Lawyer Registry](https://mips.makerdao.com/mips/details/MIP106#10-3-the-lawyer-registry-lr-)
 * `MCD`: Multi-Collateral DAI
 * `MEV`: Miner Extracted Value
 * `MIP`: [Maker Improvement Proposal](../governance/mips.md)
@@ -36,9 +37,12 @@
 * `NFT`: Non-Fungible Tokens
 * `OKR`: Objectives and Key Results
 * `OSM`: Oracle Security Module
+* `PD`: Prime Delegate
 * `PDM`: Protocol Delegation Modules
 * `PSM`: [Peg Stability Module](../module-index/module-psm.md)
 * `PRO`: Protocol Scope
+* `RD`: Reserved Aligned Delegate
+* `RF`: [Resilience Fund](https://mips.makerdao.com/mips/details/MIP106#10-resilience-fund)
 * `RoA`: Return over Asset
 * `RoE`: Return over Equity
 * `RP`: Risk Premium
@@ -64,21 +68,7 @@
 * `TWAP`: Time-Weighted Average Price
 * `UCT`: Unified Coordination Toolkit
 
-## Collateral
-
-### Real-world Assets
-
-* `CF-DROP`: ConsolFreight DROP (Freight Forwarding Invoices)
-* `DROP`: Centrifuge Senior Tranche Token
-* `FFT1-DROP`: Fortunafi DROP (Revenue Based Financing Assets)
-* `HTC-DROP`: Harbor Trade Credit DROP (Short Term Trade Receivables)
-* `HVB`: Huntingdon Valley Bank
-* `NS-DROP`: New Silver DROP (US-based Residential Real Estate)
-* `RWA-001/SIXS`: 6S Capital SPV (Real-Estate and Renewable Energy/Sustainability)
-* `SocGen`: Societe Generale
-* `TIN`: Centrifuge Junior Tranche Token
-
->Page last reviewed: 2022-10-12  
->Next review due: 2024-01-12   
+>Page last reviewed: 2023-06-22  
+>Next review due: 2024-07-22   
 
 
