@@ -18,9 +18,9 @@ The MIP Framework currently comprises 17 MIPs, out of which five (marked with an
 |--|--|
 | [MIP0: Maker Improvement Proposal Framework](https://mips.makerdao.com/mips/details/MIP0) | Defines the Maker Improvement Proposals (MIPs) Framework for all subsequent MIPs to utilize |
 | [MIP16: The Weekly Governance Cycle](https://mips.makerdao.com/mips/details/MIP16) | Defines and formalizes the Weekly Governance Cycle to provide a predictable weekly framework for Maker governance decisions |
-| [MIP51: Monthly Governance Cycle](https://mips.makerdao.com/mips/details/MIP51) | Defines a monthly Governance Cycle that provides a predictable framework for Maker governance decisions |
 | [MIP24: Emergency Response](https://mips.makerdao.com/mips/details/MIP24) | Defines emergency and urgent situations for the Maker protocol, as well as the process for handling them |
 | [* The Core Unit Framework MIP Set (MIP38, MIP39, MIP40, MIP41)](https://mips.makerdao.com/mips/list?mipsetMode=true) | The Core Unit Framework MIP Set is a set of MIPs that defines the structure of Core Units |
+| [MIP51: Monthly Governance Cycle](https://mips.makerdao.com/mips/details/MIP51) | Defines a monthly Governance Cycle that provides a predictable framework for Maker governance decisions |
 | [* MIP55: Special Purpose Fund](https://mips.makerdao.com/mips/details/MIP55) | MIP55 defines Special Purpose Funda (SPFs), a tool used to fulfill a narrow, specific, or temporary objective where approved funds are locked in escrow |
 | [MIP62: Collateral Offboarding Process](https://mips.makerdao.com/mips/details/MIP62) | Defines how to notify users of Maker vaults of collateral offboarding |
 | [MIP101: Maker Atlas Immutable Alignment Artifact](https://mips.makerdao.com/mips/details/MIP101) | Defines the Atlas, which is the foundational set of rules that underpins the Scope Artifacts |
@@ -33,6 +33,7 @@ The MIP Framework currently comprises 17 MIPs, out of which five (marked with an
 
 >Page last reviewed: 2023-05-22  
 >Next review due: 2023-07-22  
+
 
 
 
