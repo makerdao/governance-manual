@@ -1,4 +1,3 @@
-
 # Auction Duration (Flap)
 
 >**Alias:** N/A  
