@@ -55,7 +55,7 @@ The main reason for Maker Governance to decrease the Smart Burn Engine Slipppage
  
 As triggering the Smart Burn Engine is permissionless, incorrectly setting the Smart Burn Engine Slipppage Tolerance may expose the Protocol to sandwich attacks.
 
-The Smart Burn Engine Slippage Tolerance only applies when the price of MKR in the Uniswap pool is *worse* than the oracle price. It will not prevent purchases when the pool price is > 2% *better* than the oracle price.
+The Smart Burn Engine Slippage Tolerance only applies when the price of MKR in the Uniswap pool is *worse* than the oracle price. It will not prevent purchases when the pool price is > `want`% *better* than the oracle price.
 
 >Page last reviewed: 2023-08-01  
 >Next review due: 2024-08-01  
