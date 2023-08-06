@@ -15,6 +15,10 @@
   * [MakerDAO Calls Calendar](protocol-status/calls-calendar.md)
   * [MakerDAO Governance Calendar](protocol-status/governance-calendar.md)
 
+## Endgame
+* [Constitutional Delegates](endgame/constitutional-delegates.md)
+* [Constutional Voter Committees](endgame/constitutional-voter-committee.md)
+
 ## Governance
 * Governance Cycle
   * [Monthly Governance Cycle](governance/monthly-governance-cycle.md)
@@ -41,8 +45,8 @@
   * [Best Practices](governance/technical-mips-development-best-practices.md)
   * [Code Example](governance/technical-mip-code-example.md)
 * [Emergency Shutdown](governance/emergency-shutdown.md)  
+
 ## Delegation
-  
 * Overview
   * [What is Delegation?](delegation/what-is-delegation.md)
   * [Separation of Powers](delegation/separation-of-powers.md)
