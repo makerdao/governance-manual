@@ -1,6 +1,7 @@
 # Off-Chain Governance
 
 {% hint style="info" %}
+
 Since subDAOs can arbitrarily set up their own forms of internal off-chain governance, this article will restrict itself to the off-chain governance of Maker Core.
 {% endhint %}
 
