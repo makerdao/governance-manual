@@ -18,12 +18,11 @@ _MKR_Purchased >= Oracle_Price * Smart_Burn_Engine_Lot_Size * want_
 **Example**
 
 *Smart Burn Engine Lot Size* = 10,000 DAI  
-*Smart Burn Engine Slippage Tolerance* = 0.98
+*Smart Burn Engine Slippage Tolerance* = 0.98  
+*Oracle Price* = 1,000 DAI/1 MKR
 
-1. MKR/DAI price according to the oracle is 3% lower than the Uniswap price.
-2. Keeper A attempts to trigger the Smart Burn Engine, but the transaction fails.
-3. MKR/DAI price according to the oracle is 2% lower than the Uniswap price.
-4. Keeper A successfully triggers the Smart Burn Engine and exchanges 10,000 DAI for MKR.
+1. MKR purchase per Oracle should be 10 MKR for 10,000 DAI.
+2. Uniswap purchase must result in *at least* 9.8 MKR being purchased or the transaction will fail.
 
 {% endhint %}
 
