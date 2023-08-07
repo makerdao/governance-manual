@@ -18,7 +18,7 @@ _Purchase Price >= Oracle Price * Smart Burn Engine Slippage Tolerance (`want`)_
 **Example**
 
 *Maximum System Surplus* = 50 million DAI  
-*Smart Burn Engine Lot Size* = 10,000 DAI
+*Smart Burn Engine Lot Size* = 10,000 DAI  
 *Smart Burn Engine Slippage Tolerance* = 0.98
 
 1. MKR/DAI price according to the oracle is 3% lower than the Uniswap price.
