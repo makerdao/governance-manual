@@ -25,7 +25,6 @@ _Purchase Price >= Oracle Price * Smart Burn Engine Slippage Tolerance (`want`)_
 2. Keeper A attempts to trigger the Smart Burn Engine, but the transaction fails.
 3. MKR/DAI price according to the oracle is 2% lower than the Uniswap price.
 4. Keeper A successfully triggers the Smart Burn Engine and exchanges 10,000 DAI for MKR.
-4. Keeper A successfully triggers the Smart Burn Engine and exchanges 10,000 DAI for MKR.
 
 {% endhint %}
 
