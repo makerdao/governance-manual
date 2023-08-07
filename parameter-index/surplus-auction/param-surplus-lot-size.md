@@ -1,4 +1,4 @@
-# Surplus Auction Lot Size
+# Smart Burn Engine Lot Size
 
 >**Alias:** N/A  
 >**Parameter Name:** `bump`  
@@ -7,55 +7,55 @@
 >**Technical Docs:** [Vow Detailed Documentation](https://docs.makerdao.com/smart-contract-modules/system-stabilizer-module/vow-detailed-documentation)  
 
 ## Description
-The Surplus Auction Lot Size or `bump` parameter controls the amount of DAI that is auctioned off in each surplus auction.
+The Smart Burn Engine Lot Size or `bump` parameter controls the amount of DAI that is exchanged for MKR each time the Smart Burn Engine is triggered.
 
-Surplus auctions can be triggered when:  
+The Smart Burn Engine can be triggered when:  
 
-_Surplus DAI > [Maximum System Surplus](../core/param-system-surplus-buffer) (`hump`) + Surplus Auction Lot Size (`bump`)_
+_Surplus DAI > [Maximum System Surplus](../core/param-system-surplus-buffer) (`hump`) + Smart Burn Engine Lot Size (`bump`)_
 
 {% hint style="info" %} 
 
 **Example**
 
 _Maximum System Surplus_ = 50 million DAI   
-_Surplus Auction Lot Size_ = 10,000 DAI  
+_Smart Burn Engine Lot Size_ = 10,000 DAI  
 
 1. The current System Surplus reaches 50 million DAI.
-2. Keeper A attempts to trigger a Surplus Auction, but the transaction fails.
+2. Keeper A attempts to trigger the Smart Burn Engine, but the transaction fails.
 3. The current System Surplus reaches 50,010,000 DAI.
-4. Keeper A successfully triggers a Surplus Auction for 10,000 DAI.
+4. Keeper A successfully triggers the Smart Burn Engine and exchanges 10,000 DAI for MKR.
 
 {% endhint %}
 
 ## Purpose
 
-The Surplus Auction Lot Size parameter allows Maker Governance to tune the frequency and accessibility of surplus auctions in order to achieve better auction efficiency.
+The Smart Burn Engine Lot Size parameter allows Maker Governance to tune the frequency and accessibility of Smart Burn Engine actions in order to achieve better efficiency.
 
 ## Trade-offs
 
-Increasing the Surplus Auction Lot Size will result in fewer auctions - meaning more competition between keepers in each auction and increased gas efficiency. However, a larger Surplus Auction Lot Size may make the capital requirement prohibitive for some keepers, reducing the number of individuals that are able to bid.
+Increasing the Smart Burn Engine Lot Size will result in fewer auctions - leading to less overall gas expenditure. However, a larger Smart Burn Engine Lot Size may mean there is insufficient liquidity for the Smart Burn Engine to complete its planned actions.
 
-Reducing the Surplus Auction Lot Size will result in a greater number of auctions. These auctions will require lower amounts of MKR to participate, allowing more keepers to take part. However, a higher number of auctions leads to a higher fixed cost to bid relative to the potential profit, which may decrease participation. If auctions are not competitive, then the price obtained for the auctioned DAI may be below-market rates.
+Reducing the Smart Burn Engine Lot Size will result in a greater number of auctions. These events will occur more frequently. However, a higher number of events leads to a higher fixed cost as the protocol funds the Keeper Network that will reliably call these events.
 
 ## Changes
-Adjusting the Surplus Auction Lot Size parameter is a manual process that requires an executive vote. Changes to the Surplus Auction Lot Size are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
+Adjusting the Smart Burn Engine Lot Size parameter is a manual process that requires an executive vote. Changes to the Smart Burn Engine Lot Size are subject to the [GSM Pause Delay](../core/param-gsm-pause-delay.md).
 
-In general the goal when tweaking this parameter is to increase keeper participation in surplus auctions.
+In general the goal when tweaking this parameter is to trade-off costs of running keepers against the liquidity available in the pool and the risk of sandwich attacks.
 
 **Why increase this parameter?**
 
-The main reason for Maker Governance to increase the Surplus Auction Lot Size is to reduce the overall number of surplus auctions. Fewer auctions reduces the gas cost for keepers relative to their potential profit, making participation more attractive to keepers.
+The main reason for Maker Governance to increase the Smart Burn Engine Lot Size is to reduce the overall number of actions. Fewer auctions reduces the gas cost for keepers as there are fewer transactions taking place. Since Maker funds the Keeper Network, this saves the protocol money in the long-term as there is less gas to subsidise.
 
 **Why decrease this parameter?**
 
-The main reason for Maker Governance to decrease the Surplus Auction Lot Size is to reduce the capital requirement for auction participation, potentially increasing the number of keepers able to participate.
+The main reason for Maker Governance to decrease the Smart Burn Engine Lot Size is if there is to reduce the required liquidity for each action. If the parameter is set too high, the slippage will be too high and the auction will not proceed.
  
  ## Considerations
  
-The Surplus Auction Lot Size must be greater than 0 DAI.
+The Smart Burn Engine Lot Size must be greater than 0 DAI.
 
-The gas cost to `kick` (trigger) a surplus auction is non-trivial. If the Surplus Auction Lot Size is too small, surplus auctions may not be triggered by any keeper because they are required to accept a fixed cost for an uncertain return.
+As triggering the Smart Burn Engine is permissionless, incorrectly setting the Smart Burn Engine Lot Size may expose the Protocol to sandwich attacks.
 
->Page last reviewed: 2022-11-09  
->Next review due: 2023-11-09  
+>Page last reviewed: 2023-08-01  
+>Next review due: 2024-08-01  
 
