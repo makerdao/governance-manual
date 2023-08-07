@@ -21,7 +21,7 @@ _Time Since Last Activation_ = 90 seconds
 _Smart Burn Engine Cooldown_ = 100 seconds  
 
 1. Keeper A attempts to trigger the Smart Burn Engine, but the transaction fails.
-2. 15 seconds pass.
+2. 10 seconds pass.
 3. Keeper A may now succesfully trigger the Smart Burn Engine
 
 {% endhint %}
