@@ -44,6 +44,7 @@
 ## Delegation
   
 * Overview
+
   * [What is Delegation?](delegation/what-is-delegation.md)
   * [Separation of Powers](delegation/separation-of-powers.md)
   * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)

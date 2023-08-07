@@ -11,7 +11,7 @@ The Smart Burn Engine Lot Size or `bump` parameter controls the amount of DAI th
 
 The Smart Burn Engine can be triggered when:  
 
-_Surplus DAI > [Maximum System Surplus](../core/param-system-surplus-buffer) (`hump`) + Smart Burn Engine Lot Size (`bump`)_
+_Surplus DAI > [Maximum System Surplus](../core/param-system-surplus-buffer.md) (`hump`) + Smart Burn Engine Lot Size (`bump`)_
 
 {% hint style="info" %} 
 
