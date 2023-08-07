@@ -11,19 +11,18 @@ The Smart Burn Engine Slippage Tolerance or `want` parameter controls the amount
 
 The Smart Burn Engine can be triggered when:  
 
-_Purchase Price >= Oracle Price * Smart Burn Engine Slippage Tolerance (`want`)_
+_MKR_Purchased >= Oracle_Price * Smart_Burn_Engine_Lot_Size * want_
 
 {% hint style="info" %} 
 
 **Example**
 
-*Maximum System Surplus* = 50 million DAI
 *Smart Burn Engine Lot Size* = 10,000 DAI
 *Smart Burn Engine Slippage Tolerance* = 0.98
 
 1. MKR/DAI price in the Uniswap pool is 3% worse than oracle price.
 2. Keeper A attempts to trigger the Smart Burn Engine, but the transaction fails.
-3 .MKR/DAI price in the Uniswap pool is 2% away from oracle price.
+3. MKR/DAI price in the Uniswap pool is 2% away from oracle price.
 4. Keeper A successfully triggers the Smart Burn Engine and exchanges 10,000 DAI for MKR.
 
 {% endhint %}
