@@ -11,7 +11,7 @@ The Smart Burn Engine Cooldown or `hop` parameter controls the amount of time th
 
 The Smart Burn Engine can be triggered when:  
 
-_Time elapsed since last activation > Smart Burn Engine Cooldown_
+_Time elapsed since last activation >= Smart Burn Engine Cooldown_
 
 {% hint style="info" %} 
 
