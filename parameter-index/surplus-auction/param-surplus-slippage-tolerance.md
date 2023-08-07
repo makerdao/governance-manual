@@ -17,7 +17,7 @@ _Purchase Price >= Oracle Price * Smart Burn Engine Slippage Tolerance (`want`)_
 
 **Example**
 
-*Maximum System Surplus* = 50 million DAI
+*Maximum System Surplus* = 50 million DAI  
 *Smart Burn Engine Lot Size* = 10,000 DAI
 *Smart Burn Engine Slippage Tolerance* = 0.98
 
