@@ -11,7 +11,7 @@ The Smart Burn Engine Slipppage Tolerance or `want` parameter controls the amoun
 
 The Smart Burn Engine can be triggered when:  
 
-_Surplus DAI > [Maximum System Surplus](../core/param-system-surplus-buffer) (`hump`) + Smart Burn Engine Slipppage Tolerance (`want`)_
+_Surplus DAI > [Maximum System Surplus](../core/param-system-surplus-buffer.md) (`hump`) + Smart Burn Engine Slipppage Tolerance (`want`)_
 
 {% hint style="info" %} 
 
