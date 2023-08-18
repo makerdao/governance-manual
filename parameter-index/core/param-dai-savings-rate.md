@@ -78,6 +78,6 @@ Any changes to the Dai Savings Rate may affect PSM usage behavior. For example, 
 
 In the event of an [Emergency Shutdown](https://docs.makerdao.com/smart-contract-modules/shutdown), the Dai Savings Rate will be set to 0% to prevent the total debt of the Maker Protocol from increasing.
 
->Page last reviewed: 2023-08-06  
->Next review due: 2024-08-06  
+>Page last reviewed: 2023-08-18  
+>Next review due: 2024-08-18  
 
