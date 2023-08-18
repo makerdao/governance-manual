@@ -35,7 +35,7 @@ Decreasing the Dai Savings Rate will decrease the expenses of the Maker Protocol
 
 ## Enhanced Dai Savings Rate
 
-The [Enhanced Dai Savings Rate (EDSR)](https://mips.makerdao.com/mips/details/MIP104#3-2-2-enhanced-dai-savings-rate-edsr-) is part of the [Maker Endgame Plan](https://endgame.makerdao.com) and temporarily increases the DSR through a multiplier when the total Dai in the Dai Savings Rate contract is low relative to the total Dai supply. The EDSR multiplier decreases over time as DSR utilization increases. The EDSR is a non-increasing parameter i.e. even if DSR utilization goes down, the EDSR multiplier cannot increase with time. The EDSR multiplier tier is chosen according to the following table
+The [Enhanced Dai Savings Rate (EDSR)](https://mips.makerdao.com/mips/details/MIP104#3-2-2-enhanced-dai-savings-rate-edsr-) is part of the [Maker Endgame Plan](https://endgame.makerdao.com) and temporarily increases the DSR through a multiplier when the total Dai in the Dai Savings Rate contract is low relative to the total Dai supply. The EDSR multiplier decreases over time as DSR utilization increases. The EDSR is a non-increasing parameter i.e. even if DSR utilization goes down, the EDSR multiplier cannot increase with time. The EDSR multiplier tier is chosen according to the following table.
 
 | Tier | DSR Utilization  | DSR Multiplier  |
 |-----------|---------------|---------------|
@@ -80,4 +80,3 @@ In the event of an [Emergency Shutdown](https://docs.makerdao.com/smart-contract
 
 >Page last reviewed: 2023-08-18  
 >Next review due: 2024-08-18  
-
