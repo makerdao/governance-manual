@@ -39,13 +39,12 @@ The [Enhanced Dai Savings Rate (EDSR)](https://mips.makerdao.com/mips/details/MI
 
 | Tier | DSR Utilization  | DSR Multiplier  |
 |-----------|---------------|---------------|
-| 1         |  0 - 20%  | 3        |
-| 2         | 20-35%   | 1.75   |
-| 3         | 35-50%   | 1.3     |
+| 1         |  0 - 35%  | 1.75        |
+| 2         | 35-50%   | 1.3     |
 
 The EDSR is initialized in Tier 1. If the DSR utilization meets the threshold for a higher tier for a 24-hour period, the multiplier is adjusted manually through the next executive vote. 
 
-If the EDSR multiplier results in an effective DSR above 8%, the effective DSR remains capped at 8%. Maker Governance may disable the EDSR at any time through an executive vote or if the DSR utilization exceeds 50% for a 24-hour period.  
+If the EDSR multiplier results in an effective DSR above 5%, the effective DSR remains capped at 5%. Maker Governance may disable the EDSR at any time through an executive vote or if the DSR utilization exceeds 50% for a 24-hour period.  
 
 ## Changes
 Adjusting the Dai Savings Rate is a manual process that requires an executive vote. Changes to the Dai Savings Rate are subject to the [GSM Pause Delay](param-gsm-pause-delay.md).
