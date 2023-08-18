@@ -66,7 +66,7 @@ Maker Governance may also wish to decrease the Dai Savings Rate when The Maker P
 ## Considerations
 When DAI holders deposit DAI to the Dai Savings Rate contract, interest is paid from accrued stability fees. Therefore, increasing the Dai Savings Rate will cause the [System Surplus Buffer](param-system-surplus-buffer.md) to fill more slowly and reduce the amount of Dai available for Surplus Auctions. If the Dai Savings Rate is set too high, the Maker Protocol could have negative cash flow and eventually need to print MKR.
 
-Other parameters and mechanisms that are dependent on the DSR, such as certain stability fees, are not affected by the EDSR, but only by the underlying DSR. This means it is possible that stability fees can be lower than the EDSR when it is in effect.
+Other parameters and mechanisms that are dependent on the DSR, such as crypto-collateralized stability fees, are affected by the EDSR. This applies to all Vault Types with the exception of ETH-A, ETH-B, and ETH-C.
 
 Balances within the Dai Savings Rate contract will not be updated unless the `drip` function is called; this may be done permissionlessly.
 
