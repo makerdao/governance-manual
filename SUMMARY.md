@@ -48,6 +48,7 @@
 
 ## Delegation
 * Overview
+
   * [What is Delegation?](delegation/what-is-delegation.md)
   * [Separation of Powers](delegation/separation-of-powers.md)
   * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
@@ -88,6 +89,10 @@
   * [Liquidation Penalty](parameter-index/vault-risk/param-liquidation-penalty.md)
   * [Debt Floor](parameter-index/vault-risk/param-debt-floor.md)
   * [RWA Agreement](parameter-index/vault-risk/param-rwa-agreement.md)
+* Smart Burn Engine
+  * [Smart Burn Engine Lot Size](parameter-index/surplus-auction/param-surplus-lot-size.md)
+  * [Smart Burn Engine Cooldown](parameter-index/surplus-auction/param-surplus-cooldown.md)
+  * [Smart Burn Engine Slippage Tolerance](parameter-index/surplus-auction/param-surplus-slippage-tolerance.md)
 * Collateral Auction
   * [Auction Price Function](parameter-index/collateral-auction/param-auction-price-function.md)
   * [Auction Price Multiplier](parameter-index/collateral-auction/param-auction-price-multiplier.md)
@@ -97,12 +102,6 @@
   * [Breaker Price Tolerance](parameter-index/collateral-auction/param-breaker-price-tolerance.md)
   * [Proportional Kick Incentive](parameter-index/collateral-auction/param-proportional-kick-incentive.md)
   * [Flat Kick Incentive](parameter-index/collateral-auction/param-flat-kick-incentive.md)
-* Surplus Auction
-  * [Surplus Auction Lot Size](parameter-index/surplus-auction/param-surplus-lot-size.md)
-  * [Surplus Auction Minimum Bid Increase](parameter-index/surplus-auction/param-min-bid-increase-flap.md)
-  * [Surplus Auction Duration](parameter-index/surplus-auction/param-auction-duration-flap.md)
-  * [Surplus Auction Bid Duration](parameter-index/surplus-auction/param-bid-duration-flap.md)
-  * [Surplus Auction Limit](parameter-index/surplus-auction/param-surplus-auction-limit.md)
 * Debt Auction
   * [Debt Auction Minimum Bid Decrease](parameter-index/debt-auction/param-min-bid-decrease-flop.md)
   * [Debt Auction Duration](parameter-index/debt-auction/param-auction-duration-flop.md)

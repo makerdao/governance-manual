@@ -35,17 +35,16 @@ Decreasing the Dai Savings Rate will decrease the expenses of the Maker Protocol
 
 ## Enhanced Dai Savings Rate
 
-The Enhanced Dai Savings Rate (EDSR) is part of the [Maker Endgame Plan](https://endgame.makerdao.com) and temporarily increases the DSR through a multiplier when the total Dai in the Dai Savings Rate contract is low relative to the total Dai supply. The EDSR multiplier decreases over time as DSR utilization increases. The EDSR is a non-increasing parameter i.e. even if DSR utilization goes down, the EDSR multiplier cannot increase with time. The EDSR multiplier tier is chosen according to the following table.
+The [Enhanced Dai Savings Rate (EDSR)](https://mips.makerdao.com/mips/details/MIP104#3-2-2-enhanced-dai-savings-rate-edsr-) is part of the [Maker Endgame Plan](https://endgame.makerdao.com) and temporarily increases the DSR through a multiplier when the total Dai in the Dai Savings Rate contract is low relative to the total Dai supply. The EDSR multiplier decreases over time as DSR utilization increases. The EDSR is a non-increasing parameter i.e. even if DSR utilization goes down, the EDSR multiplier cannot increase with time. The EDSR multiplier tier is chosen according to the following table.
 
 | Tier | DSR Utilization  | DSR Multiplier  |
 |-----------|---------------|---------------|
-| 1         |  0 - 20%  | 3        |
-| 2         | 20-35%   | 1.75   |
-| 3         | 35-50%   | 1.3     |
+| 1         |  0 - 35%  | 1.75        |
+| 2         | 35-50%   | 1.3     |
 
 The EDSR is initialized in Tier 1. If the DSR utilization meets the threshold for a higher tier for a 24-hour period, the multiplier is adjusted manually through the next executive vote. 
 
-If the EDSR multiplier results in an effective DSR above 8%, the effective DSR remains capped at 8%. Maker Governance may disable the EDSR at any time through an executive vote or if the DSR utilization exceeds 50% for a 24-hour period.  
+If the EDSR multiplier results in an effective DSR above 5%, the effective DSR remains capped at 5%. Maker Governance may disable the EDSR at any time through an executive vote or if the DSR utilization exceeds 50% for a 24-hour period.  
 
 ## Changes
 Adjusting the Dai Savings Rate is a manual process that requires an executive vote. Changes to the Dai Savings Rate are subject to the [GSM Pause Delay](param-gsm-pause-delay.md).
@@ -67,6 +66,8 @@ Maker Governance may also wish to decrease the Dai Savings Rate when The Maker P
 ## Considerations
 When DAI holders deposit DAI to the Dai Savings Rate contract, interest is paid from accrued stability fees. Therefore, increasing the Dai Savings Rate will cause the [System Surplus Buffer](param-system-surplus-buffer.md) to fill more slowly and reduce the amount of Dai available for Surplus Auctions. If the Dai Savings Rate is set too high, the Maker Protocol could have negative cash flow and eventually need to print MKR.
 
+Other parameters and mechanisms that are dependent on the DSR, such as certain stability fees, are not affected by the EDSR, but only by the underlying DSR. This means it is possible that stability fees can be lower than the EDSR when it is in effect.
+
 Balances within the Dai Savings Rate contract will not be updated unless the `drip` function is called; this may be done permissionlessly.
 
 DAI deposited to the Dai Savings Rate contract is not held as an ERC-20 token balance within the contract. The balance of the contract is recorded in `MCD_VAT` and can be queried at any time by inputting the address of the MCD_POT contract (0x197E90f9FAD81970bA7976f33CbD77088E5D7cf7) into the `dai` function of MCD_VAT (0x35D1b3F3D7966A1DFe207aa4514C12a259A0492B).
@@ -77,6 +78,5 @@ Any changes to the Dai Savings Rate may affect PSM usage behavior. For example, 
 
 In the event of an [Emergency Shutdown](https://docs.makerdao.com/smart-contract-modules/shutdown), the Dai Savings Rate will be set to 0% to prevent the total debt of the Maker Protocol from increasing.
 
->Page last reviewed: 2023-08-06  
->Next review due: 2024-08-06
-
+>Page last reviewed: 2023-08-18  
+>Next review due: 2024-08-18  
