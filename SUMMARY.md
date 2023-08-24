@@ -3,17 +3,13 @@
 * [Maker Operational Manual](README.md)
 
 ## MakerDAO
-* Structure
-  * [Maker Improvement Proposals](governance/mips.md)
-* Overview
   * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
   * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
   * [Discord Servers](misc/discords.md)
-* Calendars
   * [MakerDAO Calls Calendar](protocol-status/calls-calendar.md)
   * [MakerDAO Governance Calendar](protocol-status/governance-calendar.md)
 
-## Governance
+## Governance Processes
 * Governance Cycle
   * [Monthly Governance Cycle](governance/monthly-governance-cycle.md)
   * [Weekly Governance Cycle](governance/weekly-governance-cycle.md)
@@ -23,7 +19,7 @@
   * [On-Chain Governance](governance/on-chain-governance.md)
   * [Approval Voting Guide](governance/approval-voting-guide.md)
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
-* Verification
+* Executive Vote Considerations
   * [Executive Audit](governance/executive-audit.md)
   * [Executive Transactions](governance/executive-transaction-verification.md)
   * [GSM Exceptions](governance/gsm-exceptions.md)
