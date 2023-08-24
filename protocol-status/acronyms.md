@@ -29,7 +29,7 @@
 * `MKR`: The ERC-20 token used for governance in MakerDAO
 * `NFT`: Non-Fungible Tokens
 * `OKR`: Objectives and Key Results
-* `OMC`: Open Markets Committee
+* `OMC`: Open Market Committee
 * `OSM`: Oracle Security Module
 * `PSM`: [Peg Stability Module](../module-index/module-psm.md)
 * `RoA`: Return over Asset
@@ -54,7 +54,7 @@
 * `TVL`: Total Value Locked
 * `TWAP`: Time-Weighted Average Price
 
-## Core Units
+## Core Units (Now almost all defunded)
 
 * `Burban/SH`: [Strategic Happiness Core Unit (SH-001)](https://mips.makerdao.com/mips/details/MIP39c2SP11)
 
