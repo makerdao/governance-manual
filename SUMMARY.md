@@ -34,19 +34,11 @@
 ## Delegation
   
 * Overview
-
   * [What is Delegation?](delegation/what-is-delegation.md)
-  * [Separation of Powers](delegation/separation-of-powers.md)
   * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
 * For MKR Holders
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
-  * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
   * [How To Delegate Video](delegation/mkr-holder-how-to-delegate.md)
-* For Delegates  
-  * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
-  * [Delegates Code of Conduct](delegation/delegates-code.md)
-  * [Why Become a Recognized Delegate?](delegation/why-to-become-a-recognized-delegate.md)
-  * [How to Attract More MKR as a Recognized Delegate?](delegation/delegate-attract-more-mkr.md)
 * [Delegate Contract Migration](delegation/delegate-expiration.md)
   
 ## Collateral
