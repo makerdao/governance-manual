@@ -5,10 +5,8 @@
 ## MakerDAO
 * Structure
   * [Maker Improvement Proposals](governance/mips.md)
-  * [Core Units](core-units/core-units.md)
 * Overview
   * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
-  * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
   * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
   * [Discord Servers](misc/discords.md)
 * Calendars
