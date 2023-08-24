@@ -1,9 +1,9 @@
 # Impact Estimations
 
 
-GovAlpha applies impact estimations to active governance items (MIPs and Signal Requests). The goal of these estimations is to provide delegates, core unit members and the wider community with an idea of how important it is that they pay attention to a given governance item given limited time.
+The Governance Facilitators apply impact estimations to active governance items (MIPs and Signal Requests). The goal of these estimations is to provide alignment conservers and the wider community with an idea of how important it is that they pay attention to a given governance item given limited time.
 
-Impact estimations currently have a single dimension, giving GovAlpha’s estimate on the magnitude of the impact a given governance item could have on the Maker Protocol and MakerDAO. A `low`, `medium`, or `high` impact score is assigned to active governance items.
+Impact estimations currently have a single dimension, giving the Governance Facilitator's estimate on the magnitude of the impact a given governance item could have on the Maker Protocol and MakerDAO. A `low`, `medium`, or `high` impact score is assigned to active governance items.
 
 ## Guidelines
 
