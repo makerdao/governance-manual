@@ -31,9 +31,6 @@
   * [Off-Chain Governance](governance/off-chain-governance.md)
   * [Impact Estimations](governance/impact-estimations.md)
   * [Proposal Bounties](governance/proposal-bounties.md)
-* Technical MIPs
-  * [Best Practices](governance/technical-mips-development-best-practices.md)
-  * [Code Example](governance/technical-mip-code-example.md)
 * [Emergency Shutdown](governance/emergency-shutdown.md)  
 ## Delegation
   
