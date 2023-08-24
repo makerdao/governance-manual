@@ -32,7 +32,6 @@
   * [Impact Estimations](governance/impact-estimations.md)
 * [Emergency Shutdown](governance/emergency-shutdown.md)  
 ## Delegation
-  
 * Overview
   * [What is Delegation?](delegation/what-is-delegation.md)
   * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
@@ -40,17 +39,6 @@
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
   * [How To Delegate Video](delegation/mkr-holder-how-to-delegate.md)
 * [Delegate Contract Migration](delegation/delegate-expiration.md)
-  
-## Collateral
-* [Overview](collateral/collateral-overview.md)
-* Real World Assets In Detail
-  * [6s Capital](collateral/6s.md)
-  * [New Silver DROP](collateral/new-silver.md)
-  * [ConsolFreight DROP](collateral/consolfreight.md)
-  * [FortunaFi DROP](collateral/fortunafi.md)
-  * [Harbour Trade Credit DROP](collateral/harbour-trade.md)
-  * [Huntingdon Valley Bank](collateral/hvbank.md)
-  * [Monetalis Clydesdale](collateral/monetalis-clydesdale.md)
   
 ## Parameter Index
 
