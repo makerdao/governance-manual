@@ -27,13 +27,10 @@
   * [Off-Chain Governance](governance/off-chain-governance.md)
   * [Impact Estimations](governance/impact-estimations.md)
 * [Emergency Shutdown](governance/emergency-shutdown.md)  
+
 ## Delegation
-* Overview
-  * [What is Delegation?](delegation/what-is-delegation.md)
-  * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
-* For MKR Holders
-  * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
-  * [How To Delegate Video](delegation/mkr-holder-how-to-delegate.md)
+* [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
+* [How To Delegate Video](delegation/mkr-holder-how-to-delegate.md)
 * [Delegate Contract Migration](delegation/delegate-expiration.md)
   
 ## Parameter Index
