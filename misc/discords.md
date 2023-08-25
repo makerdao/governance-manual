@@ -3,12 +3,13 @@
 **Official**
 * [MakerDAO](https://discord.gg/RBRumCpEDH)
 
-**Core Units**
-* [Sustainable Ecosystem Scaling](https://discord.gg/hMrfhqEFb2)
-* [Development & UX](https://discord.gg/g2N9MmhCEY)
+**Core Units/Ecosystem Actors**
+* [Dewiz](https://discord.gg/uvXJqP5fnJ)
 * [Growth](https://discord.gg/e4gGVU5CJY)
+* [Jetstream](https://discord.gg/g2N9MmhCEY)
 * [Oracles (Chronicle)](https://discord.gg/D8qQTEHQHJ)
-* [Collateral Engineering Services](https://discord.gg/uvXJqP5fnJ)
+* [Sustainable Ecosystem Scaling/Powerhouse](https://discord.gg/hMrfhqEFb2)
+* [TechOps](https://discord.gg/9tCTbRC4)
 
 **Ecosystem**
 * [Oasis.app](https://discord.gg/oasisapp)
