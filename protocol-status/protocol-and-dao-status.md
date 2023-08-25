@@ -44,6 +44,10 @@ Unified landing page for all auction types (Collateral, Debt and Surplus Auction
 
 Shows current auction parameters and the status of auctions that have triggered within the last few days. Useful to show how liquidations are going, and give a rough idea of keeper participation. Especially useful in emergency situations in which a large amount of DAI debt has been liquidated.
 
+### [DeFI Explore: Liquidations](https://defiexplore.com/liquidations)
+
+Shows all active and finished liquidations across all collateral types and the current and final status of each liquidation. Detailed information about individual liquidations is also displayed.
+
 ### [Data API](https://data-api.makerdao.network/redoc)
 
 A RESTful API that covers multiple domains including vaults, liquidations, governance votes and protocol parameters.

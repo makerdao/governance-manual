@@ -96,7 +96,7 @@ Run the contract's `exec` method with the hexadecimal code for the vault type as
 
 Running this method will effectively modify the Debt Ceiling for the given vault type, unless an increase is in order and the Ceiling Increase Cooldown has not yet passed.
 
-> To check the last time DC-IAM was executed on a given vault, see the [contract's events](https://etherscan.io/address/0xc7bdd1f2b16447dcf3de045c4a039a60ec2f0ba3#events) and look for the relevant vault type hexadecimal code \(next to `[topic1]`\) and for the execution date date. `ttl` is currently set to 12 hours.
+> To check the last time DC-IAM was executed on a given vault, see the [contract's events](https://etherscan.io/address/0xc7bdd1f2b16447dcf3de045c4a039a60ec2f0ba3#events) and look for the relevant vault type hexadecimal code \(next to `[topic1]`\) and for the execution date date. `tty` is currently set to 12 hours.
 >
 > ![Last Execution](https://i.imgur.com/FEd7gBX.png)
 

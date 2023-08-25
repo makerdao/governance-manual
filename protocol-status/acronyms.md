@@ -1,11 +1,8 @@
 # Common Abbreviations and Acronyms
 
-* `AC`: Alignment Conserver
-* `AD`: Aligned Delegate
 * `ALM`: Asset-Liability Management
 * `AML`: Anti-Money Laundering
 * `AMM`: Automated Market Maker
-* `AVC`: Aligned Voter Committee
 * `CDP`: Collateralized Debt Position
 * `COB`: Collateral Onboarding
 * `CU`: Core Unit
@@ -24,7 +21,6 @@
 * `KPI`: Key Performance Indicators
 * `KYC`: Know Your Customer
 * `L1/L2`: Layer 1/Layer 2
-* `LERP`: [Linear Interpolation Module](../module-index/module-lerp.md)
 * `LP`: Liquidity Provider / Liquidation Penalty
 * `LR`: [Liquidation Ratio](../parameter-index/vault-risk/param-liquidation-ratio.md)
 * `MCD`: Multi-Collateral DAI
@@ -61,6 +57,7 @@
 ## Core Units (Now almost all defunded)
 
 * `Burban/SH`: [Strategic Happiness Core Unit (SH-001)](https://mips.makerdao.com/mips/details/MIP39c2SP11)
+
 * `CES`: [Collateral Engineering Services Core Unit (CES-001)](https://mips.makerdao.com/mips/details/MIP39c2SP20)
 * `COM`: [Governance Communications Core Unit (COM-001)](https://mips.makerdao.com/mips/details/MIP39c2SP8)
 * `Dai Foundation`: [Dai Foundation Core Unit (DAIF-001)](https://mips.makerdao.com/mips/details/MIP39c2SP17)
@@ -86,12 +83,10 @@
 ### Non-stablecoins
 * `Curve`:  Curve Finance, AMM Platform
 * `G-UNI`: Automated LP for Uniswap v3 powered by Gelato
-* `GNO`: Gnosis Token
 * `LINK`: ChainLink Token
 * `MANA`: Decentraland Token
 * `MATIC`: Polygon Token
 * `PETH`: Pooled Ether
-* `rETH`: Rocketpool Ether
 * `renBTC`: ERC20-Token pegged to Bitcoin, backed on RenVM Protocol
 * `stEth`: Lido Staked Ether
 * `UNI`: Uniswap
