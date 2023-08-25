@@ -22,7 +22,7 @@ Unified dashboard containing useful stats and charts about governance and delega
 
 ### [Strategic Finance Directory](https://dune.com/stratfi/maker-stratfi-directory)
 
-Directory for the Dune dashboards created and maintained by Strategic Finance.
+Directory for the Dune dashboards created and maintained by Steakhouse Financial.
 
 ### [Delegates @ vote.makerdao.com](https://vote.makerdao.com/delegates?network=mainnet)
 
