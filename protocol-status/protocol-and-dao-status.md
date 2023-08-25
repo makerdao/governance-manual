@@ -22,19 +22,11 @@ Unified dashboard containing useful stats and charts about governance and delega
 
 ### [Strategic Finance Directory](https://dune.com/stratfi/maker-stratfi-directory)
 
-Directory for the Dune dashboards created and maintained by the Strategic Finance Core Unit.
+Directory for the Dune dashboards created and maintained by Steakhouse Financial.
 
 ### [Delegates @ vote.makerdao.com](https://vote.makerdao.com/delegates?network=mainnet)
 
-Provides a list of all MakerDAO Recognized and Shadow delegates. Includes profiles, contact information and voting history as appropriate.
-
-### [Collateral Status Index Sheet](https://docs.google.com/spreadsheets/d/1PDf_CzhGa7mLuOUfX6Bz3WrnCjDRhIjmu-vDZMMw4Qc/edit#gid=1077340672)
-
-List of collaterals and their status within the collateral onboarding process. Includes prioritization and columns by which risk-reward is estimated for potential collaterals.
-
-### [Maker Analytics](https://www.mkranalytics.com/)
-
-Business analytics for the Maker protocol. Organized by vault types in an intuitive display, it shows vault stats, fee stats, Dai supply stats, system stats, and auction stats with an option to export data breakdowns as CSV files.
+Provides a list of all MakerDAO delegates. Includes profiles, contact information and voting history as appropriate.
 
 ### [MCD Voting Tracker](https://tracker-gov.makerdao.network/)
 
@@ -44,9 +36,9 @@ Keeps track of current and historical votes and shows analytics. Useful to find 
 
 Keeps track of current and historical vaults and shows analytics. Useful to find out the status of an ilk or specific vault, including the actions done related to it.
 
-### [SAS - Unified Auctions](https://auctions.makerdao.network/)
+### [Unified Auctions](https://auctions.makerdao.network/)
 
-Unified landing page for all auction types (Collateral, Debt and Surplus Auctions). Owned and maintained by the Sidestream Auction Services Core Unit. Allows participation in Collateral Auctions using Flash Loans. Improves security, transparency and accessibility of the Maker Protocol by providing and maintaining auction services through open-source development.
+Unified landing page for all auction types (Collateral, Debt and Surplus Auctions). Allows participation in Collateral Auctions using Flash Loans. Improves security, transparency and accessibility of the Maker Protocol by providing and maintaining auction services through open-source development.
 
 ### [DAI Auctions](https://daiauctions.com/#)
 
