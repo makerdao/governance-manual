@@ -28,10 +28,6 @@ Directory for the Dune dashboards created and maintained by Steakhouse Financial
 
 Provides a list of all MakerDAO delegates. Includes profiles, contact information and voting history as appropriate.
 
-### [Collateral Status Index Sheet](https://docs.google.com/spreadsheets/d/1PDf_CzhGa7mLuOUfX6Bz3WrnCjDRhIjmu-vDZMMw4Qc/edit#gid=1077340672)
-
-List of collaterals and their status within the collateral onboarding process. Includes prioritization and columns by which risk-reward is estimated for potential collaterals.
-
 ### [MCD Voting Tracker](https://tracker-gov.makerdao.network/)
 
 Keeps track of current and historical votes and shows analytics. Useful to find out the outcome of a particular proposal or poll, find out how many and which addresses voted in it, and the distribution of MKR over time. It also includes a section for Protocol Parameters where you can find the historical changes in the protocol.
