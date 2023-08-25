@@ -22,15 +22,11 @@ Unified dashboard containing useful stats and charts about governance and delega
 
 ### [Strategic Finance Directory](https://dune.com/stratfi/maker-stratfi-directory)
 
-Directory for the Dune dashboards created and maintained by Strategic Finance.
+Directory for the Dune dashboards created and maintained by Steakhouse Financial.
 
 ### [Delegates @ vote.makerdao.com](https://vote.makerdao.com/delegates?network=mainnet)
 
 Provides a list of all MakerDAO delegates. Includes profiles, contact information and voting history as appropriate.
-
-### [Collateral Status Index Sheet](https://docs.google.com/spreadsheets/d/1PDf_CzhGa7mLuOUfX6Bz3WrnCjDRhIjmu-vDZMMw4Qc/edit#gid=1077340672)
-
-List of collaterals and their status within the collateral onboarding process. Includes prioritization and columns by which risk-reward is estimated for potential collaterals.
 
 ### [MCD Voting Tracker](https://tracker-gov.makerdao.network/)
 
