@@ -6,6 +6,7 @@
   * [Atlas](governance/atlas.md)
   * [Scopes and Artifacts](governance/scopes-and-artifacts.md)
   * [List of Scopes](governance/list-of-scopes.md)
+  * [Scope Advisory Councils](governance/scope-advisory-councils.md)
   
 ## Resources
   * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
@@ -13,6 +14,7 @@
   * [Discord Servers](misc/discords.md)
   * [MakerDAO Calls Calendar](protocol-status/calls-calendar.md)
   * [MakerDAO Governance Calendar](protocol-status/governance-calendar.md)
+  * [Easy Governance Frontend](governance/easy-governance-frontend.md)
 
 ## Governance Processes
 * Governance Cycle
