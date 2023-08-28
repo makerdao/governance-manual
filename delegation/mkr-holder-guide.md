@@ -1,5 +1,9 @@
 # MKR Holders Guide To Delegation
 
+{% hint style="warning" %}
+This page was written prior to changes in how the governance and delegation systems at MakerDAO work. While it still has some value, care should be taken to evaluate which parts are outdated.
+{% endhint %}
+
 ## Five Key Points
 
 There are five key points to keep in mind when considering delegating your MKR.  
