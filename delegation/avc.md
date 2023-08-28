@@ -5,12 +5,12 @@
 Aligned Voter Committees (AVCs) are organized groups of MKR holders who have a shared strategic vision for the Maker protocol. Its members must be [Alignment Conservers](alignment-conservers.md).
 
 AVCs have two main tasks in governance:
-1. To propose modifications to the [Scope Artifacts](scopes-and-artifacts.md) to strengthen them over time.
-2. To ensure that all [Aligned Delegates (ADs)](delegates.md) that are affiliated with them, execute the AVC's strategic vision when voting on governance issues.   
+1. To propose modifications to the [Scope Artifacts](../governance/scopes-and-artifacts.md) to strengthen them over time.
+2. To ensure that all [Aligned Delegates (ADs)](aligned-delegates.md) that are affiliated with them, execute the AVC's strategic vision when voting on governance issues.   
 
 ## Overview
 
-Each AVC produces an Aligned Governance Strategy document and five Aligned Scope Artifact documents with proposed updates to the Scope Artifact of each [Scope](list-of-scopes.md). The Aligned Governance Strategy document provides general guidelines for how Aligned Delegates that follow their governance strategy should vote.
+Each AVC produces an Aligned Governance Strategy document and five Aligned Scope Artifact documents with proposed updates to the Scope Artifact of each [Scope](../governance/list-of-scopes.md). The Aligned Governance Strategy document provides general guidelines for how Aligned Delegates that follow their governance strategy should vote.
 
 The documents produced by the AVCs abstract away the minutiae of day-to-day governance. Since Aligned Delegates execute AVC strategies, they allow MKR Holders to be reasonably informed and secure with regard to the general direction of the chosen delegate.
 
@@ -44,7 +44,7 @@ AVC Members who fulfill these eligibility requirements and have the highest veri
 
 ## Visibility
 
-The [Easy Governance Frontend (EGF)](easy-governance-frontend.md) displays AVCs on a list that ranks them by their voter weight. The voter weight is calculated by adding the verified MKR holdings of members plus the MKR delegated to delegates that follow the AVC's Governance Strategy.
+The [Easy Governance Frontend (EGF)](../governance/easy-governance-frontend.md) displays AVCs on a list that ranks them by their voter weight. The voter weight is calculated by adding the verified MKR holdings of members plus the MKR delegated to delegates that follow the AVC's Governance Strategy.
 
 >Page last reviewed: 2023-08-03    
 >Next review due: 2023-11-03    

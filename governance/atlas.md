@@ -2,7 +2,7 @@
 
 {% hint style="warning" %} This documentation describes planned functionality and processes that MakerDAO has not yet implemented. Be aware that parts may be inaccurate or out of date. {% endhint %}
 
-The [Atlas Immutable Alignment Artifact (Atlas)](https://mips.makerdao.com/mips/details/MIP101) is the foundational set of rules that govern MakerDAO. It provides a high-level description of the DAO, its actors, incentives, and work areas. Together with the [Scope Bounded Mutable Alignment Artifacts (Scope Artifacts)](scopes-and-frameworks.md), the Atlas defines the operational framework of the DAO.
+The [Atlas Immutable Alignment Artifact (Atlas)](https://mips.makerdao.com/mips/details/MIP101) is the foundational set of rules that govern MakerDAO. It provides a high-level description of the DAO, its actors, incentives, and work areas. Together with the [Scope Bounded Mutable Alignment Artifacts (Scope Artifacts)](scopes-and-artifacts.md), the Atlas defines the operational framework of the DAO.
 
 The Atlas is currently unfinished but active. Once the Endgame State is reached, the Atlas will become immutable.
 
@@ -21,8 +21,6 @@ The Atlas comprises seven broad thematic sections further broken down into artic
 ## Interactions
 
 The Atlas represents the ultimate authority for governing the DAO and overrules all other Alignment Artifacts. It contains strict principles for the interpretation of its contents. All actors within the MakerDAO ecosystem must adhere to the contents of the Atlas.
-
-Alignment Conservers (i.e., Aligned Voter Committee Members, Aligned Delegates, Facilitators, and Budget Allocators) commit to maintaining and protecting the Atlas against corruption.
 
 Each Scope Artifact must adhere to the Scope Boundaries defined in the Atlas.
 
