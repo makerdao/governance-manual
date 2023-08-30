@@ -8,7 +8,7 @@ An Alignment Conserver (AC) is a guardian of the [Maker Atlas](../governance/atl
 
 ## Types
 
-There are two types of Alignment Conservers, an [AVC](avc.md) Member and an [Aligned Delegate](aligned-delegates.md).
+There are two types of Alignment Conservers: [AVC](avc.md) Members and [Aligned Delegates](aligned-delegates.md).
 
 The Arbitration Scope gives recognition to each type of Alignment Conserver if they meet the requirements. Ecosystem Actors that become recognized as a type of Alignment Conserver may not assume any other ecosystem role, including that of a different type of Constitutional Conserver.
 
