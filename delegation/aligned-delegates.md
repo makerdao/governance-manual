@@ -25,7 +25,7 @@ ADs must not engage with other ecosystem actors or in operational activities. Th
 
 Anyone can use the PDMs to set up an account to become a delegate. A PDM can be upgraded into an Aligned Delegate PDM by activating Governance Strategy Links (GSLs). Each GSL establishes a link between an AVC and an AD. Once linked by a GSL, the AD is required to vote according to the Aligned Governance Strategy of the AVC, unless doing so would result in misaligned actions.
 
-AD must be linked to at least two AVCs through GSLs. AD are displayed prominently in the EGF as followers of a AVC's Strategy, as long as they have two GSLs.
+ADs must be linked to at least two AVCs through GSLs. ADs are displayed prominently in the EGF as followers of a AVC's Strategy, as long as they have two GSLs.
 
 ## Compensation
     
