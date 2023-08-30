@@ -4,7 +4,7 @@
 This documentation describes functionality and processes that MakerDAO is in the process of implementing. Be aware that parts may be inaccurate or out of date.
 {% endhint %}
 
-An Alignment Conserver (CC) is a guardian of the [Maker Atlas](../governance/atlas.md). They must preserve the Atlas and oppose any entities threatening it.
+An Alignment Conserver (AC) is a guardian of the [Maker Atlas](../governance/atlas.md). They must preserve the Atlas and oppose any entities threatening it.
 
 ## Types
 
