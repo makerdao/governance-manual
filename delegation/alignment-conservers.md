@@ -18,7 +18,7 @@ The Maker Atlas is designed to safeguard the interests of MKR holders. By preser
 
 Alignment Conservers may never change the Atlas or governance dynamics unless they do it within the Atlas processes and frameworks. During Pregame, AVC Members are allowed and encouraged to help refine the Maker Atlas.
 
-## Eligibility requirements
+## Eligibility Requirements
 To be eligible, Alignment Conservers must make a public pledge committing to:
 - Preserve the Atlas
 - Oppose and publicly expose all forms of corruption, organizational drifts, and other threats to the Atlas
