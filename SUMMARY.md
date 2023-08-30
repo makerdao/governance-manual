@@ -2,71 +2,49 @@
 
 * [Maker Operational Manual](README.md)
 
-## MakerDAO
-* Structure
-  * [Maker Improvement Proposals](governance/mips.md)
-  * [Core Units](core-units/core-units.md)
-* Overview
+## Governance Elements
+  * [Atlas](governance/atlas.md)
+  * [Scopes and Artifacts](governance/scopes-and-artifacts.md)
+  * [List of Scopes](governance/list-of-scopes.md)
+  * [Scope Advisory Councils](governance/scope-advisory-councils.md)
+  
+## Resources
   * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
-  * [Core Unit Budget Flow](core-units/core-unit-budget-flow.md)
   * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
   * [Discord Servers](misc/discords.md)
-* Calendars
   * [MakerDAO Calls Calendar](protocol-status/calls-calendar.md)
   * [MakerDAO Governance Calendar](protocol-status/governance-calendar.md)
+  * [Easy Governance Frontend](governance/easy-governance-frontend.md)
 
-## Governance
+## Governance Processes
 * Governance Cycle
   * [Monthly Governance Cycle](governance/monthly-governance-cycle.md)
   * [Weekly Governance Cycle](governance/weekly-governance-cycle.md)
-* Flowcharts
-  * [Governance Flow](governance/governance-flow.md)
-  * [Urgent Governance Flow](governance/urgent-governance-flow.md)
-  * [Governance Process Selector](governance/governance-process-selection-flow.md)
 * [Voting](governance/voting-in-makerdao.md)
   * [Practical Guide to Voting](governance/practical-guide-voting.md)
   * [Gasless Poll Voting](governance/gasless-poll-voting.md)
   * [On-Chain Governance](governance/on-chain-governance.md)
   * [Approval Voting Guide](governance/approval-voting-guide.md)
   * [Video Guide To Voting In The Maker Protocol](governance/how-to-vote.md)
-* Verification
+* Executive Vote Considerations
   * [Executive Audit](governance/executive-audit.md)
+  * [Executive Transactions](governance/executive-transaction-verification.md)
   * [GSM Exceptions](governance/gsm-exceptions.md)
 * Off-Chain
   * [Off-Chain Governance](governance/off-chain-governance.md)
-  * [Impact Estimations](governance/impact-estimations.md)
-  * [Proposal Bounties](governance/proposal-bounties.md)
-* Technical MIPs
-  * [Best Practices](governance/technical-mips-development-best-practices.md)
-  * [Code Example](governance/technical-mip-code-example.md)
-* [Emergency Shutdown](governance/emergency-shutdown.md)  
+ * [Emergency Shutdown](governance/emergency-shutdown.md)  
+
 ## Delegation
-  
 * Overview
-  * [What is Delegation?](delegation/what-is-delegation.md)
-  * [Separation of Powers](delegation/separation-of-powers.md)
-  * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
+  * [What is delegation](delegation/what-is-delegation.md)
+* Entities
+  * [Alignment Conservers](delegation/alignment-conservers.md)
+  * [Aligned Voter Committees](delegation/avc.md)
+  * [Aligned Delegates](delegation/aligned-delegates.md) 
 * For MKR Holders
   * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
-  * [MKR Holders Agreement](delegation/mkr-holder-agreement.md)
-  * [How To Delegate Video](delegation/mkr-holder-how-to-delegate.md)
-* For Delegates  
-  * [Recognized Delegate Requirements](delegation/recognized-delegate-requirements.md)
-  * [Delegates Code of Conduct](delegation/delegates-code.md)
-  * [Why Become a Recognized Delegate?](delegation/why-to-become-a-recognized-delegate.md)
-  * [How to Attract More MKR as a Recognized Delegate?](delegation/delegate-attract-more-mkr.md)
+  * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
 * [Delegate Contract Migration](delegation/delegate-expiration.md)
-  
-## Collateral
-* [Overview](collateral/collateral-overview.md)
-* Real World Assets In Detail
-  * [6s Capital](collateral/6s.md)
-  * [New Silver DROP](collateral/new-silver.md)
-  * [ConsolFreight DROP](collateral/consolfreight.md)
-  * [FortunaFi DROP](collateral/fortunafi.md)
-  * [Harbour Trade Credit DROP](collateral/harbour-trade.md)
-  * [Huntingdon Valley Bank](collateral/hvbank.md)
-  * [Monetalis Clydesdale](collateral/monetalis-clydesdale.md)
   
 ## Parameter Index
 
@@ -83,6 +61,10 @@
   * [Liquidation Penalty](parameter-index/vault-risk/param-liquidation-penalty.md)
   * [Debt Floor](parameter-index/vault-risk/param-debt-floor.md)
   * [RWA Agreement](parameter-index/vault-risk/param-rwa-agreement.md)
+* Smart Burn Engine
+  * [Smart Burn Engine Lot Size](parameter-index/surplus-auction/param-surplus-lot-size.md)
+  * [Smart Burn Engine Cooldown](parameter-index/surplus-auction/param-surplus-cooldown.md)
+  * [Smart Burn Engine Slippage Tolerance](parameter-index/surplus-auction/param-surplus-slippage-tolerance.md)
 * Collateral Auction
   * [Auction Price Function](parameter-index/collateral-auction/param-auction-price-function.md)
   * [Auction Price Multiplier](parameter-index/collateral-auction/param-auction-price-multiplier.md)
@@ -92,12 +74,6 @@
   * [Breaker Price Tolerance](parameter-index/collateral-auction/param-breaker-price-tolerance.md)
   * [Proportional Kick Incentive](parameter-index/collateral-auction/param-proportional-kick-incentive.md)
   * [Flat Kick Incentive](parameter-index/collateral-auction/param-flat-kick-incentive.md)
-* Surplus Auction
-  * [Surplus Auction Lot Size](parameter-index/surplus-auction/param-surplus-lot-size.md)
-  * [Surplus Auction Minimum Bid Increase](parameter-index/surplus-auction/param-min-bid-increase-flap.md)
-  * [Surplus Auction Duration](parameter-index/surplus-auction/param-auction-duration-flap.md)
-  * [Surplus Auction Bid Duration](parameter-index/surplus-auction/param-bid-duration-flap.md)
-  * [Surplus Auction Limit](parameter-index/surplus-auction/param-surplus-auction-limit.md)
 * Debt Auction
   * [Debt Auction Minimum Bid Decrease](parameter-index/debt-auction/param-min-bid-decrease-flop.md)
   * [Debt Auction Duration](parameter-index/debt-auction/param-auction-duration-flop.md)

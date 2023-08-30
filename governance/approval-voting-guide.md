@@ -4,7 +4,7 @@ Approval Voting is a form of voting used to identify a consensus option among a 
 
 The DUX Core Unit has recently added functionality for Approval Voting to the [voting portal](https://vote.makerdao.com/), allowing the use of Approval Voting for on-chain voting at MakerDAO.
 
-Our Approval Voting implementation is flexible; Maker Governance can use it to select single or multiple winners, depending on the polled question. It can also be configured to require the winner(s) to receive majority support, or to declare the option with the most support the winner(s), regardless of whether or not it received a majority.
+Our Approval Voting implementation can be configured to require the winner to receive majority support, or to declare the option with the most support the winner, regardless of whether or not it received a majority.
 
 When voting on an Approval Vote, voters should select **all** options with which they agree. There is no penalty for choosing multiple options. However, it is legitimate to only vote for one option if there is only one option that the voter wishes to support.
 

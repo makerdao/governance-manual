@@ -18,19 +18,25 @@ The Weekly Governance Cycle works in conjunction with the Monthly Governance Cyc
 
 ### Weekly Governance Cycle Breakdown ([MIP16c2](https://mips.makerdao.com/mips/details/MIP16#MIP16c2)) 
 
+**Monday, week 1**
 
-**Monday**
+- Every Monday, the weekly cycle begins and includes standard recurring decisions proposed in the form of a weekly poll. The poll will run for three days.
 
-- Every Monday, the Weekly Cycle begins and includes standard recurring decisions proposed in the form of a Weekly Poll. The poll will run for three days ending on Thursday before the Governance and Risk Call.
+**Friday, week 1**
 
-**Thursday**
+- The Arbitration or Ecosystem Facilitators will confirm the Executive Vote contents and deliver the spell copy to the Governance Security Advisory Council. The Governance Security Advisory Council will prepare and review a spell on the Goerli testnet.
 
-- The Weekly Poll results will be reviewed on the Governance and Risk Call.
+**Monday, week 2**
 
-**Friday**
+- The Governance Security Advisory Council will deploy the Goerli spell and begin writing the mainnet spell.
 
-- Every Friday, successful Weekly Polls are included in the Executive Vote. The Weekly Executive Vote has an expiration of one week.
-    - Governance Facilitators may choose to skip the weekly Executive Vote if it doesn't introduce substantive or pressing changes to the Maker Protocol.
+**Tuesday, week 2**
 
->Page last reviewed: 2022-10-25  
->Next review due: 2023-10-25  
+- The Governance Security Advisory Council will deploy the mainnet spell.
+
+**Wednesday, week 2**
+
+- The Arbitration or Ecosystem Facilitators will add the Executive Vote to the voting portal and communicate this to the MakerDAO Community. The Weekly Executive Vote has an expiration of thirty days.
+
+>Page last reviewed: 2023-07-13  
+>Next review due: 2024-07-13  
