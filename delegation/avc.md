@@ -44,7 +44,7 @@ AVC Members who fulfill these eligibility requirements and have the highest veri
 
 ## Visibility
 
-The [Easy Governance Frontend (EGF)](../governance/easy-governance-frontend.md) displays AVCs on a list that ranks them by their voter weight. The voter weight is calculated by adding the verified MKR holdings of members plus the MKR delegated to delegates that follow the AVC's Governance Strategy.
+The [Easy Governance Frontends (EGFs)](../governance/easy-governance-frontend.md) display AVCs on a list that ranks them by their voter weight. The voter weight is calculated by adding the verified MKR holdings of members plus the MKR delegated to delegates that follow the AVC's Governance Strategy.
 
 >Page last reviewed: 2023-08-03    
 >Next review due: 2023-11-03    
