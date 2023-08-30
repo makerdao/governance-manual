@@ -14,7 +14,7 @@ ADs must aim to support AVCs by:
 - Helping with the design and improvement of Scope Improvement Articles
 - Researching relevant happenings in the Maker ecosystem
 - Writing elements for Aligned Scope Proposals to capture intent of the AVC and the Scope Advisory Council
-- Writing AVC's governance strategy to capture the essence of AVC
+- Writing AVC's governance strategy
 
 
 ADs do not take part in the creation of AVC strategies, they only execute them. This helps to mitigate the risk of a delegate's misalignment in relation to MKR holders.  
