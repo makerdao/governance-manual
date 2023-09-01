@@ -2,12 +2,18 @@
 
 * [Maker Operational Manual](README.md)
 
-## MakerDAO
+## Governance Elements
+  * [Atlas](governance/atlas.md)
+  * [Scopes and Artifacts](governance/scopes-and-artifacts.md)
+  * [Scope Advisory Councils](governance/scope-advisory-councils.md)
+  
+## Resources
   * [Status and Dashboards](protocol-status/protocol-and-dao-status.md)
   * [Common Abbreviations and Acronyms](protocol-status/acronyms.md)
   * [Discord Servers](misc/discords.md)
   * [MakerDAO Calls Calendar](protocol-status/calls-calendar.md)
   * [MakerDAO Governance Calendar](protocol-status/governance-calendar.md)
+  * [Easy Governance Frontend](governance/easy-governance-frontend.md)
 
 ## Governance Processes
 * Governance Cycle
@@ -29,8 +35,15 @@
 * [Emergency Shutdown](governance/emergency-shutdown.md)  
 
 ## Delegation
-* [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
-* [How To Delegate Video](delegation/mkr-holder-how-to-delegate.md)
+* Overview
+  * [What is delegation](delegation/what-is-delegation.md)
+* Entities
+  * [Alignment Conservers](delegation/alignment-conservers.md)
+  * [Aligned Voter Committees](delegation/avc.md)
+  * [Aligned Delegates](delegation/aligned-delegates.md) 
+* For MKR Holders
+  * [MKR Holders Guide to Delegation](delegation/mkr-holder-guide.md)
+  * [Delegate Metric Tracking](delegation/delegate-metric-tracking.md)
 * [Delegate Contract Migration](delegation/delegate-expiration.md)
   
 ## Parameter Index
