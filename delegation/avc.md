@@ -2,7 +2,7 @@
 
 {% hint style="warning" %} This documentation describes ongoing changes in functionality and processes. Be aware that parts may be inaccurate or out of date. {% endhint %}
 
-Aligned Voter Committees (AVCs) are organized groups of MKR holders who have a shared strategic vision for the Maker protocol. Its members must be [Alignment Conservers](alignment-conservers.md).
+Aligned Voter Committees (AVCs) are organized groups of MKR holders who have a shared strategic vision for the Maker protocol whose members are [Alignment Conservers](alignment-conservers.md).
 
 AVCs have two main tasks in governance:
 1. To propose modifications to the [Scope Artifacts](../governance/scopes-and-artifacts.md) to strengthen them over time.
@@ -10,7 +10,7 @@ AVCs have two main tasks in governance:
 
 ## Overview
 
-Each AVC produces an Aligned Governance Strategy document and five Aligned Scope Artifact documents with proposed updates to the Scope Artifact of each [Scope](../governance/list-of-scopes.md). The Aligned Governance Strategy document provides general guidelines for how Aligned Delegates that follow their governance strategy should vote.
+Each AVC produces an Aligned Governance Strategy document and five Aligned Scope Artifact documents with proposed updates to the Scope Artifact of each Scope. The Aligned Governance Strategy document provides general guidelines for how Aligned Delegates that follow their governance strategy should vote.
 
 The documents produced by the AVCs abstract away the minutiae of day-to-day governance. Since Aligned Delegates execute AVC strategies, they allow MKR Holders to be reasonably informed and secure with regard to the general direction of the chosen delegate.
 
@@ -39,12 +39,12 @@ To be eligible for compensation, AVC members must:
  - Attend the two AVC Subcommittee Meetings
  - Co-author the Aligned Governance Strategy
 
-AVC Members who fulfill these eligibility requirements and have the highest verified MKR ownership are eligible for compensation.
+AVC Members who fulfill these eligibility requirements will then be ordered by verified MKR ownership amounts, and those with the highest MKR balances are eligible for compensation.
 
 
 ## Visibility
 
-The [Easy Governance Frontend (EGF)](../governance/easy-governance-frontend.md) displays AVCs on a list that ranks them by their voter weight. The voter weight is calculated by adding the verified MKR holdings of members plus the MKR delegated to delegates that follow the AVC's Governance Strategy.
+The [Easy Governance Frontends (EGFs)](../governance/easy-governance-frontend.md) display AVCs on a list that ranks them by their voter weight. The voter weight is calculated by adding the verified MKR holdings of members plus the MKR delegated to delegates that follow the AVC's Governance Strategy.
 
 >Page last reviewed: 2023-08-03    
 >Next review due: 2023-11-03    

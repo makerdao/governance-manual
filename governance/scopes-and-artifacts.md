@@ -11,9 +11,9 @@ Every Scope has a Scope Bounded Mutable Aligment Artifact, also referred to as S
 ## Modification of Scope Artifact
 
 Scope Artifacts are modifiable within the constraints of Scope Boundaries that are immutably defined in the Maker Atlas.
-Scope Artifacts include *strengthening elements*, which ossify over time, and *mutable elements*, which are active elements related to governance, budget elements, and template elements.
+Scope Artifacts include *strengthening elements*, which ossify over time, and *mutable elements*, which are elements related to governance, budget elements, and template elements that may require regular updates.
 
-Scope Artifacts (GOV3) must include a ruleset for the ossification of mutable elements. Any **significant** change to the Scopes should take long and should allow enough time for feedback.
+Scope Artifacts must include a ruleset for the ossification of mutable elements. Any **significant** change to the Scopes should take long and should allow enough time for feedback.
 
 Any change made to a Scope Artifact must aim to improve one or more of the following desirable features of the Maker Ecosystem.
 - Decentralization
@@ -26,6 +26,17 @@ Any change made to a Scope Artifact must aim to improve one or more of the follo
 ## Governance
 
 Each Scope has a [Scope Advisory Council](scope-advisory-councils.md).  Councils carry out advisory work related to improving the content of the Scope Artifacts. Councils consist of members who must fulfill certain requirements and have been approved by Maker Governance.
+
+## List of Scopes
+
+The Maker Protocol has five Scopes. They are:
+
+1. **Governance (GOV):** Codifies rules that regulate the critical balance of power processes defined in the Maker Atlas, and adjudicate on appeals processes related to misalignment in the ecosystem.
+2. **Support (SUP):** Codifies rules that regulate various tasks of ecosystem support, including governance process infrastructure and management, SubDAO ecosystem support, Public Good Purpose System.
+3. **Protocol (PRO):** Codifies rules related to the core technical MakerDAO protocol.
+4. **Stability (STA)** Codifies the rules related to managing the core stablecoin product, Dai, and supporting factors related to financial stability, such as surplus buffer and decentralized asset reserve.
+5. **Accessibility (ACC):** Codifies rules related to accessibility and distribution efforts, and regulates user-facing frontends of MakerDAO Core and SubDAOs.
+
 
 >Page last reviewed: 2023-08-03  
 >Next review due: 2023-11-03
