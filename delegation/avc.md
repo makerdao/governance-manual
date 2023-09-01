@@ -10,7 +10,7 @@ AVCs have two main tasks in governance:
 
 ## Overview
 
-Each AVC produces an Aligned Governance Strategy document and five Aligned Scope Artifact documents with proposed updates to the Scope Artifact of each [Scope](../governance/list-of-scopes.md). The Aligned Governance Strategy document provides general guidelines for how Aligned Delegates that follow their governance strategy should vote.
+Each AVC produces an Aligned Governance Strategy document and five Aligned Scope Artifact documents with proposed updates to the Scope Artifact of each Scope. The Aligned Governance Strategy document provides general guidelines for how Aligned Delegates that follow their governance strategy should vote.
 
 The documents produced by the AVCs abstract away the minutiae of day-to-day governance. Since Aligned Delegates execute AVC strategies, they allow MKR Holders to be reasonably informed and secure with regard to the general direction of the chosen delegate.
 
@@ -39,7 +39,7 @@ To be eligible for compensation, AVC members must:
  - Attend the two AVC Subcommittee Meetings
  - Co-author the Aligned Governance Strategy
 
-AVC Members who fulfill these eligibility requirements and have the highest verified MKR ownership are eligible for compensation.
+AVC Members who fulfill these eligibility requirements will then be ordered by verified MKR ownership amounts, and those with the highest MKR balances are eligible for compensation.
 
 
 ## Visibility

@@ -5,7 +5,6 @@
 ## Governance Elements
   * [Atlas](governance/atlas.md)
   * [Scopes and Artifacts](governance/scopes-and-artifacts.md)
-  * [List of Scopes](governance/list-of-scopes.md)
   * [Scope Advisory Councils](governance/scope-advisory-councils.md)
   
 ## Resources
@@ -32,7 +31,8 @@
   * [GSM Exceptions](governance/gsm-exceptions.md)
 * Off-Chain
   * [Off-Chain Governance](governance/off-chain-governance.md)
- * [Emergency Shutdown](governance/emergency-shutdown.md)  
+  * [Impact Estimations](governance/impact-estimations.md)
+* [Emergency Shutdown](governance/emergency-shutdown.md)  
 
 ## Delegation
 * Overview

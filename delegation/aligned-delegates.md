@@ -4,7 +4,7 @@
 This documentation describes functionality and processes that MakerDAO is in the process of implementing. Be aware that parts may be inaccurate or out of date.
 {% endhint %}
 
-Aligned Delegates (ADs) are anonymous [Alignment Conservers (AC)](alignment-conservers.md) who operate as delegates. They use [Protocol Delegation Modules (PDMs)](https://mips.makerdao.com/mips/details/MIP101#2-6-1-protocol-delegation-modules-pdms-) to enable MKR holders to delegate their MKR voting power to them towards implementing the Aligned Governance Strategy of an [Aligned Voter Committee (AVC)](avc.md).
+Aligned Delegates (ADs) are anonymous [Alignment Conservers (AC)](alignment-conservers.md) who operate as delegates. They use [Protocol Delegation Modules (PDMs)](https://mips.makerdao.com/mips/details/MIP101#2-6-1-protocol-delegation-modules-pdms-) to enable MKR holders to delegate their MKR voting power to them. ADs vote with the delegated MKR to implement the Aligned Governance Strategy of the [Aligned Voter Committees (AVCs)](avc.md) they are affiliated with.
 
 
 ## Overview
@@ -13,8 +13,8 @@ ADs must aim to support AVCs by:
 - Providing governance information and research material
 - Helping with the design and improvement of Scope Improvement Articles
 - Researching relevant happenings in the Maker ecosystem
-- Writing elements for Aligned Scope Proposals to capture intent of the AVC and the Scope Advisory Council
-- Writing AVC's governance strategy
+- Writing elements for Aligned Scope Proposals to capture intent of the AVCs and the Scope Advisory Councils
+- Provide feedback on AVC governance strategy documents
 
 
 ADs do not take part in the creation of AVC strategies, they only execute them. This helps to mitigate the risk of a delegate's misalignment in relation to MKR holders.  
