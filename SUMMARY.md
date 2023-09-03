@@ -29,6 +29,7 @@
   * [Executive Audit](governance/executive-audit.md)
   * [Executive Transactions](governance/executive-transaction-verification.md)
   * [GSM Exceptions](governance/gsm-exceptions.md)
+  * [Executive Proxies](governance/executive-proxies.md)
 * Off-Chain
   * [Off-Chain Governance](governance/off-chain-governance.md)
   * [Impact Estimations](governance/impact-estimations.md)
